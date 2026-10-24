@@ -7,7 +7,9 @@ name = "convi-backend"
 version = "0.1.0"
 description = "Python learning engine for Convi"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "openai>=2.0.0",
+]
 
 [tool.setuptools.packages.find]
 where = ["."]
