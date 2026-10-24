@@ -28,75 +28,101 @@ flowchart TB
     subgraph Mobile["Mobile App"]
         UI["React Native + Expo"]
         Logic["TypeScript<br/>Pattern Drill Engine"]
-        Storage["AsyncStorage<br/>Local Progress"]
+        State["Session State<br/>Current Exercise"]
         Speech["Recording / Playback"]
     end
 
-    subgraph Backend["Backend · Vercel"]
+    subgraph Backend["Backend · Cloud Hosting"]
         API["Python + FastAPI"]
         AI["OpenAI API"]
+        DB["Hosted PostgreSQL<br/>Materials / Progress"]
     end
 
     User --> UI
     UI --> Logic
     UI --> Speech
-    Logic --> Storage
+    Logic --> State
     UI <-->|HTTP API| API
     API <--> AI
+    API <--> DB
 ```
 
 ## 2. Development Roadmap
 
-### Phase 1 — Validate the Development Environment
+### Phase 1 — Build the Backend API and Cloud Database
 
-**Goal:** Confirm that React Native and Expo work on my computer and physical phone before building the actual application.
+**Goal:** Provide an API and persistent data for the mobile app, with AI calls protected by the backend.
 
-- [ ] Install and verify Node.js and npm.
-- [ ] Create an Expo project using the official TypeScript template.
-- [ ] Start the development server.
-- [ ] Install Expo Go on my phone.
-- [ ] Connect the phone to the development server using the QR code.
-- [ ] Modify the starter screen and confirm that changes appear on the phone.
-- [ ] Test basic interactions, such as a button and a text input.
-- [ ] Verify that the app can access the internet.
+- [ ] Create a separate backend project and Python virtual environment.
+- [ ] Install FastAPI, Uvicorn and Pydantic.
+- [ ] Choose a hosted PostgreSQL provider and create a development database.
+- [ ] Configure the local backend to connect to the development database.
+- [ ] Define records for materials, patterns, generated exercise sets and progress.
+- [ ] Create a health-check endpoint and API request/response schemas.
+- [ ] Add endpoints to list and retrieve materials and patterns.
+- [ ] Add endpoints to read and update basic learning progress.
+- [ ] Add an endpoint that generates a batch of exercises for a pattern through OpenAI.
+- [ ] Store generated exercise sets so the app can serve exercises one at a time.
+- [ ] Keep API keys in backend environment variables.
+- [ ] Validate requests and handle database and AI errors.
+- [ ] Test the endpoints locally against the cloud development database.
 
-**Completion criteria:**
-- The starter app runs on my physical phone.
-- I can modify the code and see the result without rebuilding the app.
-- I understand the basic development and debugging workflow.
+The backend provides data, persists progress and makes protected AI calls. The mobile app controls the session flow: which exercise is current, when to retry and when to move forward.
 
-**Do not proceed until this phase works reliably.**
+The first API version should support:
 
-### Phase 2 — Build the Basic Mobile UI
+1. Listing available materials and their patterns.
+2. Fetching or generating a stored batch of exercises for a pattern.
+3. Reading and saving basic progress, such as completed exercises and timestamps.
+4. Calling OpenAI without exposing its API key to the mobile app.
 
-**Goal:** Implement the initial Convi practice screen without connecting AI services.
+Example structure (to be refined during implementation):
 
-- [ ] Create the project structure.
-- [ ] Implement the practice screen.
-- [ ] Add a practice header showing the material and current exercise.
+```text
+backend/
+├── app/
+│   ├── main.py
+│   ├── routes/
+│   │   ├── materials.py
+│   │   ├── patterns.py
+│   │   └── progress.py
+│   ├── schemas/
+│   ├── models/
+│   ├── services/
+│   │   └── ai_service.py
+│   └── database.py
+├── tests/
+├── pyproject.toml
+└── .env.example
+```
+
+**Completion criteria:** The local backend can read and write the cloud development database, return predictable JSON and generate an exercise batch without exposing secrets to the mobile app.
+
+### Phase 2 — Build the Basic Mobile UI and Practice Flow
+
+**Goal:** Implement the initial Convi practice screen and session interactions.
+
+- [ ] Create the mobile project structure.
+- [ ] Implement the practice screen with a material and exercise header.
 - [ ] Display the target sentence and exercise instructions.
-- [ ] Add a microphone button.
-- [ ] Add an answer display area.
-- [ ] Add an AI feedback card with mock data.
+- [ ] Add a placeholder answer area and feedback card with mock data.
 - [ ] Implement Retry and Next Exercise interactions.
+- [ ] Keep current-session state in the mobile app.
 - [ ] Test layout and touch interactions on the phone.
 
-The interface should remain minimal. Do not build a sidebar, dashboard, material library management system, or complex statistics yet.
+Keep the interface minimal. Do not build a dashboard, material management system or complex statistics yet.
 
 **Completion criteria:** I can complete a simulated practice session from the first exercise to the last.
 
 ### Phase 3 — Implement the Pattern Drill Engine
 
-**Goal:** Define the practice rules independently of the UI and AI provider.
+**Goal:** Define exercise progression independently of the UI and backend.
 
-- [ ] Define TypeScript types for exercises, answers and feedback.
-- [ ] Create a fixed set of approximately 10 exercises.
-- [ ] Define the expected answer and acceptable variations for each exercise.
-- [ ] Implement exercise progression.
-- [ ] Implement retry and completion states.
-- [ ] Add basic answer normalization.
+- [ ] Define TypeScript types for patterns, exercises and session state.
+- [ ] Model multiple patterns with approximately five exercises per pattern.
+- [ ] Implement next exercise, next pattern, retry and completion states.
 - [ ] Separate practice rules from React components.
-- [ ] Test the practice logic independently.
+- [ ] Verify the practice logic independently.
 
 Suggested structure:
 
@@ -107,146 +133,70 @@ src/
 │   └── practice/
 ├── core/
 │   ├── types.ts
-│   ├── exercises.ts
 │   └── practiceEngine.ts
 └── App.tsx
 ```
 
-**Completion criteria:** The entire exercise session works with mock answers, without depending on an AI API.
+**Completion criteria:** A session can progress through multiple patterns using mock data, without the backend deciding which exercise is next.
 
-### Phase 4 — Validate Speech Capabilities
+### Phase 4 — Prepare Default Materials and Connect the Mobile App
 
-**Goal:** Verify that speech input and audio playback work on a real device.
+**Goal:** Make the app useful immediately with a small curated set of Pattern Drills.
 
-Investigate available solutions before committing to a speech provider.
-
-- [ ] Test microphone permissions.
-- [ ] Record audio on the phone.
-- [ ] Play back the recorded audio.
-- [ ] Investigate speech-to-text options.
-- [ ] Test recognition with my target language.
-- [ ] Test recognition with non-native pronunciation.
-- [ ] Investigate text-to-speech options for example sentences.
-- [ ] Measure recognition latency and evaluate transcription quality.
-- [ ] Confirm whether the chosen solution works with Expo Go or requires a development build.
-
-Keep these capabilities separate:
-
-- **Recording:** capture the user's voice.
-- **ASR:** convert speech to text.
-- **Pronunciation assessment:** evaluate pronunciation, stress or fluency.
-- **TTS:** generate spoken examples.
-
-Speech recognition alone does not necessarily provide reliable pronunciation assessment.
-
-**Completion criteria:** I can record an answer, obtain a transcription, and play a spoken example on my phone.
-
-### Phase 5 — Build the Python Backend
-
-**Goal:** Create a minimal backend that securely communicates with AI services.
-
-- [ ] Create a separate backend project.
-- [ ] Set up Python and a virtual environment.
-- [ ] Install FastAPI, Uvicorn and Pydantic.
-- [ ] Create a health-check endpoint.
-- [ ] Define request and response schemas.
-- [ ] Implement `POST /api/practice`.
-- [ ] Integrate the OpenAI Python SDK.
-- [ ] Store API keys in environment variables.
-- [ ] Validate requests and handle AI errors.
-- [ ] Test the endpoints locally.
-
-Example structure:
-
-```text
-convi-api/
-├── app/
-│   ├── main.py
-│   ├── schemas.py
-│   ├── routes/
-│   │   └── practice.py
-│   └── services/
-│       └── ai_service.py
-├── tests/
-├── requirements.txt
-└── .env.example
-```
-
-The backend should initially handle:
-
-1. Receiving the exercise ID and user's transcribed answer.
-2. Loading the relevant exercise rules.
-3. Calling the AI model with structured instructions.
-4. Validating and formatting the feedback.
-5. Returning a predictable JSON response.
-
-The AI should evaluate the user's answer within the predefined Pattern Drill rules rather than independently designing the lesson.
-
-**Completion criteria:** A local API request returns valid AI feedback, with no API key exposed to the mobile app.
-
-### Phase 6 — Deploy the Backend to Vercel
-
-**Goal:** Make the API accessible to the mobile app.
-
-- [ ] Configure FastAPI for Vercel deployment.
-- [ ] Push the backend to GitHub.
-- [ ] Deploy the backend.
-- [ ] Configure production environment variables.
-- [ ] Test the deployed health-check endpoint.
-- [ ] Test the practice endpoint using an API client.
-- [ ] Configure error handling and request limits.
-- [ ] Verify that the mobile app can reach the deployed API.
-
-Vercel will handle lightweight API requests and AI orchestration. It will not be used to run large speech models or as persistent file storage.
-
-**Completion criteria:** The deployed API can return AI feedback to a remote client.
-
-### Phase 7 — Connect the Mobile App to the Backend
-
-**Goal:** Complete the first end-to-end speaking practice workflow.
-
+- [ ] Prepare a small set of default learning materials and patterns.
+- [ ] Review generated patterns and example exercises before importing them.
+- [ ] Add approved records to the development database.
 - [ ] Add an API client to the mobile app.
-- [ ] Connect the answer submission flow to the backend.
-- [ ] Replace mock feedback with real AI feedback.
+- [ ] Load materials and patterns through the API.
+- [ ] Load an exercise batch and show its exercises one at a time.
+- [ ] Save basic progress through the API.
 - [ ] Add loading, success and error states.
-- [ ] Prevent duplicate submissions while a request is in progress.
-- [ ] Support retrying failed requests.
-- [ ] Test the complete workflow on the phone.
+- [ ] Test the text-based practice flow on the phone.
 
-The initial workflow:
+Default material preparation can be a one-time manual process for now. Automated extraction, file upload and material management are later features. Keep source and license notes with material records where available.
 
-1. Display an exercise.
-2. Record the user's response.
-3. Transcribe the response.
-4. Submit the text to the backend.
-5. Display AI feedback.
-6. Allow the user to retry or continue.
+**Completion criteria:** A user can choose a default pattern, complete its exercises one at a time and retain basic progress after reopening the app.
 
-**Completion criteria:** I can complete a real Pattern Drill session using my voice and receive AI-generated feedback.
+### Phase 5 — Deploy the Backend
 
-### Phase 8 — Save Learning Progress Locally
+**Goal:** Make the API accessible to the mobile app over the internet.
 
-**Goal:** Make the app usable for daily practice.
+- [ ] Choose and configure a backend host.
+- [ ] Deploy the FastAPI backend.
+- [ ] Configure hosted environment variables and the production database.
+- [ ] Keep development and production databases separate.
+- [ ] Verify health, data and AI endpoints remotely.
+- [ ] Configure request limits and error handling.
+- [ ] Point the mobile app to the deployed API.
 
-- [ ] Save the current exercise.
-- [ ] Save completed exercises.
-- [ ] Save basic practice history.
-- [ ] Restore progress when reopening the app.
-- [ ] Handle interrupted or incomplete sessions.
+Never put database credentials or the OpenAI API key in the mobile app.
 
-Use local storage initially. A database and user accounts are unnecessary while the app is for personal use on one device.
+**Completion criteria:** The mobile app can use the deployed API and its connected database.
 
-**Completion criteria:** My progress persists after closing and reopening the app.
+### Phase 6 — Validate Speech Capabilities and Add Voice Practice
 
-### Phase 9 — Test and Improve the MVP
+**Goal:** Add spoken answers after the text-based practice flow works end to end.
+
+- [ ] Test microphone permissions, recording and playback on a real device.
+- [ ] Investigate speech-to-text options and test recognition quality.
+- [ ] Investigate text-to-speech for example sentences.
+- [ ] Confirm whether the chosen solution works with Expo Go or requires a development build.
+- [ ] Connect speech transcription to the practice UI.
+- [ ] Add AI answer feedback through the backend.
+- [ ] Add retry and network error handling.
+
+Keep recording, speech-to-text (ASR), pronunciation assessment and text-to-speech (TTS) as separate capabilities. Speech recognition alone does not necessarily provide reliable pronunciation assessment.
+
+**Completion criteria:** I can complete a Pattern Drill session using my voice and receive useful AI feedback.
+
+### Phase 7 — Improve the MVP
 
 **Goal:** Make the practice experience reliable enough for daily use.
 
 - [ ] Complete several full practice sessions.
-- [ ] Evaluate transcription accuracy.
-- [ ] Evaluate the quality and consistency of corrections.
+- [ ] Evaluate transcription accuracy and feedback quality.
 - [ ] Measure the time between finishing an answer and receiving feedback.
-- [ ] Improve prompt instructions and answer evaluation.
+- [ ] Improve prompts and answer evaluation.
 - [ ] Test network failures and API errors.
 - [ ] Refine the UI based on actual use.
 
@@ -256,9 +206,9 @@ Prioritize the quality of the learning experience over adding more features.
 
 ### Keep business logic separate from UI
 
-The mobile app should contain presentation logic, local state and platform-specific audio interactions.
+The mobile app should contain presentation logic, the Pattern Drill session flow, current-session state and platform-specific audio interactions.
 
-The practice engine should define exercise progression and expected behavior independently of React components.
+The practice engine should define exercise progression and expected behavior independently of React components. The backend provides data, persists progress and communicates with AI services; it does not decide which exercise the user sees next.
 
 The backend should protect API keys, communicate with AI services and enforce server-side rules where appropriate.
 
@@ -272,21 +222,22 @@ If more advanced speech processing becomes necessary, deploy it as a separate se
 
 Initially:
 
-- No user accounts.
-- No database.
-- No material upload.
+- Use hosted PostgreSQL for development and keep production data separate.
+- Prepare a small curated set of default materials and load them into the database.
+- Do not build automated material extraction or upload yet.
+- Do not build user accounts until synchronization across users or devices requires them.
 - No multi-mode practice system.
 - No custom speech model hosting.
 - No web application.
-- No monorepo.
 
 Add infrastructure only when a concrete product requirement justifies it.
 
 ## 4. Future Improvements
 
-After the MVP is usable and the core experience is validated, consider:
+After the core practice experience is usable, consider:
 
-- Importing textbooks, transcripts and other learning materials.
+- Letting users add, edit and organize their own learning materials.
+- Automating material extraction and import.
 - Adding Vocabulary in Context and Guided Conversation modes.
 - More advanced pronunciation assessment.
 - Cloud synchronization and user accounts.
@@ -307,4 +258,4 @@ The first MVP is complete when I can:
 - Finish a complete practice session.
 - Close the app and retain my progress.
 
-**The immediate next step is Phase 1: validate Expo on a physical phone. Do not build the backend or the full application until the development environment is working.**
+**The immediate next milestone is the FastAPI API and hosted PostgreSQL development database, followed by the mobile practice flow. Framework setup and device testing are implementation prerequisites, not roadmap phases.**
