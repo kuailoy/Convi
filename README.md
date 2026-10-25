@@ -5,19 +5,19 @@
 
 ## Project Goal
 
-Build a mobile-first AI language learning app focused on structured speaking practice.
+Build a mobile-first AI language learning app focused on practical speaking development through three modes:
 
-- Pattern Drills (FSI-style): Build automatic sentence production through substitution, transformation, and expansion exercises.
-- Vocabulary in Context: Learn words through examples, collocations, and varied situations.
-- Chunk Practice: Internalize reusable expressions and natural phrases.
-- Guided Speaking: Progress from complete sentences to speaking with keywords and prompts.
-- Scenario-based Speaking: Practise everyday communication, including requests, refusals, opinions, and conversations.
-- Free Speaking & Retelling: Develop the ability to tell stories, summarize information, and express opinions independently.
-- Review & Retrieval: Reinforce vocabulary, sentence patterns, and recurring mistakes through repeated practice.
+- **Structured Speaking Drills:** Build automatic sentence production with patterns and reusable expressions. Start with substitution drills; add transformation and expansion later.
+- **Vocabulary & Phrase Practice:** Improve active recall, collocations, and the ability to use useful words and phrases in context.
+- **Guided Scenario Conversation:** Practice multi-turn speaking in formal and informal situations, such as meetings, presentations, daily conversations, and parties.
 
-The first MVP will implement one complete practice mode: **Pattern Drill**. Users follow predefined exercises, respond verbally, receive AI feedback, and continue to the next exercise.
+Review and retrieval should support all three modes rather than form a separate mode.
+
+The first MVP will implement one activity variant: **Substitution Drill**, within Structured Speaking Drills. Users follow predefined exercises, respond verbally, receive AI feedback, and continue to the next exercise.
 
 The initial goal is to build an app that I can use myself every day, rather than a complete multi-user product.
+
+See [Database Schema Proposal](docs/database-schema.md) for the planned content types, practice modes, and data relationships.
 
 ## 1. Technology Stack
 
@@ -57,11 +57,11 @@ flowchart TB
 - [ ] Install FastAPI, Uvicorn and Pydantic.
 - [ ] Choose a hosted PostgreSQL provider and create a development database.
 - [ ] Configure the local backend to connect to the development database.
-- [ ] Define records for materials, patterns, generated exercise sets and progress.
+- [ ] Define records for learning content, its practice mode and method, generated exercise sets, and progress.
 - [ ] Create a health-check endpoint and API request/response schemas.
-- [ ] Add endpoints to list and retrieve materials and patterns.
+- [ ] Add endpoints to list and retrieve learning content by practice mode, method and CEFR level.
 - [ ] Add endpoints to read and update basic learning progress.
-- [ ] Add an endpoint that generates a batch of exercises for a pattern through OpenAI.
+- [ ] Add an endpoint that generates a batch of exercises for a practice activity through OpenAI.
 - [ ] Store generated exercise sets so the app can serve exercises one at a time.
 - [ ] Keep API keys in backend environment variables.
 - [ ] Validate requests and handle database and AI errors.
@@ -71,8 +71,8 @@ The backend provides data, persists progress and makes protected AI calls. The m
 
 The first API version should support:
 
-1. Listing available materials and their patterns.
-2. Fetching or generating a stored batch of exercises for a pattern.
+1. Listing learning content by practice mode, method and CEFR level.
+2. Fetching or generating a stored exercise batch for a content item.
 3. Reading and saving basic progress, such as completed exercises and timestamps.
 4. Calling OpenAI without exposing its API key to the mobile app.
 
@@ -83,8 +83,8 @@ backend/
 ├── app/
 │   ├── main.py
 │   ├── routes/
-│   │   ├── materials.py
-│   │   ├── patterns.py
+│   │   ├── content.py
+│   │   ├── exercise_sets.py
 │   │   └── progress.py
 │   ├── schemas/
 │   ├── models/
@@ -143,11 +143,11 @@ src/
 
 **Goal:** Make the app useful immediately with a small curated set of Pattern Drills.
 
-- [ ] Prepare a small set of default learning materials and patterns.
-- [ ] Review generated patterns and example exercises before importing them.
-- [ ] Add approved records to the development database.
+- [ ] Prepare a small set of default content items for structured drills.
+- [ ] Review patterns and example exercises before importing them.
+- [ ] Add approved content and generated exercise sets to the development database.
 - [ ] Add an API client to the mobile app.
-- [ ] Load materials and patterns through the API.
+- [ ] Load content by practice mode, method and CEFR level through the API.
 - [ ] Load an exercise batch and show its exercises one at a time.
 - [ ] Save basic progress through the API.
 - [ ] Add loading, success and error states.
@@ -238,7 +238,7 @@ After the core practice experience is usable, consider:
 
 - Letting users add, edit and organize their own learning materials.
 - Automating material extraction and import.
-- Adding Vocabulary in Context and Guided Conversation modes.
+- Adding Vocabulary & Phrase Practice and Guided Scenario Conversation modes.
 - More advanced pronunciation assessment.
 - Cloud synchronization and user accounts.
 - A web version.
