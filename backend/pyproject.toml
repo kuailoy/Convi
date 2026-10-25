@@ -8,7 +8,12 @@ version = "0.1.0"
 description = "Python learning engine for Convi"
 requires-python = ">=3.11"
 dependencies = [
+    "alembic>=1.13.0",
+    "azure-identity>=1.17.0",
     "openai>=2.0.0",
+    "psycopg[binary]>=3.2.0",
+    "python-dotenv>=1.0.0",
+    "sqlalchemy>=2.0.0",
 ]
 
 [tool.setuptools.packages.find]

@@ -1,6 +1,6 @@
 # Convi Database Schema Proposal
 
-> Status: first-version proposal. This is a data model outline, not a database migration.
+> Status: initial schema implemented in `backend/app/models` and managed by Alembic migrations.
 
 ## Core Model
 
