@@ -41,7 +41,6 @@ Stores the learnable item and how it should be practiced.
 | Field | Purpose |
 | --- | --- |
 | `id` | UUID primary key |
-| `title` | Short display name |
 | `content_type` | What the item is: `sentence_pattern`, `expression`, `vocabulary_item`, or `scenario` |
 | `practice_mode` | Broad mode, such as `structured_drill` |
 | `practice_method` | Specific method, such as `substitution` |
@@ -54,6 +53,8 @@ Stores the learnable item and how it should be practiced.
 | `source_note` | Optional source title, URL, or note; may be null |
 | `status` | For example, `draft` or `active` |
 | `created_at`, `updated_at` | Record timestamps |
+
+There is no separate `title` field. The app can display `content` directly as the name of a pattern or phrase, avoiding a second manually maintained label.
 
 `content_type`, `practice_mode`, and `practice_method` are controlled values. Define them as enums in the Python application and store them as strings in PostgreSQL. The backend validates that a method is allowed for its mode. This avoids a separate lookup table for static choices and makes it straightforward to add a method. `cefr_level` is also a controlled value; it describes the target level of the content, not the learner's assessed level. Leave it null when the level is not yet known.
 

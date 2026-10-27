@@ -13,7 +13,6 @@ class Content(Base):
     __tablename__ = "contents"
 
     id: Mapped[UUID] = mapped_column(Uuid, primary_key=True, default=uuid4)
-    title: Mapped[str] = mapped_column(String(255), nullable=False)
     content_type: Mapped[str] = mapped_column(String(50), nullable=False)
     practice_mode: Mapped[str] = mapped_column(String(50), nullable=False)
     practice_method: Mapped[str] = mapped_column(String(50), nullable=False)
