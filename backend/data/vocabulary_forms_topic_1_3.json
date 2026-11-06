@@ -1,0 +1,2090 @@
+[
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 1,
+    "lemma": "eräs",
+    "form": "eräs",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like a nominal adjective; usage is more formal/literary."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 1,
+    "lemma": "eräs",
+    "form": "erään",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like a nominal adjective; usage is more formal/literary."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 1,
+    "lemma": "eräs",
+    "form": "erästä",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like a nominal adjective; usage is more formal/literary."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 2,
+    "lemma": "hän",
+    "form": "hän",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem hän-/häne-."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 2,
+    "lemma": "hän",
+    "form": "hänet",
+    "grammatical_label": "accusative object",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem hän-/häne-."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 2,
+    "lemma": "hän",
+    "form": "häntä",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem hän-/häne-."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 2,
+    "lemma": "hän",
+    "form": "hänen",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem hän-/häne-."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 2,
+    "lemma": "hän",
+    "form": "hänelle",
+    "grammatical_label": "allative",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem hän-/häne-."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 3,
+    "lemma": "itse",
+    "form": "itse",
+    "grammatical_label": "N",
+    "target_type": "related_form",
+    "notes": "Usually used with a possessive suffix; forms depend on person."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 3,
+    "lemma": "itse",
+    "form": "itsen",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Usually used with a possessive suffix; forms depend on person."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 3,
+    "lemma": "itse",
+    "form": "itseä",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Usually used with a possessive suffix; forms depend on person."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 3,
+    "lemma": "itse",
+    "form": "itseni / itseäni",
+    "grammatical_label": "1st-person reflexive with possessive suffix",
+    "target_type": "related_form",
+    "notes": "Usually used with a possessive suffix; forms depend on person."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 3,
+    "lemma": "itse",
+    "form": "itsensä",
+    "grammatical_label": "3rd person",
+    "target_type": "related_form",
+    "notes": "Usually used with a possessive suffix; forms depend on person."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 4,
+    "lemma": "joka",
+    "form": "joka",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem jo-/joi-; forms are worth learning in common clauses."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 4,
+    "lemma": "joka",
+    "form": "jonka",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem jo-/joi-; forms are worth learning in common clauses."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 4,
+    "lemma": "joka",
+    "form": "jota",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem jo-/joi-; forms are worth learning in common clauses."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 4,
+    "lemma": "joka",
+    "form": "jossa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem jo-/joi-; forms are worth learning in common clauses."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 4,
+    "lemma": "joka",
+    "form": "josta",
+    "grammatical_label": "elative",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem jo-/joi-; forms are worth learning in common clauses."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 4,
+    "lemma": "joka",
+    "form": "johon",
+    "grammatical_label": "illative",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem jo-/joi-; forms are worth learning in common clauses."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 5,
+    "lemma": "jokainen",
+    "form": "jokainen",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like an adjective."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 5,
+    "lemma": "jokainen",
+    "form": "jokaisen",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like an adjective."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 5,
+    "lemma": "jokainen",
+    "form": "jokaista",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like an adjective."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 5,
+    "lemma": "jokainen",
+    "form": "jokaisessa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Declines like an adjective."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 6,
+    "lemma": "jokin",
+    "form": "jokin",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Person/thing distinction differs from joku; several forms are irregular."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 6,
+    "lemma": "jokin",
+    "form": "jonkin",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Person/thing distinction differs from joku; several forms are irregular."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 6,
+    "lemma": "jokin",
+    "form": "jotakin",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Person/thing distinction differs from joku; several forms are irregular."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 6,
+    "lemma": "jokin",
+    "form": "jossakin",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Person/thing distinction differs from joku; several forms are irregular."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 6,
+    "lemma": "jokin",
+    "form": "johonkin",
+    "grammatical_label": "illative",
+    "target_type": "inflected_form",
+    "notes": "Person/thing distinction differs from joku; several forms are irregular."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 7,
+    "lemma": "joku",
+    "form": "joku",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular; nominative and genitive differ from many oblique forms."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 7,
+    "lemma": "joku",
+    "form": "jonkun",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular; nominative and genitive differ from many oblique forms."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 7,
+    "lemma": "joku",
+    "form": "jotakuta",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular; nominative and genitive differ from many oblique forms."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 7,
+    "lemma": "joku",
+    "form": "jossakussa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Irregular; nominative and genitive differ from many oblique forms."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 7,
+    "lemma": "joku",
+    "form": "jollekulle",
+    "grammatical_label": "allative",
+    "target_type": "inflected_form",
+    "notes": "Irregular; nominative and genitive differ from many oblique forms."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 8,
+    "lemma": "jonkinlainen",
+    "form": "jonkinlainen",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Compound of jonkin + lainen; inflect the adjective ending."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 8,
+    "lemma": "jonkinlainen",
+    "form": "jonkinlaisen",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Compound of jonkin + lainen; inflect the adjective ending."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 8,
+    "lemma": "jonkinlainen",
+    "form": "jonkinlaista",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Compound of jonkin + lainen; inflect the adjective ending."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 8,
+    "lemma": "jonkinlainen",
+    "form": "jonkinlaisessa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Compound of jonkin + lainen; inflect the adjective ending."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 9,
+    "lemma": "kaikki",
+    "form": "kaikki",
+    "grammatical_label": "N pl",
+    "target_type": "inflected_form",
+    "notes": "Number and case affect the stem; singular and plural meanings differ."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 9,
+    "lemma": "kaikki",
+    "form": "kaiken",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Number and case affect the stem; singular and plural meanings differ."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 9,
+    "lemma": "kaikki",
+    "form": "kaikkea",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Number and case affect the stem; singular and plural meanings differ."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 9,
+    "lemma": "kaikki",
+    "form": "kaikessa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Number and case affect the stem; singular and plural meanings differ."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 9,
+    "lemma": "kaikki",
+    "form": "kaikista",
+    "grammatical_label": "elative",
+    "target_type": "inflected_form",
+    "notes": "Number and case affect the stem; singular and plural meanings differ."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 10,
+    "lemma": "kuka",
+    "form": "kuka",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Highly irregular ke-/kene- stem."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 10,
+    "lemma": "kuka",
+    "form": "kenet",
+    "grammatical_label": "object",
+    "target_type": "inflected_form",
+    "notes": "Highly irregular ke-/kene- stem."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 10,
+    "lemma": "kuka",
+    "form": "ketä",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Highly irregular ke-/kene- stem."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 10,
+    "lemma": "kuka",
+    "form": "kenen",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Highly irregular ke-/kene- stem."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 10,
+    "lemma": "kuka",
+    "form": "kenelle",
+    "grammatical_label": "allative",
+    "target_type": "inflected_form",
+    "notes": "Highly irregular ke-/kene- stem."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 10,
+    "lemma": "kuka",
+    "form": "keistä",
+    "grammatical_label": "elative pl",
+    "target_type": "inflected_form",
+    "notes": "Highly irregular ke-/kene- stem."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 11,
+    "lemma": "kukaan",
+    "form": "kukaan",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Used with negation; based on kuka with -kaan/-kään."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 11,
+    "lemma": "kukaan",
+    "form": "ketään",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Used with negation; based on kuka with -kaan/-kään."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 11,
+    "lemma": "kukaan",
+    "form": "kenenkään",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Used with negation; based on kuka with -kaan/-kään."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 11,
+    "lemma": "kukaan",
+    "form": "kenellekään",
+    "grammatical_label": "allative",
+    "target_type": "inflected_form",
+    "notes": "Used with negation; based on kuka with -kaan/-kään."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 12,
+    "lemma": "kumpi",
+    "form": "kumpi",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like an adjective with mm."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 12,
+    "lemma": "kumpi",
+    "form": "kumman",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like an adjective with mm."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 12,
+    "lemma": "kumpi",
+    "form": "kumpaa",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like an adjective with mm."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 12,
+    "lemma": "kumpi",
+    "form": "kummassa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Declines like an adjective with mm."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 12,
+    "lemma": "kumpi",
+    "form": "kumpaan",
+    "grammatical_label": "illative",
+    "target_type": "inflected_form",
+    "notes": "Declines like an adjective with mm."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 13,
+    "lemma": "mikä",
+    "form": "mikä",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Highly irregular stem mi-/mink-/mihin."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 13,
+    "lemma": "mikä",
+    "form": "minkä",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Highly irregular stem mi-/mink-/mihin."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 13,
+    "lemma": "mikä",
+    "form": "mitä",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Highly irregular stem mi-/mink-/mihin."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 13,
+    "lemma": "mikä",
+    "form": "missä",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Highly irregular stem mi-/mink-/mihin."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 13,
+    "lemma": "mikä",
+    "form": "mistä",
+    "grammatical_label": "elative",
+    "target_type": "inflected_form",
+    "notes": "Highly irregular stem mi-/mink-/mihin."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 13,
+    "lemma": "mikä",
+    "form": "mihin",
+    "grammatical_label": "illative",
+    "target_type": "inflected_form",
+    "notes": "Highly irregular stem mi-/mink-/mihin."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 14,
+    "lemma": "mikään",
+    "form": "mikään",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Used with negation; based on mikä with -kään."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 14,
+    "lemma": "mikään",
+    "form": "mitään",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Used with negation; based on mikä with -kään."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 14,
+    "lemma": "mikään",
+    "form": "minkään",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Used with negation; based on mikä with -kään."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 14,
+    "lemma": "mikään",
+    "form": "missään",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Used with negation; based on mikä with -kään."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 14,
+    "lemma": "mikään",
+    "form": "mistään",
+    "grammatical_label": "elative",
+    "target_type": "inflected_form",
+    "notes": "Used with negation; based on mikä with -kään."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 15,
+    "lemma": "minä",
+    "form": "minä",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Oblique stem minu-; colloquial mä is outside this standard list."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 15,
+    "lemma": "minä",
+    "form": "minut",
+    "grammatical_label": "object",
+    "target_type": "inflected_form",
+    "notes": "Oblique stem minu-; colloquial mä is outside this standard list."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 15,
+    "lemma": "minä",
+    "form": "minua",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Oblique stem minu-; colloquial mä is outside this standard list."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 15,
+    "lemma": "minä",
+    "form": "minun",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Oblique stem minu-; colloquial mä is outside this standard list."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 15,
+    "lemma": "minä",
+    "form": "minulle",
+    "grammatical_label": "allative",
+    "target_type": "inflected_form",
+    "notes": "Oblique stem minu-; colloquial mä is outside this standard list."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 15,
+    "lemma": "minä",
+    "form": "minussa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Oblique stem minu-; colloquial mä is outside this standard list."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 16,
+    "lemma": "molemmat",
+    "form": "molemmat",
+    "grammatical_label": "N pl",
+    "target_type": "inflected_form",
+    "notes": "Plural forms are the most useful."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 16,
+    "lemma": "molemmat",
+    "form": "molempien",
+    "grammatical_label": "G pl",
+    "target_type": "inflected_form",
+    "notes": "Plural forms are the most useful."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 16,
+    "lemma": "molemmat",
+    "form": "molempia",
+    "grammatical_label": "P pl",
+    "target_type": "inflected_form",
+    "notes": "Plural forms are the most useful."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 16,
+    "lemma": "molemmat",
+    "form": "molemmissa",
+    "grammatical_label": "inessive pl",
+    "target_type": "inflected_form",
+    "notes": "Plural forms are the most useful."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 17,
+    "lemma": "moni",
+    "form": "moni",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Declension changes the stem; plural commonly means many."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 17,
+    "lemma": "moni",
+    "form": "monen",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Declension changes the stem; plural commonly means many."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 17,
+    "lemma": "moni",
+    "form": "montaa",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Declension changes the stem; plural commonly means many."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 17,
+    "lemma": "moni",
+    "form": "monessa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Declension changes the stem; plural commonly means many."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 17,
+    "lemma": "moni",
+    "form": "monet",
+    "grammatical_label": "N pl",
+    "target_type": "inflected_form",
+    "notes": "Declension changes the stem; plural commonly means many."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 17,
+    "lemma": "moni",
+    "form": "monia",
+    "grammatical_label": "P pl",
+    "target_type": "inflected_form",
+    "notes": "Declension changes the stem; plural commonly means many."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 18,
+    "lemma": "muu",
+    "form": "muu",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Stem alternation muu-/mū-; learn common cases."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 18,
+    "lemma": "muu",
+    "form": "muun",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Stem alternation muu-/mū-; learn common cases."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 18,
+    "lemma": "muu",
+    "form": "muuta",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Stem alternation muu-/mū-; learn common cases."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 18,
+    "lemma": "muu",
+    "form": "muussa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Stem alternation muu-/mū-; learn common cases."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 18,
+    "lemma": "muu",
+    "form": "muuhun",
+    "grammatical_label": "illative",
+    "target_type": "inflected_form",
+    "notes": "Stem alternation muu-/mū-; learn common cases."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 19,
+    "lemma": "oma",
+    "form": "oma",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Regular adjective pattern; Finnish often uses possessive suffixes too."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 19,
+    "lemma": "oma",
+    "form": "oman",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Regular adjective pattern; Finnish often uses possessive suffixes too."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 19,
+    "lemma": "oma",
+    "form": "omaa",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Regular adjective pattern; Finnish often uses possessive suffixes too."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 19,
+    "lemma": "oma",
+    "form": "omassa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Regular adjective pattern; Finnish often uses possessive suffixes too."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 19,
+    "lemma": "oma",
+    "form": "omat",
+    "grammatical_label": "N pl",
+    "target_type": "inflected_form",
+    "notes": "Regular adjective pattern; Finnish often uses possessive suffixes too."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 20,
+    "lemma": "sama",
+    "form": "sama",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Regular adjective pattern."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 20,
+    "lemma": "sama",
+    "form": "saman",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Regular adjective pattern."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 20,
+    "lemma": "sama",
+    "form": "samaa",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Regular adjective pattern."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 20,
+    "lemma": "sama",
+    "form": "samassa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Regular adjective pattern."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 20,
+    "lemma": "sama",
+    "form": "samat",
+    "grammatical_label": "N pl",
+    "target_type": "inflected_form",
+    "notes": "Regular adjective pattern."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 21,
+    "lemma": "se",
+    "form": "se",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem; also common spoken 3rd-person pronoun."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 21,
+    "lemma": "se",
+    "form": "sen",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem; also common spoken 3rd-person pronoun."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 21,
+    "lemma": "se",
+    "form": "sitä",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem; also common spoken 3rd-person pronoun."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 21,
+    "lemma": "se",
+    "form": "siinä",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem; also common spoken 3rd-person pronoun."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 21,
+    "lemma": "se",
+    "form": "siitä",
+    "grammatical_label": "elative",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem; also common spoken 3rd-person pronoun."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 21,
+    "lemma": "se",
+    "form": "siihen",
+    "grammatical_label": "illative",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem; also common spoken 3rd-person pronoun."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 22,
+    "lemma": "sellainen",
+    "form": "sellainen",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 22,
+    "lemma": "sellainen",
+    "form": "sellaisen",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 22,
+    "lemma": "sellainen",
+    "form": "sellaista",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 22,
+    "lemma": "sellainen",
+    "form": "sellaisessa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 23,
+    "lemma": "sinä",
+    "form": "sinä",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Oblique stem sinu-; colloquial sä is outside this standard list."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 23,
+    "lemma": "sinä",
+    "form": "sinut",
+    "grammatical_label": "object",
+    "target_type": "inflected_form",
+    "notes": "Oblique stem sinu-; colloquial sä is outside this standard list."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 23,
+    "lemma": "sinä",
+    "form": "sinua",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Oblique stem sinu-; colloquial sä is outside this standard list."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 23,
+    "lemma": "sinä",
+    "form": "sinun",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Oblique stem sinu-; colloquial sä is outside this standard list."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 23,
+    "lemma": "sinä",
+    "form": "sinulle",
+    "grammatical_label": "allative",
+    "target_type": "inflected_form",
+    "notes": "Oblique stem sinu-; colloquial sä is outside this standard list."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 23,
+    "lemma": "sinä",
+    "form": "sinussa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Oblique stem sinu-; colloquial sä is outside this standard list."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 24,
+    "lemma": "toinen",
+    "form": "toinen",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 24,
+    "lemma": "toinen",
+    "form": "toisen",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 24,
+    "lemma": "toinen",
+    "form": "toista",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 24,
+    "lemma": "toinen",
+    "form": "toisessa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 24,
+    "lemma": "toinen",
+    "form": "toiset",
+    "grammatical_label": "N pl",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 25,
+    "lemma": "tuo",
+    "form": "tuo",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular demonstrative stem; plural nominative nuo."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 25,
+    "lemma": "tuo",
+    "form": "tuon",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular demonstrative stem; plural nominative nuo."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 25,
+    "lemma": "tuo",
+    "form": "tuota",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular demonstrative stem; plural nominative nuo."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 25,
+    "lemma": "tuo",
+    "form": "tuossa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Irregular demonstrative stem; plural nominative nuo."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 25,
+    "lemma": "tuo",
+    "form": "tuosta",
+    "grammatical_label": "elative",
+    "target_type": "inflected_form",
+    "notes": "Irregular demonstrative stem; plural nominative nuo."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 25,
+    "lemma": "tuo",
+    "form": "tuohon",
+    "grammatical_label": "illative",
+    "target_type": "inflected_form",
+    "notes": "Irregular demonstrative stem; plural nominative nuo."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 26,
+    "lemma": "tuollainen",
+    "form": "tuollainen",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 26,
+    "lemma": "tuollainen",
+    "form": "tuollaisen",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 26,
+    "lemma": "tuollainen",
+    "form": "tuollaista",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 26,
+    "lemma": "tuollainen",
+    "form": "tuollaisessa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 27,
+    "lemma": "tällainen",
+    "form": "tällainen",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 27,
+    "lemma": "tällainen",
+    "form": "tällaisen",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 27,
+    "lemma": "tällainen",
+    "form": "tällaista",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 27,
+    "lemma": "tällainen",
+    "form": "tällaisessa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Declines like -nen adjectives."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 28,
+    "lemma": "tämä",
+    "form": "tämä",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem; plural nominative nämä."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 28,
+    "lemma": "tämä",
+    "form": "tämän",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem; plural nominative nämä."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 28,
+    "lemma": "tämä",
+    "form": "tätä",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem; plural nominative nämä."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 28,
+    "lemma": "tämä",
+    "form": "tässä",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem; plural nominative nämä."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 28,
+    "lemma": "tämä",
+    "form": "tästä",
+    "grammatical_label": "elative",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem; plural nominative nämä."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 28,
+    "lemma": "tämä",
+    "form": "tähän",
+    "grammatical_label": "illative",
+    "target_type": "inflected_form",
+    "notes": "Irregular stem; plural nominative nämä."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 29,
+    "lemma": "usea",
+    "form": "usea",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Regular adjective pattern; plural useat is common."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 29,
+    "lemma": "usea",
+    "form": "usean",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Regular adjective pattern; plural useat is common."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 29,
+    "lemma": "usea",
+    "form": "useaa",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Regular adjective pattern; plural useat is common."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 29,
+    "lemma": "usea",
+    "form": "useassa",
+    "grammatical_label": "inessive",
+    "target_type": "inflected_form",
+    "notes": "Regular adjective pattern; plural useat is common."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 29,
+    "lemma": "usea",
+    "form": "useat",
+    "grammatical_label": "N pl",
+    "target_type": "inflected_form",
+    "notes": "Regular adjective pattern; plural useat is common."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 1,
+    "lemma": "aivan",
+    "form": "aivan",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection; modifies degree or emphasis."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 2,
+    "lemma": "edes",
+    "form": "edes",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 3,
+    "lemma": "ei",
+    "form": "en",
+    "grammatical_label": "I",
+    "target_type": "inflected_form",
+    "notes": "Conjugates by person; include the negative-verb paradigm."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 3,
+    "lemma": "ei",
+    "form": "et",
+    "grammatical_label": "you sg",
+    "target_type": "inflected_form",
+    "notes": "Conjugates by person; include the negative-verb paradigm."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 3,
+    "lemma": "ei",
+    "form": "ei",
+    "grammatical_label": "he/she",
+    "target_type": "inflected_form",
+    "notes": "Conjugates by person; include the negative-verb paradigm."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 3,
+    "lemma": "ei",
+    "form": "emme",
+    "grammatical_label": "we",
+    "target_type": "inflected_form",
+    "notes": "Conjugates by person; include the negative-verb paradigm."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 3,
+    "lemma": "ei",
+    "form": "ette",
+    "grammatical_label": "you pl",
+    "target_type": "inflected_form",
+    "notes": "Conjugates by person; include the negative-verb paradigm."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 3,
+    "lemma": "ei",
+    "form": "eivät",
+    "grammatical_label": "they",
+    "target_type": "inflected_form",
+    "notes": "Conjugates by person; include the negative-verb paradigm."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 4,
+    "lemma": "eli",
+    "form": "eli",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 5,
+    "lemma": "enää",
+    "form": "enää",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 6,
+    "lemma": "että",
+    "form": "että",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 7,
+    "lemma": "hei",
+    "form": "hei",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 8,
+    "lemma": "ihan",
+    "form": "ihan",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 9,
+    "lemma": "ja",
+    "form": "ja",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 10,
+    "lemma": "jos",
+    "form": "jos",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 11,
+    "lemma": "joten",
+    "form": "joten",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 12,
+    "lemma": "jotta",
+    "form": "jotta",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 13,
+    "lemma": "juuri",
+    "form": "juuri",
+    "grammatical_label": "adverb, invariable",
+    "target_type": "invariant",
+    "notes": "The adverb meaning “exactly/just” is invariable; noun meaning “root” declines."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 13,
+    "lemma": "juuri",
+    "form": "juuri",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "The adverb meaning “exactly/just” is invariable; noun meaning “root” declines."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 13,
+    "lemma": "juuri",
+    "form": "juuren",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "The adverb meaning “exactly/just” is invariable; noun meaning “root” declines."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 13,
+    "lemma": "juuri",
+    "form": "juurta",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "The adverb meaning “exactly/just” is invariable; noun meaning “root” declines."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 14,
+    "lemma": "koska",
+    "form": "koska",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 15,
+    "lemma": "kuin",
+    "form": "kuin",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 16,
+    "lemma": "kuinka",
+    "form": "kuinka",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 17,
+    "lemma": "kuitenkaan",
+    "form": "kuitenkaan",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 18,
+    "lemma": "kuitenkin",
+    "form": "kuitenkin",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 19,
+    "lemma": "kunnes",
+    "form": "kunnes",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 20,
+    "lemma": "kuten",
+    "form": "kuten",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 21,
+    "lemma": "kyllä",
+    "form": "kyllä",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 22,
+    "lemma": "lisäksi",
+    "form": "lisäksi",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "As postposition, commonly takes a genitive complement: tämän lisäksi."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 23,
+    "lemma": "mikäli",
+    "form": "mikäli",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 24,
+    "lemma": "milloin",
+    "form": "milloin",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 25,
+    "lemma": "minne",
+    "form": "minne",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 26,
+    "lemma": "miten",
+    "form": "miten",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 27,
+    "lemma": "mutta",
+    "form": "mutta",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 28,
+    "lemma": "muuten",
+    "form": "muuten",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 29,
+    "lemma": "myös",
+    "form": "myös",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 30,
+    "lemma": "niin",
+    "form": "niin",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 31,
+    "lemma": "nimittäin",
+    "form": "nimittäin",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 32,
+    "lemma": "näin",
+    "form": "näin",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 33,
+    "lemma": "paitsi",
+    "form": "paitsi",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "As a postposition, can take a genitive complement."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 34,
+    "lemma": "päinvastoin",
+    "form": "päinvastoin",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 35,
+    "lemma": "samoin",
+    "form": "samoin",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 36,
+    "lemma": "sekä",
+    "form": "sekä",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 37,
+    "lemma": "siis",
+    "form": "siis",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 38,
+    "lemma": "siksi",
+    "form": "siksi",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 39,
+    "lemma": "silti",
+    "form": "silti",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 40,
+    "lemma": "siten",
+    "form": "siten",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 41,
+    "lemma": "taas",
+    "form": "taas",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 42,
+    "lemma": "tai",
+    "form": "tai",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 43,
+    "lemma": "toisaalta",
+    "form": "toisaalta",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 44,
+    "lemma": "toisin",
+    "form": "toisin",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 45,
+    "lemma": "tosi",
+    "form": "tosi",
+    "grammatical_label": "adverb, invariable",
+    "target_type": "invariant",
+    "notes": "Adverb “very” is invariable; adjective/noun “true/truth” has irregular forms."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 45,
+    "lemma": "tosi",
+    "form": "tosi",
+    "grammatical_label": "N sg",
+    "target_type": "inflected_form",
+    "notes": "Adverb “very” is invariable; adjective/noun “true/truth” has irregular forms."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 45,
+    "lemma": "tosi",
+    "form": "toden",
+    "grammatical_label": "G sg",
+    "target_type": "inflected_form",
+    "notes": "Adverb “very” is invariable; adjective/noun “true/truth” has irregular forms."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 45,
+    "lemma": "tosi",
+    "form": "totta",
+    "grammatical_label": "P sg",
+    "target_type": "inflected_form",
+    "notes": "Adverb “very” is invariable; adjective/noun “true/truth” has irregular forms."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 46,
+    "lemma": "vaan",
+    "form": "vaan",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 47,
+    "lemma": "vai",
+    "form": "vai",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 48,
+    "lemma": "vaikka",
+    "form": "vaikka",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "questions-and-connectors",
+    "topic_order": 49,
+    "lemma": "vain",
+    "form": "vain",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 1,
+    "lemma": "esiin",
+    "form": "edessä",
+    "grammatical_label": "in front",
+    "target_type": "related_form",
+    "notes": "These are a lexicalized locative/directional family; learn useful forms with their meanings rather than treating esiin as invariant."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 1,
+    "lemma": "esiin",
+    "form": "edestä",
+    "grammatical_label": "from in front",
+    "target_type": "related_form",
+    "notes": "These are a lexicalized locative/directional family; learn useful forms with their meanings rather than treating esiin as invariant."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 1,
+    "lemma": "esiin",
+    "form": "eteen",
+    "grammatical_label": "to/in front",
+    "target_type": "related_form",
+    "notes": "These are a lexicalized locative/directional family; learn useful forms with their meanings rather than treating esiin as invariant."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 1,
+    "lemma": "esiin",
+    "form": "edellä",
+    "grammatical_label": "ahead",
+    "target_type": "related_form",
+    "notes": "These are a lexicalized locative/directional family; learn useful forms with their meanings rather than treating esiin as invariant."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 1,
+    "lemma": "esiin",
+    "form": "edeltä",
+    "grammatical_label": "from ahead",
+    "target_type": "related_form",
+    "notes": "These are a lexicalized locative/directional family; learn useful forms with their meanings rather than treating esiin as invariant."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 1,
+    "lemma": "esiin",
+    "form": "edelle",
+    "grammatical_label": "to ahead",
+    "target_type": "related_form",
+    "notes": "These are a lexicalized locative/directional family; learn useful forms with their meanings rather than treating esiin as invariant."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 1,
+    "lemma": "esiin",
+    "form": "esillä",
+    "grammatical_label": "on display",
+    "target_type": "related_form",
+    "notes": "These are a lexicalized locative/directional family; learn useful forms with their meanings rather than treating esiin as invariant."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 1,
+    "lemma": "esiin",
+    "form": "esiltä",
+    "grammatical_label": "from display",
+    "target_type": "related_form",
+    "notes": "These are a lexicalized locative/directional family; learn useful forms with their meanings rather than treating esiin as invariant."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 1,
+    "lemma": "esiin",
+    "form": "esille",
+    "grammatical_label": "to display",
+    "target_type": "related_form",
+    "notes": "These are a lexicalized locative/directional family; learn useful forms with their meanings rather than treating esiin as invariant."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 2,
+    "lemma": "esille",
+    "form": "esillä",
+    "grammatical_label": "on display",
+    "target_type": "related_form",
+    "notes": "A useful location/source/destination set; shares the broader esi- adverb family above."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 2,
+    "lemma": "esille",
+    "form": "esiltä",
+    "grammatical_label": "from display",
+    "target_type": "related_form",
+    "notes": "A useful location/source/destination set; shares the broader esi- adverb family above."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 2,
+    "lemma": "esille",
+    "form": "esille",
+    "grammatical_label": "to display",
+    "target_type": "related_form",
+    "notes": "A useful location/source/destination set; shares the broader esi- adverb family above."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 3,
+    "lemma": "ilman",
+    "form": "ilman + partitive: ilman kahvia",
+    "grammatical_label": "case_or_usage_pattern",
+    "target_type": "governed_pattern",
+    "notes": "The following noun/pronoun is typically partitive; ilman precedes it."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 4,
+    "lemma": "jälkeen",
+    "form": "jälkeen (after); jäljessä (behind/after, static); jäljestä (from behind); complement typically genitive",
+    "grammatical_label": "case_or_usage_pattern",
+    "target_type": "governed_pattern",
+    "notes": "The complement is typically genitive."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 5,
+    "lemma": "kanssa",
+    "form": "invariable; complement typically genitive: ystävän kanssa",
+    "grammatical_label": "case_or_usage_pattern",
+    "target_type": "governed_pattern",
+    "notes": "The complement is typically genitive; with personal pronouns, a possessive suffix is common (minun kanssani)."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 6,
+    "lemma": "koko",
+    "form": "koko päivä; koko päivän; koko päivää (koko remains unchanged)",
+    "grammatical_label": "case_or_usage_pattern",
+    "target_type": "governed_pattern",
+    "notes": "In this determiner use, koko is invariable; the following noun changes case. Teach in short phrases."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 7,
+    "lemma": "kun",
+    "form": "kun",
+    "grammatical_label": "invariant",
+    "target_type": "invariant",
+    "notes": "No inflection; temporal conjunction “when”."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 8,
+    "lemma": "mukaan",
+    "form": "invariable; complement typically genitive: suunnitelman mukaan",
+    "grammatical_label": "case_or_usage_pattern",
+    "target_type": "governed_pattern",
+    "notes": "The complement is typically genitive."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 9,
+    "lemma": "muualla",
+    "form": "muualla",
+    "grammatical_label": "here: elsewhere",
+    "target_type": "related_form",
+    "notes": "A useful location/source/destination set; not ordinary case inflection."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 9,
+    "lemma": "muualla",
+    "form": "muualta",
+    "grammatical_label": "from elsewhere",
+    "target_type": "related_form",
+    "notes": "A useful location/source/destination set; not ordinary case inflection."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 9,
+    "lemma": "muualla",
+    "form": "muualle",
+    "grammatical_label": "to elsewhere",
+    "target_type": "related_form",
+    "notes": "A useful location/source/destination set; not ordinary case inflection."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 10,
+    "lemma": "myötä",
+    "form": "myötä / myöten; complement typically genitive: ajan myötä",
+    "grammatical_label": "case_or_usage_pattern",
+    "target_type": "governed_pattern",
+    "notes": "The complement is typically genitive."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 11,
+    "lemma": "takia",
+    "form": "invariable; complement typically genitive: sateen takia",
+    "grammatical_label": "case_or_usage_pattern",
+    "target_type": "governed_pattern",
+    "notes": "The complement is typically genitive."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 12,
+    "lemma": "varten",
+    "form": "invariable; complement commonly partitive: matkaa varten",
+    "grammatical_label": "case_or_usage_pattern",
+    "target_type": "governed_pattern",
+    "notes": "The complement is typically partitive."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 13,
+    "lemma": "vuoksi",
+    "form": "invariable; complement typically genitive: työn vuoksi",
+    "grammatical_label": "case_or_usage_pattern",
+    "target_type": "governed_pattern",
+    "notes": "The complement is typically genitive."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 14,
+    "lemma": "välillä",
+    "form": "välillä (interval/between); välissä (located between); välistä (from between); väliin (into/between); complement typically genitive",
+    "grammatical_label": "case_or_usage_pattern",
+    "target_type": "governed_pattern",
+    "notes": "These are case forms of väli used as a postposition; the complement is typically genitive."
+  },
+  {
+    "topic_slug": "relational-words",
+    "topic_order": 15,
+    "lemma": "yli",
+    "form": "yli / ylitse: sillan yli / sillan ylitse",
+    "grammatical_label": "case_or_usage_pattern",
+    "target_type": "governed_pattern",
+    "notes": "The complement is typically genitive; yli can also be used as an adverb."
+  }
+]

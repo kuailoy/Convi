@@ -1,3 +1,19 @@
-from app.models.content import Content, ContentProgress, ExerciseSet, VocabularyTopic
+from app.models.content import (
+    Content,
+    ContentProgress,
+    ExerciseSet,
+    VocabularyExample,
+    VocabularyExampleTarget,
+    VocabularyForm,
+    VocabularyTopic,
+)
 
-__all__ = ["Content", "ContentProgress", "ExerciseSet", "VocabularyTopic"]
+__all__ = [
+    "Content",
+    "ContentProgress",
+    "ExerciseSet",
+    "VocabularyExample",
+    "VocabularyExampleTarget",
+    "VocabularyForm",
+    "VocabularyTopic",
+]

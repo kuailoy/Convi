@@ -1,6 +1,6 @@
 # Convi Database Schema
 
-> Current implementation: four PostgreSQL tables managed by Alembic. The current database contains Finnish vocabulary items; pattern drill content is deferred.
+> Current implementation: seven PostgreSQL tables managed by Alembic. The database contains Finnish vocabulary items and reviewed word-form targets for the first three topics. Example generation and persistence are available through a backend script; the mobile Preparing flow is not connected yet.
 
 ## Core Model
 
@@ -32,7 +32,7 @@ Practice context and register are separate from mode and method. For example, `m
 
 ## Tables
 
-The current schema has four tables: `contents`, `vocabulary_topics`, `exercise_sets`, and `content_progress`.
+The current schema has seven tables: `contents`, `vocabulary_topics`, `vocabulary_forms`, `vocabulary_examples`, `vocabulary_example_targets`, `exercise_sets`, and `content_progress`.
 
 ### `contents`
 
@@ -64,6 +64,44 @@ There is no separate `title` field. The app can display `content` directly as th
 Stores the ordered bilingual vocabulary topic list (`slug`, English and Finnish names, and `sort_order`). A topic can contain many content rows. The schema keeps meanings optional; the current 949-word import leaves them blank and sets `meaning_language_code` to `en` for later completion.
 
 `content_type`, `practice_mode`, and `practice_method` are represented by Python enums and stored as strings in PostgreSQL. The database currently enforces that vocabulary rows have both a topic and an in-topic position, and that those two fields are either both null or both populated. The API does not yet validate allowed mode/method combinations. `cefr_level` describes the target level of the content, not the learner's assessed level; leave it null when the level is not known.
+
+### `vocabulary_forms`
+
+Stores reviewed forms and usage targets linked to a vocabulary item. A row can represent an inflected form, an invariant item, a related directional form, or a case/usage pattern such as a postposition taking a genitive or partitive complement. This distinction lets later coverage calculations count only the target types they intend to measure.
+
+| Field | Purpose |
+| --- | --- |
+| `id` | UUID primary key |
+| `content_id` | Vocabulary item in `contents` |
+| `form` | Form or compact usage target |
+| `grammatical_label` | Case/number label or target kind |
+| `target_type` | `inflected_form`, `invariant`, `related_form`, or `governed_pattern` |
+| `display_order` | Order of the target within its vocabulary item |
+| `notes` | Usage or grammar note |
+| `review_status` | Review state; imported pilot rows are `reviewed` |
+| `source_note` | Source document for the reviewed pilot |
+| `created_at` | Record creation time |
+
+The first import contains 232 targets covering 93 vocabulary items across the first three topics. It is idempotently maintained by `scripts.import_vocabulary_forms`. The existing contents API does not yet return these records.
+
+### `vocabulary_examples`
+
+Stores generated Finnish sentences and English translations. Sentences are deduplicated per vocabulary item using normalized Finnish text. The row records difficulty, generation model, prompt version, and sentence-level validation status.
+
+| Field | Purpose |
+| --- | --- |
+| `content_id` | Vocabulary item illustrated by the sentence |
+| `finnish_sentence` | Finnish example |
+| `normalized_sentence` | Case- and punctuation-normalized value used for uniqueness |
+| `english_translation` | Translation of the example |
+| `difficulty` | `A1` or `A2` |
+| `validation_status` | `auto_valid`, `needs_review`, `human_approved`, or `rejected` |
+| `validation_notes` | Automated validation or review notes |
+| `generation_model`, `prompt_version` | Generation provenance |
+
+### `vocabulary_example_targets`
+
+Associates an example with one or more targets in `vocabulary_forms`. `primary` identifies the form the example was generated to teach; `reinforcement` can record other forms the same sentence practices. Coverage counts only valid `primary` links. A target link has its own validation state because a sentence may be valid for one target but still require review for another.
 
 ### `GET /api/v1/contents`
 
@@ -104,6 +142,10 @@ Stores the current learner's progress for each content item. The first version i
 ```mermaid
 erDiagram
     VOCABULARY_TOPICS ||--o{ CONTENTS : groups
+    CONTENTS ||--o{ VOCABULARY_FORMS : describes
+    CONTENTS ||--o{ VOCABULARY_EXAMPLES : illustrates
+    VOCABULARY_EXAMPLES ||--o{ VOCABULARY_EXAMPLE_TARGETS : covers
+    VOCABULARY_FORMS ||--o{ VOCABULARY_EXAMPLE_TARGETS : targeted_by
     CONTENTS ||--o{ EXERCISE_SETS : has
     CONTENTS ||--o| CONTENT_PROGRESS : tracks
 ```
