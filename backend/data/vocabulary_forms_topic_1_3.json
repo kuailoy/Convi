@@ -102,10 +102,19 @@
     "topic_slug": "pronouns-and-reference",
     "topic_order": 3,
     "lemma": "itse",
-    "form": "itseni / itseäni",
-    "grammatical_label": "1st-person reflexive with possessive suffix",
-    "target_type": "related_form",
-    "notes": "Usually used with a possessive suffix; forms depend on person."
+    "form": "itseni",
+    "grammatical_label": "accusative; 1st-person reflexive with possessive suffix",
+    "target_type": "inflected_form",
+    "notes": "Accusative object form with the 1st-person possessive suffix; use for a bounded object."
+  },
+  {
+    "topic_slug": "pronouns-and-reference",
+    "topic_order": 3,
+    "lemma": "itse",
+    "form": "itseäni",
+    "grammatical_label": "partitive; 1st-person reflexive with possessive suffix",
+    "target_type": "inflected_form",
+    "notes": "Partitive form with the 1st-person possessive suffix; common with verbs such as rakastaa."
   },
   {
     "topic_slug": "pronouns-and-reference",

@@ -30,4 +30,16 @@ To generate, validate, and save missing examples for a topic:
 python -m scripts.generate_topic_examples --topic pronouns-and-reference --limit 10
 ```
 
-Set `OPENAI_API_KEY` in the backend environment first. The script saves each result immediately, so later failures do not discard earlier examples. The limit supports reviewing a small pilot before generating the rest of a topic. Relational usage targets are saved as `needs_review` because the backend does not yet include a Finnish morphology analyzer; they do not count as covered until reviewed.
+Set `OPENAI_API_KEY` in the backend environment first. Each result includes a natural spoken Finnish sentence and its standard written counterpart; when the word is mainly written or has no register difference, the sentences can be identical. Prompts prioritize the common everyday sense, high-frequency concrete supporting words, and a simple main clause; they avoid abstract nominalizations and uncommon grammar. The script saves each result immediately, so later failures do not discard earlier examples. The limit supports reviewing a small pilot before generating the rest of a topic. Relational usage targets are saved as `needs_review` because the backend does not yet include a Finnish morphology analyzer; they do not count as covered until reviewed.
+
+For an interactive terminal run that prompts for the key without echoing it, use:
+
+```zsh
+./scripts/generate_topic_examples.zsh
+```
+
+The default is the first topic and 10 missing targets. Optional arguments override them:
+
+```zsh
+./scripts/generate_topic_examples.zsh questions-and-connectors 20
+```

@@ -175,6 +175,7 @@ class VocabularyExample(Base):
         Uuid, ForeignKey("contents.id", ondelete="CASCADE"), nullable=False, index=True
     )
     finnish_sentence: Mapped[str] = mapped_column(Text, nullable=False)
+    written_finnish_sentence: Mapped[str] = mapped_column(Text, nullable=False)
     normalized_sentence: Mapped[str] = mapped_column(Text, nullable=False)
     english_translation: Mapped[str] = mapped_column(Text, nullable=False)
     difficulty: Mapped[str] = mapped_column(String(2), nullable=False)

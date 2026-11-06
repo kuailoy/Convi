@@ -13,32 +13,35 @@ def normalize_sentence(sentence: str) -> str:
 
 
 def validate_example(target: dict[str, str | None], candidate: dict[str, str]) -> tuple[str, str | None, str]:
-    sentence = candidate["finnish_sentence"].strip()
+    spoken = candidate["spoken_finnish_sentence"].strip()
+    written = candidate["written_finnish_sentence"].strip()
     translation = candidate["english_translation"].strip()
-    tokens = set(_WORD.findall(unicodedata.normalize("NFKC", sentence).casefold()))
+    spoken_tokens = set(_WORD.findall(unicodedata.normalize("NFKC", spoken).casefold()))
+    written_tokens = set(_WORD.findall(unicodedata.normalize("NFKC", written).casefold()))
     lemma = target["lemma"]
 
-    if not sentence or not translation:
-        return "rejected", "Finnish sentence or English translation is empty.", ""
+    normalized = normalize_sentence(spoken)
+    if not spoken or not written or not translation:
+        return "rejected", "Spoken sentence, written sentence, or translation is empty.", normalized
     if candidate["difficulty"] not in {"A1", "A2"}:
-        return "rejected", "Difficulty must be A1 or A2.", normalize_sentence(sentence)
-    if len(_WORD.findall(sentence)) > 14:
-        return "rejected", "Sentence exceeds the 14-word pilot limit.", normalize_sentence(sentence)
+        return "rejected", "Difficulty must be A1 or A2.", normalized
+    if len(_WORD.findall(spoken)) > 14 or len(_WORD.findall(written)) > 14:
+        return "rejected", "A sentence exceeds the 14-word pilot limit.", normalized
 
     if target["target_type"] == "governed_pattern":
-        if lemma.casefold() not in tokens:
-            return "rejected", f"Required relational word '{lemma}' does not appear as a token.", normalize_sentence(sentence)
+        if lemma.casefold() not in spoken_tokens | written_tokens:
+            return "rejected", f"Required relational word '{lemma}' does not appear as a token.", normalized
         return (
             "needs_review",
             "Case government and naturalness need manual review; no Finnish morphology analyzer is configured.",
-            normalize_sentence(sentence),
+            normalized,
         )
 
     target_form = target["form"]
-    if target_form.casefold() not in tokens:
+    if target_form.casefold() not in spoken_tokens | written_tokens:
         return (
             "rejected",
-            f"Required target form '{target_form}' does not appear as a separate token.",
-            normalize_sentence(sentence),
+            f"Required target form '{target_form}' does not appear as a separate token in either version.",
+            normalized,
         )
-    return "auto_valid", None, normalize_sentence(sentence)
+    return "auto_valid", None, normalized

@@ -6,7 +6,7 @@ from openai import OpenAI
 
 
 DEFAULT_MODEL = "gpt-6-luna"
-PROMPT_VERSION = "fi-example-v1"
+PROMPT_VERSION = "fi-example-v4-register-aware"
 _CASE_NAMES = {
     "N sg": "nominative singular",
     "G sg": "genitive singular",
@@ -21,11 +21,17 @@ def generate_example(target: dict[str, str | None], model: str = DEFAULT_MODEL) 
     schema = {
         "type": "object",
         "properties": {
-            "finnish_sentence": {"type": "string"},
+            "spoken_finnish_sentence": {"type": "string"},
+            "written_finnish_sentence": {"type": "string"},
             "english_translation": {"type": "string"},
             "difficulty": {"type": "string", "enum": ["A1", "A2"]},
         },
-        "required": ["finnish_sentence", "english_translation", "difficulty"],
+        "required": [
+            "spoken_finnish_sentence",
+            "written_finnish_sentence",
+            "english_translation",
+            "difficulty",
+        ],
         "additionalProperties": False,
     }
 
@@ -44,9 +50,22 @@ def generate_example(target: dict[str, str | None], model: str = DEFAULT_MODEL) 
     response = client.responses.create(
         model=model,
         instructions=(
-            "Create exactly one natural, short, everyday Finnish example sentence for a beginner. "
-            "Use simple A1-A2 grammar and familiar words. The sentence must demonstrate the target "
-            "in its intended grammatical use. "
+            "Create a pair of equivalent, short Finnish sentences for a beginner: one natural "
+            "everyday spoken Finnish version (common puhekieli, without regional slang), and one "
+            "standard written Finnish version. The target lemma, specific form, or grammatical use may "
+            "itself be formal or mainly written: do not force it into colloquial speech. In that case, "
+            "use a natural sentence appropriate to the target's register; use identical wording in both "
+            "fields when no natural spoken alternative fits. Use simple A1-A2 grammar and familiar words. "
+            "The main learning objective is the supplied vocabulary target. Choose its most common "
+            "everyday meaning and use the most typical natural expression. Keep other words very "
+            "common, concrete, and easy; ideally the target is the only unfamiliar or abstract item. "
+            "Prefer one simple main clause, usually about four to eight words. Prefer present tense, "
+            "basic past, or simple negation. Avoid abstract nouns, nominalizations, subordinate clauses, "
+            "participles, passive constructions, idioms, technical terms, and rare supporting words. "
+            "Do not make the sentence artificially complex just to force the form into it. "
+            "If the target vocabulary is mainly formal or written, or if there is no meaningful "
+            "register difference, return the same sentence in both fields. The pair must preserve "
+            "the same meaning and demonstrate the target in its intended grammatical use. "
             + target_instruction
             + " Provide an accurate, natural English translation. "
             "Do not explain grammar or add alternatives."
@@ -69,7 +88,8 @@ def generate_example(target: dict[str, str | None], model: str = DEFAULT_MODEL) 
     )
     result = json.loads(response.output_text)
     return {
-        "finnish_sentence": result["finnish_sentence"].strip(),
+        "spoken_finnish_sentence": result["spoken_finnish_sentence"].strip(),
+        "written_finnish_sentence": result["written_finnish_sentence"].strip(),
         "english_translation": result["english_translation"].strip(),
         "difficulty": result["difficulty"],
     }

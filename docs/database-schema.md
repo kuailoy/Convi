@@ -86,13 +86,14 @@ The first import contains 232 targets covering 93 vocabulary items across the fi
 
 ### `vocabulary_examples`
 
-Stores generated Finnish sentences and English translations. Sentences are deduplicated per vocabulary item using normalized Finnish text. The row records difficulty, generation model, prompt version, and sentence-level validation status.
+Stores generated Finnish sentences and English translations. `finnish_sentence` is the natural spoken version; `written_finnish_sentence` stores its standard written counterpart. If register does not change the sentence, both fields contain the same text. Sentences are deduplicated per vocabulary item using normalized spoken Finnish. The row records difficulty, generation model, prompt version, and sentence-level validation status.
 
 | Field | Purpose |
 | --- | --- |
 | `content_id` | Vocabulary item illustrated by the sentence |
-| `finnish_sentence` | Finnish example |
-| `normalized_sentence` | Case- and punctuation-normalized value used for uniqueness |
+| `finnish_sentence` | Natural spoken Finnish example |
+| `written_finnish_sentence` | Standard written counterpart; identical when no useful difference applies |
+| `normalized_sentence` | Case- and punctuation-normalized spoken version used for uniqueness |
 | `english_translation` | Translation of the example |
 | `difficulty` | `A1` or `A2` |
 | `validation_status` | `auto_valid`, `needs_review`, `human_approved`, or `rejected` |
@@ -101,7 +102,7 @@ Stores generated Finnish sentences and English translations. Sentences are dedup
 
 ### `vocabulary_example_targets`
 
-Associates an example with one or more targets in `vocabulary_forms`. `primary` identifies the form the example was generated to teach; `reinforcement` can record other forms the same sentence practices. Coverage counts only valid `primary` links. A target link has its own validation state because a sentence may be valid for one target but still require review for another.
+Associates an example with one or more targets in `vocabulary_forms`. `primary` identifies the form the example was generated to teach; `reinforcement` can record other forms the same sentence practices. Coverage counts only valid `primary` links. A target link has its own validation state because a sentence may be valid for one target but still require review for another. Previous examples are retained with identical spoken/written text and marked for review or regeneration under the paired-register format.
 
 ### `GET /api/v1/contents`
 

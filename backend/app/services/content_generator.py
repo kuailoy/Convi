@@ -2,7 +2,7 @@
 
 from dataclasses import dataclass
 from openai import OpenAIError
-from sqlalchemy import exists, select
+from sqlalchemy import and_, exists, or_, select
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session, sessionmaker
 
@@ -47,10 +47,19 @@ def generate_missing_topic_examples(
             .where(
                 VocabularyExampleTarget.vocabulary_form_id == VocabularyForm.id,
                 VocabularyExampleTarget.role == "primary",
-                VocabularyExampleTarget.target_validation_status.in_(
+                or_(
+                    VocabularyExampleTarget.target_validation_status.in_(
+                        ("auto_valid", "human_approved")
+                    ),
+                    and_(
+                        VocabularyExampleTarget.target_validation_status == "needs_review",
+                        VocabularyExample.prompt_version == PROMPT_VERSION,
+                        VocabularyForm.target_type == "governed_pattern",
+                    ),
+                ),
+                VocabularyExample.validation_status.in_(
                     ("auto_valid", "human_approved", "needs_review")
                 ),
-                VocabularyExample.validation_status.in_(("auto_valid", "human_approved", "needs_review")),
             )
         )
         target_rows = session.execute(
@@ -125,7 +134,8 @@ def generate_missing_topic_examples(
                 if example is None:
                     example = VocabularyExample(
                         content_id=content_id,
-                        finnish_sentence=candidate["finnish_sentence"],
+                        finnish_sentence=candidate["spoken_finnish_sentence"],
+                        written_finnish_sentence=candidate["written_finnish_sentence"],
                         normalized_sentence=normalized,
                         english_translation=candidate["english_translation"],
                         difficulty=candidate["difficulty"],
@@ -141,7 +151,15 @@ def generate_missing_topic_examples(
                     inserted += 1
                 else:
                     # Identical sentence may intentionally reinforce several target forms.
-                    pass
+                    example.finnish_sentence = candidate["spoken_finnish_sentence"]
+                    example.written_finnish_sentence = candidate["written_finnish_sentence"]
+                    example.english_translation = candidate["english_translation"]
+                    example.difficulty = candidate["difficulty"]
+                    example.generation_model = model
+                    example.prompt_version = PROMPT_VERSION
+                    if status in {"auto_valid", "needs_review", "human_approved"}:
+                        example.validation_status = "auto_valid"
+                        example.validation_notes = None
                 linked = session.get(VocabularyExampleTarget, (example.id, form_id))
                 if linked is None:
                     session.add(
