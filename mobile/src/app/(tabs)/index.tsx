@@ -4,6 +4,7 @@ import { Card, Eyebrow, Title } from "../../ui/Elements";
 import { route } from "../../ui/navigation";
 import { Row, Screen } from "../../ui/Screen";
 import { colors } from "../../ui/theme";
+import { NextTopicCard } from "../../ui/NextTopicCard";
 import { getMockExercises, mockTopics } from "../../data/mockLearning";
 import { useLearningPreview } from "../../state/LearningPreviewContext";
 
@@ -15,11 +16,14 @@ export default function HomeScreen() {
   );
   const latestFinishedTopic = mockTopics
     .map((topic) => ({ topic, record: progress.topicSessions[topic.id] }))
-    .filter((item) => item.record)
+    .filter((item) => item.record && item.record.sessionsCompleted > 0)
     .sort((a, b) => (b.record?.lastStudiedAt ?? "").localeCompare(a.record?.lastStudiedAt ?? ""))[0]?.topic;
-  const anchorTopic = activeTopic ?? latestFinishedTopic;
-  const anchorIndex = anchorTopic ? mockTopics.findIndex((topic) => topic.id === anchorTopic.id) : -1;
-  const nextTopic = mockTopics[(anchorIndex + 1) % mockTopics.length];
+  const latestFinishedIndex = latestFinishedTopic
+    ? mockTopics.findIndex((topic) => topic.id === latestFinishedTopic.id)
+    : -1;
+  const nextTopic = latestFinishedIndex >= 0
+    ? mockTopics[latestFinishedIndex + 1]
+    : mockTopics[0];
   const promptCount = activeTopic ? getMockExercises(activeTopic.id).length : 0;
   const currentPrompt = activeTopic ? (progress.sessionPositions[activeTopic.id] ?? 0) + 1 : 0;
 
@@ -50,21 +54,14 @@ export default function HomeScreen() {
         </Pressable>
       ) : null}
 
-      <Pressable onPress={() => router.push(route(`/session/${nextTopic.id}?start=1`))}>
-        <Card style={styles.nextCard}>
-          <View style={styles.nextTop}>
-            <Text style={styles.nextLabel}>NEXT LEARNING CONTENT</Text>
-            <Text style={styles.wordCount}>{nextTopic.wordCount} words</Text>
-          </View>
-          <View style={styles.cardRow}>
-            <View style={styles.cardCopy}>
-              <Text style={styles.nextTitle}>{nextTopic.name}</Text>
-              <Text style={styles.nextMeta}>Start a short speaking practice</Text>
-            </View>
-            <Text style={styles.nextArrow}>→</Text>
-          </View>
-        </Card>
-      </Pressable>
+      {!canContinue && nextTopic ? (
+        <NextTopicCard
+          title={nextTopic.name}
+          subtitle="Continue to the next topic in your learning sequence."
+          wordCount={nextTopic.wordCount}
+          onPress={() => router.push(route(`/session/${nextTopic.id}?start=1`))}
+        />
+      ) : null}
 
       <View style={styles.quickAccess}>
         <Text style={styles.sectionTitle}>Quick access</Text>
@@ -100,13 +97,6 @@ const styles = StyleSheet.create({
   currentTitle: { color: "white", fontSize: 17, fontWeight: "700" },
   currentMeta: { color: "#D6E2D9", fontSize: 11 },
   actionArrow: { color: colors.yellow, fontSize: 23, fontWeight: "600" },
-  nextCard: { padding: 17, gap: 10 },
-  nextTop: { flexDirection: "row", justifyContent: "space-between", alignItems: "center" },
-  nextLabel: { color: colors.muted, fontSize: 9, fontWeight: "700", letterSpacing: 0.8 },
-  wordCount: { color: colors.muted, fontSize: 10 },
-  nextTitle: { color: colors.ink, fontSize: 17, fontWeight: "700" },
-  nextMeta: { color: colors.muted, fontSize: 11 },
-  nextArrow: { color: colors.green, fontSize: 22, fontWeight: "600" },
   quickAccess: { gap: 10 },
   sectionTitle: { color: colors.ink, fontSize: 16, fontWeight: "700" },
   accessRow: { flexDirection: "row", gap: 10 },

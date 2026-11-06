@@ -1,15 +1,11 @@
 // UI preview data only. It is deliberately separate from API responses and database models.
 export type MockExercise = {
-  mode: string;
-  helper: string;
   prompt: string;
   promptLabel: string;
-  speechText?: string;
-  speechLanguage?: string;
-  highlight?: string;
-  cue?: string;
-  answer: string;
-  explanation: string;
+  speechLanguage: string;
+  highlight: string;
+  caseLabel: string;
+  translation: string;
 };
 
 export const mockTopics = [
@@ -56,34 +52,31 @@ export const mockTopics = [
   { id: "reasons-abstract-concepts", name: "Reasons and abstract concepts", finnish: "Syyt ja käsitteet", wordCount: 20 },
 ];
 
-export const mockTopicExamples = {
-  "time-frequency": { word: "aika", meaning: "time", forms: ["aika", "aikaa · some time"], example: "Aika kuluu nopeasti.", translation: "Time passes quickly.", formSentence: "Minulla on aikaa.", formTranslation: "I have time.", pattern: "Minulla on {amount} aikaa." },
-  "people-relationships": { word: "ystävä", meaning: "friend", forms: ["ystävä", "ystäväni · my friend"], example: "Hän on ystäväni.", translation: "He is my friend.", formSentence: "Tapaan ystäväni tänään.", formTranslation: "I’m meeting my friend today.", pattern: "Hän on {person}." },
-  "movement-location": { word: "kauppa", meaning: "shop", forms: ["kauppa", "kaupassa · at the shop", "kauppaan · to the shop"], example: "Tämä on kauppa.", translation: "This is a shop.", formSentence: "Olen kaupassa.", formTranslation: "I am at the shop.", pattern: "Minä menen {place}." },
-  "emotions-feelings": { word: "iloinen", meaning: "happy", forms: ["iloinen · happy", "väsynyt · tired"], example: "Olen iloinen tänään.", translation: "I am happy today.", formSentence: "Olen väsynyt.", formTranslation: "I am tired.", pattern: "Olen {feeling}." },
-  "common-verbs": { word: "mennä", meaning: "to go", forms: ["mennä · to go", "menen · I go"], example: "Minä menen kotiin.", translation: "I am going home.", formSentence: "Minä menen kauppaan.", formTranslation: "I am going to the shop.", pattern: "Minä menen {place}." },
-  "thinking-understanding": { word: "ymmärtää", meaning: "to understand", forms: ["ymmärtää · to understand", "ymmärrän · I understand"], example: "Ymmärrän sinua.", translation: "I understand you.", formSentence: "Ymmärrän kysymyksen.", formTranslation: "I understand the question.", pattern: "Ymmärrän {idea}." },
-  "questions-connectors": { word: "missä", meaning: "where", forms: ["missä · where", "missä on · where is"], example: "Missä on kauppa?", translation: "Where is the shop?", formSentence: "Missä on asema?", formTranslation: "Where is the station?", pattern: "Missä on {place}?" },
-  "numbers-comparison": { word: "paljon", meaning: "a lot / many", forms: ["paljon · a lot", "enemmän · more"], example: "Minulla on paljon aikaa.", translation: "I have a lot of time.", formSentence: "Tänään on enemmän aikaa.", formTranslation: "There is more time today.", pattern: "Minulla on {amount}." },
-} as const;
-
-export const mockExercises: MockExercise[] = [
-  { mode: "Vocabulary in context", helper: "Say the Finnish word.", prompt: "shop", promptLabel: "SAY IT IN FINNISH", speechLanguage: "en-US", answer: "Tämä on kauppa.", explanation: "Kauppa means “shop”." },
-  { mode: "Transformation", helper: "Use the Finnish form.", prompt: "I am at the shop.", promptLabel: "SAY IT IN FINNISH", speechLanguage: "en-US", cue: "kaupassa · at the shop", answer: "Olen kaupassa.", explanation: "Kaupassa means “at the shop”." },
-  { mode: "Substitution", helper: "Replace the highlighted word.", prompt: "Minä menen kauppaan.", promptLabel: "SENTENCE PATTERN", highlight: "kauppaan", cue: "koulu", answer: "Minä menen kouluun.", explanation: "Koulu becomes kouluun for movement into the school." },
-  { mode: "Sentence completion", helper: "Complete the sentence.", prompt: "Asema on ___.", promptLabel: "FINISH THE SENTENCE", answer: "Asema on lähellä.", explanation: "Lähellä means “nearby” or “close”." },
-  { mode: "Question & answer", helper: "Answer in Finnish.", prompt: "Missä sinä käyt ostoksilla?", promptLabel: "QUESTION", speechText: "Missä sinä käyt ostoksilla?", speechLanguage: "fi-FI", answer: "Käyn kaupassa.", explanation: "Käyn kaupassa means “I go shopping”." },
-  { mode: "Contextual speaking", helper: "Say it naturally.", prompt: "The shop is nearby.", promptLabel: "SAY IT IN FINNISH", speechText: "The shop is nearby.", speechLanguage: "en-US", answer: "Kauppa on lähellä.", explanation: "Kauppa on lähellä means “The shop is nearby”." },
+const defaultVocabularyExercises: MockExercise[] = [
+  { prompt: "Tämä on kauppa.", promptLabel: "SAY THE SENTENCE", speechLanguage: "fi-FI", highlight: "kauppa", caseLabel: "Nominative", translation: "This is a shop." },
+  { prompt: "Olen kaupassa.", promptLabel: "SAY THE SENTENCE", speechLanguage: "fi-FI", highlight: "kaupassa", caseLabel: "Inessive", translation: "I am at the shop." },
+  { prompt: "Menen kauppaan.", promptLabel: "SAY THE SENTENCE", speechLanguage: "fi-FI", highlight: "kauppaan", caseLabel: "Illative", translation: "I am going to the shop." },
 ];
 
+const topicVocabularyExercises: Record<string, MockExercise[]> = {
+  "time-dates-periods": [
+    { prompt: "Aika kuluu nopeasti.", promptLabel: "SAY THE SENTENCE", speechLanguage: "fi-FI", highlight: "Aika", caseLabel: "Nominative", translation: "Time passes quickly." },
+    { prompt: "Minulla on aikaa.", promptLabel: "SAY THE SENTENCE", speechLanguage: "fi-FI", highlight: "aikaa", caseLabel: "Partitive", translation: "I have time." },
+    { prompt: "Puhun ajasta.", promptLabel: "SAY THE SENTENCE", speechLanguage: "fi-FI", highlight: "ajasta", caseLabel: "Elative", translation: "I am talking about time." },
+  ],
+  "people-family": [
+    { prompt: "Ystävä tulee tänään.", promptLabel: "SAY THE SENTENCE", speechLanguage: "fi-FI", highlight: "Ystävä", caseLabel: "Nominative", translation: "A friend is coming today." },
+    { prompt: "Tapaan ystävän.", promptLabel: "SAY THE SENTENCE", speechLanguage: "fi-FI", highlight: "ystävän", caseLabel: "Genitive", translation: "I am meeting a friend." },
+    { prompt: "Puhun ystävästä.", promptLabel: "SAY THE SENTENCE", speechLanguage: "fi-FI", highlight: "ystävästä", caseLabel: "Elative", translation: "I am talking about a friend." },
+  ],
+};
+
 export function getMockExercises(topicId: string): MockExercise[] {
-  if (topicId === "movement-location") return mockExercises;
-  const sample = mockTopicExamples[topicId as keyof typeof mockTopicExamples] ?? mockTopicExamples["movement-location"];
-  return [
-    { mode: "Vocabulary in context", helper: "Say the Finnish word.", prompt: sample.meaning, promptLabel: "SAY IT IN FINNISH", speechLanguage: "en-US", answer: sample.example, explanation: `${sample.word} means “${sample.meaning}”.` },
-    { mode: "Transformation", helper: "Use the Finnish form.", prompt: sample.formTranslation, promptLabel: "SAY IT IN FINNISH", speechLanguage: "en-US", cue: sample.forms[sample.forms.length - 1], answer: sample.formSentence, explanation: `${sample.formSentence} is one natural way to say it.` },
-    { mode: "Sentence pattern", helper: "Use the sentence pattern.", prompt: sample.translation, promptLabel: "SAY IT IN FINNISH", speechLanguage: "en-US", answer: sample.example, explanation: `${sample.example} means “${sample.translation}”.` },
-  ];
+  return topicVocabularyExercises[topicId] ?? defaultVocabularyExercises;
+}
+
+export function needsMockPreparation(topicId: string) {
+  return !Object.prototype.hasOwnProperty.call(topicVocabularyExercises, topicId);
 }
 
 export const initialPreviewProgress = {
