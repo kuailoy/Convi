@@ -1,12 +1,12 @@
-# Convi Database Schema Proposal
+# Convi Database Schema
 
-> Status: initial schema implemented in `backend/app/models` and managed by Alembic migrations.
+> Current implementation: four PostgreSQL tables managed by Alembic. The current database contains Finnish vocabulary items; pattern drill content is deferred.
 
 ## Core Model
 
-For the first version, a `content` row represents one learnable item prepared for one practice mode and one specific method.
+Each row in `contents` represents one learnable item. `content_type` identifies the kind of item, while `practice_mode` and `practice_method` describe how it is practiced. At present, `contents` holds vocabulary items; the type field remains available for future content types.
 
-For example:
+For example, a future sentence-pattern row could look like this:
 
 ```text
 content_type: sentence_pattern
@@ -24,15 +24,15 @@ If the same pattern is later prepared for transformation practice, it can be add
 
 | Practice mode | Example methods | Initial scope |
 | --- | --- | --- |
-| `structured_drill` | `substitution`, `transformation`, `expansion` | `substitution` |
-| `vocabulary_phrase_practice` | `active_recall`, `collocation_practice`, `contextual_use` | Later |
+| `structured_drill` | `substitution`, `transformation`, `expansion` | Deferred; no pattern rows currently |
+| `vocabulary_phrase_practice` | `active_recall`, `collocation_practice`, `contextual_use` | Current vocabulary rows use `contextual_use`; exercise flow is still evolving |
 | `guided_conversation` | `role_play`, `guided_qa` | Later |
 
 Practice context and register are separate from mode and method. For example, `meeting` or `party` is a context; `formal`, `neutral`, or `informal` is a register. The content's target CEFR level helps the app select and sequence items appropriately.
 
 ## Tables
 
-The first version uses four tables: `contents`, `vocabulary_topics`, `exercise_sets`, and `content_progress`.
+The current schema has four tables: `contents`, `vocabulary_topics`, `exercise_sets`, and `content_progress`.
 
 ### `contents`
 
@@ -48,8 +48,8 @@ Stores the learnable item and how it should be practiced.
 | `meaning` | Optional explanation or translation |
 | `language_code` | Language of the learning content, such as `fi` |
 | `meaning_language_code` | Language used by `meaning` (defaults to `en`) |
-| `topic_id` | Optional vocabulary topic; pattern drills can leave it null |
-| `topic_order` | Position within the topic, starting at 1 |
+| `topic_id` | Vocabulary topic; required for `vocabulary_item` rows |
+| `topic_order` | Position of this vocabulary item within its topic, starting at 1; null together with `topic_id` for other content types |
 | `cefr_level` | Optional target level: `A1`, `A2`, `B1`, `B2`, `C1`, or `C2` |
 | `context` | Optional situation, such as `meeting`, `presentation`, `daily_conversation`, or `party` |
 | `register` | Optional `formal`, `neutral`, or `informal` |
@@ -63,23 +63,27 @@ There is no separate `title` field. The app can display `content` directly as th
 
 Stores the ordered bilingual vocabulary topic list (`slug`, English and Finnish names, and `sort_order`). A topic can contain many content rows. The schema keeps meanings optional; the current 949-word import leaves them blank and sets `meaning_language_code` to `en` for later completion.
 
-`content_type`, `practice_mode`, and `practice_method` are controlled values. Define them as enums in the Python application and store them as strings in PostgreSQL. The backend validates that a method is allowed for its mode. This avoids a separate lookup table for static choices and makes it straightforward to add a method. `cefr_level` is also a controlled value; it describes the target level of the content, not the learner's assessed level. Leave it null when the level is not yet known.
+`content_type`, `practice_mode`, and `practice_method` are represented by Python enums and stored as strings in PostgreSQL. The database currently enforces that vocabulary rows have both a topic and an in-topic position, and that those two fields are either both null or both populated. The API does not yet validate allowed mode/method combinations. `cefr_level` describes the target level of the content, not the learner's assessed level; leave it null when the level is not known.
+
+### `GET /api/v1/contents`
+
+Returns active content filtered by target language, with optional mode, method, and level filters. Each response includes `topic_order` and a nested `topic` object containing the topic ID, slug, English and Finnish names, and topic sort order. Results are ordered by topic, then by position within that topic; content without a topic follows.
 
 ### `exercise_sets`
 
-Stores each batch of exercises generated for a content item. One AI call can generate a set of approximately five exercises; the mobile app then presents them one at a time. Keep the generated set so a later review can reuse it without calling the AI again.
+Stores a batch of exercises associated with a content item. This table exists in the schema; generation, validation, and review APIs are not implemented yet.
 
 | Field | Purpose |
 | --- | --- |
 | `id` | UUID primary key |
 | `content_id` | Foreign key to `contents` |
 | `schema_version` | Version of the generated exercise data format |
-| `items` | Ordered JSONB array of exercises, validated for the content's mode and method |
+| `items` | Ordered JSONB array of exercises |
 | `generation_model` | Optional model identifier |
 | `status` | For example, `active` or `archived` |
 | `created_at` | Generation timestamp |
 
-For Substitution Drill, each item could contain a cue, expected sentence, and optional hint. Other modes can use different item shapes. The backend validates each shape using `practice_mode`, `practice_method`, and `schema_version`. The API should return an existing active set for review; generate a new set only when none exists or when the user explicitly requests regeneration. Retain archived sets if they may be useful for later review.
+Exercise item shapes and their validation rules remain to be designed when pattern drills are introduced.
 
 ### `content_progress`
 
@@ -104,7 +108,7 @@ erDiagram
     CONTENTS ||--o| CONTENT_PROGRESS : tracks
 ```
 
-The mobile app controls the current exercise, retry, and next-step flow. It sends progress updates to the backend, which stores the summary in `content_progress`.
+The progress table supports one learner for now. Progress APIs and multi-learner support remain future work.
 
 ## Source Information
 
@@ -120,4 +124,4 @@ If source management becomes a real feature, add a `sources` table and a nullabl
 - Automated material upload and extraction.
 - Separate source and content join tables.
 
-This keeps the initial schema to three tables while leaving clear migration paths for accounts, source tracking, detailed history, and additional practice methods.
+This keeps the current schema small while leaving migration paths for accounts, source tracking, detailed history, and additional practice methods.

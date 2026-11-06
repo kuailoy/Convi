@@ -2,18 +2,28 @@ from collections.abc import Generator
 from uuid import UUID
 
 from fastapi import Depends, FastAPI
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 from sqlalchemy import select
-from sqlalchemy.orm import Session, sessionmaker
+from sqlalchemy.orm import Session, contains_eager, sessionmaker
 
 from app.database import create_database_engine
-from app.models.content import Content
+from app.models.content import Content, VocabularyTopic
 
 
 engine = create_database_engine()
 SessionLocal = sessionmaker(bind=engine)
 
 app = FastAPI()
+
+
+class TopicResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: UUID
+    slug: str
+    name_en: str
+    name_fi: str
+    sort_order: int
 
 
 class ContentResponse(BaseModel):
@@ -26,9 +36,11 @@ class ContentResponse(BaseModel):
     language_code: str
     practice_mode: str
     practice_method: str
+    topic_order: int | None
+    topic: TopicResponse | None
     cefr_level: str | None
     context: str | None
-    register: str | None
+    register_: str | None = Field(default=None, alias="register")
 
 
 def get_db() -> Generator[Session, None, None]:
@@ -52,7 +64,7 @@ def list_contents(
     statement = select(Content).where(
         Content.language_code == language,
         Content.status == "active",
-    )
+    ).outerjoin(Content.topic).options(contains_eager(Content.topic))
 
     if mode is not None:
         statement = statement.where(Content.practice_mode == mode)
@@ -63,6 +75,10 @@ def list_contents(
     if level is not None:
         statement = statement.where(Content.cefr_level == level)
 
-    statement = statement.order_by(Content.created_at.asc())
+    statement = statement.order_by(
+        VocabularyTopic.sort_order.asc().nulls_last(),
+        Content.topic_order.asc().nulls_last(),
+        Content.created_at.asc(),
+    )
 
     return db.scalars(statement).all()

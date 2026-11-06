@@ -4,7 +4,7 @@ from alembic import context
 from dotenv import load_dotenv
 
 from app.database import create_database_engine, get_database_url
-from app.models import Content, ContentProgress, ExerciseSet
+from app.models import Content, ContentProgress, ExerciseSet, VocabularyTopic
 from app.models.base import Base
 
 load_dotenv()

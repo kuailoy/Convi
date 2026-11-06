@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from datetime import datetime
 from typing import Any
 from uuid import UUID, uuid4
@@ -14,7 +16,7 @@ from sqlalchemy import (
     func,
 )
 from sqlalchemy.dialects.postgresql import JSONB
-from sqlalchemy.orm import Mapped, mapped_column
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.models.base import Base
 
@@ -23,6 +25,16 @@ class Content(Base):
     __tablename__ = "contents"
     __table_args__ = (
         CheckConstraint("topic_order IS NULL OR topic_order >= 1", name="ck_contents_topic_order_positive"),
+        CheckConstraint(
+            "(topic_id IS NULL AND topic_order IS NULL) OR "
+            "(topic_id IS NOT NULL AND topic_order IS NOT NULL)",
+            name="ck_contents_topic_fields_together",
+        ),
+        CheckConstraint(
+            "content_type <> 'vocabulary_item' OR "
+            "(topic_id IS NOT NULL AND topic_order IS NOT NULL)",
+            name="ck_vocabulary_items_require_topic",
+        ),
         UniqueConstraint("topic_id", "topic_order", name="uq_contents_topic_order"),
     )
 
@@ -38,6 +50,7 @@ class Content(Base):
         Uuid, ForeignKey("vocabulary_topics.id", ondelete="RESTRICT"), index=True
     )
     topic_order: Mapped[int | None] = mapped_column(Integer)
+    topic: Mapped[VocabularyTopic | None] = relationship()
     cefr_level: Mapped[str | None] = mapped_column(String(2))
     context: Mapped[str | None] = mapped_column(String(100))
     register: Mapped[str | None] = mapped_column(String(20))
