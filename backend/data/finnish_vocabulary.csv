@@ -1,0 +1,950 @@
+﻿word,topic_en,topic_fi,topic_slug,topic_sort_order,topic_order
+eräs,Pronouns and reference,Pronominit,pronouns-and-reference,1,1
+hän,Pronouns and reference,Pronominit,pronouns-and-reference,1,2
+itse,Pronouns and reference,Pronominit,pronouns-and-reference,1,3
+joka,Pronouns and reference,Pronominit,pronouns-and-reference,1,4
+jokainen,Pronouns and reference,Pronominit,pronouns-and-reference,1,5
+jokin,Pronouns and reference,Pronominit,pronouns-and-reference,1,6
+joku,Pronouns and reference,Pronominit,pronouns-and-reference,1,7
+jonkinlainen,Pronouns and reference,Pronominit,pronouns-and-reference,1,8
+kaikki,Pronouns and reference,Pronominit,pronouns-and-reference,1,9
+kuka,Pronouns and reference,Pronominit,pronouns-and-reference,1,10
+kukaan,Pronouns and reference,Pronominit,pronouns-and-reference,1,11
+kumpi,Pronouns and reference,Pronominit,pronouns-and-reference,1,12
+mikä,Pronouns and reference,Pronominit,pronouns-and-reference,1,13
+mikään,Pronouns and reference,Pronominit,pronouns-and-reference,1,14
+minä,Pronouns and reference,Pronominit,pronouns-and-reference,1,15
+molemmat,Pronouns and reference,Pronominit,pronouns-and-reference,1,16
+moni,Pronouns and reference,Pronominit,pronouns-and-reference,1,17
+muu,Pronouns and reference,Pronominit,pronouns-and-reference,1,18
+oma,Pronouns and reference,Pronominit,pronouns-and-reference,1,19
+sama,Pronouns and reference,Pronominit,pronouns-and-reference,1,20
+se,Pronouns and reference,Pronominit,pronouns-and-reference,1,21
+sellainen,Pronouns and reference,Pronominit,pronouns-and-reference,1,22
+sinä,Pronouns and reference,Pronominit,pronouns-and-reference,1,23
+toinen,Pronouns and reference,Pronominit,pronouns-and-reference,1,24
+tuo,Pronouns and reference,Pronominit,pronouns-and-reference,1,25
+tuollainen,Pronouns and reference,Pronominit,pronouns-and-reference,1,26
+tällainen,Pronouns and reference,Pronominit,pronouns-and-reference,1,27
+tämä,Pronouns and reference,Pronominit,pronouns-and-reference,1,28
+usea,Pronouns and reference,Pronominit,pronouns-and-reference,1,29
+aivan,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,1
+edes,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,2
+ei,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,3
+eli,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,4
+enää,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,5
+että,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,6
+hei,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,7
+ihan,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,8
+ja,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,9
+jos,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,10
+joten,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,11
+jotta,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,12
+juuri,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,13
+koska,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,14
+kuin,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,15
+kuinka,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,16
+kuitenkaan,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,17
+kuitenkin,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,18
+kunnes,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,19
+kuten,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,20
+kyllä,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,21
+lisäksi,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,22
+mikäli,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,23
+milloin,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,24
+minne,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,25
+miten,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,26
+mutta,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,27
+muuten,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,28
+myös,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,29
+niin,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,30
+nimittäin,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,31
+näin,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,32
+paitsi,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,33
+päinvastoin,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,34
+samoin,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,35
+sekä,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,36
+siis,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,37
+siksi,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,38
+silti,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,39
+siten,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,40
+taas,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,41
+tai,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,42
+toisaalta,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,43
+toisin,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,44
+tosi,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,45
+vaan,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,46
+vai,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,47
+vaikka,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,48
+vain,Questions and connectors,Kysymykset ja yhdistäjät,questions-and-connectors,2,49
+esiin,Relational words,Suhdesanat,relational-words,3,1
+esille,Relational words,Suhdesanat,relational-words,3,2
+ilman,Relational words,Suhdesanat,relational-words,3,3
+jälkeen,Relational words,Suhdesanat,relational-words,3,4
+kanssa,Relational words,Suhdesanat,relational-words,3,5
+koko,Relational words,Suhdesanat,relational-words,3,6
+kun,Relational words,Suhdesanat,relational-words,3,7
+mukaan,Relational words,Suhdesanat,relational-words,3,8
+muualla,Relational words,Suhdesanat,relational-words,3,9
+myötä,Relational words,Suhdesanat,relational-words,3,10
+takia,Relational words,Suhdesanat,relational-words,3,11
+varten,Relational words,Suhdesanat,relational-words,3,12
+vuoksi,Relational words,Suhdesanat,relational-words,3,13
+välillä,Relational words,Suhdesanat,relational-words,3,14
+yli,Relational words,Suhdesanat,relational-words,3,15
+aamu,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,1
+aika,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,2
+eilen,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,3
+hetki,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,4
+huomenna,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,5
+ilta,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,6
+joulu,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,7
+kausi,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,8
+kello,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,9
+kuukausi,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,10
+lauantai,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,11
+minuutti,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,12
+nyt,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,13
+perjantai,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,14
+päivä,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,15
+sunnuntai,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,16
+tunti,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,17
+tänään,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,18
+viikko,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,19
+vuosi,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,20
+yö,"Time, dates and periods",Aika ja päivät,time-dates-and-periods,4,21
+aiemmin,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,1
+aikaisemmin,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,2
+aina,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,3
+alku,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,4
+edelleen,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,5
+ennen,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,6
+ensimmäinen,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,7
+ensin,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,8
+harvoin,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,9
+heti,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,10
+ikinä,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,11
+jatkuvasti,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,12
+jo,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,13
+jolloin,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,14
+joskus,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,15
+jälleen,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,16
+kauan,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,17
+kerta,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,18
+kestää,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,19
+kohta,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,20
+kolmas,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,21
+koskaan,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,22
+loppu,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,23
+myöhemmin,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,24
+nykyään,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,25
+pian,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,26
+pitkään,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,27
+päättyä,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,28
+seuraava,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,29
+silloin,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,30
+sitten,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,31
+tuleva,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,32
+tulevaisuus,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,33
+tällöin,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,34
+usein,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,35
+uudelleen,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,36
+uudestaan,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,37
+vaihe,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,38
+vasta,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,39
+vielä,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,40
+vieläkin,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,41
+viime,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,42
+viimeinen,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,43
+viimeksi,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,44
+yleensä,Sequence and frequency,Aikajärjestys,sequence-and-frequency,5,45
+aste,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,1
+enemmän,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,2
+enempää,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,3
+eniten,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,4
+erä,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,5
+hieman,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,6
+jopa,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,7
+kaksi,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,8
+kokonaan,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,9
+kolme,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,10
+kuusi,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,11
+kymmenen,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,12
+liian,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,13
+liikaa,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,14
+luku,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,15
+lähes,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,16
+melkein,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,17
+melko,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,18
+miljoona,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,19
+monta,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,20
+muutama,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,21
+määrä,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,22
+neljä,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,23
+noin,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,24
+numero,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,25
+osa,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,26
+paljo,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,27
+paljon,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,28
+pari,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,29
+piste,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,30
+prosentti,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,31
+puoli,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,32
+sata,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,33
+tarpeeksi,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,34
+tuhat,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,35
+täysin,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,36
+verran,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,37
+viisi,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,38
+vähemmän,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,39
+vähintään,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,40
+vähän,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,41
+yhtä,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,42
+yhtään,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,43
+yksi,"Numbers, quantity and comparison",Määrä ja vertailu,numbers-quantity-and-comparison,6,44
+alas,Place and direction,Paikka ja suunta,place-and-direction,7,1
+alla,Place and direction,Paikka ja suunta,place-and-direction,7,2
+alle,Place and direction,Paikka ja suunta,place-and-direction,7,3
+asema,Place and direction,Paikka ja suunta,place-and-direction,7,4
+asti,Place and direction,Paikka ja suunta,place-and-direction,7,5
+auki,Place and direction,Paikka ja suunta,place-and-direction,7,6
+edessä,Place and direction,Paikka ja suunta,place-and-direction,7,7
+eteen,Place and direction,Paikka ja suunta,place-and-direction,7,8
+eteenpäin,Place and direction,Paikka ja suunta,place-and-direction,7,9
+irti,Place and direction,Paikka ja suunta,place-and-direction,7,10
+kaukana,Place and direction,Paikka ja suunta,place-and-direction,7,11
+keskellä,Place and direction,Paikka ja suunta,place-and-direction,7,12
+kesken,Place and direction,Paikka ja suunta,place-and-direction,7,13
+kiinni,Place and direction,Paikka ja suunta,place-and-direction,7,14
+kohde,Place and direction,Paikka ja suunta,place-and-direction,7,15
+kohti,Place and direction,Paikka ja suunta,place-and-direction,7,16
+laita,Place and direction,Paikka ja suunta,place-and-direction,7,17
+lähellä,Place and direction,Paikka ja suunta,place-and-direction,7,18
+läpi,Place and direction,Paikka ja suunta,place-and-direction,7,19
+mukana,Place and direction,Paikka ja suunta,place-and-direction,7,20
+ohi,Place and direction,Paikka ja suunta,place-and-direction,7,21
+paikka,Place and direction,Paikka ja suunta,place-and-direction,7,22
+pois,Place and direction,Paikka ja suunta,place-and-direction,7,23
+poissa,Place and direction,Paikka ja suunta,place-and-direction,7,24
+puolesta,Place and direction,Paikka ja suunta,place-and-direction,7,25
+raja,Place and direction,Paikka ja suunta,place-and-direction,7,26
+saakka,Place and direction,Paikka ja suunta,place-and-direction,7,27
+siellä,Place and direction,Paikka ja suunta,place-and-direction,7,28
+sieltä,Place and direction,Paikka ja suunta,place-and-direction,7,29
+sinne,Place and direction,Paikka ja suunta,place-and-direction,7,30
+sisään,Place and direction,Paikka ja suunta,place-and-direction,7,31
+suunta,Place and direction,Paikka ja suunta,place-and-direction,7,32
+takaisin,Place and direction,Paikka ja suunta,place-and-direction,7,33
+takana,Place and direction,Paikka ja suunta,place-and-direction,7,34
+tuolla,Place and direction,Paikka ja suunta,place-and-direction,7,35
+tuossa,Place and direction,Paikka ja suunta,place-and-direction,7,36
+tänne,Place and direction,Paikka ja suunta,place-and-direction,7,37
+täällä,Place and direction,Paikka ja suunta,place-and-direction,7,38
+täältä,Place and direction,Paikka ja suunta,place-and-direction,7,39
+ulkona,Place and direction,Paikka ja suunta,place-and-direction,7,40
+ulos,Place and direction,Paikka ja suunta,place-and-direction,7,41
+vastaan,Place and direction,Paikka ja suunta,place-and-direction,7,42
+väli,Place and direction,Paikka ja suunta,place-and-direction,7,43
+ylös,Place and direction,Paikka ja suunta,place-and-direction,7,44
+ympäri,Place and direction,Paikka ja suunta,place-and-direction,7,45
+aikoa,Ability and necessity,Kyky ja pakko,ability-and-necessity,8,1
+jaksaa,Ability and necessity,Kyky ja pakko,ability-and-necessity,8,2
+kannattaa,Ability and necessity,Kyky ja pakko,ability-and-necessity,8,3
+koittaa,Ability and necessity,Kyky ja pakko,ability-and-necessity,8,4
+olla,Ability and necessity,Kyky ja pakko,ability-and-necessity,8,5
+osata,Ability and necessity,Kyky ja pakko,ability-and-necessity,8,6
+pakko,Ability and necessity,Kyky ja pakko,ability-and-necessity,8,7
+pystyä,Ability and necessity,Kyky ja pakko,ability-and-necessity,8,8
+riittää,Ability and necessity,Kyky ja pakko,ability-and-necessity,8,9
+saattaa,Ability and necessity,Kyky ja pakko,ability-and-necessity,8,10
+taitaa,Ability and necessity,Kyky ja pakko,ability-and-necessity,8,11
+täytyä,Ability and necessity,Kyky ja pakko,ability-and-necessity,8,12
+uskaltaa,Ability and necessity,Kyky ja pakko,ability-and-necessity,8,13
+viitsiä,Ability and necessity,Kyky ja pakko,ability-and-necessity,8,14
+voida,Ability and necessity,Kyky ja pakko,ability-and-necessity,8,15
+antaa,Everyday verbs,Arjen verbit,everyday-verbs,9,1
+auttaa,Everyday verbs,Arjen verbit,everyday-verbs,9,2
+avata,Everyday verbs,Arjen verbit,everyday-verbs,9,3
+etsiä,Everyday verbs,Arjen verbit,everyday-verbs,9,4
+hakea,Everyday verbs,Arjen verbit,everyday-verbs,9,5
+hoitaa,Everyday verbs,Arjen verbit,everyday-verbs,9,6
+järjestää,Everyday verbs,Arjen verbit,everyday-verbs,9,7
+jättää,Everyday verbs,Arjen verbit,everyday-verbs,9,8
+käydä,Everyday verbs,Arjen verbit,everyday-verbs,9,9
+käyttää,Everyday verbs,Arjen verbit,everyday-verbs,9,10
+laittaa,Everyday verbs,Arjen verbit,everyday-verbs,9,11
+laskea,Everyday verbs,Arjen verbit,everyday-verbs,9,12
+löytyä,Everyday verbs,Arjen verbit,everyday-verbs,9,13
+löytää,Everyday verbs,Arjen verbit,everyday-verbs,9,14
+odottaa,Everyday verbs,Arjen verbit,everyday-verbs,9,15
+ostaa,Everyday verbs,Arjen verbit,everyday-verbs,9,16
+ottaa,Everyday verbs,Arjen verbit,everyday-verbs,9,17
+pitää,Everyday verbs,Arjen verbit,everyday-verbs,9,18
+saada,Everyday verbs,Arjen verbit,everyday-verbs,9,19
+siirtää,Everyday verbs,Arjen verbit,everyday-verbs,9,20
+tarvita,Everyday verbs,Arjen verbit,everyday-verbs,9,21
+tehdä,Everyday verbs,Arjen verbit,everyday-verbs,9,22
+tuoda,Everyday verbs,Arjen verbit,everyday-verbs,9,23
+varata,Everyday verbs,Arjen verbit,everyday-verbs,9,24
+viedä,Everyday verbs,Arjen verbit,everyday-verbs,9,25
+erottaa,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,1
+heittää,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,2
+iskeä,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,3
+kantaa,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,4
+kiertää,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,5
+kääntää,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,6
+leikata,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,7
+lyödä,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,8
+nostaa,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,9
+osua,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,10
+painaa,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,11
+palauttaa,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,12
+panna,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,13
+pistää,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,14
+poistaa,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,15
+polttaa,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,16
+päästää,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,17
+sulkea,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,18
+täyttää,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,19
+vetää,Handling objects and physical actions,Esineiden käsittely,handling-objects-and-physical-actions,10,20
+ajaa,Movement and travel,Liikkuminen,movement-and-travel,11,1
+juosta,Movement and travel,Liikkuminen,movement-and-travel,11,2
+jäädä,Movement and travel,Liikkuminen,movement-and-travel,11,3
+kaatua,Movement and travel,Liikkuminen,movement-and-travel,11,4
+kiire,Movement and travel,Liikkuminen,movement-and-travel,11,5
+kohdata,Movement and travel,Liikkuminen,movement-and-travel,11,6
+kulkea,Movement and travel,Liikkuminen,movement-and-travel,11,7
+kävellä,Movement and travel,Liikkuminen,movement-and-travel,11,8
+käynti,Movement and travel,Liikkuminen,movement-and-travel,11,9
+kääntyä,Movement and travel,Liikkuminen,movement-and-travel,11,10
+lentää,Movement and travel,Liikkuminen,movement-and-travel,11,11
+liikkua,Movement and travel,Liikkuminen,movement-and-travel,11,12
+lähteä,Movement and travel,Liikkuminen,movement-and-travel,11,13
+lähtö,Movement and travel,Liikkuminen,movement-and-travel,11,14
+matka,Movement and travel,Liikkuminen,movement-and-travel,11,15
+mennä,Movement and travel,Liikkuminen,movement-and-travel,11,16
+meno,Movement and travel,Liikkuminen,movement-and-travel,11,17
+nousta,Movement and travel,Liikkuminen,movement-and-travel,11,18
+ohjata,Movement and travel,Liikkuminen,movement-and-travel,11,19
+palata,Movement and travel,Liikkuminen,movement-and-travel,11,20
+poistua,Movement and travel,Liikkuminen,movement-and-travel,11,21
+pudota,Movement and travel,Liikkuminen,movement-and-travel,11,22
+pysyä,Movement and travel,Liikkuminen,movement-and-travel,11,23
+pyöriä,Movement and travel,Liikkuminen,movement-and-travel,11,24
+päästä,Movement and travel,Liikkuminen,movement-and-travel,11,25
+saapua,Movement and travel,Liikkuminen,movement-and-travel,11,26
+siirtyä,Movement and travel,Liikkuminen,movement-and-travel,11,27
+tulla,Movement and travel,Liikkuminen,movement-and-travel,11,28
+viettää,Movement and travel,Liikkuminen,movement-and-travel,11,29
+huutaa,Speaking and conversation,Puhuminen,speaking-and-conversation,12,1
+jutella,Speaking and conversation,Puhuminen,speaking-and-conversation,12,2
+kertoa,Speaking and conversation,Puhuminen,speaking-and-conversation,12,3
+keskustella,Speaking and conversation,Puhuminen,speaking-and-conversation,12,4
+kiitos,Speaking and conversation,Puhuminen,speaking-and-conversation,12,5
+kiittää,Speaking and conversation,Puhuminen,speaking-and-conversation,12,6
+kuulla,Speaking and conversation,Puhuminen,speaking-and-conversation,12,7
+kuunnella,Speaking and conversation,Puhuminen,speaking-and-conversation,12,8
+kysymys,Speaking and conversation,Puhuminen,speaking-and-conversation,12,9
+kysyä,Speaking and conversation,Puhuminen,speaking-and-conversation,12,10
+laulaa,Speaking and conversation,Puhuminen,speaking-and-conversation,12,11
+laulu,Speaking and conversation,Puhuminen,speaking-and-conversation,12,12
+puhe,Speaking and conversation,Puhuminen,speaking-and-conversation,12,13
+puhua,Speaking and conversation,Puhuminen,speaking-and-conversation,12,14
+sana,Speaking and conversation,Puhuminen,speaking-and-conversation,12,15
+sanoa,Speaking and conversation,Puhuminen,speaking-and-conversation,12,16
+soittaa,Speaking and conversation,Puhuminen,speaking-and-conversation,12,17
+vastata,Speaking and conversation,Puhuminen,speaking-and-conversation,12,18
+vastaus,Speaking and conversation,Puhuminen,speaking-and-conversation,12,19
+ääni,Speaking and conversation,Puhuminen,speaking-and-conversation,12,20
+esitellä,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,1
+esittää,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,2
+ilmoittaa,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,3
+juttu,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,4
+kirje,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,5
+kirjoittaa,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,6
+lähettää,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,7
+merkitä,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,8
+muistuttaa,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,9
+nimi,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,10
+osoittaa,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,11
+paljastaa,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,12
+sanoma,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,13
+sisältää,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,14
+tarkistaa,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,15
+vahvistaa,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,16
+viesti,Messages and writing,Viestit ja kirjoittaminen,messages-and-writing,13,17
+ehdottaa,Requests and agreements,Pyynnöt ja sopiminen,requests-and-agreements,14,1
+kelvata,Requests and agreements,Pyynnöt ja sopiminen,requests-and-agreements,14,2
+luvata,Requests and agreements,Pyynnöt ja sopiminen,requests-and-agreements,14,3
+myöntää,Requests and agreements,Pyynnöt ja sopiminen,requests-and-agreements,14,4
+pakottaa,Requests and agreements,Pyynnöt ja sopiminen,requests-and-agreements,14,5
+pyytää,Requests and agreements,Pyynnöt ja sopiminen,requests-and-agreements,14,6
+selittää,Requests and agreements,Pyynnöt ja sopiminen,requests-and-agreements,14,7
+suostua,Requests and agreements,Pyynnöt ja sopiminen,requests-and-agreements,14,8
+todistaa,Requests and agreements,Pyynnöt ja sopiminen,requests-and-agreements,14,9
+todiste,Requests and agreements,Pyynnöt ja sopiminen,requests-and-agreements,14,10
+valehdella,Requests and agreements,Pyynnöt ja sopiminen,requests-and-agreements,14,11
+vastustaa,Requests and agreements,Pyynnöt ja sopiminen,requests-and-agreements,14,12
+väittää,Requests and agreements,Pyynnöt ja sopiminen,requests-and-agreements,14,13
+herättää,Senses and perception,Aistit ja havainnot,senses-and-perception,15,1
+huomio,Senses and perception,Aistit ja havainnot,senses-and-perception,15,2
+ilmestyä,Senses and perception,Aistit ja havainnot,senses-and-perception,15,3
+jälki,Senses and perception,Aistit ja havainnot,senses-and-perception,15,4
+katsoa,Senses and perception,Aistit ja havainnot,senses-and-perception,15,5
+kuulostaa,Senses and perception,Aistit ja havainnot,senses-and-perception,15,6
+merkki,Senses and perception,Aistit ja havainnot,senses-and-perception,15,7
+nähdä,Senses and perception,Aistit ja havainnot,senses-and-perception,15,8
+näkyä,Senses and perception,Aistit ja havainnot,senses-and-perception,15,9
+näyttää,Senses and perception,Aistit ja havainnot,senses-and-perception,15,10
+seurata,Senses and perception,Aistit ja havainnot,senses-and-perception,15,11
+tuntea,Senses and perception,Aistit ja havainnot,senses-and-perception,15,12
+tuntua,Senses and perception,Aistit ja havainnot,senses-and-perception,15,13
+ajatella,Thinking and understanding,Ajattelu,thinking-and-understanding,16,1
+ajatus,Thinking and understanding,Ajattelu,thinking-and-understanding,16,2
+arvata,Thinking and understanding,Ajattelu,thinking-and-understanding,16,3
+epäillä,Thinking and understanding,Ajattelu,thinking-and-understanding,16,4
+huomata,Thinking and understanding,Ajattelu,thinking-and-understanding,16,5
+idea,Thinking and understanding,Ajattelu,thinking-and-understanding,16,6
+järki,Thinking and understanding,Ajattelu,thinking-and-understanding,16,7
+keksiä,Thinking and understanding,Ajattelu,thinking-and-understanding,16,8
+kokemus,Thinking and understanding,Ajattelu,thinking-and-understanding,16,9
+kuvitella,Thinking and understanding,Ajattelu,thinking-and-understanding,16,10
+käsittää,Thinking and understanding,Ajattelu,thinking-and-understanding,16,11
+luulla,Thinking and understanding,Ajattelu,thinking-and-understanding,16,12
+merkitys,Thinking and understanding,Ajattelu,thinking-and-understanding,16,13
+mieli,Thinking and understanding,Ajattelu,thinking-and-understanding,16,14
+miettiä,Thinking and understanding,Ajattelu,thinking-and-understanding,16,15
+muistaa,Thinking and understanding,Ajattelu,thinking-and-understanding,16,16
+olettaa,Thinking and understanding,Ajattelu,thinking-and-understanding,16,17
+oppi,Thinking and understanding,Ajattelu,thinking-and-understanding,16,18
+selvittää,Thinking and understanding,Ajattelu,thinking-and-understanding,16,19
+tajuta,Thinking and understanding,Ajattelu,thinking-and-understanding,16,20
+tarkoittaa,Thinking and understanding,Ajattelu,thinking-and-understanding,16,21
+tieto,Thinking and understanding,Ajattelu,thinking-and-understanding,16,22
+tietää,Thinking and understanding,Ajattelu,thinking-and-understanding,16,23
+tunnistaa,Thinking and understanding,Ajattelu,thinking-and-understanding,16,24
+tutkia,Thinking and understanding,Ajattelu,thinking-and-understanding,16,25
+unohtaa,Thinking and understanding,Ajattelu,thinking-and-understanding,16,26
+uskoa,Thinking and understanding,Ajattelu,thinking-and-understanding,16,27
+verrata,Thinking and understanding,Ajattelu,thinking-and-understanding,16,28
+ymmärtää,Thinking and understanding,Ajattelu,thinking-and-understanding,16,29
+avioliitto,People and family,Ihmiset ja perhe,people-and-family,17,1
+elämä,People and family,Ihmiset ja perhe,people-and-family,17,2
+elää,People and family,Ihmiset ja perhe,people-and-family,17,3
+henkilö,People and family,Ihmiset ja perhe,people-and-family,17,4
+herra,People and family,Ihmiset ja perhe,people-and-family,17,5
+ihminen,People and family,Ihmiset ja perhe,people-and-family,17,6
+ikä,People and family,Ihmiset ja perhe,people-and-family,17,7
+isä,People and family,Ihmiset ja perhe,people-and-family,17,8
+joukko,People and family,Ihmiset ja perhe,people-and-family,17,9
+jäsen,People and family,Ihmiset ja perhe,people-and-family,17,10
+kansa,People and family,Ihmiset ja perhe,people-and-family,17,11
+kaveri,People and family,Ihmiset ja perhe,people-and-family,17,12
+kutsua,People and family,Ihmiset ja perhe,people-and-family,17,13
+kuulua,People and family,Ihmiset ja perhe,people-and-family,17,14
+lapsi,People and family,Ihmiset ja perhe,people-and-family,17,15
+liittyä,People and family,Ihmiset ja perhe,people-and-family,17,16
+mies,People and family,Ihmiset ja perhe,people-and-family,17,17
+nainen,People and family,Ihmiset ja perhe,people-and-family,17,18
+nuori,People and family,Ihmiset ja perhe,people-and-family,17,19
+perhe,People and family,Ihmiset ja perhe,people-and-family,17,20
+poika,People and family,Ihmiset ja perhe,people-and-family,17,21
+tavata,People and family,Ihmiset ja perhe,people-and-family,17,22
+tutustua,People and family,Ihmiset ja perhe,people-and-family,17,23
+tyttö,People and family,Ihmiset ja perhe,people-and-family,17,24
+tytär,People and family,Ihmiset ja perhe,people-and-family,17,25
+vaimo,People and family,Ihmiset ja perhe,people-and-family,17,26
+vanha,People and family,Ihmiset ja perhe,people-and-family,17,27
+vanhempi,People and family,Ihmiset ja perhe,people-and-family,17,28
+vanhus,People and family,Ihmiset ja perhe,people-and-family,17,29
+vauva,People and family,Ihmiset ja perhe,people-and-family,17,30
+veli,People and family,Ihmiset ja perhe,people-and-family,17,31
+vieras,People and family,Ihmiset ja perhe,people-and-family,17,32
+väki,People and family,Ihmiset ja perhe,people-and-family,17,33
+ystävä,People and family,Ihmiset ja perhe,people-and-family,17,34
+äiti,People and family,Ihmiset ja perhe,people-and-family,17,35
+asiakas,Jobs and social roles,Ammatit ja roolit,jobs-and-social-roles,18,1
+eläke,Jobs and social roles,Ammatit ja roolit,jobs-and-social-roles,18,2
+johtaja,Jobs and social roles,Ammatit ja roolit,jobs-and-social-roles,18,3
+kuningas,Jobs and social roles,Ammatit ja roolit,jobs-and-social-roles,18,4
+lääkäri,Jobs and social roles,Ammatit ja roolit,jobs-and-social-roles,18,5
+omistaja,Jobs and social roles,Ammatit ja roolit,jobs-and-social-roles,18,6
+opettaja,Jobs and social roles,Ammatit ja roolit,jobs-and-social-roles,18,7
+pappi,Jobs and social roles,Ammatit ja roolit,jobs-and-social-roles,18,8
+poliisi,Jobs and social roles,Ammatit ja roolit,jobs-and-social-roles,18,9
+potilas,Jobs and social roles,Ammatit ja roolit,jobs-and-social-roles,18,10
+presidentti,Jobs and social roles,Ammatit ja roolit,jobs-and-social-roles,18,11
+toimittaja,Jobs and social roles,Ammatit ja roolit,jobs-and-social-roles,18,12
+apu,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,1
+arvostaa,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,2
+halu,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,3
+haluta,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,4
+huolehtia,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,5
+huoli,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,6
+ikävä,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,7
+ilo,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,8
+itkeä,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,9
+kaivata,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,10
+kasvattaa,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,11
+kiinnostaa,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,12
+koskea,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,13
+lahja,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,14
+loukata,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,15
+mieluummin,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,16
+nauraa,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,17
+nauttia,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,18
+onnellinen,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,19
+onni,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,20
+pelko,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,21
+puuttua,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,22
+rakas,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,23
+rakastaa,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,24
+rakkaus,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,25
+seksi,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,26
+suhde,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,27
+suku,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,28
+tahto,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,29
+tahtoa,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,30
+tarve,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,31
+toivo,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,32
+toivoa,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,33
+tottua,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,34
+tunne,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,35
+tuttu,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,36
+tyyppi,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,37
+tyytyväinen,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,38
+usko,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,39
+vaivata,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,40
+viha,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,41
+vihata,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,42
+välittää,Feelings and relationships,Tunteet ja suhteet,feelings-and-relationships,19,43
+asua,Home and housing,Koti,home-and-housing,20,1
+asunto,Home and housing,Koti,home-and-housing,20,2
+herätä,Home and housing,Koti,home-and-housing,20,3
+huone,Home and housing,Koti,home-and-housing,20,4
+ikkuna,Home and housing,Koti,home-and-housing,20,5
+istua,Home and housing,Koti,home-and-housing,20,6
+koti,Home and housing,Koti,home-and-housing,20,7
+lattia,Home and housing,Koti,home-and-housing,20,8
+nukkua,Home and housing,Koti,home-and-housing,20,9
+olo,Home and housing,Koti,home-and-housing,20,10
+ovi,Home and housing,Koti,home-and-housing,20,11
+piha,Home and housing,Koti,home-and-housing,20,12
+pöytä,Home and housing,Koti,home-and-housing,20,13
+seisoa,Home and housing,Koti,home-and-housing,20,14
+sänky,Home and housing,Koti,home-and-housing,20,15
+talo,Home and housing,Koti,home-and-housing,20,16
+tavara,Home and housing,Koti,home-and-housing,20,17
+tila,Home and housing,Koti,home-and-housing,20,18
+uni,Home and housing,Koti,home-and-housing,20,19
+vaate,Home and housing,Koti,home-and-housing,20,20
+juoda,Food and drink,Ruoka ja juoma,food-and-drink,21,1
+kahvi,Food and drink,Ruoka ja juoma,food-and-drink,21,2
+kala,Food and drink,Ruoka ja juoma,food-and-drink,21,3
+liha,Food and drink,Ruoka ja juoma,food-and-drink,21,4
+ruoka,Food and drink,Ruoka ja juoma,food-and-drink,21,5
+syödä,Food and drink,Ruoka ja juoma,food-and-drink,21,6
+tee,Food and drink,Ruoka ja juoma,food-and-drink,21,7
+vesi,Food and drink,Ruoka ja juoma,food-and-drink,21,8
+voi,Food and drink,Ruoka ja juoma,food-and-drink,21,9
+energia,Body and health,Keho ja terveys,body-and-health,22,1
+hammas,Body and health,Keho ja terveys,body-and-health,22,2
+henki,Body and health,Keho ja terveys,body-and-health,22,3
+hius,Body and health,Keho ja terveys,body-and-health,22,4
+jalka,Body and health,Keho ja terveys,body-and-health,22,5
+kunto,Body and health,Keho ja terveys,body-and-health,22,6
+kuolema,Body and health,Keho ja terveys,body-and-health,22,7
+kuolla,Body and health,Keho ja terveys,body-and-health,22,8
+käsi,Body and health,Keho ja terveys,body-and-health,22,9
+parantaa,Body and health,Keho ja terveys,body-and-health,22,10
+pää,Body and health,Keho ja terveys,body-and-health,22,11
+ruumis,Body and health,Keho ja terveys,body-and-health,22,12
+sairaala,Body and health,Keho ja terveys,body-and-health,22,13
+sairas,Body and health,Keho ja terveys,body-and-health,22,14
+selkä,Body and health,Keho ja terveys,body-and-health,22,15
+silmä,Body and health,Keho ja terveys,body-and-health,22,16
+suu,Body and health,Keho ja terveys,body-and-health,22,17
+sydän,Body and health,Keho ja terveys,body-and-health,22,18
+tappaa,Body and health,Keho ja terveys,body-and-health,22,19
+terve,Body and health,Keho ja terveys,body-and-health,22,20
+turpa,Body and health,Keho ja terveys,body-and-health,22,21
+vahinko,Body and health,Keho ja terveys,body-and-health,22,22
+veri,Body and health,Keho ja terveys,body-and-health,22,23
+englanti,Study and languages,Opiskelu ja kielet,study-and-languages,23,1
+esimerkki,Study and languages,Opiskelu ja kielet,study-and-languages,23,2
+historia,Study and languages,Opiskelu ja kielet,study-and-languages,23,3
+kieli,Study and languages,Opiskelu ja kielet,study-and-languages,23,4
+kirja,Study and languages,Opiskelu ja kielet,study-and-languages,23,5
+koulu,Study and languages,Opiskelu ja kielet,study-and-languages,23,6
+lukea,Study and languages,Opiskelu ja kielet,study-and-languages,23,7
+luokka,Study and languages,Opiskelu ja kielet,study-and-languages,23,8
+opettaa,Study and languages,Opiskelu ja kielet,study-and-languages,23,9
+oppia,Study and languages,Opiskelu ja kielet,study-and-languages,23,10
+ranska,Study and languages,Opiskelu ja kielet,study-and-languages,23,11
+saksa,Study and languages,Opiskelu ja kielet,study-and-languages,23,12
+sivu,Study and languages,Opiskelu ja kielet,study-and-languages,23,13
+tehtävä,Study and languages,Opiskelu ja kielet,study-and-languages,23,14
+ala,Work and business,Työ ja yritykset,work-and-business,24,1
+aloittaa,Work and business,Työ ja yritykset,work-and-business,24,2
+ansio,Work and business,Työ ja yritykset,work-and-business,24,3
+hallita,Work and business,Työ ja yritykset,work-and-business,24,4
+hankkia,Work and business,Työ ja yritykset,work-and-business,24,5
+homma,Work and business,Työ ja yritykset,work-and-business,24,6
+jakaa,Work and business,Työ ja yritykset,work-and-business,24,7
+johtaa,Work and business,Työ ja yritykset,work-and-business,24,8
+keskittyä,Work and business,Työ ja yritykset,work-and-business,24,9
+kokous,Work and business,Työ ja yritykset,work-and-business,24,10
+liike,Work and business,Työ ja yritykset,work-and-business,24,11
+lista,Work and business,Työ ja yritykset,work-and-business,24,12
+lisätä,Work and business,Työ ja yritykset,work-and-business,24,13
+luoda,Work and business,Työ ja yritykset,work-and-business,24,14
+osasto,Work and business,Työ ja yritykset,work-and-business,24,15
+palkka,Work and business,Työ ja yritykset,work-and-business,24,16
+palvelu,Work and business,Työ ja yritykset,work-and-business,24,17
+pärjätä,Work and business,Työ ja yritykset,work-and-business,24,18
+rakentaa,Work and business,Työ ja yritykset,work-and-business,24,19
+ryhtyä,Work and business,Työ ja yritykset,work-and-business,24,20
+suunnitella,Work and business,Työ ja yritykset,work-and-business,24,21
+suunnitelma,Work and business,Työ ja yritykset,work-and-business,24,22
+tarjota,Work and business,Työ ja yritykset,work-and-business,24,23
+tekeminen,Work and business,Työ ja yritykset,work-and-business,24,24
+toimi,Work and business,Työ ja yritykset,work-and-business,24,25
+toimia,Work and business,Työ ja yritykset,work-and-business,24,26
+toiminta,Work and business,Työ ja yritykset,work-and-business,24,27
+tulo,Work and business,Työ ja yritykset,work-and-business,24,28
+tuottaa,Work and business,Työ ja yritykset,work-and-business,24,29
+työ,Work and business,Työ ja yritykset,work-and-business,24,30
+työskennellä,Work and business,Työ ja yritykset,work-and-business,24,31
+vaihtaa,Work and business,Työ ja yritykset,work-and-business,24,32
+yhtiö,Work and business,Työ ja yritykset,work-and-business,24,33
+yritys,Work and business,Työ ja yritykset,work-and-business,24,34
+ansaita,Money and shopping,Raha ja ostokset,money-and-shopping,25,1
+hinta,Money and shopping,Raha ja ostokset,money-and-shopping,25,2
+hyöty,Money and shopping,Raha ja ostokset,money-and-shopping,25,3
+ilmainen,Money and shopping,Raha ja ostokset,money-and-shopping,25,4
+kallis,Money and shopping,Raha ja ostokset,money-and-shopping,25,5
+kauppa,Money and shopping,Raha ja ostokset,money-and-shopping,25,6
+kulta,Money and shopping,Raha ja ostokset,money-and-shopping,25,7
+maksaa,Money and shopping,Raha ja ostokset,money-and-shopping,25,8
+myydä,Money and shopping,Raha ja ostokset,money-and-shopping,25,9
+omistaa,Money and shopping,Raha ja ostokset,money-and-shopping,25,10
+pankki,Money and shopping,Raha ja ostokset,money-and-shopping,25,11
+raha,Money and shopping,Raha ja ostokset,money-and-shopping,25,12
+rikas,Money and shopping,Raha ja ostokset,money-and-shopping,25,13
+säästää,Money and shopping,Raha ja ostokset,money-and-shopping,25,14
+vara,Money and shopping,Raha ja ostokset,money-and-shopping,25,15
+velka,Money and shopping,Raha ja ostokset,money-and-shopping,25,16
+armeija,Society and law,Yhteiskunta ja laki,society-and-law,26,1
+ase,Society and law,Yhteiskunta ja laki,society-and-law,26,2
+hallitus,Society and law,Yhteiskunta ja laki,society-and-law,26,3
+kieltää,Society and law,Yhteiskunta ja laki,society-and-law,26,4
+käskeä,Society and law,Yhteiskunta ja laki,society-and-law,26,5
+käsky,Society and law,Yhteiskunta ja laki,society-and-law,26,6
+laki,Society and law,Yhteiskunta ja laki,society-and-law,26,7
+lupa,Society and law,Yhteiskunta ja laki,society-and-law,26,8
+maa,Society and law,Yhteiskunta ja laki,society-and-law,26,9
+määrätä,Society and law,Yhteiskunta ja laki,society-and-law,26,10
+oikeus,Society and law,Yhteiskunta ja laki,society-and-law,26,11
+rikos,Society and law,Yhteiskunta ja laki,society-and-law,26,12
+ryhmä,Society and law,Yhteiskunta ja laki,society-and-law,26,13
+sallia,Society and law,Yhteiskunta ja laki,society-and-law,26,14
+sopimus,Society and law,Yhteiskunta ja laki,society-and-law,26,15
+sota,Society and law,Yhteiskunta ja laki,society-and-law,26,16
+sääntö,Society and law,Yhteiskunta ja laki,society-and-law,26,17
+taistelu,Society and law,Yhteiskunta ja laki,society-and-law,26,18
+vaatia,Society and law,Yhteiskunta ja laki,society-and-law,26,19
+valta,Society and law,Yhteiskunta ja laki,society-and-law,26,20
+valtio,Society and law,Yhteiskunta ja laki,society-and-law,26,21
+vapaus,Society and law,Yhteiskunta ja laki,society-and-law,26,22
+vastuu,Society and law,Yhteiskunta ja laki,society-and-law,26,23
+yhdistää,Society and law,Yhteiskunta ja laki,society-and-law,26,24
+yhteistyö,Society and law,Yhteiskunta ja laki,society-and-law,26,25
+yhteys,Society and law,Yhteiskunta ja laki,society-and-law,26,26
+alue,Places and buildings,Paikat ja rakennukset,places-and-buildings,27,1
+baari,Places and buildings,Paikat ja rakennukset,places-and-buildings,27,2
+hotelli,Places and buildings,Paikat ja rakennukset,places-and-buildings,27,3
+katu,Places and buildings,Paikat ja rakennukset,places-and-buildings,27,4
+kaupunki,Places and buildings,Paikat ja rakennukset,places-and-buildings,27,5
+kirkko,Places and buildings,Paikat ja rakennukset,places-and-buildings,27,6
+kylä,Places and buildings,Paikat ja rakennukset,places-and-buildings,27,7
+osoite,Places and buildings,Paikat ja rakennukset,places-and-buildings,27,8
+rakennus,Places and buildings,Paikat ja rakennukset,places-and-buildings,27,9
+tie,Places and buildings,Paikat ja rakennukset,places-and-buildings,27,10
+auto,Transport and technology,Liikenne ja tekniikka,transport-and-technology,28,1
+kamera,Transport and technology,Liikenne ja tekniikka,transport-and-technology,28,2
+kilo,Transport and technology,Liikenne ja tekniikka,transport-and-technology,28,3
+kilometri,Transport and technology,Liikenne ja tekniikka,transport-and-technology,28,4
+kone,Transport and technology,Liikenne ja tekniikka,transport-and-technology,28,5
+kortti,Transport and technology,Liikenne ja tekniikka,transport-and-technology,28,6
+linja,Transport and technology,Liikenne ja tekniikka,transport-and-technology,28,7
+lippu,Transport and technology,Liikenne ja tekniikka,transport-and-technology,28,8
+metri,Transport and technology,Liikenne ja tekniikka,transport-and-technology,28,9
+moottori,Transport and technology,Liikenne ja tekniikka,transport-and-technology,28,10
+paperi,Transport and technology,Liikenne ja tekniikka,transport-and-technology,28,11
+puhelin,Transport and technology,Liikenne ja tekniikka,transport-and-technology,28,12
+radio,Transport and technology,Liikenne ja tekniikka,transport-and-technology,28,13
+tietokone,Transport and technology,Liikenne ja tekniikka,transport-and-technology,28,14
+tv,Transport and technology,Liikenne ja tekniikka,transport-and-technology,28,15
+vene,Transport and technology,Liikenne ja tekniikka,transport-and-technology,28,16
+aurinko,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,1
+eläin,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,2
+hevonen,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,3
+ilma,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,4
+joki,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,5
+kissa,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,6
+kivi,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,7
+koira,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,8
+kuu,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,9
+lähde,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,10
+maailma,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,11
+meri,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,12
+metsä,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,13
+pimeä,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,14
+puu,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,15
+ranta,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,16
+sää,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,17
+taivas,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,18
+tuuli,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,19
+tähti,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,20
+valo,"Nature, animals and weather",Luonto ja sää,nature-animals-and-weather,29,21
+elokuva,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,1
+esitys,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,2
+hävitä,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,3
+joukkue,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,4
+juhla,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,5
+kappale,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,6
+katsella,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,7
+kuva,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,8
+kuvata,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,9
+lehti,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,10
+loma,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,11
+musiikki,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,12
+ohjelma,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,13
+ottelu,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,14
+pelata,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,15
+peli,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,16
+seura,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,17
+tarina,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,18
+tilaisuus,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,19
+uutinen,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,20
+voittaa,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,21
+voitto,"Culture, media and leisure",Kulttuuri ja vapaa-aika,culture-media-and-leisure,30,22
+armo,Religion and belief,Uskonto,religion-and-belief,31,1
+helvetti,Religion and belief,Uskonto,religion-and-belief,31,2
+jumala,Religion and belief,Uskonto,religion-and-belief,31,3
+juutalainen,Religion and belief,Uskonto,religion-and-belief,31,4
+luoja,Religion and belief,Uskonto,religion-and-belief,31,5
+pyhä,Religion and belief,Uskonto,religion-and-belief,31,6
+rukoilla,Religion and belief,Uskonto,religion-and-belief,31,7
+saatana,Religion and belief,Uskonto,religion-and-belief,31,8
+sielu,Religion and belief,Uskonto,religion-and-belief,31,9
+ampua,Crime and safety,Rikokset ja turvallisuus,crime-and-safety,32,1
+hätä,Crime and safety,Rikokset ja turvallisuus,crime-and-safety,32,2
+pelastaa,Crime and safety,Rikokset ja turvallisuus,crime-and-safety,32,3
+rikollinen,Crime and safety,Rikokset ja turvallisuus,crime-and-safety,32,4
+riski,Crime and safety,Rikokset ja turvallisuus,crime-and-safety,32,5
+syyttää,Crime and safety,Rikokset ja turvallisuus,crime-and-safety,32,6
+taistella,Crime and safety,Rikokset ja turvallisuus,crime-and-safety,32,7
+tuhota,Crime and safety,Rikokset ja turvallisuus,crime-and-safety,32,8
+uhri,Crime and safety,Rikokset ja turvallisuus,crime-and-safety,32,9
+vaara,Crime and safety,Rikokset ja turvallisuus,crime-and-safety,32,10
+vaarallinen,Crime and safety,Rikokset ja turvallisuus,crime-and-safety,32,11
+aiheuttaa,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,1
+alkaa,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,2
+ehtiä,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,3
+entinen,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,4
+hyväksyä,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,5
+jatkaa,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,6
+jatkua,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,7
+johtua,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,8
+kasvaa,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,9
+kokea,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,10
+kokeilla,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,11
+kulua,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,12
+lopettaa,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,13
+loppua,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,14
+menettää,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,15
+muutos,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,16
+muuttaa,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,17
+muuttua,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,18
+onnistua,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,19
+päättää,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,20
+päätös,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,21
+ratkaisu,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,22
+sattua,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,23
+selvitä,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,24
+syntyä,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,25
+tapahtua,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,26
+uusi,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,27
+vaikuttaa,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,28
+vaikutus,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,29
+valita,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,30
+yrittää,Changes and decisions,Muutokset ja päätökset,changes-and-decisions,33,31
+erota,Problems and coping,Ongelmat,problems-and-coping,34,1
+estää,Problems and coping,Ongelmat,problems-and-coping,34,2
+haitata,Problems and coping,Ongelmat,problems-and-coping,34,3
+häiritä,Problems and coping,Ongelmat,problems-and-coping,34,4
+joutua,Problems and coping,Ongelmat,problems-and-coping,34,5
+kadota,Problems and coping,Ongelmat,problems-and-coping,34,6
+korjata,Problems and coping,Ongelmat,problems-and-coping,34,7
+ollenkaan,Problems and coping,Ongelmat,problems-and-coping,34,8
+pahasti,Problems and coping,Ongelmat,problems-and-coping,34,9
+pettää,Problems and coping,Ongelmat,problems-and-coping,34,10
+pilata,Problems and coping,Ongelmat,problems-and-coping,34,11
+riippua,Problems and coping,Ongelmat,problems-and-coping,34,12
+takuu,Problems and coping,Ongelmat,problems-and-coping,34,13
+tapaus,Problems and coping,Ongelmat,problems-and-coping,34,14
+tuntematon,Problems and coping,Ongelmat,problems-and-coping,34,15
+valitettavasti,Problems and coping,Ongelmat,problems-and-coping,34,16
+valittaa,Problems and coping,Ongelmat,problems-and-coping,34,17
+vika,Problems and coping,Ongelmat,problems-and-coping,34,18
+virhe,Problems and coping,Ongelmat,problems-and-coping,34,19
+välttää,Problems and coping,Ongelmat,problems-and-coping,34,20
+yhä,Problems and coping,Ongelmat,problems-and-coping,34,21
+heikko,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,1
+iso,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,2
+korkea,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,3
+kova,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,4
+lyhyt,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,5
+nopea,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,6
+pieni,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,7
+pikku,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,8
+pitkä,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,9
+puhdas,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,10
+raskas,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,11
+suora,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,12
+suuri,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,13
+syvä,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,14
+tiukka,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,15
+tyhjä,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,16
+täynnä,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,17
+täysi,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,18
+vahva,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,19
+valtava,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,20
+vauhti,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,21
+voima,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,22
+voimakas,Size and physical properties,Koko ja ominaisuudet,size-and-physical-properties,35,23
+kaunis,Appearance and temperature,Ulkonäkö ja lämpötila,appearance-and-temperature,36,1
+kuuma,Appearance and temperature,Ulkonäkö ja lämpötila,appearance-and-temperature,36,2
+kylmä,Appearance and temperature,Ulkonäkö ja lämpötila,appearance-and-temperature,36,3
+lämmin,Appearance and temperature,Ulkonäkö ja lämpötila,appearance-and-temperature,36,4
+musta,Appearance and temperature,Ulkonäkö ja lämpötila,appearance-and-temperature,36,5
+näköinen,Appearance and temperature,Ulkonäkö ja lämpötila,appearance-and-temperature,36,6
+punainen,Appearance and temperature,Ulkonäkö ja lämpötila,appearance-and-temperature,36,7
+ruma,Appearance and temperature,Ulkonäkö ja lämpötila,appearance-and-temperature,36,8
+valkoinen,Appearance and temperature,Ulkonäkö ja lämpötila,appearance-and-temperature,36,9
+aito,Evaluation and correctness,Arviot,evaluation-and-correctness,37,1
+erityinen,Evaluation and correctness,Arviot,evaluation-and-correctness,37,2
+huono,Evaluation and correctness,Arviot,evaluation-and-correctness,37,3
+hyvä,Evaluation and correctness,Arviot,evaluation-and-correctness,37,4
+normaali,Evaluation and correctness,Arviot,evaluation-and-correctness,37,5
+oikea,Evaluation and correctness,Arviot,evaluation-and-correctness,37,6
+oikein,Evaluation and correctness,Arviot,evaluation-and-correctness,37,7
+paha,Evaluation and correctness,Arviot,evaluation-and-correctness,37,8
+paras,Evaluation and correctness,Arviot,evaluation-and-correctness,37,9
+parempi,Evaluation and correctness,Arviot,evaluation-and-correctness,37,10
+selvä,Evaluation and correctness,Arviot,evaluation-and-correctness,37,11
+tavallinen,Evaluation and correctness,Arviot,evaluation-and-correctness,37,12
+tietty,Evaluation and correctness,Arviot,evaluation-and-correctness,37,13
+todellinen,Evaluation and correctness,Arviot,evaluation-and-correctness,37,14
+turha,Evaluation and correctness,Arviot,evaluation-and-correctness,37,15
+tärkeä,Evaluation and correctness,Arviot,evaluation-and-correctness,37,16
+valmis,Evaluation and correctness,Arviot,evaluation-and-correctness,37,17
+vapaa,Evaluation and correctness,Arviot,evaluation-and-correctness,37,18
+varma,Evaluation and correctness,Arviot,evaluation-and-correctness,37,19
+väärin,Evaluation and correctness,Arviot,evaluation-and-correctness,37,20
+väärä,Evaluation and correctness,Arviot,evaluation-and-correctness,37,21
+hankala,Ease and suitability,Helppous ja sopivuus,ease-and-suitability,38,1
+helppo,Ease and suitability,Helppous ja sopivuus,ease-and-suitability,38,2
+mahdollinen,Ease and suitability,Helppous ja sopivuus,ease-and-suitability,38,3
+mahdoton,Ease and suitability,Helppous ja sopivuus,ease-and-suitability,38,4
+sopia,Ease and suitability,Helppous ja sopivuus,ease-and-suitability,38,5
+sopiva,Ease and suitability,Helppous ja sopivuus,ease-and-suitability,38,6
+vaihtoehto,Ease and suitability,Helppous ja sopivuus,ease-and-suitability,38,7
+vaikea,Ease and suitability,Helppous ja sopivuus,ease-and-suitability,38,8
+yksinkertainen,Ease and suitability,Helppous ja sopivuus,ease-and-suitability,38,9
+eri,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,1
+erilainen,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,2
+fiksu,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,3
+hauska,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,4
+henkilökohtainen,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,5
+hieno,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,6
+hullu,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,7
+idiootti,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,8
+ihana,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,9
+ihmeellinen,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,10
+kamala,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,11
+kauhea,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,12
+kiva,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,13
+mielenkiintoinen,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,14
+mukava,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,15
+outo,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,16
+rehellinen,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,17
+reilu,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,18
+samanlainen,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,19
+tyhmä,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,20
+typerä,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,21
+täydellinen,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,22
+upea,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,23
+vakava,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,24
+varsinainen,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,25
+viisas,Personality and impressions,Luonne ja vaikutelma,personality-and-impressions,39,26
+ainoastaan,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,1
+ehdottomasti,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,2
+ehkä,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,3
+enempi,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,4
+erittäin,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,5
+erityisesti,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,6
+etenkin,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,7
+helposti,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,8
+hiljaa,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,9
+huonosti,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,10
+hyvin,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,11
+ilmeisesti,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,12
+jotenkin,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,13
+just,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,14
+kai,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,15
+kenties,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,16
+kovasti,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,17
+kuulemma,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,18
+luultavasti,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,19
+mahdollisesti,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,20
+muka,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,21
+nopeasti,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,22
+oikeasti,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,23
+paremmin,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,24
+pelkkä,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,25
+pelkästään,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,26
+selvästi,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,27
+sentään,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,28
+suoraan,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,29
+tietenkin,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,30
+tietysti,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,31
+todella,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,32
+todennäköisesti,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,33
+toivottavasti,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,34
+toki,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,35
+varmasti,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,36
+välttämättä,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,37
+yhdessä,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,38
+yksin,Manner and certainty,Tavat ja varmuus,manner-and-certainty,40,39
+arvo,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,1
+asia,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,2
+ero,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,3
+ihme,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,4
+keino,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,5
+kunnia,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,6
+käyttö,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,7
+käytäntö,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,8
+mahdollisuus,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,9
+ongelma,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,10
+peruste,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,11
+rauha,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,12
+syy,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,13
+tapa,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,14
+tarkoitus,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,15
+tilanne,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,16
+totuus,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,17
+tuki,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,18
+valinta,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,19
+yhteinen,Reasons and abstract concepts,Syyt ja käsitteet,reasons-and-abstract-concepts,41,20

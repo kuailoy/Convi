@@ -32,7 +32,7 @@ Practice context and register are separate from mode and method. For example, `m
 
 ## Tables
 
-The first version needs **three tables**.
+The first version uses four tables: `contents`, `vocabulary_topics`, `exercise_sets`, and `content_progress`.
 
 ### `contents`
 
@@ -46,7 +46,10 @@ Stores the learnable item and how it should be practiced.
 | `practice_method` | Specific method, such as `substitution` |
 | `content` | The pattern, phrase, word, or scenario prompt |
 | `meaning` | Optional explanation or translation |
-| `language_code` | Target language, such as `en` |
+| `language_code` | Language of the learning content, such as `fi` |
+| `meaning_language_code` | Language used by `meaning` (defaults to `en`) |
+| `topic_id` | Optional vocabulary topic; pattern drills can leave it null |
+| `topic_order` | Position within the topic, starting at 1 |
 | `cefr_level` | Optional target level: `A1`, `A2`, `B1`, `B2`, `C1`, or `C2` |
 | `context` | Optional situation, such as `meeting`, `presentation`, `daily_conversation`, or `party` |
 | `register` | Optional `formal`, `neutral`, or `informal` |
@@ -55,6 +58,10 @@ Stores the learnable item and how it should be practiced.
 | `created_at`, `updated_at` | Record timestamps |
 
 There is no separate `title` field. The app can display `content` directly as the name of a pattern or phrase, avoiding a second manually maintained label.
+
+### `vocabulary_topics`
+
+Stores the ordered bilingual vocabulary topic list (`slug`, English and Finnish names, and `sort_order`). A topic can contain many content rows. The schema keeps meanings optional; the current 949-word import leaves them blank and sets `meaning_language_code` to `en` for later completion.
 
 `content_type`, `practice_mode`, and `practice_method` are controlled values. Define them as enums in the Python application and store them as strings in PostgreSQL. The backend validates that a method is allowed for its mode. This avoids a separate lookup table for static choices and makes it straightforward to add a method. `cefr_level` is also a controlled value; it describes the target level of the content, not the learner's assessed level. Leave it null when the level is not yet known.
 
@@ -92,6 +99,7 @@ Stores the current learner's progress for each content item. The first version i
 
 ```mermaid
 erDiagram
+    VOCABULARY_TOPICS ||--o{ CONTENTS : groups
     CONTENTS ||--o{ EXERCISE_SETS : has
     CONTENTS ||--o| CONTENT_PROGRESS : tracks
 ```
