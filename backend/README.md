@@ -34,3 +34,22 @@ To see the current migration revision:
 ```bash
 alembic current
 ```
+
+## Generate topic examples through the API
+
+`POST /api/v1/topics/{topic_slug}/examples/generate` calls the existing Finnish
+example generator for missing vocabulary-form targets, saves its results, and
+returns generation counts plus updated topic coverage. Each request generates
+up to 10 targets by default; pass `{"limit": 20}` to generate up to 20. The
+limit is capped at 20 so one request stays bounded.
+
+The endpoint requires both `OPENAI_API_KEY` and `GENERATOR_API_KEY` in the
+backend environment. Send the latter in the `x-generator-api-key` header. Keep
+that key on trusted server-side callers; do not embed it in the Expo app. The
+app should call this endpoint only after an appropriate user-authentication
+mechanism is in place.
+
+The endpoint returns HTTP 404 for an unknown topic, 401 for a missing or
+incorrect generator key, and 503 if generation is not configured. Individual
+model-call failures are reported in the successful response's `generation.failures`
+count so callers can display the resulting coverage and retry if needed.
