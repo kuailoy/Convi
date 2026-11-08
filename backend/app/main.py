@@ -4,13 +4,19 @@ import hmac
 import os
 from uuid import UUID
 
-from fastapi import Depends, FastAPI, Header, HTTPException
+from fastapi import Depends, FastAPI, Header, HTTPException, Query
 from pydantic import BaseModel, ConfigDict, Field
-from sqlalchemy import select
+from sqlalchemy import func, select
 from sqlalchemy.orm import Session, contains_eager, sessionmaker
 
 from app.database import create_database_engine
-from app.models.content import Content, VocabularyTopic
+from app.models.content import (
+    Content,
+    VocabularyExample,
+    VocabularyExampleTarget,
+    VocabularyForm,
+    VocabularyTopic,
+)
 from app.services.content_generator import generate_missing_topic_examples
 from app.services.content_readiness import calculate_topic_readiness
 
@@ -46,6 +52,53 @@ class ContentResponse(BaseModel):
     cefr_level: str | None
     context: str | None
     register_: str | None = Field(default=None, alias="register")
+
+
+class VocabularyTopicListItem(BaseModel):
+    slug: str
+    name_en: str
+    name_fi: str
+    sort_order: int
+    word_count: int
+
+
+class VocabularyExampleResponse(BaseModel):
+    id: UUID
+    finnish_sentence: str
+    written_finnish_sentence: str
+    english_translation: str
+    difficulty: str
+    role: str
+    validation_status: str
+    target_validation_status: str
+
+
+class VocabularyFormResponse(BaseModel):
+    id: UUID
+    form: str
+    grammatical_label: str
+    target_type: str
+    display_order: int
+    notes: str | None
+    examples: list[VocabularyExampleResponse]
+
+
+class VocabularyItemResponse(BaseModel):
+    id: UUID
+    word: str
+    meaning: str | None
+    language_code: str
+    meaning_language_code: str
+    topic_order: int
+    cefr_level: str | None
+    context: str | None
+    register_: str | None = Field(default=None, alias="register")
+    forms: list[VocabularyFormResponse]
+
+
+class VocabularyTopicContentsResponse(BaseModel):
+    topic: TopicResponse
+    vocabulary: list[VocabularyItemResponse]
 
 
 class GenerateExamplesRequest(BaseModel):
@@ -122,6 +175,137 @@ def list_contents(
     )
 
     return db.scalars(statement).all()
+
+
+@app.get("/api/v1/vocabulary/topics", response_model=list[VocabularyTopicListItem])
+def list_vocabulary_topics(
+    language: str = Query(default="fi", min_length=2, max_length=10),
+    db: Session = Depends(get_db),
+):
+    word_count = func.count(Content.id).label("word_count")
+    rows = db.execute(
+        select(VocabularyTopic, word_count)
+        .outerjoin(
+            Content,
+            (Content.topic_id == VocabularyTopic.id)
+            & (Content.content_type == "vocabulary_item")
+            & (Content.language_code == language)
+            & (Content.status == "active"),
+        )
+        .group_by(VocabularyTopic.id)
+        .order_by(VocabularyTopic.sort_order, VocabularyTopic.slug)
+    ).all()
+    return [
+        VocabularyTopicListItem(
+            slug=topic.slug,
+            name_en=topic.name_en,
+            name_fi=topic.name_fi,
+            sort_order=topic.sort_order,
+            word_count=count,
+        )
+        for topic, count in rows
+    ]
+
+
+@app.get(
+    "/api/v1/vocabulary/topics/{topic_slug}/contents",
+    response_model=VocabularyTopicContentsResponse,
+)
+def get_vocabulary_topic_contents(
+    topic_slug: str,
+    language: str = Query(default="fi", min_length=2, max_length=10),
+    db: Session = Depends(get_db),
+):
+    topic = db.scalar(select(VocabularyTopic).where(VocabularyTopic.slug == topic_slug))
+    if topic is None:
+        raise HTTPException(status_code=404, detail="Vocabulary topic not found.")
+
+    vocabulary_items = db.scalars(
+        select(Content)
+        .where(
+            Content.topic_id == topic.id,
+            Content.content_type == "vocabulary_item",
+            Content.language_code == language,
+            Content.status == "active",
+        )
+        .order_by(Content.topic_order, Content.id)
+    ).all()
+    content_ids = [item.id for item in vocabulary_items]
+
+    forms_by_content: dict[UUID, list[VocabularyFormResponse]] = {
+        content_id: [] for content_id in content_ids
+    }
+    if content_ids:
+        form_rows = db.execute(
+            select(VocabularyForm)
+            .where(
+                VocabularyForm.content_id.in_(content_ids),
+                VocabularyForm.review_status == "reviewed",
+            )
+            .order_by(VocabularyForm.content_id, VocabularyForm.display_order, VocabularyForm.id)
+        ).scalars().all()
+        form_ids = [form.id for form in form_rows]
+        examples_by_form: dict[UUID, list[VocabularyExampleResponse]] = {
+            form_id: [] for form_id in form_ids
+        }
+        if form_ids:
+            example_rows = db.execute(
+                select(VocabularyExampleTarget, VocabularyExample)
+                .join(VocabularyExample, VocabularyExample.id == VocabularyExampleTarget.example_id)
+                .where(
+                    VocabularyExampleTarget.vocabulary_form_id.in_(form_ids),
+                )
+                .order_by(
+                    VocabularyExampleTarget.vocabulary_form_id,
+                    VocabularyExample.created_at,
+                    VocabularyExample.id,
+                )
+            ).all()
+            for target, example in example_rows:
+                examples_by_form[target.vocabulary_form_id].append(
+                    VocabularyExampleResponse(
+                        id=example.id,
+                        finnish_sentence=example.finnish_sentence,
+                        written_finnish_sentence=example.written_finnish_sentence,
+                        english_translation=example.english_translation,
+                        difficulty=example.difficulty,
+                        role=target.role,
+                        validation_status=example.validation_status,
+                        target_validation_status=target.target_validation_status,
+                    )
+                )
+
+        for form in form_rows:
+            forms_by_content[form.content_id].append(
+                VocabularyFormResponse(
+                    id=form.id,
+                    form=form.form,
+                    grammatical_label=form.grammatical_label,
+                    target_type=form.target_type,
+                    display_order=form.display_order,
+                    notes=form.notes,
+                    examples=examples_by_form[form.id],
+                )
+            )
+
+    return VocabularyTopicContentsResponse(
+        topic=TopicResponse.model_validate(topic),
+        vocabulary=[
+            VocabularyItemResponse(
+                id=item.id,
+                word=item.content,
+                meaning=item.meaning,
+                language_code=item.language_code,
+                meaning_language_code=item.meaning_language_code,
+                topic_order=item.topic_order,
+                cefr_level=item.cefr_level,
+                context=item.context,
+                register_=item.register,
+                forms=forms_by_content[item.id],
+            )
+            for item in vocabulary_items
+        ],
+    )
 
 
 @app.post(
