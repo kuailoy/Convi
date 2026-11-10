@@ -1,31 +1,20 @@
 import { router } from "expo-router";
-import { Pressable, StyleSheet, Text, View } from "react-native";
+import { ActivityIndicator, Pressable, StyleSheet, Text, View } from "react-native";
 import { Card, Eyebrow, Title } from "../../ui/Elements";
 import { route } from "../../ui/navigation";
 import { Row, Screen } from "../../ui/Screen";
 import { colors } from "../../ui/theme";
 import { NextTopicCard } from "../../ui/NextTopicCard";
-import { getMockExercises, mockTopics } from "../../data/mockLearning";
-import { useLearningPreview } from "../../state/LearningPreviewContext";
+import { useLearning } from "../../state/LearningContext";
 
 export default function HomeScreen() {
-  const { progress } = useLearningPreview();
-  const activeTopic = mockTopics.find((topic) => topic.id === progress.activeTopicId);
+  const { topics, topicsLoading, topicsError, refreshTopics, progress, progressLoaded } = useLearning();
+  const activeTopic = topics.find((topic) => topic.slug === progress.activeTopicSlug);
   const canContinue = Boolean(
-    activeTopic && Object.prototype.hasOwnProperty.call(progress.sessionPositions, activeTopic.id),
+    activeTopic && Object.prototype.hasOwnProperty.call(progress.sessionPositions, activeTopic.slug),
   );
-  const latestFinishedTopic = mockTopics
-    .map((topic) => ({ topic, record: progress.topicSessions[topic.id] }))
-    .filter((item) => item.record && item.record.sessionsCompleted > 0)
-    .sort((a, b) => (b.record?.lastStudiedAt ?? "").localeCompare(a.record?.lastStudiedAt ?? ""))[0]?.topic;
-  const latestFinishedIndex = latestFinishedTopic
-    ? mockTopics.findIndex((topic) => topic.id === latestFinishedTopic.id)
-    : -1;
-  const nextTopic = latestFinishedIndex >= 0
-    ? mockTopics[latestFinishedIndex + 1]
-    : mockTopics[0];
-  const promptCount = activeTopic ? getMockExercises(activeTopic.id).length : 0;
-  const currentPrompt = activeTopic ? (progress.sessionPositions[activeTopic.id] ?? 0) + 1 : 0;
+  const nextTopic = topics.find((topic) => !progress.completedTopics[topic.slug]);
+  const currentPrompt = activeTopic ? (progress.sessionPositions[activeTopic.slug] ?? 0) + 1 : 0;
 
   return (
     <Screen>
@@ -39,14 +28,14 @@ export default function HomeScreen() {
         </Pressable>
       </Row>
 
-      {canContinue && activeTopic ? (
-        <Pressable onPress={() => router.push(route(`/session/${activeTopic.id}`))}>
+      {canContinue && activeTopic && progressLoaded ? (
+        <Pressable onPress={() => router.push(route(`/session/${activeTopic.slug}`))}>
           <Card style={styles.currentCard}>
             <Text style={styles.eyebrowLight}>CURRENT LEARNING</Text>
             <View style={styles.cardRow}>
               <View style={styles.cardCopy}>
-                <Text style={styles.currentTitle}>{activeTopic.name}</Text>
-                <Text style={styles.currentMeta}>Vocabulary · Prompt {currentPrompt} of {promptCount}</Text>
+              <Text style={styles.currentTitle}>{activeTopic.name_en}</Text>
+              <Text style={styles.currentMeta}>Vocabulary · Practice item {currentPrompt}</Text>
               </View>
               <Text style={styles.actionArrow}>→</Text>
             </View>
@@ -54,13 +43,24 @@ export default function HomeScreen() {
         </Pressable>
       ) : null}
 
-      {!canContinue && nextTopic ? (
+      {!canContinue && nextTopic && progressLoaded ? (
         <NextTopicCard
-          title={nextTopic.name}
+          title={nextTopic.name_en}
           subtitle="Continue to the next topic in your learning sequence."
-          wordCount={nextTopic.wordCount}
-          onPress={() => router.push(route(`/session/${nextTopic.id}?start=1`))}
+          wordCount={nextTopic.word_count}
+          onPress={() => router.push(route(`/session/${nextTopic.slug}?start=1`))}
         />
+      ) : null}
+
+      {topicsLoading && topics.length === 0 ? <ActivityIndicator color={colors.green} /> : null}
+      {topicsError && topics.length === 0 ? (
+        <Card style={styles.messageCard}>
+          <Text style={styles.currentMeta}>{topicsError}</Text>
+          <Pressable onPress={() => void refreshTopics()}><Text style={styles.retry}>Try again</Text></Pressable>
+        </Card>
+      ) : null}
+      {progressLoaded && topics.length > 0 && !nextTopic && !canContinue ? (
+        <Card style={styles.messageCard}><Text style={styles.currentTitle}>All topics completed</Text></Card>
       ) : null}
 
       <View style={styles.quickAccess}>
@@ -69,7 +69,7 @@ export default function HomeScreen() {
           <Pressable style={styles.accessHalf} onPress={() => router.navigate(route("/(tabs)/learn"))}>
             <Card style={styles.accessCard}>
               <Text style={styles.accessTitle}>Vocabulary</Text>
-              <Text style={styles.accessMeta}>41 topics</Text>
+              <Text style={styles.accessMeta}>{topics.length} topics</Text>
               <Text style={styles.accessArrow}>→</Text>
             </Card>
           </Pressable>
@@ -82,7 +82,7 @@ export default function HomeScreen() {
           </Pressable>
         </View>
       </View>
-      <Text style={styles.note}>Preview progress is temporary.</Text>
+      <Text style={styles.note}>Learning progress is saved on this device.</Text>
     </Screen>
   );
 }
@@ -106,4 +106,6 @@ const styles = StyleSheet.create({
   accessMeta: { color: colors.muted, fontSize: 10 },
   accessArrow: { color: colors.green, fontSize: 17, textAlign: "right" },
   note: { color: colors.muted, fontSize: 10, textAlign: "center", marginTop: -5 },
+  messageCard: { padding: 15 },
+  retry: { color: colors.green, fontSize: 13, fontWeight: "700" },
 });

@@ -10,11 +10,19 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+2. Configure the API address. Copy `.env.example` to `.env.local` and set
+   `EXPO_PUBLIC_API_BASE_URL` to the deployed API base URL. The Expo public
+   variable is included in the app bundle, so use it only for public values.
+
+3. Start the app
 
    ```bash
    npx expo start
    ```
+
+Topic lists and learning progress are cached on the device. Use Settings →
+Clear learning progress to reset local learning progress; the topic cache is
+kept.
 
 In the output, you'll find options to open the app in a
 

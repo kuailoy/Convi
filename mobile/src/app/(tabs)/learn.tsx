@@ -1,30 +1,44 @@
 import { router } from "expo-router";
-import { Pressable, StyleSheet, Text, View } from "react-native";
+import { ActivityIndicator, Pressable, StyleSheet, Text, View } from "react-native";
 import { Card, Eyebrow, Title } from "../../ui/Elements";
 import { route } from "../../ui/navigation";
 import { Screen } from "../../ui/Screen";
 import { colors } from "../../ui/theme";
-import { mockTopics } from "../../data/mockLearning";
+import { useLearning } from "../../state/LearningContext";
 
 export default function LearnScreen() {
+  const { topics, topicsLoading, topicsError, refreshTopics } = useLearning();
+  const wordCount = topics.reduce((total, topic) => total + topic.word_count, 0);
+
   return (
     <Screen>
       <View style={styles.heading}>
         <Eyebrow>VOCABULARY</Eyebrow>
         <Title>Choose a topic</Title>
-        <Text style={styles.subtitle}>949 words · 41 topics</Text>
+        <Text style={styles.subtitle}>{wordCount} words · {topics.length} topics</Text>
       </View>
 
       <View style={styles.topicList}>
-        {mockTopics.map((topic, index) => (
-          <Pressable key={topic.id} onPress={() => router.push(route(`/session/${topic.id}?start=1`))} style={styles.topicRow}>
+        {topics.map((topic, index) => (
+          <Pressable key={topic.slug} onPress={() => router.push(route(`/session/${topic.slug}?start=1`))} style={styles.topicRow}>
             <Text style={styles.order}>{String(index + 1).padStart(2, "0")}</Text>
-            <Text style={styles.topicName}>{topic.name}</Text>
-            <Text style={styles.wordCount}>{topic.wordCount}</Text>
+            <Text style={styles.topicName}>{topic.name_en}</Text>
+            <Text style={styles.wordCount}>{topic.word_count}</Text>
             <Text style={styles.chevron}>›</Text>
           </Pressable>
         ))}
       </View>
+
+      {topicsLoading && topics.length === 0 ? <ActivityIndicator color={colors.green} /> : null}
+      {topicsError ? (
+        <View style={styles.apiMessage}>
+          <Text style={styles.subtitle}>{topicsError}</Text>
+          <Pressable onPress={() => void refreshTopics()}><Text style={styles.retry}>Try again</Text></Pressable>
+        </View>
+      ) : null}
+      {!topicsLoading && !topicsError && topics.length === 0 ? (
+        <Text style={styles.subtitle}>No vocabulary topics are available yet.</Text>
+      ) : null}
 
       <Pressable onPress={() => router.push(route("/pattern-drill"))}>
         <Card style={styles.patternCard}>
@@ -55,4 +69,6 @@ const styles = StyleSheet.create({
   patternDescription: { color: colors.muted, fontSize: 11, lineHeight: 15 },
   comingSoon: { color: colors.green, fontSize: 9, fontWeight: "700" },
   note: { color: colors.muted, fontSize: 10, textAlign: "center", marginTop: -7 },
+  apiMessage: { gap: 8, paddingVertical: 8 },
+  retry: { color: colors.green, fontWeight: "700", fontSize: 12 },
 });

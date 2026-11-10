@@ -4,13 +4,12 @@ import { Button, Card, Eyebrow, Title } from "../../ui/Elements";
 import { route } from "../../ui/navigation";
 import { Screen } from "../../ui/Screen";
 import { colors } from "../../ui/theme";
-import { mockTopics } from "../../data/mockLearning";
-import { useLearningPreview } from "../../state/LearningPreviewContext";
+import { useLearning } from "../../state/LearningContext";
 
 export default function ProgressScreen() {
-  const { progress } = useLearningPreview();
-  const practicedTopics = mockTopics
-    .map((topic) => ({ topic, record: progress.topicSessions[topic.id] }))
+  const { topics, progress } = useLearning();
+  const practicedTopics = topics
+    .map((topic) => ({ topic, record: progress.completedTopics[topic.slug] }))
     .filter((item) => item.record && item.record.sessionsCompleted > 0)
     .sort((a, b) => (b.record?.lastStudiedAt ?? "").localeCompare(a.record?.lastStudiedAt ?? ""));
   const totalSessions = practicedTopics.reduce((total, item) => total + (item.record?.sessionsCompleted ?? 0), 0);
@@ -27,16 +26,16 @@ export default function ProgressScreen() {
           <Text style={styles.summary}>{totalSessions} {totalSessions === 1 ? "session" : "sessions"} · {practicedTopics.length} {practicedTopics.length === 1 ? "topic" : "topics"}</Text>
           <View style={styles.list}>
             {practicedTopics.map(({ topic, record }) => (
-              <Card key={topic.id} style={styles.topicCard}>
+            <Card key={topic.slug} style={styles.topicCard}>
                 <View style={styles.topicCopy}>
-                  <Text style={styles.topicName}>{topic.name}</Text>
+                <Text style={styles.topicName}>{topic.name_en}</Text>
                   <Text style={styles.lastPracticed}>Last practiced {formatDate(record!.lastStudiedAt)}</Text>
                 </View>
                 <Text style={styles.sessionCount}>{record!.sessionsCompleted} {record!.sessionsCompleted === 1 ? "session" : "sessions"}</Text>
               </Card>
             ))}
           </View>
-          <Text style={styles.note}>This prototype keeps progress in memory only.</Text>
+          <Text style={styles.note}>Progress is saved on this device.</Text>
         </>
       ) : (
         <Card style={styles.emptyCard}>
