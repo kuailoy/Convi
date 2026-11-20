@@ -483,20 +483,19 @@ docs/
     ├── FORM_TARGET_GENERATION_CHECKPOINT.md
     ├── grammatical-label-policy.md
     ├── form-generation-policy.md
-    └── legacy/wordforms-topic-1-3.md      # source of the v0 forms
+    └── form-target-batch-tool.md
 
 backend/data-generation/
 ├── vocabulary/
 │   ├── finnish_vocabulary.csv
 │   ├── vocabulary_classification.csv
 │   └── vocabulary_classification_report.md
-├── form_targets/
-│   ├── prompts/form_generation_v1.md
-│   └── outputs/pilot/{pilot.json, pilot.csv}
-└── legacy_v0/vocabulary_forms_topic_1_3.json
+└── form_targets/
+    ├── prompts/form_generation_v3.{md, schema.json, labels.json}
+    └── outputs/v3_all/{manifest.json, combined.json}
 ```
 
-These files represent the existing documentation, datasets and pilot artifacts.
+These files represent the existing documentation and datasets. Earlier prompts (v1, v2), pilots and the v0 forms were removed on 2026-11-20 (they remain in Git history).
 
 Do not delete or replace them without inspecting their contents. Prompts are versioned: create a new prompt version instead of editing one that produced reviewed output.
 

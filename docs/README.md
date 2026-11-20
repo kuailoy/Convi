@@ -17,7 +17,7 @@ Start here to find the right document. Each topic has one authoritative file; ot
 | [data-generation/FORM_TARGET_GENERATION_CHECKPOINT.md](data-generation/FORM_TARGET_GENERATION_CHECKPOINT.md) | Progress and decisions for the form-target workstream |
 | [data-generation/form-generation-policy.md](data-generation/form-generation-policy.md) | Which forms to generate for each part of speech |
 | [data-generation/grammatical-label-policy.md](data-generation/grammatical-label-policy.md) | How `grammatical_label` values are named |
-| [data-generation/legacy/wordforms-topic-1-3.md](data-generation/legacy/wordforms-topic-1-3.md) | Archived source of the v0 forms for topics 1–3 (to be replaced by v1 generation) |
+| [data-generation/form-target-batch-tool.md](data-generation/form-target-batch-tool.md) | Batch generation tool: commands, validation, files |
 
 ## Component READMEs
 
@@ -40,15 +40,14 @@ backend/data-generation/
 │   ├── vocabulary_classification.csv         # POS, subtype and verb type for all 949 words
 │   └── vocabulary_classification_report.md   # Classification summary and corrections
 ├── form_targets/
-│   ├── prompts/form_generation_v1.md         # Pilot prompt (v1)
-│   └── outputs/pilot/                        # Reviewed 20-word pilot (JSON + CSV)
-├── legacy_v0/
-│   └── vocabulary_forms_topic_1_3.json       # v0 forms for topics 1–3 (currently in the database)
+│   ├── prompts/form_generation_v3.md         # Current prompt (+ .schema.json, .labels.json)
+│   ├── sets/pilot.json                       # Small topic set for testing a new prompt
+│   └── outputs/v3_all/                       # Final generated targets: combined.json (imported), manifest.json
 └── exports/                                  # Local database exports (ignored by Git)
 ```
 
 ## Conventions
 
 - Record status changes in `STATUS.md` and, for a data workstream, in its checkpoint.
-- Version prompts (`form_generation_v1.md`, `v2`, …) instead of editing a prompt that produced reviewed output.
-- Keep raw generated output separate from reviewed, importable data.
+- Version prompts (`form_generation_v3.md`, `v4`, …) instead of editing a prompt whose output is in use; delete old versions once their output is no longer used (Git keeps history).
+- Keep raw model output unchanged; put manual fixes for a generation run in its own corrections file, and delete it once the run is imported.

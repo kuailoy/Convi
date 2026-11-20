@@ -8,6 +8,8 @@ The goal is to help learners use words in real sentences. Generate forms accordi
 
 Do not generate a fixed number of forms for every word. Do not create forms merely to fill a quota.
 
+The aim is common, everyday Finnish, not full grammatical coverage. Simple, regular forms are valuable; include a common form even when it is easy or predictable (decided 2026-11-20).
+
 ## 2. Core concepts
 
 Each generated form target should contain:
@@ -21,13 +23,13 @@ Allowed `target_type` values:
 | Value | Meaning |
 |---|---|
 | `inflected_form` | A grammatical inflection of the headword |
-| `invariant` | An unchanged form included because it has a useful learning role |
+| `invariant` | The headword target of a word that does not inflect; added by the import step, never generated |
 | `related_form` | A lexicalized or closely related expression useful to learn with the headword |
-| `governed_pattern` | A useful phrase or pattern governed by the headword, such as an adposition plus its complement |
+| `governed_pattern` | A useful phrase or pattern governed by the headword, such as an adposition or a verb plus its complement (`ilman kahvia`, `pitää kahvista`) |
 
 Do not confuse `grammatical_label` with `target_type`.
 
-The headword is already stored in `contents`. Do not repeat it as a form target. If a word has no useful additional forms, return an empty list.
+The headword is already stored in `contents`, and the model never generates it as a form target. The import step adds one headword target per word (see *Headword targets* in [grammatical-label-policy.md](grammatical-label-policy.md)), so every word has at least one target for example generation. If a word has no useful additional forms, the model returns an empty list.
 
 ## 3. Selection principles
 
@@ -69,6 +71,10 @@ Special handling:
 - Keep a participle such as `puhunut` separate from a compound tense such as `olen puhunut`.
 - Do not store a compound tense as though it were one inflected word form.
 - Handle the negative auxiliary `ei` according to its special person forms; do not assign it an ordinary verb type if the lexical data marks it as a negative auxiliary.
+- Mainly third-person verbs (`täytyä`, `kannattaa`, `tapahtua`) use third-person forms only; the singular-and-plural rule does not apply.
+- Give `present_3sg` even when it is spelled like the infinitive (`antaa` → `antaa`); the label distinguishes it from the headword target.
+- Give a third-infinitive form for everyday action verbs often used after `mennä`, `tulla`, `lähteä`, `käydä`, `oppia` or `joutua` (`syömään` = `third_infinitive_illative`; `käydä uimassa` = `third_infinitive_inessive` when very common).
+- Add 1–3 common collocations (`governed_pattern`) for most verbs with an object or complement: ordinary objects (`juoda vettä`, `ostaa leipää` → `partitive_complement`; total object `ostaa auton` → `accusative_complement`) and complements in a case the learner has to memorize (`pitää kahvista` → `elative_complement`, `tutustua ihmiseen` → `illative_complement`).
 
 Example:
 - `puhua` → `puhun`, `puhut`, `puhuu`, `puhumme`
@@ -100,6 +106,7 @@ Example:
 
 - Generate useful governed patterns when they help learners use the adposition correctly.
 - Example: `ilman` → `ilman kahvia`, with `target_type=governed_pattern` and an appropriate complement label such as `partitive_complement`.
+- Name the complement case with `<case>_complement` (`kotiin asti` → `illative_complement`).
 
 ### Numerals
 
@@ -109,15 +116,14 @@ Example:
 ### Conjunctions, particles, and interjections
 
 - Usually do not need additional inflected forms.
-- Do not duplicate the headword as an `invariant` target.
-- Add an invariant target only when there is a clear learning reason.
+- Generate no targets; the import step adds the headword as an `invariant` target.
 
 ## 5. Output constraints
 
 - Return only forms that are useful and grammatically appropriate.
 - Every target must refer to the correct source `content_id`.
 - Every target must have a non-empty `form`, `grammatical_label`, and allowed `target_type`.
-- Do not include the headword itself as a target.
+- Do not output the base form itself (it is added by the import step). A different grammatical form spelled like the headword is allowed (`antaa` → `antaa` as `present_3sg`), except `ei` → `ei`.
 - Do not duplicate the same form within one headword.
 - Do not add review metadata such as `valid`, `verified`, or `confidence`.
 - Follow the output JSON Schema and the generation prompt used for the batch.
@@ -125,7 +131,7 @@ Example:
 ## 6. Related policy
 
 - Label naming and allowed label conventions: [grammatical-label-policy.md](grammatical-label-policy.md)
-- Exact model instructions and output format: [`backend/data-generation/form_targets/prompts/form_generation_v1.md`](../../backend/data-generation/form_targets/prompts/form_generation_v1.md) (pilot prompt v1, which still uses the earlier field name `form_type`; the next prompt version uses `target_type`)
+- Exact model instructions and output format: [`form_generation_v3.md`](../../backend/data-generation/form_targets/prompts/form_generation_v3.md), with its JSON Schema and label list.
 - Current progress and next steps: [FORM_TARGET_GENERATION_CHECKPOINT.md](FORM_TARGET_GENERATION_CHECKPOINT.md)
 
 This policy describes the selection logic. The grammatical label policy defines how individual labels are named.

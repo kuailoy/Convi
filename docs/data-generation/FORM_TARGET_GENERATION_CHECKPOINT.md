@@ -1,107 +1,37 @@
-# Form Target Generation — Project Checkpoint
+# Form Target Generation — Checkpoint
 
-**Status:** Pilot reviewed; classification complete; batch tool not started
+**Status:** Done for all 949 words and imported into the database (2026-11-20). Next: example sentences.
 **Last updated:** 2026-11-20
 
 ## 1. Goal
 
-Generate useful Finnish form targets for all 949 vocabulary items stored in Convi.
+Give every Convi vocabulary item the Finnish forms and short patterns a learner needs most in common, everyday use. Common use matters more than grammatical coverage; simple, regular forms are valuable.
 
-The generation process should select forms based on part of speech, grammatical usefulness, lexical behaviour, topic context, and learner value. Do not generate a fixed number of forms just to meet a quota.
+## 2. Decisions
 
-## 2. Decisions already made
+- **Form target** = `form` (Finnish word or short phrase) + `grammatical_label` (plain `snake_case` string, no ENUM; [label policy](grammatical-label-policy.md)) + `target_type` (`inflected_form`, `related_form`, `governed_pattern`, `invariant`). No review or confidence fields in generated data.
+- **Headword targets (option A):** the model never outputs the base form; the import adds one headword target per word (`nominative_singular`, `first_infinitive`, `invariant`; `ei` → `negative_verb_3sg`), so every word can get examples. A different form spelled like the headword is allowed (`antaa` as `present_3sg`).
+- **Verbs:** present forms (3sg always), a few common extra forms, third infinitive for everyday action verbs (`syömään`), and 1–3 common collocations including ordinary objects (`juoda vettä`, `pitää kahvista`), labelled `<case>_complement` (also used for adpositions; `accusative_complement` for a total object).
+- **No separate manual review:** automatic validation (and an optional Voikko check) is the gate. Imported rows are `active`; a row reported from the app becomes `needs_review` until fixed.
+- `koti`: `kotona` / `kotoa` are `related_form` (`related_location` / `related_source`); `kotiin` is `illative_singular`.
 
-### Data model and labels
-- Keep the headword in `contents`; do not duplicate it as a form target.
-- A form target has an actual Finnish `form`, a `grammatical_label`, and a `target_type`.
-- **Field name:** use `target_type`, matching the `vocabulary_forms` table and the API (decided 2026-11-20). Prompt v1 and the pilot output used `form_type`; they are kept unchanged as historical artifacts, and the next prompt version uses `target_type`.
-- `grammatical_label` describes the grammatical role, using plain `snake_case` strings. Do not create a PostgreSQL ENUM or lookup table for it.
-- `target_type` describes the relationship to the headword:
-  - `inflected_form`
-  - `invariant`
-  - `related_form`
-  - `governed_pattern`
-- Do not conflate `grammatical_label` and `target_type`.
-- Do not add `valid`, `verified`, `confidence`, or similar review-status fields to generated content.
-- A word may have no additional useful form targets. Do not invent forms to fill a quota.
+Selection rules per part of speech: [form-generation-policy.md](form-generation-policy.md). Exact model instructions: [`form_generation_v3.md`](../../backend/data-generation/form_targets/prompts/form_generation_v3.md).
 
-### Scope
-- **Topics 1–3 are regenerated with v1** (decided 2026-11-20). Their existing v0 targets (233 targets, 93 words, legacy labels such as `N sg`, headword stored as a target) will be replaced when the approved v1 output is imported. Bulk generation therefore covers all 949 words.
+## 3. Result
 
-### POS-specific generation policy
-See [form-generation-policy.md](form-generation-policy.md). Summary:
-- **Nouns:** genitive and partitive first; location cases or plural forms only when useful.
-- **Verbs:** usually 3–4 present-tense person forms covering singular and plural.
-- **Adjectives:** useful inflections, plus comparative/superlative when meaningful.
-- **Pronouns:** common forms according to the pronoun's actual paradigm.
-- **Adverbs:** usually none; comparative/superlative where natural.
-- **Adpositions:** useful governed patterns.
-- **Numerals:** useful case forms without a full paradigm.
-- **Conjunctions, particles, interjections:** usually none.
+| Item | Value |
+| --- | --- |
+| Input | [`vocabulary_classification.csv`](../../backend/data-generation/vocabulary/vocabulary_classification.csv) (POS, subtype, verb type; first-pass, not dictionary-verified) |
+| Prompt / model | `form_generation_v3` / `gpt-6-luna` |
+| Generated | 3,330 targets for 949 words in 73 topic batches ([`outputs/v3_all/`](../../backend/data-generation/form_targets/outputs/v3_all/)); 6 batches retried automatically after validation errors |
+| Checks | Validator (schema, labels, duplicates, patterns, invisible characters); Voikko: 3 real errors fixed, 6 remaining findings are Voikko gaps |
+| Corrections | 9 manual corrections, applied in `combined.json`. After the import, the per-batch model output and the corrections file were deleted: `combined.json` is the final data; later fixes go through app reports or a new generation run. |
+| Imported | 4,279 rows in `vocabulary_forms` (949 headword + 3,330 generated), all `active`; the v0 targets and the 23 old examples were removed |
 
-### Special case
-For `koti`, treat `kotona` and `kotoa` as lexicalized related forms:
-- `kotona`: `related_location` + `related_form`
-- `kotoa`: `related_source` + `related_form`
-- `kotiin` remains `illative_singular` + `inflected_form`
+Tools: [batch tool design](form-target-batch-tool.md); commands in [`backend/scripts/README.md`](../../backend/scripts/README.md) (`generate_form_targets`, `check_form_targets`, `import_form_targets`).
 
-## 3. Work completed
+## 4. Next
 
-1. **Vocabulary classification:** completed for all 949 items, with corrections applied. Each item has `part_of_speech`, an optional `pos_subtype`, and `verb_type` for verbs (`ei` is a `negative_auxiliary` with no numbered type). The IDs match `contents.id`.
-   - Data: [`backend/data-generation/vocabulary/vocabulary_classification.csv`](../../backend/data-generation/vocabulary/vocabulary_classification.csv)
-   - Report: [`vocabulary_classification_report.md`](../../backend/data-generation/vocabulary/vocabulary_classification_report.md)
-   - First-pass, primary-use classification; not dictionary-verified. Not imported into the database.
-2. **Grammatical label standardization:** [grammatical-label-policy.md](grammatical-label-policy.md).
-3. **Generation policy:** [form-generation-policy.md](form-generation-policy.md).
-4. **Pilot generation:** 20 words and 82 form targets generated and reviewed, with the `koti` adjustments above. No duplicates and no headword targets.
-   - Prompt: [`form_targets/prompts/form_generation_v1.md`](../../backend/data-generation/form_targets/prompts/form_generation_v1.md)
-   - Output: [`form_targets/outputs/pilot/`](../../backend/data-generation/form_targets/outputs/pilot/)
-
-Pilot sample:
-- Nouns: `talo`, `koti`, `kahvi`, `ihminen`, `ystävä`
-- Verbs: `puhua`, `olla`, `mennä`, `tehdä`, `saada`
-- Adjectives: `hyvä`, `suuri`, `kaunis`
-- Pronouns: `hän`, `tämä`, `joka`
-- Adverbs: `usein`, `hyvin`
-- Adposition: `ilman`
-- Numeral: `yksi`
-
-## 4. Current database state (for reference)
-
-- `vocabulary_forms` contains the **v0** targets for topics 1–3 only (233 rows), imported by `backend/scripts/legacy_import_vocabulary_forms_v0.py` from [`legacy_v0/vocabulary_forms_topic_1_3.json`](../../backend/data-generation/legacy_v0/vocabulary_forms_topic_1_3.json). Source document: [legacy/wordforms-topic-1-3.md](legacy/wordforms-topic-1-3.md).
-- 23 example sentences (words `eräs`, `hän`, `itse`) are linked to these v0 targets. Deleting the v0 targets cascades to the links and leaves the examples without targets; the plan is to remove these examples and regenerate them after the v1 import.
-- Verified against a read-only database snapshot on 2026-11-20.
-- The 82 pilot targets have not been imported.
-
-## 5. Work not yet done
-
-- Implement the batch-generation tool (prompt v2 with `target_type`).
-- Implement automatic output validation.
-- Generate form targets for all 949 words.
-- Review generated results.
-- Plan the replacement of v0 targets (including linked examples), back up the database, then import the approved v1 targets.
-
-## 6. Generation workflow principles
-
-- Input: `vocabulary_classification.csv`, which already contains IDs, words, topics and POS data. Reading from PostgreSQL is optional.
-- Group by topic where useful, then split into small batches (default 15 words, range 10–20).
-- Call the model using the reviewed generation prompt and a structured JSON schema.
-- Validate every response before saving it.
-- Save raw batch outputs locally and maintain a small manifest so interrupted work can resume.
-- Keep generation separate from the runtime learning API. It is a data-maintenance workflow.
-- Do not write generated data into PostgreSQL until it has passed review.
-
-## 7. Current checkpoint
-
-| Work item | Status |
-|---|---|
-| Vocabulary classification | Complete (first pass, corrected) |
-| Grammatical label policy | Complete |
-| Form generation policy | Complete (uses `target_type`) |
-| Pilot generation and review | Complete |
-| Decision: regenerate topics 1–3 | Made (2026-11-20) |
-| Decision: field name `target_type` | Made (2026-11-20) |
-| Prompt v2 | Not started |
-| Batch generator | Not started |
-| Bulk generation | Not started |
-| Replacement of v0 targets and database import | Not started |
+- Redeploy the backend (the deployed API only returns `reviewed` forms).
+- Update the example validator: for a verb `governed_pattern`, check the complement word instead of the infinitive; then regenerate examples topic by topic.
+- Optional: install Voikko on the Mac (`brew install libvoikko`, `pip install libvoikko`) so generation runs check forms automatically.

@@ -71,10 +71,24 @@ the active vocabulary-item count for that language. Topics with no active
 items are included with `word_count: 0`.
 
 `GET /api/v1/vocabulary/topics/{topic_slug}/contents?language=fi` returns one
-topic and its active vocabulary items, with reviewed forms nested under each
-item and all linked examples nested under each form. Example and target
+topic and its active vocabulary items, with forms (`review_status` `active`,
+`needs_review` or `reviewed`) nested under each item and all linked examples nested under each form. Example and target
 validation statuses are included in the response for review. A form's
 `examples` value is always a list and can contain multiple examples.
 
 The general `GET /api/v1/contents` endpoint remains available for flat content
 queries and does not accept a `limit` parameter.
+
+## Report a problem from the app
+
+`POST /api/v1/reports` records a problem reported with the Report button in a
+learning session:
+
+```json
+{ "content_id": "…", "vocabulary_form_id": "…", "example_id": "…",
+  "reason": "finnish_sentence | translation | word_form | other", "note": "optional" }
+```
+
+It stores a snapshot in `content_reports` and marks the reported form or
+example `needs_review`. Open reports appear in the database export
+(`python -m scripts.export_database`). Tests: `python -m unittest tests.test_content_reports`.

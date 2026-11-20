@@ -45,7 +45,7 @@ More detail: [Project context and methodology](docs/PROJECT_CONTEXT.md).
 | --- | --- |
 | **Vocabulary base** | 949 frequency-based Finnish words in 41 semantic topics, stored in PostgreSQL |
 | **Part-of-speech classification** | All 949 words classified (POS, subtype, verb type) |
-| **Word-form targets** | First three topics (93 words) have reviewed form targets; v1 generation policy and a 20-word pilot are complete; batch generation is next |
+| **Word-form targets** | All 949 words have form targets (4,279 incl. headwords), generated in topic batches with a validated prompt, checked automatically (incl. the Voikko morphological analyser) and imported |
 | **AI example sentences** | Short Finnish sentences generated per form target, with a natural **spoken** (puhekieli) version, a **standard written** version and an English translation; automatically validated, deduplicated and saved with provenance |
 | **Backend API** | FastAPI service for topics, vocabulary with nested forms and examples, and protected example generation |
 | **Mobile app** | Expo / React Native app: topic browsing, example-sentence sessions with Finnish text-to-speech, translation reveal, and locally saved progress |

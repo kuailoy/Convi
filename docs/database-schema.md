@@ -1,6 +1,6 @@
 # Convi Database Schema
 
-> Current implementation: seven PostgreSQL tables managed by Alembic (migrations `0001`–`0009`). The database contains 949 Finnish vocabulary items in 41 topics and v0 word-form targets for the first three topics, which will be replaced by v1 targets. Examples are generated through a backend script or API endpoint and served to the mobile app through the topic contents endpoint. Project status: [STATUS.md](STATUS.md).
+> Current implementation: eight PostgreSQL tables managed by Alembic (migrations `0001`–`0010`; `0010` adds `content_reports` and is not yet applied to `convi_dev`). The database contains 949 Finnish vocabulary items in 41 topics and v0 word-form targets for the first three topics, which will be replaced by v1 targets. Examples are generated through a backend script or API endpoint and served to the mobile app through the topic contents endpoint. Project status: [STATUS.md](STATUS.md).
 
 ## Core Model
 
@@ -32,7 +32,7 @@ Practice context and register are separate from mode and method. For example, `m
 
 ## Tables
 
-The current schema has seven tables: `contents`, `vocabulary_topics`, `vocabulary_forms`, `vocabulary_examples`, `vocabulary_example_targets`, `exercise_sets`, and `content_progress`.
+The current schema has eight tables: `contents`, `vocabulary_topics`, `vocabulary_forms`, `vocabulary_examples`, `vocabulary_example_targets`, `content_reports`, `exercise_sets`, and `content_progress`.
 
 ### `contents`
 
@@ -67,7 +67,7 @@ Stores the ordered bilingual vocabulary topic list (`slug`, English and Finnish 
 
 ### `vocabulary_forms`
 
-Stores reviewed forms and usage targets linked to a vocabulary item. A row can represent an inflected form, an invariant item, a related directional form, or a case/usage pattern such as a postposition taking a genitive or partitive complement. This distinction lets later coverage calculations count only the target types they intend to measure.
+Stores forms and usage targets linked to a vocabulary item. A row can represent an inflected form, an invariant item, a related directional form, or a case/usage pattern such as a postposition taking a genitive or partitive complement. This distinction lets later coverage calculations count only the target types they intend to measure.
 
 | Field | Purpose |
 | --- | --- |
@@ -78,11 +78,11 @@ Stores reviewed forms and usage targets linked to a vocabulary item. A row can r
 | `target_type` | `inflected_form`, `invariant`, `related_form`, or `governed_pattern` |
 | `display_order` | Order of the target within its vocabulary item |
 | `notes` | Usage or grammar note |
-| `review_status` | Review state; imported pilot rows are `reviewed` |
+| `review_status` | `active` (default, in use), `needs_review` (reported from the app, to be fixed) or `reviewed` (legacy v0 rows). The app shows all three. |
 | `source_note` | Source document for the reviewed pilot |
 | `created_at` | Record creation time |
 
-The current import contains 233 v0 targets covering 93 vocabulary items across the first three topics. It is idempotently maintained by `scripts.legacy_import_vocabulary_forms_v0`. These rows use legacy labels (for example `N sg`) and will be replaced by targets generated with the v1 policy; see the [form-target checkpoint](data-generation/FORM_TARGET_GENERATION_CHECKPOINT.md). The flat `GET /api/v1/contents` endpoint does not return forms; `GET /api/v1/vocabulary/topics/{slug}/contents` returns them nested under each vocabulary item.
+The table holds 4,279 targets for all 949 vocabulary items: one headword target per item plus generated targets, imported by `scripts.import_form_targets`; see the [form-target checkpoint](data-generation/FORM_TARGET_GENERATION_CHECKPOINT.md). The flat `GET /api/v1/contents` endpoint does not return forms; `GET /api/v1/vocabulary/topics/{slug}/contents` returns them nested under each vocabulary item.
 
 ### `vocabulary_examples`
 
@@ -103,6 +103,23 @@ Stores generated Finnish sentences and English translations. `finnish_sentence` 
 ### `vocabulary_example_targets`
 
 Associates an example with one or more targets in `vocabulary_forms`. `primary` identifies the form the example was generated to teach; `reinforcement` can record other forms the same sentence practices. Coverage counts only valid `primary` links. A target link has its own validation state because a sentence may be valid for one target but still require review for another. Previous examples are retained with identical spoken/written text and marked for review or regeneration under the paired-register format.
+
+### `content_reports`
+
+Problems reported from the app with the Report button on an example. A report keeps a snapshot of what the learner saw, so it survives regeneration of the form or example (their foreign keys are set to null on delete). Creating a report marks the reported row: a `word_form` report sets the form's `review_status` to `needs_review`; other reports about an example set the example's `validation_status` to `needs_review`.
+
+| Field | Purpose |
+| --- | --- |
+| `id` | UUID primary key |
+| `content_id` | Vocabulary item (cascade delete) |
+| `vocabulary_form_id`, `example_id` | Reported form and example; nullable, set to null on delete |
+| `reason` | `finnish_sentence`, `translation`, `word_form`, or `other` |
+| `note` | Optional learner note |
+| `snapshot` | JSONB: word, form, label, sentences and translation at report time |
+| `status` | `open`, `resolved`, or `dismissed` |
+| `created_at`, `resolved_at` | Timestamps |
+
+`POST /api/v1/reports` creates a report (201; 404 if the item, form or example does not belong together; 422 for a missing form or example).
 
 ### `GET /api/v1/contents`
 
@@ -147,6 +164,7 @@ erDiagram
     CONTENTS ||--o{ VOCABULARY_EXAMPLES : illustrates
     VOCABULARY_EXAMPLES ||--o{ VOCABULARY_EXAMPLE_TARGETS : covers
     VOCABULARY_FORMS ||--o{ VOCABULARY_EXAMPLE_TARGETS : targeted_by
+    CONTENTS ||--o{ CONTENT_REPORTS : reported_in
     CONTENTS ||--o{ EXERCISE_SETS : has
     CONTENTS ||--o| CONTENT_PROGRESS : tracks
 ```
