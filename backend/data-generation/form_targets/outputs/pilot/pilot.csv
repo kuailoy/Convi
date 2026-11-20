@@ -1,0 +1,83 @@
+content_id,word,part_of_speech,topic,form,grammatical_label,form_type,display_order
+fbd2dcfb-ceb7-42ae-a529-e7b64aff86d7,talo,noun,Home and housing,talon,genitive_singular,inflected_form,1
+fbd2dcfb-ceb7-42ae-a529-e7b64aff86d7,talo,noun,Home and housing,taloa,partitive_singular,inflected_form,2
+fbd2dcfb-ceb7-42ae-a529-e7b64aff86d7,talo,noun,Home and housing,talossa,inessive_singular,inflected_form,3
+fbd2dcfb-ceb7-42ae-a529-e7b64aff86d7,talo,noun,Home and housing,talosta,elative_singular,inflected_form,4
+fbd2dcfb-ceb7-42ae-a529-e7b64aff86d7,talo,noun,Home and housing,taloon,illative_singular,inflected_form,5
+db62b58f-9de3-4bac-9f3e-a54937fc84bb,koti,noun,Home and housing,kodin,genitive_singular,inflected_form,1
+db62b58f-9de3-4bac-9f3e-a54937fc84bb,koti,noun,Home and housing,kotia,partitive_singular,inflected_form,2
+db62b58f-9de3-4bac-9f3e-a54937fc84bb,koti,noun,Home and housing,kotona,related_location,related_form,3
+db62b58f-9de3-4bac-9f3e-a54937fc84bb,koti,noun,Home and housing,kotoa,related_source,related_form,4
+db62b58f-9de3-4bac-9f3e-a54937fc84bb,koti,noun,Home and housing,kotiin,illative_singular,inflected_form,5
+f282bc20-935d-4da3-9900-dad1c14baa9b,kahvi,noun,Food and drink,kahvin,genitive_singular,inflected_form,1
+f282bc20-935d-4da3-9900-dad1c14baa9b,kahvi,noun,Food and drink,kahvia,partitive_singular,inflected_form,2
+f282bc20-935d-4da3-9900-dad1c14baa9b,kahvi,noun,Food and drink,kahvissa,inessive_singular,inflected_form,3
+f282bc20-935d-4da3-9900-dad1c14baa9b,kahvi,noun,Food and drink,kahvista,elative_singular,inflected_form,4
+f282bc20-935d-4da3-9900-dad1c14baa9b,kahvi,noun,Food and drink,kahviin,illative_singular,inflected_form,5
+02fd0109-818e-4256-9188-dbeb2b2cdf61,ihminen,noun,People and family,ihmisen,genitive_singular,inflected_form,1
+02fd0109-818e-4256-9188-dbeb2b2cdf61,ihminen,noun,People and family,ihmistä,partitive_singular,inflected_form,2
+02fd0109-818e-4256-9188-dbeb2b2cdf61,ihminen,noun,People and family,ihmisessä,inessive_singular,inflected_form,3
+02fd0109-818e-4256-9188-dbeb2b2cdf61,ihminen,noun,People and family,ihmisestä,elative_singular,inflected_form,4
+02fd0109-818e-4256-9188-dbeb2b2cdf61,ihminen,noun,People and family,ihmiseen,illative_singular,inflected_form,5
+109f71cf-51a3-4428-9ead-1dd3b8177fdc,ystävä,noun,People and family,ystävän,genitive_singular,inflected_form,1
+109f71cf-51a3-4428-9ead-1dd3b8177fdc,ystävä,noun,People and family,ystävää,partitive_singular,inflected_form,2
+109f71cf-51a3-4428-9ead-1dd3b8177fdc,ystävä,noun,People and family,ystävässä,inessive_singular,inflected_form,3
+109f71cf-51a3-4428-9ead-1dd3b8177fdc,ystävä,noun,People and family,ystävästä,elative_singular,inflected_form,4
+109f71cf-51a3-4428-9ead-1dd3b8177fdc,ystävä,noun,People and family,ystävään,illative_singular,inflected_form,5
+d9d6c2f5-4efc-4bf9-b45b-f401e50087d0,puhua,verb,Speaking and conversation,puhun,present_1sg,inflected_form,1
+d9d6c2f5-4efc-4bf9-b45b-f401e50087d0,puhua,verb,Speaking and conversation,puhut,present_2sg,inflected_form,2
+d9d6c2f5-4efc-4bf9-b45b-f401e50087d0,puhua,verb,Speaking and conversation,puhuu,present_3sg,inflected_form,3
+d9d6c2f5-4efc-4bf9-b45b-f401e50087d0,puhua,verb,Speaking and conversation,puhumme,present_1pl,inflected_form,4
+0a84102a-1362-4900-85fb-a1dbf270498b,olla,verb,Ability and necessity,olen,present_1sg,inflected_form,1
+0a84102a-1362-4900-85fb-a1dbf270498b,olla,verb,Ability and necessity,olet,present_2sg,inflected_form,2
+0a84102a-1362-4900-85fb-a1dbf270498b,olla,verb,Ability and necessity,on,present_3sg,inflected_form,3
+0a84102a-1362-4900-85fb-a1dbf270498b,olla,verb,Ability and necessity,olemme,present_1pl,inflected_form,4
+85bf3335-f20c-4576-98dc-73b9b978af3b,mennä,verb,Movement and travel,menen,present_1sg,inflected_form,1
+85bf3335-f20c-4576-98dc-73b9b978af3b,mennä,verb,Movement and travel,menet,present_2sg,inflected_form,2
+85bf3335-f20c-4576-98dc-73b9b978af3b,mennä,verb,Movement and travel,menee,present_3sg,inflected_form,3
+85bf3335-f20c-4576-98dc-73b9b978af3b,mennä,verb,Movement and travel,menemme,present_1pl,inflected_form,4
+c60ef361-7441-48ee-be0a-d7cd26705100,tehdä,verb,Everyday verbs,teen,present_1sg,inflected_form,1
+c60ef361-7441-48ee-be0a-d7cd26705100,tehdä,verb,Everyday verbs,teet,present_2sg,inflected_form,2
+c60ef361-7441-48ee-be0a-d7cd26705100,tehdä,verb,Everyday verbs,tekee,present_3sg,inflected_form,3
+c60ef361-7441-48ee-be0a-d7cd26705100,tehdä,verb,Everyday verbs,teemme,present_1pl,inflected_form,4
+6656320d-127c-4e2e-9458-cbcfef306bac,saada,verb,Everyday verbs,saan,present_1sg,inflected_form,1
+6656320d-127c-4e2e-9458-cbcfef306bac,saada,verb,Everyday verbs,saat,present_2sg,inflected_form,2
+6656320d-127c-4e2e-9458-cbcfef306bac,saada,verb,Everyday verbs,saa,present_3sg,inflected_form,3
+6656320d-127c-4e2e-9458-cbcfef306bac,saada,verb,Everyday verbs,saamme,present_1pl,inflected_form,4
+ee7938e6-5299-4780-91b3-5340c0f7a3c1,hyvä,adjective,Evaluation and correctness,hyvän,genitive_singular,inflected_form,1
+ee7938e6-5299-4780-91b3-5340c0f7a3c1,hyvä,adjective,Evaluation and correctness,hyvää,partitive_singular,inflected_form,2
+ee7938e6-5299-4780-91b3-5340c0f7a3c1,hyvä,adjective,Evaluation and correctness,parempi,comparative,inflected_form,3
+ee7938e6-5299-4780-91b3-5340c0f7a3c1,hyvä,adjective,Evaluation and correctness,paras,superlative,inflected_form,4
+a3eaf317-b43b-44cb-a699-e656994f2d86,suuri,adjective,Size and physical properties,suuren,genitive_singular,inflected_form,1
+a3eaf317-b43b-44cb-a699-e656994f2d86,suuri,adjective,Size and physical properties,suurta,partitive_singular,inflected_form,2
+a3eaf317-b43b-44cb-a699-e656994f2d86,suuri,adjective,Size and physical properties,suurempi,comparative,inflected_form,3
+a3eaf317-b43b-44cb-a699-e656994f2d86,suuri,adjective,Size and physical properties,suurin,superlative,inflected_form,4
+9aa6fc2d-a8d0-4f11-b949-208d8abbc45c,kaunis,adjective,Appearance and temperature,kauniin,genitive_singular,inflected_form,1
+9aa6fc2d-a8d0-4f11-b949-208d8abbc45c,kaunis,adjective,Appearance and temperature,kaunista,partitive_singular,inflected_form,2
+9aa6fc2d-a8d0-4f11-b949-208d8abbc45c,kaunis,adjective,Appearance and temperature,kauniimpi,comparative,inflected_form,3
+9aa6fc2d-a8d0-4f11-b949-208d8abbc45c,kaunis,adjective,Appearance and temperature,kaunein,superlative,inflected_form,4
+f204c4c7-ccf5-4c2a-8aa8-51609fe606b4,hän,pronoun,Pronouns and reference,hänet,accusative_singular,inflected_form,1
+f204c4c7-ccf5-4c2a-8aa8-51609fe606b4,hän,pronoun,Pronouns and reference,häntä,partitive_singular,inflected_form,2
+f204c4c7-ccf5-4c2a-8aa8-51609fe606b4,hän,pronoun,Pronouns and reference,hänen,genitive_singular,inflected_form,3
+f204c4c7-ccf5-4c2a-8aa8-51609fe606b4,hän,pronoun,Pronouns and reference,hänelle,allative_singular,inflected_form,4
+f204c4c7-ccf5-4c2a-8aa8-51609fe606b4,hän,pronoun,Pronouns and reference,häneltä,ablative_singular,inflected_form,5
+3c03fe85-e977-4b6c-a61c-f4cd6e16b14f,tämä,pronoun,Pronouns and reference,tämän,genitive_singular,inflected_form,1
+3c03fe85-e977-4b6c-a61c-f4cd6e16b14f,tämä,pronoun,Pronouns and reference,tätä,partitive_singular,inflected_form,2
+3c03fe85-e977-4b6c-a61c-f4cd6e16b14f,tämä,pronoun,Pronouns and reference,tässä,inessive_singular,inflected_form,3
+3c03fe85-e977-4b6c-a61c-f4cd6e16b14f,tämä,pronoun,Pronouns and reference,tästä,elative_singular,inflected_form,4
+3c03fe85-e977-4b6c-a61c-f4cd6e16b14f,tämä,pronoun,Pronouns and reference,tähän,illative_singular,inflected_form,5
+98fcc3db-66c5-4a2e-8a81-763f90a23dd0,joka,pronoun,Pronouns and reference,jonka,genitive_singular,inflected_form,1
+98fcc3db-66c5-4a2e-8a81-763f90a23dd0,joka,pronoun,Pronouns and reference,jota,partitive_singular,inflected_form,2
+98fcc3db-66c5-4a2e-8a81-763f90a23dd0,joka,pronoun,Pronouns and reference,jossa,inessive_singular,inflected_form,3
+98fcc3db-66c5-4a2e-8a81-763f90a23dd0,joka,pronoun,Pronouns and reference,josta,elative_singular,inflected_form,4
+98fcc3db-66c5-4a2e-8a81-763f90a23dd0,joka,pronoun,Pronouns and reference,johon,illative_singular,inflected_form,5
+7ef19c81-1ff7-48ba-a57b-68b05042a5d7,usein,adverb,Sequence and frequency,useammin,comparative_adverb,inflected_form,1
+7ef19c81-1ff7-48ba-a57b-68b05042a5d7,usein,adverb,Sequence and frequency,useimmin,superlative_adverb,inflected_form,2
+743e5337-2407-405a-8ab7-1e4f1039eeb8,hyvin,adverb,Manner and certainty,paremmin,comparative_adverb,inflected_form,1
+743e5337-2407-405a-8ab7-1e4f1039eeb8,hyvin,adverb,Manner and certainty,parhaiten,superlative_adverb,inflected_form,2
+342974b9-8694-4c11-bf8f-20dfc70954c6,ilman,adposition,Relational words,ilman kahvia,partitive_complement,governed_pattern,1
+3e3a0f8c-9ddd-461b-a30b-ed4cded7b8da,yksi,numeral,"Numbers, quantity and comparison",yhden,genitive_singular,inflected_form,1
+3e3a0f8c-9ddd-461b-a30b-ed4cded7b8da,yksi,numeral,"Numbers, quantity and comparison",yhtä,partitive_singular,inflected_form,2
+3e3a0f8c-9ddd-461b-a30b-ed4cded7b8da,yksi,numeral,"Numbers, quantity and comparison",yhdessä,inessive_singular,inflected_form,3
+3e3a0f8c-9ddd-461b-a30b-ed4cded7b8da,yksi,numeral,"Numbers, quantity and comparison",yhdestä,elative_singular,inflected_form,4
+3e3a0f8c-9ddd-461b-a30b-ed4cded7b8da,yksi,numeral,"Numbers, quantity and comparison",yhteen,illative_singular,inflected_form,5

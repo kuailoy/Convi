@@ -1,4 +1,7 @@
-"""Generate a Pattern Drill set with the OpenAI API."""
+"""LEGACY prototype: generate an English Pattern Drill set with the OpenAI API.
+
+Used only by scripts/legacy_try_pattern_drill_en.py.
+"""
 
 import json
 

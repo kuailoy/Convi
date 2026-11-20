@@ -27,13 +27,23 @@ python -m pip install -e .
 alembic upgrade head
 ```
 
-The first migration creates `contents`, `exercise_sets`, and `content_progress` in the database selected by `DB_NAME`. Review the migration before applying it to any database containing valuable data.
+The migrations create the seven tables described in [docs/database-schema.md](../docs/database-schema.md) in the database selected by `DB_NAME`. Review new migrations before applying them to any database containing valuable data, and back up first.
+
+To import data and run maintenance scripts, see [scripts/README.md](scripts/README.md).
 
 To see the current migration revision:
 
 ```bash
 alembic current
 ```
+
+## Run the API locally
+
+```bash
+fastapi dev app/main.py
+```
+
+`GET /health` returns `{"status": "ok"}`.
 
 ## Generate topic examples through the API
 

@@ -1,6 +1,6 @@
 # Convi Database Schema
 
-> Current implementation: seven PostgreSQL tables managed by Alembic. The database contains Finnish vocabulary items and reviewed word-form targets for the first three topics. Example generation and persistence are available through a backend script; the mobile Preparing flow is not connected yet.
+> Current implementation: seven PostgreSQL tables managed by Alembic (migrations `0001`–`0009`). The database contains 949 Finnish vocabulary items in 41 topics and v0 word-form targets for the first three topics, which will be replaced by v1 targets. Examples are generated through a backend script or API endpoint and served to the mobile app through the topic contents endpoint. Project status: [STATUS.md](STATUS.md).
 
 ## Core Model
 
@@ -82,7 +82,7 @@ Stores reviewed forms and usage targets linked to a vocabulary item. A row can r
 | `source_note` | Source document for the reviewed pilot |
 | `created_at` | Record creation time |
 
-The first import contains 232 targets covering 93 vocabulary items across the first three topics. It is idempotently maintained by `scripts.import_vocabulary_forms`. The existing contents API does not yet return these records.
+The current import contains 233 v0 targets covering 93 vocabulary items across the first three topics. It is idempotently maintained by `scripts.legacy_import_vocabulary_forms_v0`. These rows use legacy labels (for example `N sg`) and will be replaced by targets generated with the v1 policy; see the [form-target checkpoint](data-generation/FORM_TARGET_GENERATION_CHECKPOINT.md). The flat `GET /api/v1/contents` endpoint does not return forms; `GET /api/v1/vocabulary/topics/{slug}/contents` returns them nested under each vocabulary item.
 
 ### `vocabulary_examples`
 

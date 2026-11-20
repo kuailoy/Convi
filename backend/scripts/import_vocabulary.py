@@ -9,7 +9,9 @@ from app.database import create_database_engine
 from app.models import Content, VocabularyTopic
 
 
-DATA_FILE = Path(__file__).resolve().parents[1] / "data" / "finnish_vocabulary.csv"
+DATA_FILE = (
+    Path(__file__).resolve().parents[1] / "data-generation" / "vocabulary" / "finnish_vocabulary.csv"
+)
 SOURCE_NOTE = "Source: finnish_949_semantic_learning_order_en.xlsx; primary topic assignment."
 
 

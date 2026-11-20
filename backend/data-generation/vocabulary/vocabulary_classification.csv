@@ -1,0 +1,950 @@
+id,word,topic_id,topic_name_en,topic_slug,part_of_speech,pos_subtype,verb_type
+03810b5e-9b4b-4705-9cdc-ff5a9eb0b0a5,aikoa,cebebfa5-1866-4074-92f8-08cb036e1aa2,Ability and necessity,ability-and-necessity,verb,,1
+0a84102a-1362-4900-85fb-a1dbf270498b,olla,cebebfa5-1866-4074-92f8-08cb036e1aa2,Ability and necessity,ability-and-necessity,verb,,3
+1cf77058-1b42-487f-972a-d201f79772e2,pystyä,cebebfa5-1866-4074-92f8-08cb036e1aa2,Ability and necessity,ability-and-necessity,verb,,1
+250ec318-9483-41c8-8267-34c4b8ad618e,täytyä,cebebfa5-1866-4074-92f8-08cb036e1aa2,Ability and necessity,ability-and-necessity,verb,,1
+37015c11-1430-4f00-91ea-779a545642fa,voida,cebebfa5-1866-4074-92f8-08cb036e1aa2,Ability and necessity,ability-and-necessity,verb,,2
+3ecaf38c-2395-4922-b091-01495dae1ec1,koittaa,cebebfa5-1866-4074-92f8-08cb036e1aa2,Ability and necessity,ability-and-necessity,verb,,1
+65eceed2-3ba8-48ac-98ad-2a7345067a24,viitsiä,cebebfa5-1866-4074-92f8-08cb036e1aa2,Ability and necessity,ability-and-necessity,verb,,1
+80f145fe-7bd9-46e8-bef5-bc7d50c9a222,pakko,cebebfa5-1866-4074-92f8-08cb036e1aa2,Ability and necessity,ability-and-necessity,noun,,
+884f3ab0-13f6-4670-b204-592380b81cda,saattaa,cebebfa5-1866-4074-92f8-08cb036e1aa2,Ability and necessity,ability-and-necessity,verb,,1
+8e8dca91-5e42-4743-bd1d-edafb5a36aec,uskaltaa,cebebfa5-1866-4074-92f8-08cb036e1aa2,Ability and necessity,ability-and-necessity,verb,,1
+922d88c5-5023-4121-8173-252047ad832d,osata,cebebfa5-1866-4074-92f8-08cb036e1aa2,Ability and necessity,ability-and-necessity,verb,,4
+a5174e38-4eb5-4cb4-bc16-2eb58d6dbb49,jaksaa,cebebfa5-1866-4074-92f8-08cb036e1aa2,Ability and necessity,ability-and-necessity,verb,,1
+a55b20c9-f9d8-44ec-8ad6-2c27bd8c6cdc,taitaa,cebebfa5-1866-4074-92f8-08cb036e1aa2,Ability and necessity,ability-and-necessity,verb,,1
+bd62d550-a1aa-40f5-807b-32befb5ef1f6,kannattaa,cebebfa5-1866-4074-92f8-08cb036e1aa2,Ability and necessity,ability-and-necessity,verb,,1
+de037dff-6775-4f23-9bbe-90d1766732d8,riittää,cebebfa5-1866-4074-92f8-08cb036e1aa2,Ability and necessity,ability-and-necessity,verb,,1
+0438be90-2412-421e-b68b-e14da228addb,kylmä,039b0633-6100-4ce4-9b74-cc78b65d0641,Appearance and temperature,appearance-and-temperature,adjective,,
+551d4bee-92e9-41f5-9f2d-444132621044,näköinen,039b0633-6100-4ce4-9b74-cc78b65d0641,Appearance and temperature,appearance-and-temperature,adjective,,
+5f719c17-7b84-4bc5-a9aa-82495356ec89,musta,039b0633-6100-4ce4-9b74-cc78b65d0641,Appearance and temperature,appearance-and-temperature,adjective,,
+7bf1cb40-74b4-40ed-9201-26a6b965c883,kuuma,039b0633-6100-4ce4-9b74-cc78b65d0641,Appearance and temperature,appearance-and-temperature,adjective,,
+8c27e90e-d518-44ab-b4f1-28995534a396,valkoinen,039b0633-6100-4ce4-9b74-cc78b65d0641,Appearance and temperature,appearance-and-temperature,adjective,,
+9219abad-7768-482f-a9d3-36f0ebed582a,lämmin,039b0633-6100-4ce4-9b74-cc78b65d0641,Appearance and temperature,appearance-and-temperature,adjective,,
+9aa6fc2d-a8d0-4f11-b949-208d8abbc45c,kaunis,039b0633-6100-4ce4-9b74-cc78b65d0641,Appearance and temperature,appearance-and-temperature,adjective,,
+c970031f-9559-427b-b9f5-925fb893c4c2,ruma,039b0633-6100-4ce4-9b74-cc78b65d0641,Appearance and temperature,appearance-and-temperature,adjective,,
+f61f4a03-0914-4ea5-8c39-e0fffa2a466e,punainen,039b0633-6100-4ce4-9b74-cc78b65d0641,Appearance and temperature,appearance-and-temperature,adjective,,
+15ccdd16-90e5-414e-b3df-ff688c999269,veri,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+1a07e0a6-d80f-46ec-90c6-1c24e11e6dc3,vahinko,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+1cdf2f49-c095-4f4c-9333-25078bd90bb5,henki,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+2deb380a-9a1d-4f43-85b3-2910d8368f59,sairas,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,adjective,,
+34ef4a7f-a985-4622-88c4-e09df20e99be,kuolla,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,verb,,3
+3809808c-c4f2-4549-8acd-886ec266caa8,jalka,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+48e40a15-2907-41b4-93dc-ca0bff925dbb,käsi,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+4a93b56f-8593-4ca1-9863-2b27921c6929,sairaala,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+56c7be38-46d0-4aad-8ffc-98cc66056116,pää,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+6006cdc8-bad3-4548-bb68-13f39a1fa3a7,sydän,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+712cb8cd-2d2e-4a5d-9018-46959ecf652b,terve,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,adjective,,
+759e6a25-66c1-4811-9803-c49049788ef2,hius,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+8c8e371b-78e1-440a-85b2-daa9fd4efd41,turpa,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+9bf5c0a3-dd50-428e-9308-f2d1866ca339,tappaa,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,verb,,1
+a49ec53a-74fd-461e-b92e-32de4d130133,energia,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+a6ecf5bf-8e60-4bab-8b18-16182fb39926,ruumis,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+a80d4daa-33d5-4f32-aa87-97462c11f1eb,silmä,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+b94ea96f-7087-424c-9521-4b717abf6a5e,hammas,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+b97d4350-5426-4674-8603-f459345c0bb3,kuolema,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+bad3dfe8-2e73-4218-8c64-1d36d06cc306,suu,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+bbb01145-3a54-49eb-8e37-5f108bab8f7a,kunto,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+c55b701c-d886-4da9-9d2d-25b2c4fdee4d,selkä,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,noun,,
+e4a90691-36e3-4d53-9e5e-d145bfa615c2,parantaa,19020614-2694-4105-b8d6-cc7f0f41f061,Body and health,body-and-health,verb,,1
+093a1afc-1ee4-454b-8721-ec00e93b29ce,päättää,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+16e5bf45-1f20-4fc5-9427-d6a71eea9c04,valita,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,5
+1b19c988-62e6-4728-bc26-fe6d8c6e93f5,uusi,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,adjective,,
+1c90bc92-ad94-4271-9bf8-f8025511ad07,vaikuttaa,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+247c1a77-5f60-47ce-8541-e7ca2574f7ab,sattua,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+4bc38ba9-1267-4ea3-8d5c-57dae8c3b9f2,ratkaisu,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,noun,,
+4f087ed9-fa58-4365-a1b9-29200a54581c,jatkaa,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+6a0c6396-3b6a-4119-8994-c9bfe8a60925,hyväksyä,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+6e7cd744-ed5f-4803-89fe-a7dae2c554f9,menettää,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+78ba5311-a30c-42a8-bfc6-c947617a13ac,kasvaa,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+7e75f463-b0ac-45a8-9885-2810fd3f6f76,syntyä,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+95811be1-cd43-4e0c-92f1-92e0af4787ba,selvitä,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,4
+96f402a0-7e16-4ece-8d97-8c162ecf8320,lopettaa,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+981aeafd-6a6c-4a16-9f27-3ff224d79e1a,johtua,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+9ac840ce-e054-4e9b-9351-82329044b331,onnistua,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+9f6b1571-1158-4e60-80db-f53f99054316,kokea,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+a5d2566c-042d-48c3-8bc5-85ace616eb66,kulua,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+a8ac7752-d2a1-4d18-806e-3903a965ade9,päätös,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,noun,,
+a9aa6e85-d485-4d8c-b840-98c15b619204,ehtiä,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+ac9808d2-8afe-4d2c-9b24-3427a559fea0,alkaa,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+b67ebfa0-e792-4f61-9e4b-1d7c3f2a9833,muutos,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,noun,,
+c8bb8b1c-8d4d-46b0-b31a-ed2cd997f6f9,jatkua,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+ca458103-9ac1-4b72-97b9-35da5ce6656f,muuttaa,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+d77d699a-d756-4389-9df0-015ffa7848b2,kokeilla,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,3
+da49916d-2971-48a3-b153-7cdf7e023e46,loppua,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+dc2542c6-38b0-4015-a3a9-8a567ef95ba0,yrittää,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+dd3c0d94-5324-49a1-982f-2743d34142ae,tapahtua,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+e2088fe0-2fb0-4b95-a673-6261a1ae7136,muuttua,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+e81045e5-38ed-4994-9c9e-c6cac7334034,entinen,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,adjective,,
+ec8bf539-1a81-44a5-be3e-d564dfc0cb4a,aiheuttaa,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,verb,,1
+f0b9c2cf-ed13-4baf-8fa0-3f72db0f64fa,vaikutus,51b84483-be4a-4a85-b218-9c6eaf43658e,Changes and decisions,changes-and-decisions,noun,,
+137b3aa5-5c46-47d8-a4f3-b28b223f662a,vaarallinen,be60a3e8-d3d6-41e1-869b-5a82f58b8d16,Crime and safety,crime-and-safety,adjective,,
+4f776bea-336b-44ff-8160-5dd573821edb,ampua,be60a3e8-d3d6-41e1-869b-5a82f58b8d16,Crime and safety,crime-and-safety,verb,,1
+5e55f4f7-00a1-4658-addd-2adba58b0a9d,rikollinen,be60a3e8-d3d6-41e1-869b-5a82f58b8d16,Crime and safety,crime-and-safety,adjective,,
+7097a813-8967-47c9-bf10-ce4fbad6f462,syyttää,be60a3e8-d3d6-41e1-869b-5a82f58b8d16,Crime and safety,crime-and-safety,verb,,1
+7a04261e-169a-42b7-8c59-32fb3dfdbec2,uhri,be60a3e8-d3d6-41e1-869b-5a82f58b8d16,Crime and safety,crime-and-safety,noun,,
+7d3ddd48-9749-4111-8bed-031e27ec4204,pelastaa,be60a3e8-d3d6-41e1-869b-5a82f58b8d16,Crime and safety,crime-and-safety,verb,,1
+ce231f62-b539-47d3-b2d8-81d223354fd5,hätä,be60a3e8-d3d6-41e1-869b-5a82f58b8d16,Crime and safety,crime-and-safety,noun,,
+d14c01fa-9af8-444e-aa42-067e198ee594,tuhota,be60a3e8-d3d6-41e1-869b-5a82f58b8d16,Crime and safety,crime-and-safety,verb,,4
+e48ef3a5-9125-4c00-95c6-df61660e081d,vaara,be60a3e8-d3d6-41e1-869b-5a82f58b8d16,Crime and safety,crime-and-safety,noun,,
+f2069a1a-064f-4e3c-9a08-7133b8cc5435,taistella,be60a3e8-d3d6-41e1-869b-5a82f58b8d16,Crime and safety,crime-and-safety,verb,,3
+f2dc7bb5-51da-4052-8f45-8fe1a7f6940c,riski,be60a3e8-d3d6-41e1-869b-5a82f58b8d16,Crime and safety,crime-and-safety,noun,,
+31912c26-822a-4ecf-aa42-11bda6a5e5d5,katsella,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,verb,,3
+31f212ad-1cd3-4105-9fd6-9c215f54835d,seura,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+352f36a8-61e1-499c-97f1-84be11476d6f,peli,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+47f394a2-2bcc-4296-8c37-d3bb9d157b36,tarina,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+4a95ea80-ad11-4fbb-89d8-7e18ee7f3eef,juhla,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+70fb7668-d633-4cef-bbb2-036b6c9145f2,kappale,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+712a1e96-361e-4db2-89c7-627d60516b04,loma,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+783cd55b-4a10-4542-ba2e-7976325fc3db,kuva,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+927869c3-8413-4fc2-973b-0b862ff8e88c,uutinen,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+97983a7c-d1c8-491f-aeb0-fa2f1405e1dd,tilaisuus,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+9886099f-6208-4a8f-83df-58baab6c7fc4,joukkue,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+99f676fc-95cf-475d-80c1-9aad7f850002,lehti,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+9a25e815-3f75-4316-8d91-ad0199610678,musiikki,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+af3988f5-75cc-4d26-aacb-ba867e9737ee,pelata,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,verb,,4
+b8151396-8aa6-4c6c-b79c-8a859fd3975c,elokuva,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+d6ffcffb-3cfb-4975-a062-aef89d451320,voitto,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+e0433f6f-712a-4495-b42c-e79d9384a293,esitys,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+e065dabc-9516-453a-b97c-f20d08dd8ba1,ottelu,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+e2cb90f0-22eb-4c68-9e5c-7dcf10a98841,kuvata,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,verb,,4
+e3cceedc-313c-4ec1-8e72-ffec9b85e01f,voittaa,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,verb,,1
+eef534c2-d645-420a-8d34-85ae78c551dd,ohjelma,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,noun,,
+f159c878-3607-4c68-a85b-816ed72ac184,hävitä,350d586e-e4a1-42c3-a29e-87af34f18fbd,"Culture, media and leisure",culture-media-and-leisure,verb,,4
+507182df-94f4-4d49-acb0-d2a8e6c5601b,mahdoton,ba71e13d-05d2-4c0c-953a-191356f9ed4f,Ease and suitability,ease-and-suitability,adjective,,
+57eb7237-a120-4ed0-828e-fe6de3dc4b28,sopiva,ba71e13d-05d2-4c0c-953a-191356f9ed4f,Ease and suitability,ease-and-suitability,adjective,,
+708c96b0-ef09-4374-ab3a-86ce9541e492,yksinkertainen,ba71e13d-05d2-4c0c-953a-191356f9ed4f,Ease and suitability,ease-and-suitability,adjective,,
+783a8b9e-8b72-4bab-9f38-2f781e1c5e78,mahdollinen,ba71e13d-05d2-4c0c-953a-191356f9ed4f,Ease and suitability,ease-and-suitability,adjective,,
+959dd249-5c30-4ff9-80a0-6dc115b76248,sopia,ba71e13d-05d2-4c0c-953a-191356f9ed4f,Ease and suitability,ease-and-suitability,verb,,1
+a55c15a7-b085-45d1-a122-915ee07734d1,hankala,ba71e13d-05d2-4c0c-953a-191356f9ed4f,Ease and suitability,ease-and-suitability,adjective,,
+ac62c97d-d2ab-4f87-9fac-2a4c93580431,vaikea,ba71e13d-05d2-4c0c-953a-191356f9ed4f,Ease and suitability,ease-and-suitability,adjective,,
+b34e388e-7493-4076-9cf5-e1d13d38cda4,helppo,ba71e13d-05d2-4c0c-953a-191356f9ed4f,Ease and suitability,ease-and-suitability,adjective,,
+bd2a9b67-86ce-46e4-a166-bb4738cdcfc9,vaihtoehto,ba71e13d-05d2-4c0c-953a-191356f9ed4f,Ease and suitability,ease-and-suitability,noun,,
+032a08ef-d990-4051-ac5f-346763a35c5b,valmis,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+07876061-e24c-48ec-a4b1-6410242852b6,turha,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+0aadffa6-90c8-44d8-b206-b82e4ee568d7,paha,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+316e9da8-b94e-4b97-951e-559995ade30f,todellinen,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+477c5c50-b596-4b87-a292-001756368865,varma,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+69c9553c-06e2-4460-8f17-2425cf08174c,väärin,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adverb,,
+6bc7dd29-0337-45b2-b85f-374b6a7f55df,oikein,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adverb,,
+724d0bcc-56a2-4c81-b698-dcb8685b06c0,aito,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+86026b80-3ba2-43d3-9ef4-4afe647ce533,normaali,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+89777dcf-5c69-4e8a-b643-377c17010c8c,tietty,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+9122050c-81ac-4a5e-92ad-d65344ee8b14,paras,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+968ee7f1-5e99-4fc6-9eeb-1b5b682bc543,väärä,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+9ef0ccdd-42e3-4077-8fd3-be4db9b7199b,vapaa,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+aa26a527-45ad-401f-920a-106e2d168ae3,tavallinen,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+aeaa3282-0474-4895-8a9c-8c6a2283827f,selvä,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+b244eb01-4501-4395-a887-91cc417b69f8,oikea,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+b39a91ea-9f10-43ef-b2e1-de7b78711d99,erityinen,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+be74bc55-714b-4d1c-a300-f2b01d0f655d,tärkeä,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+dce83cfd-f005-495d-9afb-27b5af03d725,huono,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+ee7938e6-5299-4780-91b3-5340c0f7a3c1,hyvä,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+fb54f6b3-b0ea-4041-9089-e7d8a4087b4a,parempi,2392d660-4274-4c01-8b1e-4acb2416f818,Evaluation and correctness,evaluation-and-correctness,adjective,,
+0c672d84-7b89-4e51-9653-e355c205fa07,tarvita,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,5
+0eb85bf8-86ce-488e-9d43-8869b53c18b5,siirtää,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+1420635d-35cb-467e-92fa-518ac6806004,auttaa,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+24b40b84-6a02-49a6-a481-20391a3e5c7d,antaa,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+44142565-c731-4758-b82e-ce39a3b8e771,laskea,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+4707db37-b82b-4c85-8c26-66e0e59ab803,käydä,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,2
+540d9d36-6457-4463-8850-42c14b883bf2,varata,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,4
+5522b965-aa64-42d9-ad9a-70bbd2c399a6,odottaa,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+6656320d-127c-4e2e-9458-cbcfef306bac,saada,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,2
+69e3d72f-9585-4082-9d88-12bc85d5238a,järjestää,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+6ab2fe11-6341-4133-9b31-32601abd8797,laittaa,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+81a7b844-eea3-40ce-8a4a-5ec6174afc7d,pitää,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+8b1f48ba-70cc-4a72-83c7-239d507a78a1,viedä,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,2
+8f00ac7e-ba68-4ddb-9c11-67332dfd8baa,hakea,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+b13d7435-f7d1-486e-8dca-e76243495285,löytyä,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+c2faa31d-edec-4696-bf1c-cfd3e555dba8,tuoda,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,2
+c344c375-6aa5-4c83-8b53-dd3305e89144,avata,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,4
+c58d4689-3d6d-4588-a2fa-53b3594093b0,löytää,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+c60ef361-7441-48ee-be0a-d7cd26705100,tehdä,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,2
+c772a361-da96-4a5d-af91-ecfdc38edc22,käyttää,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+dbf5629a-0168-4ec3-ba76-443b891bd9ba,hoitaa,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+e196848a-c54a-4bc3-92ca-8216e0b2a0b6,ostaa,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+e814f3d9-6420-4ab5-bb12-9fe2e2614b24,etsiä,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+ebdd92a0-8ce1-47f7-ae2d-a0d9f562d4fe,ottaa,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+f0323467-e7e4-48c6-ab3f-979fa6f15053,jättää,f65926a2-e597-4cb9-aeb9-c2d4dd91a6b5,Everyday verbs,everyday-verbs,verb,,1
+086c3e0d-a42d-4792-9316-845ff8742eef,kasvattaa,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,1
+08ddc81e-50e4-497b-97e2-e285bc4c8d53,onnellinen,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,adjective,,
+0e042e3a-2770-49fd-838d-8a02c186c95a,pelko,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+17117e4e-1e7d-4ebd-80a4-e5f3079548c9,nauraa,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,1
+19cb1ac3-d73e-4bb0-a6d5-b64926d62cd3,itkeä,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,1
+2ebbc71f-ea2a-4365-a416-7fc03ef31b2f,lahja,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+3374c133-cf1f-48d2-8618-c838fa626b95,arvostaa,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,1
+38aa669f-7480-4108-b16f-3f6ff5f6006c,rakastaa,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,1
+39dd7093-818a-4e0a-a16d-28dfbf0de8df,tahtoa,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,1
+46572b7c-af6e-4154-8fb9-c2844f0fb1ba,koskea,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,1
+46601a99-684d-46cb-abd4-0d3d2ca8d061,loukata,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,4
+46bc4766-a6fe-45d9-83f7-824bdacdc9f7,suhde,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+4eab31cb-e922-46a7-94d7-de49764697ec,tarve,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+60d8dfaf-9f0b-466c-aa36-0ddb9baab87a,rakkaus,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+67dc18f0-9c9b-4b2e-8c3e-a8c6f02b09cf,tunne,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+685e6f73-5fab-4021-af65-d8e9f01d2a25,tyytyväinen,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,adjective,,
+7117422a-e1ef-48da-88b3-a7100590f82e,haluta,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,4
+76c73ed6-7af6-43ae-978f-d2435eafc6b0,huoli,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+827190d7-ef1c-4a6d-b8b1-99016f63d1f3,puuttua,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,1
+854311b8-3041-4ccd-8dd3-cb4737add868,toivo,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+8b24c93d-41ef-48be-8a00-f60d451e2eb1,tyyppi,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+8dd66cf5-3eae-457c-9d84-190e38f7e2cd,huolehtia,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,1
+8f00aa80-6489-48b2-83c1-716a62f2e114,apu,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+941d546a-6120-464e-8a4f-7278ba22b236,välittää,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,1
+9b173c55-41ad-4ce3-a3fb-db83e8fcc3e2,onni,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+a6bcec46-df83-40df-8472-35a462ecceca,tottua,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,1
+aa635188-5eee-45a8-b374-39c76d2f2c7c,rakas,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,adjective,,
+be42a50b-bd4b-409e-b9d7-9e3ae69416ea,vaivata,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,4
+be618834-ecf0-40f7-9bff-3dcc843b80fa,seksi,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+bfc4180f-e489-4452-82f9-ccb57ef698da,halu,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+c29533f5-7cb8-4e71-a1c9-4fb6bdd35c32,ikävä,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,adjective,,
+c2cbd50b-bded-4fc8-9247-f488ff9737dd,kiinnostaa,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,1
+c687f4c8-ad1b-4e4e-8cb8-ac2444aff50c,suku,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+c69daef5-793b-44b2-b217-53d68fe27b8a,tahto,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+cdbcd8d2-2a03-4df8-9a01-8896ce08ab95,tuttu,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,adjective,,
+d09a91b6-60e8-4734-8715-bc4186f804e9,kaivata,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,4
+d5281476-87dc-49b0-9311-dd1f8d3a4c6a,mieluummin,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,adverb,,
+d770e0ab-4301-46fa-ae72-16a5110d5131,viha,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+e571b642-c5fd-423b-92ce-d353c456dc19,ilo,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+e6da60d8-6418-4531-9578-922562b9644a,toivoa,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,1
+ee07ebcb-4f06-401e-a287-aed8481e848e,nauttia,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,1
+ef1e8b58-24a4-4132-bdfe-c7709812f124,vihata,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,verb,,4
+fb4ee1f4-c8d0-4c72-b00f-1ed3ad51a5fa,usko,9765f4df-d45d-4758-a2b0-1a02a1d7558d,Feelings and relationships,feelings-and-relationships,noun,,
+2a5ac69e-a9c3-4ff7-8314-9c688a2ca8f2,voi,7d1642da-cb1a-4853-9831-3d3f5fe69dfa,Food and drink,food-and-drink,noun,,
+34962cc1-4aa3-4d56-baa1-7b77239ca995,juoda,7d1642da-cb1a-4853-9831-3d3f5fe69dfa,Food and drink,food-and-drink,verb,,2
+9c267a1e-aa2c-429b-a22b-89f8d5e0f992,ruoka,7d1642da-cb1a-4853-9831-3d3f5fe69dfa,Food and drink,food-and-drink,noun,,
+aebdcd13-9889-4947-b332-b7502b873bbc,syödä,7d1642da-cb1a-4853-9831-3d3f5fe69dfa,Food and drink,food-and-drink,verb,,2
+b52474b9-27c8-4064-a554-bf5f48afe3d0,liha,7d1642da-cb1a-4853-9831-3d3f5fe69dfa,Food and drink,food-and-drink,noun,,
+e4d2990a-9b5e-4b04-93cc-75b1c423c92f,tee,7d1642da-cb1a-4853-9831-3d3f5fe69dfa,Food and drink,food-and-drink,noun,,
+eff0583d-4f16-4919-ba05-2f989844827b,kala,7d1642da-cb1a-4853-9831-3d3f5fe69dfa,Food and drink,food-and-drink,noun,,
+f282bc20-935d-4da3-9900-dad1c14baa9b,kahvi,7d1642da-cb1a-4853-9831-3d3f5fe69dfa,Food and drink,food-and-drink,noun,,
+fbd39cc0-4daa-4d0c-b236-6e69e5956154,vesi,7d1642da-cb1a-4853-9831-3d3f5fe69dfa,Food and drink,food-and-drink,noun,,
+038993d6-86d3-4a69-a1f9-3f277d724e87,osua,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+0950196c-98f2-4390-b97c-e436e78c93a0,päästää,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+10da6531-bf84-45db-be36-f357560cfceb,leikata,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,4
+1e1f6cf7-db1e-4aed-be9c-d145101f7258,kantaa,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+2189244b-0d90-47a7-932f-acb6e4a09a8b,poistaa,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+325afcac-71e5-4b60-bf99-3906aa3113d2,heittää,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+38644728-3376-4a44-9931-b019f90af50e,iskeä,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+3e672617-fa34-448f-a3dc-ccb17f0066a0,painaa,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+4a680fa9-1c03-451b-9bbe-3541f58d4831,erottaa,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+4b4ce87c-60d3-4f57-870f-08dc84928859,kääntää,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+500b0d10-198b-4ef5-8cca-c3fe9e5db90d,vetää,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+5e576267-d91b-44d2-ba72-fb1224f46c08,panna,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,3
+60882f6e-b35b-45d4-bcbc-fb4e3233ed08,polttaa,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+77434a86-d461-4820-9bbd-1612d32c5ed8,pistää,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+77f16d9d-16bd-4d7f-9331-1985bb54c190,nostaa,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+b90aa11d-c001-4240-8b1e-ff5d6ff7cbb8,sulkea,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+c762e190-7b1a-4ea1-ae2a-b74facc29882,kiertää,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+ea0a0e28-a370-4532-8dae-30c6c8434383,lyödä,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,2
+eb1ed4c8-ea5f-4673-9765-788f1ecf3005,täyttää,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+f5276a33-d8d4-4ba8-8d9b-e56f6ee3ab31,palauttaa,3d8d9a45-1ee5-4c10-a53a-fcf64404b723,Handling objects and physical actions,handling-objects-and-physical-actions,verb,,1
+04f14fd7-f864-4434-9443-1b121fa960fa,huone,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,noun,,
+05c8df34-9086-466c-86cb-80eeb5df0579,tila,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,noun,,
+05ecb030-cc46-4b87-88a3-508f8113d139,asunto,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,noun,,
+08bb70a4-1a19-4b9a-a251-2801a2269bfa,pöytä,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,noun,,
+0943a941-897e-4528-8410-008cb92ad212,asua,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,verb,,1
+277e5b68-b5d7-4d32-8881-afde408efbc1,olo,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,noun,,
+2e97e3a6-603a-4469-a619-c678fa1e1a6c,ovi,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,noun,,
+40b5f0eb-ec67-405c-b909-b6c0f6dcfe3e,seisoa,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,verb,,1
+505c4b3e-cca4-428e-93f7-eeac7f8dfafa,herätä,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,verb,,4
+50a226c5-82fc-4527-8961-1afa0eb44a6c,sänky,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,noun,,
+591f0707-a40d-4cd1-9129-e008719a3b05,lattia,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,noun,,
+5eeef8f5-16aa-4608-a347-05d87bfcec0f,uni,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,noun,,
+71096e69-7ef4-4002-aa52-5a429ab8bffc,vaate,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,noun,,
+7476af81-2bb3-474c-8534-901aad2585e3,tavara,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,noun,,
+a2ac6b94-c85c-4843-8f5c-89cc48c09844,istua,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,verb,,1
+b40633fc-6ef2-42f0-abb4-a7619bd87b7f,ikkuna,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,noun,,
+ca5b2f53-e630-4ac6-ae5b-baa19250b5a9,piha,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,noun,,
+cd662df4-c1bb-465e-b5b9-bf0d35b3d5df,nukkua,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,verb,,1
+db62b58f-9de3-4bac-9f3e-a54937fc84bb,koti,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,noun,,
+fbd2dcfb-ceb7-42ae-a529-e7b64aff86d7,talo,cb763525-6d06-440c-bb48-727648e2a074,Home and housing,home-and-housing,noun,,
+02d23ef8-456e-4450-8b94-fb53651da1be,johtaja,21e5a0aa-3e57-4aaa-b9cb-5281f7feea63,Jobs and social roles,jobs-and-social-roles,noun,,
+205131e2-2a43-44b5-a6be-f64ebe1f9134,presidentti,21e5a0aa-3e57-4aaa-b9cb-5281f7feea63,Jobs and social roles,jobs-and-social-roles,noun,,
+48c24c1e-45d8-4c91-9e2f-df43b0701548,asiakas,21e5a0aa-3e57-4aaa-b9cb-5281f7feea63,Jobs and social roles,jobs-and-social-roles,noun,,
+5eb7de5e-6e82-4aa7-be79-ca08578d9af2,opettaja,21e5a0aa-3e57-4aaa-b9cb-5281f7feea63,Jobs and social roles,jobs-and-social-roles,noun,,
+85f567c1-5d56-4091-8571-a759f9170bbf,poliisi,21e5a0aa-3e57-4aaa-b9cb-5281f7feea63,Jobs and social roles,jobs-and-social-roles,noun,,
+925bdb07-5180-4245-9f76-852873c199a4,eläke,21e5a0aa-3e57-4aaa-b9cb-5281f7feea63,Jobs and social roles,jobs-and-social-roles,noun,,
+b61052d0-d17b-467c-8365-b5494c2b1d3d,toimittaja,21e5a0aa-3e57-4aaa-b9cb-5281f7feea63,Jobs and social roles,jobs-and-social-roles,noun,,
+c0997f08-8ea4-4f85-8946-c5edf290221d,lääkäri,21e5a0aa-3e57-4aaa-b9cb-5281f7feea63,Jobs and social roles,jobs-and-social-roles,noun,,
+c9814d4e-77a7-4022-b011-302303073f23,potilas,21e5a0aa-3e57-4aaa-b9cb-5281f7feea63,Jobs and social roles,jobs-and-social-roles,noun,,
+df44c072-6cc2-4b7d-819e-1107d44e416c,pappi,21e5a0aa-3e57-4aaa-b9cb-5281f7feea63,Jobs and social roles,jobs-and-social-roles,noun,,
+e2001806-b42f-4197-a942-b11aa4d33804,omistaja,21e5a0aa-3e57-4aaa-b9cb-5281f7feea63,Jobs and social roles,jobs-and-social-roles,noun,,
+e72f1d1c-2e8f-4f76-bb1e-af884ad418f8,kuningas,21e5a0aa-3e57-4aaa-b9cb-5281f7feea63,Jobs and social roles,jobs-and-social-roles,noun,,
+005df097-0069-4edf-b53e-3f46e52f1137,kuulemma,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,particle,,
+0c3a6947-8f01-4b03-99b0-f2d7940139c1,pelkästään,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+11b47f8e-9b81-4854-96cc-f3e09e34d6d6,enempi,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+16821852-039f-4541-82ee-318c615f6c39,todennäköisesti,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+1f4b7c61-e3bb-4063-acd8-e741772300dd,todella,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+2d52bd07-f53a-4187-ba56-3a0ba2b26103,ehdottomasti,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+30316e45-d75f-43fa-9d3e-11bbb45ea1cc,tietysti,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+3ffd3f13-8468-4fd4-8728-671b80b4d109,erityisesti,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+427db368-bcc9-4003-ad08-ec32d02e59f7,kenties,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+466548f4-9794-4bf2-a98c-5470b20edd13,toki,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,particle,,
+4fbdfc91-ad3f-4b5c-8d44-267b5a5cbe21,kovasti,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+63686123-1a09-47e4-8af8-528febb535cd,helposti,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+66b30351-d179-42ef-95c3-bbeec04ea67f,ehkä,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+743e5337-2407-405a-8ab7-1e4f1039eeb8,hyvin,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+7e115f51-8770-4f0f-849b-da772d056cdf,pelkkä,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adjective,,
+85dc2ccb-36de-47f4-997f-25fad72a5298,ainoastaan,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+86d5a89d-461a-4952-92a9-e243f3dd52af,nopeasti,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+885e8e31-ca42-4043-af81-88278677c3a1,ilmeisesti,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+8920a26b-49cd-413d-947d-2a1bf66a1d42,yhdessä,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+a339c6a4-a881-4c29-9e77-38ad0e223ecc,kai,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,particle,,
+aab2f761-8e22-4d3d-8017-2f111b53d2a3,yksin,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+ac1e960b-2f64-42ea-a017-40f026126b7d,sentään,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,particle,,
+afa8af7b-300f-4c64-9588-76d63ce44342,välttämättä,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+b4339aeb-fc6e-4b63-b732-e2b797828a9b,erittäin,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+b8596516-0b54-4402-8190-613a93f7d8ad,toivottavasti,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+bb91029c-b5e9-4b27-af87-dc2d15422a81,paremmin,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+bcc68829-b343-48b6-87ef-f7c4bbfd8b97,hiljaa,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+be62df42-51c7-448d-9299-429af19ef673,luultavasti,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+c161a4b5-d15e-4f2b-9483-8f248f252235,muka,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,particle,,
+c50d5284-3d8e-4dbe-a35c-dbb9d66a619c,mahdollisesti,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+c7844655-b06c-40fa-a888-e60e4b99a85c,just,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+cebc4f54-70e5-4b72-a1fb-86205556e4d8,selvästi,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+d42e77ef-b8fb-4744-80fc-fb9bb20b4f01,huonosti,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+db5e2ca9-5220-4ae3-8e17-c9092e5d8f72,jotenkin,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+e3026e39-06b1-4524-9506-5791f902a16c,tietenkin,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+e5b98f01-dacb-4d96-ba9d-c20ae105c89d,etenkin,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+e9b1bef3-cb6b-4f9a-8fb7-c624a6964dd9,varmasti,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+ef308fb7-c4f1-41ab-be77-37a648a52b29,suoraan,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+f8fdfce6-2537-41c7-a511-1b5e1302a591,oikeasti,4165c0be-a38f-4da3-a087-71f1d80f59de,Manner and certainty,manner-and-certainty,adverb,,
+108b81bf-5a2e-4bad-a6f9-dfccd49835ce,sanoma,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,noun,,
+1141dedd-290f-44cd-9a2a-d28a4e1ec068,kirje,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,noun,,
+1b8e4771-3d7b-4c74-9fe6-383523e1db33,nimi,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,noun,,
+350e30d8-8e48-4d1f-80de-2ff6e3a06c2f,sisältää,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,verb,,1
+5c94af34-8528-4164-9938-db30f22d7fe6,merkitä,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,verb,,5
+6024ca62-7bba-4dc1-acc1-4f32c3a2396b,esitellä,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,verb,,3
+6a2d51c0-8003-442f-b3b4-af4809afeb2b,kirjoittaa,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,verb,,1
+764383fc-2931-4830-b53b-f690e36bfa64,muistuttaa,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,verb,,1
+91938503-e3e0-4f3e-9513-c8e3f16ed760,ilmoittaa,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,verb,,1
+920dba30-cafd-43c2-a966-1bb3b2210d50,esittää,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,verb,,1
+974fc2d9-680d-49d8-bd64-672e4487b99a,lähettää,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,verb,,1
+a3323fca-39e1-4953-ab01-3c21ad3ad177,viesti,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,noun,,
+b720fec5-e9f5-4f39-b5d1-26b9d46c9d2f,tarkistaa,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,verb,,1
+b824c082-0ba3-4768-81a4-09c1f297fa8d,osoittaa,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,verb,,1
+be9abbbd-1db8-4e4b-a13e-d15c7b7a1338,juttu,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,noun,,
+d9a6ee95-86c7-4bbf-825d-e2736419a012,vahvistaa,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,verb,,1
+e5fb73cf-396a-4ec5-8f48-bb4b20a70f84,paljastaa,ee3be866-adbe-4727-9308-c911ce82f720,Messages and writing,messages-and-writing,verb,,1
+177fefff-a902-4be7-8803-a38075c5dd10,hyöty,84475628-793a-4382-a4d9-dc575b4d231f,Money and shopping,money-and-shopping,noun,,
+1e3e9194-93ba-451b-83d6-b829818bbd28,velka,84475628-793a-4382-a4d9-dc575b4d231f,Money and shopping,money-and-shopping,noun,,
+307f2c3c-c334-4079-8bee-e15bda24d854,kulta,84475628-793a-4382-a4d9-dc575b4d231f,Money and shopping,money-and-shopping,noun,,
+38a7ef89-eb0c-47d9-9fe3-a9fe8fe38414,ansaita,84475628-793a-4382-a4d9-dc575b4d231f,Money and shopping,money-and-shopping,verb,,5
+4bb177c4-e521-47d0-b7b1-c4f27abc1acc,maksaa,84475628-793a-4382-a4d9-dc575b4d231f,Money and shopping,money-and-shopping,verb,,1
+50016dc0-8984-44c1-91f5-0fe42be49bdd,kauppa,84475628-793a-4382-a4d9-dc575b4d231f,Money and shopping,money-and-shopping,noun,,
+51396cc6-e214-4122-8019-026a058bef66,myydä,84475628-793a-4382-a4d9-dc575b4d231f,Money and shopping,money-and-shopping,verb,,2
+710e7804-0049-429f-b8a5-034fed6a5112,vara,84475628-793a-4382-a4d9-dc575b4d231f,Money and shopping,money-and-shopping,noun,,
+8c49dc2a-0ef7-4bf8-b23f-72f1ad261a24,säästää,84475628-793a-4382-a4d9-dc575b4d231f,Money and shopping,money-and-shopping,verb,,1
+92746607-cef5-4ecf-90c1-94e94068ba76,hinta,84475628-793a-4382-a4d9-dc575b4d231f,Money and shopping,money-and-shopping,noun,,
+9e957c70-3fce-445c-9640-ad65aeb1e61a,raha,84475628-793a-4382-a4d9-dc575b4d231f,Money and shopping,money-and-shopping,noun,,
+a879c12d-7a8a-4800-8b16-842b0483fb27,kallis,84475628-793a-4382-a4d9-dc575b4d231f,Money and shopping,money-and-shopping,adjective,,
+a90f9c8a-2a30-453f-84aa-b3ba4d12dbdc,pankki,84475628-793a-4382-a4d9-dc575b4d231f,Money and shopping,money-and-shopping,noun,,
+b20b2a5e-8532-477f-b961-f2830e7d7e16,omistaa,84475628-793a-4382-a4d9-dc575b4d231f,Money and shopping,money-and-shopping,verb,,1
+d371a7da-4eb3-4b22-a215-75243c4593e5,ilmainen,84475628-793a-4382-a4d9-dc575b4d231f,Money and shopping,money-and-shopping,adjective,,
+e7e96ee3-a47e-4718-b612-ecfff0789297,rikas,84475628-793a-4382-a4d9-dc575b4d231f,Money and shopping,money-and-shopping,adjective,,
+04bbacb5-72d3-4938-ae4a-f635be120b57,nousta,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,3
+08a95a7e-9c8c-45de-b612-9078b778a994,kävellä,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,3
+1013649c-9963-4a4a-ba25-1d288a71d8dc,kääntyä,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,1
+167a216e-b085-43ee-9f08-0451ff099388,ajaa,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,1
+1a6cb1fe-3b48-4146-b8ed-773f22cac55a,tulla,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,3
+1c5cef2e-7f6a-4c98-8d59-8826c6279ef9,juosta,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,3
+25365c45-e0aa-42f1-8486-adba3a49d4ae,lähteä,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,1
+4c2ecd87-6acc-478d-90e7-6595de43dba8,liikkua,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,1
+4eaaaeb6-fd57-4bb0-8435-c749bcf08862,kiire,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,noun,,
+5a3d36b9-6793-4165-902c-e9ab4324670e,kaatua,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,1
+6d5d072a-f455-40cc-afa3-ab922ac01b7d,käynti,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,noun,,
+7f2f6a45-95e6-4e38-ac04-9d9d88d8919d,pyöriä,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,1
+801b08df-8f24-4a37-a88a-8aaf844c60bd,poistua,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,1
+80cf8be3-2eed-4856-9a8b-68cd9b61b40f,kohdata,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,4
+85bf3335-f20c-4576-98dc-73b9b978af3b,mennä,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,3
+8e25decb-7e70-4d7d-86cb-ea6d2b10c679,palata,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,4
+91242815-e284-4988-839f-b7d238caa896,pudota,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,4
+9e05afeb-9843-4b3e-a238-f1381325867f,ohjata,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,4
+aa65623a-d3d1-45fa-ab8d-b8f5787dfef4,saapua,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,1
+aab6a533-edf8-403d-9620-31fdd784acb8,lähtö,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,noun,,
+ad01cedf-1ec8-4f2c-9fb2-d99fc5484bbd,siirtyä,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,1
+b228c767-fa49-4f35-bd31-809259f51915,lentää,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,1
+c1bf678d-955f-47b6-ad26-f90f7cbe287a,jäädä,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,2
+c6e156a3-b6ea-46e7-a4c7-d2fc59339f3b,matka,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,noun,,
+cbf8d73e-613c-4f08-8c6f-98dec3f45921,meno,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,noun,,
+dca478c8-2a67-48cf-afdd-07caa5c0202d,pysyä,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,1
+e82efaf4-4d3b-4641-b3ef-4d4ea35abf9d,päästä,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,3
+f933aeeb-f777-4d5f-a42d-f258418cbf81,kulkea,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,1
+fde46fc7-4585-47f0-a530-64203bf3ed81,viettää,12aa24dc-9cd3-4269-8472-2b59a829fcf7,Movement and travel,movement-and-travel,verb,,1
+12c2edf0-c52a-42bf-b761-5a96049c85e7,maailma,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+1b172e86-23ec-4c15-8563-76c55ebf8abe,tähti,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+1c19f1ef-9607-4a1d-9045-61116ebfb3aa,eläin,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+20a41252-7eec-4b10-aafd-8677f93679b7,ranta,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+29ede0fd-c955-4ae4-a384-9c329ebdc44e,aurinko,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+4ce84fc8-e08e-43bf-8a8d-70d2f611e442,ilma,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+4feae5ee-6581-49b1-a142-7d85970aebce,puu,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+501e1529-5d1e-41d1-8fcd-ce4a22ae42dd,joki,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+5a423eea-aa09-4c05-a1b5-ee0ad2582d9d,hevonen,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+86c4776d-733d-4bd9-acfe-b390285a653f,pimeä,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,adjective,,
+97a1305b-d277-4519-8454-b2ab1d6d34b1,meri,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+97f44ca0-73f7-4b54-b197-4727dd3332ad,koira,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+9cd7426d-7bf0-4e61-8ff4-6a1a5b019b6c,lähde,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+9e302948-ffff-43b7-b8e1-fc2862dec36c,valo,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+a4a511f0-61a0-4414-8906-22f788635a17,kuu,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+be1c61a0-1ddf-4e8c-bd24-c5ed712a5221,taivas,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+cc43b433-19fa-4fd2-90b0-a063204a331a,tuuli,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+e52cc732-d186-44c3-afd3-49f5a6f583fc,sää,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+e7f9ff66-eb27-4e9b-a530-55b10360b004,kivi,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+f062382b-5b55-44c1-b750-34c6d84d7cc1,metsä,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+f4b89d44-7489-4afa-96ae-a84f9bf0155d,kissa,f4b955a3-464c-409d-9b98-a64e4cf204a4,"Nature, animals and weather",nature-animals-and-weather,noun,,
+016b2b0d-4724-407b-b793-3d1732271dfb,melkein,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+030ea474-3722-4f36-82da-d5c77239819d,neljä,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,numeral,cardinal,
+107cb1be-73c9-4887-8be1-e3b00c968f87,kolme,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,numeral,cardinal,
+1ae89af9-55ef-4164-8894-e30346586582,lähes,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+1c848109-834e-430c-8af0-be188b07c4cb,kuusi,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,numeral,cardinal,
+257c6427-fe33-4238-bedd-e8f92c222f5c,yhtä,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+346be606-8727-4230-b703-1cd23c40ffad,luku,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,noun,,
+376b7704-5b62-48af-839e-87a47df5340c,tuhat,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,numeral,cardinal,
+37fe10fe-64a8-4614-b221-1c6a12be6070,melko,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+3803cb30-e43e-4bd0-b18c-944de46f396e,enempää,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+3e3a0f8c-9ddd-461b-a30b-ed4cded7b8da,yksi,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,numeral,cardinal,
+3f7ff0ab-39c4-4beb-80c3-3e3848e0d319,sata,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,numeral,cardinal,
+46a6ffb4-a566-4301-8d55-ee318a8965d4,miljoona,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,numeral,cardinal,
+550205d3-1708-434c-8207-f108f57b1c23,eniten,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+5778f027-f872-4634-bf1c-2a2e31796d18,kymmenen,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,numeral,cardinal,
+5c05e254-ca61-43d3-8cd3-7ab501e4a4f6,prosentti,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,noun,,
+63fab619-a009-43a7-a131-0ceb8767cce9,paljo,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+79c624b4-13a1-49cc-b094-1b909abaf8a5,pari,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,noun,,
+875abb75-4620-4deb-a1f2-58bf223c36fa,täysin,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+8a3c2ce2-f40c-4d2f-8d93-a0f81547f55c,vähemmän,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+9320393a-9ba2-403c-a883-97c6b958e88d,aste,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,noun,,
+9a6393df-c058-4b95-8dae-0ea49b78a186,muutama,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,pronoun,quantifier,
+a11e534b-b131-4742-b793-aad96390d7fc,piste,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,noun,,
+a1ae9a76-fc9d-4c8b-8d24-1e2445576672,liian,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+a44b3f44-32ba-4091-b9ac-8dd19fc84bb1,yhtään,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+a5346702-85db-4458-b6f9-db7805730d03,tarpeeksi,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+a73098f8-e5a5-4c3c-9b02-a991bae206ca,kokonaan,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+ab0d780d-b4d2-4d60-829e-eb863a8dc389,osa,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,noun,,
+b2aed93f-da7e-4b36-a1fe-5c81aa59dfbe,määrä,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,noun,,
+b2d8e3f6-4c1f-4738-aec8-190324a5eaa7,vähän,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+b2e01a0a-f588-4d7d-b745-ace9c066e0d0,vähintään,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+b4b3a872-d4f7-4025-aca1-e1c94c089b4f,jopa,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+b79a83a3-36fa-4def-b29d-4b192fcca11d,viisi,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,numeral,cardinal,
+b7c1d1de-0b30-4343-9a67-6e3cfee45f3c,verran,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+c9b4c8c7-06a8-4c71-8b90-69b2947c47dc,paljon,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+dc9d7dd4-960f-4ac7-acec-5427fb3f4656,noin,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+dce5e46e-93f5-4a7d-a2b8-4f6e9a1cf2d4,puoli,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,noun,,
+e3b86747-4ab0-442f-8048-8b171b6cfdbe,enemmän,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+e570dec8-a389-43ac-991c-bf0d11d15081,hieman,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+ebc1fa90-b8ae-42a7-85d7-8a5751fea834,erä,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,noun,,
+edca3366-8e05-4bf6-8a1a-e880ccad074c,numero,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,noun,,
+f073c013-0ce2-41bd-b3ff-01250c7a2189,monta,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,pronoun,quantifier,
+f1128313-5332-410c-a014-84e9d4b8b702,kaksi,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,numeral,cardinal,
+febf1d72-e36b-4a67-a855-e5df76d5f288,liikaa,4ac304b5-d7ad-4cde-8ac8-0eb364688c0d,"Numbers, quantity and comparison",numbers-quantity-and-comparison,adverb,,
+0290fa3c-c52e-41ab-a800-7e8dabb90bd5,kansa,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+02fd0109-818e-4256-9188-dbeb2b2cdf61,ihminen,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+0c90ff86-6371-4ae1-81b5-6fad66b5d645,lapsi,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+109f71cf-51a3-4428-9ead-1dd3b8177fdc,ystävä,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+115e8703-fd97-4ec2-ab1c-bb6bc25d3b2e,elää,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,verb,,1
+270ed8e2-6692-4abe-847a-247d039e590f,avioliitto,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+27fdc981-135f-4b01-9851-65dad293987f,tyttö,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+41e62e7c-ea09-49a0-84f0-b6588c14894f,vanha,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,adjective,,
+46515243-4c67-467b-afc5-64f586515b48,henkilö,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+54727ba0-1881-4d23-ad8c-0dcb708ab66c,vieras,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,adjective,,
+7ce774a0-c5bf-42b5-8b7c-ab8d42281def,elämä,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+832f8e18-3da2-4a98-b656-d901824bd38d,perhe,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+899835b9-5f8f-4d82-adef-9cab0a224a68,mies,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+92fa32f7-bf5e-4668-b89a-1601da458fa6,tavata,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,verb,,4
+984c163c-26f0-430b-9eb4-4b0e842ed4ea,vaimo,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+a0b7106e-4816-4a3e-85d3-562d96a14489,vauva,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+afb557b0-0c70-4c90-bd03-39515e44c9d1,nuori,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,adjective,,
+afda0882-8187-43b6-b4ed-ff26294948b1,kaveri,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+b0221f4c-045e-493b-b621-220a85331d8e,jäsen,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+b0aa509d-e2bf-4748-a99d-2d00b4a1332d,äiti,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+c38101ee-e990-4180-899d-4b03db226d0b,joukko,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+c407c2f9-a095-42b7-9715-d6b23e32bffb,tytär,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+c4aa333a-a08f-424c-aa1f-e9cbf93ce4a6,kutsua,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,verb,,1
+c8ce22a7-a282-44fd-9ce1-28089d4d9cfa,vanhus,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+c9bdec63-cb8a-47f7-a303-9d036855dfb9,poika,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+d6e5cd9f-5388-4161-9171-f48f8d1730ba,isä,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+df82a7f8-5fb9-4543-a44f-1547020c1a1d,herra,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+e0b33d6b-d057-4485-ab98-9a6d6e7b4ce9,veli,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+e205b2d0-5625-498c-9f25-86af89f4cdb0,tutustua,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,verb,,1
+e32428bd-1063-4667-8cc6-af8406ae29be,väki,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+eae1722b-50f0-4770-b8e3-689d3fd0c9bc,nainen,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+ebbbceae-f802-45cb-b3af-6377dc3ba7d0,kuulua,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,verb,,1
+efdcfbba-ba46-4fd1-989c-d9c457ac8ac6,ikä,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,noun,,
+f35c7eb3-b690-447c-82cb-d610b8997a25,liittyä,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,verb,,1
+fdce67a3-0245-4d9b-ab16-ed588f4a8077,vanhempi,537dacad-a387-485f-89ff-c2f0871ad8c1,People and family,people-and-family,adjective,,
+0616e4b3-663c-44e0-915b-4adcecb69619,tyhmä,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+06f92221-5f00-449e-866c-dc0db1b95265,mielenkiintoinen,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+0f62ff8c-c891-4f1b-b98a-9f82ff1a3130,typerä,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+0ff78fb2-7209-46d0-87f9-96131a038d18,idiootti,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,noun,,
+193cd707-74c8-486c-b67c-0e585491fd0f,hauska,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+3653c96c-4a75-4868-9c15-786007e57b80,varsinainen,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+3afb79ba-3c65-4ff3-8832-cb9154fa8031,ihana,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+3ee7bf8e-e75a-4f13-875d-cfc60e07b762,reilu,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+5b777c4c-7e2c-436a-a585-8068be64973b,hieno,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+5e536375-d80a-484d-8f35-891f909057a8,upea,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+8ae04e8c-3c43-4a40-a2b8-072939a992a3,vakava,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+99d30042-b88a-4fd6-8001-ea328c3f6f7a,rehellinen,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+a03541c2-49bb-4e52-a9ef-88e6c500a415,kauhea,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+a5b905ca-18a7-4159-8675-469aab3f6b0b,erilainen,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+a7b904fb-307f-4e3d-8af1-d675a1c86f15,fiksu,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+b17503e7-bc2a-4e3e-b06f-b44fcb562217,eri,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+bb4be5ed-5385-468c-9327-5dbdcdfd2f95,viisas,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+bcec7284-00a4-4845-bd87-29db39953a08,samanlainen,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+ca7cc892-3833-4858-817c-2e1cb84f19af,täydellinen,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+cce10ea8-d7e2-45ad-879c-bded066a0be7,henkilökohtainen,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+d5842a41-4188-47f5-901b-2feb6273bfec,ihmeellinen,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+debaa3e6-0798-4184-8226-65cc465bd1f0,hullu,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+e35a2741-6ec1-4326-9da6-76f123d91984,kamala,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+f321b995-3c14-487b-acd1-a31525eca7ae,kiva,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+f42a0b5f-3972-4adb-bfcd-16132d0dd3fd,outo,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+ff06c0e9-decd-4e80-967b-9ca421efd45b,mukava,f8b6b62a-112a-4902-9787-79c1d5e3157e,Personality and impressions,personality-and-impressions,adjective,,
+02c927db-dbed-4344-bd8d-f6d9fd54e284,lähellä,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adposition,postposition_or_preposition,
+05d4cdc8-63f5-4816-94ad-3dcb341d6f70,saakka,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adposition,postposition_or_preposition,
+07038b4a-8d3b-4396-82ed-f2670b9a737e,täältä,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+0b51a68b-15a6-4867-b11e-af3487776601,poissa,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+0fa313a5-f076-4a11-887b-e3c43a4590b2,tuolla,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+17a95a09-f175-4a53-9178-1f6042c89ab9,asti,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adposition,postposition_or_preposition,
+1f4f9c3f-ed23-4909-9982-ea6f15a60125,suunta,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,noun,,
+21c10435-3131-48a1-b474-79706fde41f8,sieltä,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+24e27a99-1a03-49f4-841c-b75f3358c5b6,takaisin,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+2521dd2c-8653-4d12-bc93-91a74334c2a4,siellä,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+2e03e587-5653-48e4-bb9d-060ead54184d,mukana,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+3978c66d-1267-4fa4-875d-f9a7e542e2c8,laita,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,noun,,
+3d49a460-0bca-4eeb-bd62-ceb7ed5309bb,irti,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+419b23a2-6c7d-4604-9152-23cb2bb215f8,vastaan,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adposition,postposition_or_adverb,
+441f316f-a976-45fb-bf7d-a759a6947c32,kohti,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adposition,postposition_or_preposition,
+4f4a42ea-3f13-4a0b-86aa-28cdd54ce610,tänne,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+6446ca19-a5d7-4fd3-990e-c310f32c7c07,eteenpäin,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+663dd0f9-01d6-4489-987e-d9fed7d5a7e1,sisään,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+73148092-bde2-4229-907a-011ff2065afe,auki,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+7ee5edc6-1e4d-4e3d-83f1-4fcc6b0b6653,tuossa,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+822f1f2f-87f0-4f6b-9d29-c7c776e16e9c,alas,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+8280522c-bb44-43e6-adef-9844777b7a1c,paikka,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,noun,,
+849f41cd-deb5-4e94-b05e-09e78fb4bbd9,kiinni,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+8e27d2bc-6aac-4fe1-96b1-74f8338608f1,ulkona,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+945ef2ee-2740-4d5a-9f61-74e0ec70fb89,ulos,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+98891e56-52f6-48a1-9780-5d02d881a891,raja,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,noun,,
+a120d506-7b32-46ce-b257-b308824167d2,ohi,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adposition,postposition_or_preposition,
+a2762801-de53-4d80-8937-60cba7b3e9f3,alla,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adposition,postposition,
+a3825bde-b66b-45a0-8d18-0c2811bad894,kesken,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adposition,postposition_or_preposition,
+a9deeb72-c83c-41cb-8eea-f385b525d023,ympäri,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+bc766d77-cd94-4474-b008-0d22e98bc809,väli,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,noun,,
+beeb09ec-2537-4f87-8961-93a722703169,alle,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adposition,postposition_or_preposition,
+bf271c20-87e6-4516-82db-8f28b5a1a8e6,puolesta,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adposition,postposition_or_preposition,
+c9d8cc0e-d9d1-4b91-a0d3-af25426b1a6c,takana,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adposition,postposition,
+ccb90611-3376-475c-85a2-b7615f3d8284,keskellä,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adposition,postposition_or_preposition,
+d107ae80-30a3-4f0b-a82d-58fcaa01eac1,edessä,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adposition,postposition,
+d8082fe8-a96b-4a4b-a108-e6ee3cf62cf6,eteen,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adposition,postposition_or_preposition,
+e4242a99-c233-44f3-a605-2aeb3b062d47,kohde,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,noun,,
+eafe5dd4-d0d9-4de0-a7f9-1bcaf413276c,täällä,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+ec318559-13b0-43a5-a0f8-d5a58276a261,ylös,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+f1303ef7-de76-4005-a915-f99f18b3c6c8,läpi,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adposition,postposition_or_preposition,
+f1e30835-4dbb-49f9-babf-65968364aebb,sinne,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+f5b4c673-6424-476f-bb95-a48ada5a7fac,pois,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+fd49df69-fbb6-4a93-8f22-044e2cb1513a,kaukana,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,adverb,,
+fdfd8da7-505d-46a6-8074-93f603f65ccf,asema,ba2888c7-ebad-488c-b7ff-fa43a1d3afba,Place and direction,place-and-direction,noun,,
+1f05f525-7491-490c-b9b5-db47a8459336,rakennus,5487932f-79b5-4f39-9375-c32b3e87d363,Places and buildings,places-and-buildings,noun,,
+3693291a-2dba-4465-9fe0-25f1f63547c8,baari,5487932f-79b5-4f39-9375-c32b3e87d363,Places and buildings,places-and-buildings,noun,,
+3996c488-e3fe-45a3-a522-29a6b7ff021f,tie,5487932f-79b5-4f39-9375-c32b3e87d363,Places and buildings,places-and-buildings,noun,,
+5bb264c4-6b83-493d-858b-25236dba01c2,hotelli,5487932f-79b5-4f39-9375-c32b3e87d363,Places and buildings,places-and-buildings,noun,,
+638ecc57-8760-4943-8fab-7006c7438e10,osoite,5487932f-79b5-4f39-9375-c32b3e87d363,Places and buildings,places-and-buildings,noun,,
+766d58ed-94bf-4c0a-8b0d-10c184c42c1a,kaupunki,5487932f-79b5-4f39-9375-c32b3e87d363,Places and buildings,places-and-buildings,noun,,
+944a1c8e-9ab7-47a4-a025-42a09fa930a9,alue,5487932f-79b5-4f39-9375-c32b3e87d363,Places and buildings,places-and-buildings,noun,,
+bcaa2acd-25c6-4c93-a927-4f6b31f08655,kylä,5487932f-79b5-4f39-9375-c32b3e87d363,Places and buildings,places-and-buildings,noun,,
+c60c0106-7a39-4b86-bc5f-1173bcbd6ac1,katu,5487932f-79b5-4f39-9375-c32b3e87d363,Places and buildings,places-and-buildings,noun,,
+f603d16e-4f0d-4b8e-96ae-9d603a3e6b53,kirkko,5487932f-79b5-4f39-9375-c32b3e87d363,Places and buildings,places-and-buildings,noun,,
+09051f56-937d-4369-b29c-fe09f7d81eff,virhe,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,noun,,
+0e9d632a-1d5d-4c01-a718-c888c9c19544,pahasti,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,adverb,,
+1976df15-b2d6-4b0b-8361-09fec1123834,vika,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,noun,,
+1bff7e96-c4d8-47a1-9fc3-780c299f1607,pettää,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,verb,,1
+40901032-4c49-4cc6-ae7e-f66e7a88e40c,yhä,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,adverb,,
+49f8e0dc-5c6c-4c72-a743-966525ae5ae4,riippua,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,verb,,1
+621c86ff-6dcf-4a63-a079-cf576b404813,haitata,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,verb,,4
+667f8444-81c5-43ce-b528-d5d3141e7bc8,takuu,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,noun,,
+6e78a829-3e46-4935-8c07-5cca418aa9ab,pilata,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,verb,,4
+82e315bc-e8d5-4f0d-b224-9066fa19ab9b,tuntematon,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,adjective,,
+84bc95e4-e6ad-4184-bc84-caa17b9881c1,tapaus,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,noun,,
+93ade3f4-4744-4d52-833c-16d37c012015,välttää,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,verb,,1
+97b9afa6-e775-4e3a-9a44-dcc1639ce72b,valitettavasti,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,adverb,,
+a4841050-f3d6-4770-a2dd-5342f633677f,kadota,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,verb,,4
+ac1b5564-4923-4a56-9d7c-41a152e1fdeb,häiritä,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,verb,,5
+bd9305d3-10a0-473c-b9d3-f1af8e7333ae,erota,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,verb,,4
+c433df83-3fcc-4675-b444-dc746385ede3,korjata,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,verb,,4
+d3cae230-d0f4-44fb-9024-65859431a5ca,estää,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,verb,,1
+da587ffb-fee3-49ee-9eb6-583b4b9a5496,ollenkaan,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,adverb,,
+ead5e51a-8dde-44b0-8bec-dd68b24639ac,valittaa,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,verb,,1
+fd2087fc-33d1-4cf6-9bde-70560fa9521a,joutua,330a955a-d072-4e0b-94ab-4320002b51ce,Problems and coping,problems-and-coping,verb,,1
+0df38bad-2702-4513-a39c-9d0faafebd42,kaikki,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,indefinite_or_quantifier,
+0e42415e-d41d-4b35-b6fa-343de813426d,jokin,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,indefinite_or_quantifier,
+159cd328-cc1a-4bc6-9956-a156174f5409,jokainen,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,indefinite_or_quantifier,
+25db00dd-ce61-4bf7-a72b-037834bc574b,sellainen,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,demonstrative,
+2a7d8482-db98-43cd-a069-cdf1ea953d7e,moni,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,indefinite_or_quantifier,
+3708059e-8406-4e22-aafb-cd6d4d82f7aa,joku,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,indefinite_or_quantifier,
+3846ecfa-655d-4c91-9438-3157330472b0,jonkinlainen,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,indefinite_or_quantifier,
+3862d3b0-e06b-4349-8f9a-9a69775eb527,tuollainen,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,demonstrative,
+3c03fe85-e977-4b6c-a61c-f4cd6e16b14f,tämä,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,demonstrative,
+478edf2e-686b-4f14-b134-69f5a836c3cc,molemmat,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,indefinite_or_quantifier,
+5adde1d5-d910-48c9-8134-4866712791d8,muu,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,indefinite_or_quantifier,
+623a8d7d-2c4b-40d4-a3ad-dd39e2050dda,sama,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,demonstrative,
+6fcfd2a7-c65c-410c-88d7-9a2af0f7f1fd,sinä,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,personal,
+7896764f-06d8-4898-b29f-8c05c478d68b,mikä,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,interrogative,
+9849da1c-39c1-4b86-8040-dd317a6fd62e,itse,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,reflexive,
+98fcc3db-66c5-4a2e-8a81-763f90a23dd0,joka,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,relative,
+a9f83b67-e632-4c87-a95e-9fbddb658115,kukaan,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,indefinite_or_quantifier,
+b2bc166d-0984-41ba-9945-f7a98adcc083,mikään,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,indefinite_or_quantifier,
+b32fa1b4-cbc6-4a41-a00c-f4011b06f878,toinen,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,indefinite_or_quantifier,
+b59333d2-cd7e-4d6c-91a2-9be416b92693,minä,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,personal,
+bc008353-8b11-44aa-a4b2-455e8e43733c,eräs,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,indefinite_or_quantifier,
+bcada98e-e9e1-43ef-a289-f59f953d4a5a,oma,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,adjective,pronominal_adjective,
+c6c772a3-8776-4682-9468-c6b2de53d826,kumpi,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,interrogative,
+ce1875ec-74cd-49e9-9349-681117c228b3,se,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,demonstrative,
+d804657a-512b-4fb2-ac5f-cf909f9db4ab,usea,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,adjective,,
+dfbf128d-9099-45bf-a454-a9a2657483e4,kuka,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,interrogative,
+e53e077b-60a5-4c95-bef0-9d8bc14e9dc8,tuo,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,demonstrative,
+f204c4c7-ccf5-4c2a-8aa8-51609fe606b4,hän,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,personal,
+ff28d628-45d1-4f70-888d-2a1d792d0a5c,tällainen,ed3fced8-5dde-445b-86e2-070eed75c1fb,Pronouns and reference,pronouns-and-reference,pronoun,demonstrative,
+042a390e-bdc8-4061-9bfe-afe7005db980,siksi,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,,
+0c682854-b6f2-42a0-b4a0-cc54eb7dce71,hei,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,interjection,,
+0c76eaa6-3a0c-4dc5-962b-d7416f63d33f,tosi,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,,
+0c8ae875-76ac-421c-aae2-0e006947dc3d,myös,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,,
+10bc2dc8-444d-461b-9b0f-b0834586def8,lisäksi,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,,
+1a0e2605-fb92-4191-b9f0-8a3d0f6ae531,päinvastoin,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,,
+1efc4619-7897-4e53-8086-54d403365060,niin,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,particle,,
+1f06113f-6a3e-4409-b355-417604707a84,ei,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,verb,negative_auxiliary,
+274d2500-5f9f-4474-93d7-54f156b83ecf,muuten,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,,
+293b3655-e547-498c-b0a5-afa2502b9c31,kuitenkaan,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,particle,,
+2ca81592-242d-4f93-acdd-413f20c3bb0d,kuin,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+2ddcf70a-f26a-4298-9417-11345945165e,kuinka,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,interrogative,
+2e2ff013-6641-48be-8b44-56e1c451e202,minne,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,interrogative,
+395edd95-325a-4759-bd55-0bee0e8910ac,siten,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,,
+3beb5e47-740c-48bf-81d5-caf4771a528d,nimittäin,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,particle,,
+3e75ec40-3e37-4f47-a392-ec4f0e574b69,eli,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+3e902058-ceab-4ce5-bf2e-ee4ef52fd71a,jotta,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+5a8f3394-4b6b-4422-a9c6-3b831a4778b3,kyllä,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,particle,,
+60a59b4f-aa91-443a-a999-b280d2772b5c,jos,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+6ceb9b9a-1068-4cb8-88fe-661e3d460e33,siis,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,particle,,
+6fb501ee-5fc7-4142-a10b-a66324e4e077,sekä,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+70d40a00-a152-4f3f-91b1-39e47f2b1209,vaan,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+7886b213-3bce-46b5-b242-ff9e81ef18fc,miten,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,interrogative,
+7bfbf83d-6f60-4c95-b3e7-a254b0d6db39,samoin,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,,
+883c3117-3ead-4b04-96df-ca3eedf0c661,näin,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,,
+9a60afa6-831c-4ab4-bee5-ce9776c21435,vaikka,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+9b514bfe-2ef9-4598-9926-5ede92133284,enää,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,,
+a2ecedb3-7890-4991-927a-36f14c0ddd88,että,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+a6f49498-b14f-4af5-a2d2-b4b51db5c62a,mikäli,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+ac590f92-e0bc-4628-88e9-ee14348a3ceb,toisaalta,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,,
+b139bc6e-8f60-48ad-9def-cff7d7da6c72,kuten,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+b65b825d-51de-400d-adeb-b94301a1b8d8,kunnes,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+b7218290-f924-47eb-9ab3-ff51c1b303d8,joten,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+c8f5179e-e859-4612-be1c-3a52224de105,tai,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+cf6ce9c5-f81c-464d-b5dd-2d0399163dd2,kuitenkin,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,particle,,
+d15847e8-452f-421e-9b36-eb5dd8ab5f1d,paitsi,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+d223814d-498b-4032-a249-a759540778f0,mutta,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+d2beaed8-bb6a-4b71-a1b1-561bd1e74817,ja,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+d5c551af-b379-427c-84cc-eb0d08344e66,koska,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+df5648d9-3b8b-4fdc-a0aa-323089bc3f74,toisin,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,,
+e4fad800-84a7-4990-bc53-6d1d5c50274d,taas,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,,
+e672ee81-c712-4fc8-bad6-13e9d6eda6ef,aivan,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,,
+eef2b342-1d02-46d5-a293-aae41a5b815b,vain,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,particle,,
+efbdb579-79fc-4f7a-bf72-2d8609e9839d,milloin,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,interrogative,
+f5a2477a-4c1f-4e0b-b9b0-cc52a7549534,ihan,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,,
+f8cbe013-2ce5-468a-887b-449d1e1c3afd,silti,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,particle,,
+fa887e0b-2d51-431f-ac3d-7396ca46294d,juuri,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,adverb,,
+fd09ab1a-fb5e-4213-8998-bf949e6afc2f,vai,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,conjunction,,
+fd3edf02-bbb2-4421-9175-c7f51cce080e,edes,7fb67b9d-3567-49f3-a0b1-5b196a1374e3,Questions and connectors,questions-and-connectors,particle,,
+16b6b3f3-bced-4e14-9eb8-8ac52171809d,ongelma,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+2960cf93-84f4-49f8-836e-12fc5110d2d6,kunnia,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+2aadc537-0809-455b-a9a2-998f0f33568f,mahdollisuus,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+2d3c4415-4704-42ec-b94d-20346475cdab,käyttö,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+347001e1-be9f-4a88-9783-9c66bd545363,totuus,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+4d0907a4-71d2-40d9-88bf-5a19aa36c589,keino,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+50e59514-a93d-4b03-8d4c-708160538109,valinta,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+5a4398cc-9eda-41bc-977b-c719c976fc7e,ero,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+5c9f68c2-489b-4cd6-8680-0b40160d8b3a,tarkoitus,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+63c083ce-9a30-4bf5-b100-7c9f1eddff18,tuki,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+651f7157-8de0-4b3b-a0d0-9276d8873363,tapa,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+7675635d-2151-465b-b08b-917310931f4c,tilanne,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+7ce8cfaf-b82e-430d-8f93-5b0aaeb9096e,ihme,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+7f3a1aa3-1864-41a4-be4f-f33935698e1e,arvo,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+806e4593-31b5-4fab-b107-0dcd3d06c3d4,peruste,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+8c9070ea-9634-4afe-b42e-434fbd5697f6,käytäntö,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+93e0eeca-f4d6-4612-9b6c-c847ea4ea527,yhteinen,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,adjective,,
+a81acfae-cf60-4cb1-b646-a24c81f2409e,asia,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+dd7710a6-f1d3-4bfe-9888-83e620c2d2a9,syy,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+e526d4ef-9d01-4f92-89a0-b7b1a7d46480,rauha,1aa9dc13-4562-4f66-8f65-12e9c366ecb3,Reasons and abstract concepts,reasons-and-abstract-concepts,noun,,
+201cdd32-e666-46c8-9628-502ffa009819,välillä,bcdb7f15-1a5a-472a-af45-100fd2600610,Relational words,relational-words,adposition,postposition_or_preposition,
+23eec74b-e1f4-4906-922f-8df79a9a44a9,takia,bcdb7f15-1a5a-472a-af45-100fd2600610,Relational words,relational-words,adposition,postposition_or_preposition,
+2a535c91-25fc-4b4b-9cba-d4b22d53a4b4,varten,bcdb7f15-1a5a-472a-af45-100fd2600610,Relational words,relational-words,adposition,postposition_or_preposition,
+342974b9-8694-4c11-bf8f-20dfc70954c6,ilman,bcdb7f15-1a5a-472a-af45-100fd2600610,Relational words,relational-words,adposition,preposition,
+465b0a49-7f98-45bd-8fcb-38a4f5a1d61e,esiin,bcdb7f15-1a5a-472a-af45-100fd2600610,Relational words,relational-words,adverb,,
+46cdd2f5-d6ab-4711-973d-ba2c22370d4a,yli,bcdb7f15-1a5a-472a-af45-100fd2600610,Relational words,relational-words,adposition,postposition_or_preposition,
+46ceb603-ab2f-48e2-972d-4a99faf01ba8,vuoksi,bcdb7f15-1a5a-472a-af45-100fd2600610,Relational words,relational-words,adposition,postposition_or_preposition,
+5b10499a-5873-4086-a240-bea18cec1d92,kanssa,bcdb7f15-1a5a-472a-af45-100fd2600610,Relational words,relational-words,adposition,postposition,
+5c60dc00-4e1d-4dc3-aadf-a85e9d3ab0e5,muualla,bcdb7f15-1a5a-472a-af45-100fd2600610,Relational words,relational-words,adverb,,
+6b753534-9504-4403-a2c3-42d831805bec,kun,bcdb7f15-1a5a-472a-af45-100fd2600610,Relational words,relational-words,conjunction,,
+6f84e9b6-5746-4189-b85e-16a06025a79a,koko,bcdb7f15-1a5a-472a-af45-100fd2600610,Relational words,relational-words,adjective,determiner_like,
+76e76e8f-4e24-4d39-84d9-d7efff8d8bc9,esille,bcdb7f15-1a5a-472a-af45-100fd2600610,Relational words,relational-words,adverb,,
+987d6267-0145-4f8e-9eae-58d08fb1feda,myötä,bcdb7f15-1a5a-472a-af45-100fd2600610,Relational words,relational-words,adposition,postposition_or_preposition,
+dbc8d0af-6fca-4789-9910-e716ff4b1ebd,jälkeen,bcdb7f15-1a5a-472a-af45-100fd2600610,Relational words,relational-words,adposition,postposition_or_preposition,
+ee631182-eedd-48bb-ab01-3f346ec6618d,mukaan,bcdb7f15-1a5a-472a-af45-100fd2600610,Relational words,relational-words,adposition,postposition,
+15e9cae5-f957-4916-8e29-114ddd28f08d,juutalainen,898d5d54-f239-4b68-ba4a-80741702838f,Religion and belief,religion-and-belief,adjective,,
+50215dee-c75b-4766-97b1-38d9e7c447e5,helvetti,898d5d54-f239-4b68-ba4a-80741702838f,Religion and belief,religion-and-belief,noun,,
+7a8eb8d9-66e8-4e2e-a3bc-2754f38c2e42,sielu,898d5d54-f239-4b68-ba4a-80741702838f,Religion and belief,religion-and-belief,noun,,
+7d1f30d8-92f9-410d-ab83-5eef411e24ba,jumala,898d5d54-f239-4b68-ba4a-80741702838f,Religion and belief,religion-and-belief,noun,,
+acfc5752-f765-45c5-bff9-6b658c7f31ef,rukoilla,898d5d54-f239-4b68-ba4a-80741702838f,Religion and belief,religion-and-belief,verb,,3
+e1fa892d-e3d0-4538-9582-f3380e24ab9c,saatana,898d5d54-f239-4b68-ba4a-80741702838f,Religion and belief,religion-and-belief,noun,,
+ee59327c-6127-4f4f-8487-22f7dc76f516,armo,898d5d54-f239-4b68-ba4a-80741702838f,Religion and belief,religion-and-belief,noun,,
+f6c374f8-b1d9-4730-8e59-0daf2d1e3c85,pyhä,898d5d54-f239-4b68-ba4a-80741702838f,Religion and belief,religion-and-belief,adjective,,
+fc9411a0-5aba-44da-8f6b-eb97d6b994d7,luoja,898d5d54-f239-4b68-ba4a-80741702838f,Religion and belief,religion-and-belief,noun,,
+4166944a-9b55-4143-845d-4e5eee1329c7,todiste,46096d14-20a0-4e62-a0c8-084f60714363,Requests and agreements,requests-and-agreements,noun,,
+428d0aa4-cdc5-446c-87a7-37256b540a4d,luvata,46096d14-20a0-4e62-a0c8-084f60714363,Requests and agreements,requests-and-agreements,verb,,4
+49f9918b-65cd-49d9-a7e6-90a53c95165d,suostua,46096d14-20a0-4e62-a0c8-084f60714363,Requests and agreements,requests-and-agreements,verb,,1
+4f0e2fb7-954c-491b-a72a-364e3c94079c,selittää,46096d14-20a0-4e62-a0c8-084f60714363,Requests and agreements,requests-and-agreements,verb,,1
+5cc5a65a-eac9-4c28-af19-d3cfd62d5bae,kelvata,46096d14-20a0-4e62-a0c8-084f60714363,Requests and agreements,requests-and-agreements,verb,,4
+5d4c1df8-a19b-4e95-827b-7f04cc4a6919,pakottaa,46096d14-20a0-4e62-a0c8-084f60714363,Requests and agreements,requests-and-agreements,verb,,1
+6448165f-2ce1-4a10-ba69-d9f9fda1891d,todistaa,46096d14-20a0-4e62-a0c8-084f60714363,Requests and agreements,requests-and-agreements,verb,,1
+7f690154-2c50-4dcc-b9bc-e4706d3e307a,ehdottaa,46096d14-20a0-4e62-a0c8-084f60714363,Requests and agreements,requests-and-agreements,verb,,1
+8bdc3633-ab1d-4be4-afad-c8f866384c81,myöntää,46096d14-20a0-4e62-a0c8-084f60714363,Requests and agreements,requests-and-agreements,verb,,1
+9883046f-f573-4f8a-8c1c-f82607f8f15c,valehdella,46096d14-20a0-4e62-a0c8-084f60714363,Requests and agreements,requests-and-agreements,verb,,3
+a231dfaa-e3c5-45f3-a2e0-d967ce94d7ff,vastustaa,46096d14-20a0-4e62-a0c8-084f60714363,Requests and agreements,requests-and-agreements,verb,,1
+f0cd6bc1-029f-4fee-982f-013b159502c8,pyytää,46096d14-20a0-4e62-a0c8-084f60714363,Requests and agreements,requests-and-agreements,verb,,1
+f9bca599-6d46-4d30-945e-09d87542f55d,väittää,46096d14-20a0-4e62-a0c8-084f60714363,Requests and agreements,requests-and-agreements,verb,,1
+08a6d5d8-bed5-432e-ab3b-f0023ed9b92d,katsoa,94954c3b-8d81-40fb-ba5a-d908a9fe0bbf,Senses and perception,senses-and-perception,verb,,1
+0cab246c-2e7f-400f-8590-98af751c3343,seurata,94954c3b-8d81-40fb-ba5a-d908a9fe0bbf,Senses and perception,senses-and-perception,verb,,4
+457e082d-9377-48ea-b720-bbe9c7c3b100,tuntea,94954c3b-8d81-40fb-ba5a-d908a9fe0bbf,Senses and perception,senses-and-perception,verb,,1
+6699046c-52dd-4403-a92b-cee31c1390ac,nähdä,94954c3b-8d81-40fb-ba5a-d908a9fe0bbf,Senses and perception,senses-and-perception,verb,,2
+7528a2f1-040d-451c-a161-d8a017c231d4,ilmestyä,94954c3b-8d81-40fb-ba5a-d908a9fe0bbf,Senses and perception,senses-and-perception,verb,,1
+91a1eec9-4812-473c-9b83-bedf305a15a4,kuulostaa,94954c3b-8d81-40fb-ba5a-d908a9fe0bbf,Senses and perception,senses-and-perception,verb,,1
+91cdc198-a0ac-4692-808d-b64dcebebbec,jälki,94954c3b-8d81-40fb-ba5a-d908a9fe0bbf,Senses and perception,senses-and-perception,noun,,
+b3e5121f-d249-4daa-86f1-6aa85769b9a1,näyttää,94954c3b-8d81-40fb-ba5a-d908a9fe0bbf,Senses and perception,senses-and-perception,verb,,1
+b9073b73-78e6-4d7f-a2dd-3ddf7fc48c85,herättää,94954c3b-8d81-40fb-ba5a-d908a9fe0bbf,Senses and perception,senses-and-perception,verb,,1
+bed19210-0e6a-4f97-ae03-a5c8ef464af7,tuntua,94954c3b-8d81-40fb-ba5a-d908a9fe0bbf,Senses and perception,senses-and-perception,verb,,1
+da679f2a-8412-4c72-92a0-3249b7faed6f,merkki,94954c3b-8d81-40fb-ba5a-d908a9fe0bbf,Senses and perception,senses-and-perception,noun,,
+e120b13e-bb41-4f94-8340-b89d05c1083d,näkyä,94954c3b-8d81-40fb-ba5a-d908a9fe0bbf,Senses and perception,senses-and-perception,verb,,1
+f258e0b1-9384-496a-9c5d-643d7b617e01,huomio,94954c3b-8d81-40fb-ba5a-d908a9fe0bbf,Senses and perception,senses-and-perception,noun,,
+01e380f2-7444-402f-902e-cf97544314a5,loppu,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,noun,,
+064a19f5-010d-42ee-9f56-263a4dc30247,kerta,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,noun,,
+151a768e-b235-447e-be42-003c4312c9ee,aikaisemmin,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+15ab9c2a-4e7d-4aad-aa83-a4c2f88cddc1,koskaan,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+2f8db3aa-7e28-4b50-ab26-cf9b8b7e03db,päättyä,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,verb,,1
+303b503c-e922-4052-a887-5f80cf166463,aiemmin,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+306e7b2e-6a25-4906-809c-44bb89521080,edelleen,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+37c6c4e6-43fc-48c1-b9af-f1fbc4397d13,viimeksi,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+4519794d-f3c7-4d50-9795-1d38fdc2941c,jatkuvasti,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+4863c93a-bc1c-4491-897b-894411f5994e,ikinä,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+4b4bffa4-70a1-4295-a290-71e830d56fcd,uudestaan,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+59ef7a29-f30d-4605-bfa8-40f784d3f116,myöhemmin,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+5c6acb6b-ea87-47ce-83d3-14d4d2da7344,vasta,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+5c7f57eb-2e54-45dc-a37d-d25f9c0b6a1e,kauan,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+5e30be7c-5d5e-4b5f-9c7d-b7988979cf51,uudelleen,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+66f55e82-1d9c-4893-b969-47e0b5e05bcc,silloin,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+7bfd532f-59e1-4543-8183-ddbd45ba2fcd,yleensä,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+7ef19c81-1ff7-48ba-a57b-68b05042a5d7,usein,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+82d0fbca-d8b0-4023-8264-c048bc291c3e,kohta,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+8eadbec4-3af4-491b-a892-d04e13fe3be6,jo,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,particle,,
+939dbbea-6e9b-47e6-be7c-f81e45c5b848,sitten,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+95556a53-c98c-4a3a-be67-e1e3e1ab5f1c,vielä,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+9664200e-21f8-48af-a9c4-a031593b18ec,heti,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+971db78b-9797-46b5-9308-4a8842fa363f,aina,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+9dd2a80f-292b-4412-9519-847e4c0d566e,jolloin,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+a5773362-665d-4ff9-bfbc-a0627b865b20,jälleen,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+ab8590f5-a215-46f0-837d-3c9a4fb44608,tuleva,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adjective,,
+b30f322e-cc6f-451a-a1a8-d496ea2bff6b,joskus,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+ba20f4ae-aa24-4e8f-b18e-eced2b2c450b,nykyään,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+bd55e3d7-2daf-4587-b778-de5efd90afea,pitkään,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+be9dd471-ff5a-4e8b-b851-2b5f155d568c,ensimmäinen,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,numeral,ordinal,
+d2d41c72-b413-4103-ac73-2f3fab6c98ed,viime,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adjective,,
+df819846-66a2-4dc8-9a0f-8bef5a0a287a,kestää,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,verb,,1
+e1035dd5-dff0-49cd-a4be-cbe13e277e62,kolmas,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,numeral,ordinal,
+e397dc8c-af13-4b36-878d-7e1cd8acbdb3,viimeinen,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adjective,ordinal_adjective,
+ea5901bc-ca8d-413f-a593-226c1b7064a3,ensin,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+ef1b34ba-2b36-42c9-a21b-26b59a28f795,pian,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+efbae5fb-d10a-483a-a7b3-4bf33e5efbb5,vieläkin,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+f125d96d-3381-45f9-adf7-d13319607f30,seuraava,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adjective,,
+f3bbbe5e-a8e7-4da3-849c-5e67fc5e1a46,tällöin,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+f63ed7c0-91e4-4df9-aa8a-641fea316b7c,harvoin,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+f7675480-77eb-41e5-8251-51bbeaec2c23,vaihe,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,noun,,
+f8026278-7cb0-4fbb-acf5-187841710273,tulevaisuus,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,noun,,
+f890af4c-cb84-40d1-a85d-9fbd1689253b,ennen,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,adverb,,
+ff67e4c0-bd91-4d30-896b-357e818bcce3,alku,8d961236-a74e-4385-9de9-09202b69e598,Sequence and frequency,sequence-and-frequency,noun,,
+0233a1f9-d91f-4d16-ae3a-fcd5e72dba46,nopea,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+0cc7a2cb-8b8a-4b1d-ac4a-0db1b839a561,vauhti,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,noun,,
+11a67b15-1a2e-4198-88f6-0b18c9345f62,korkea,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+3a0dccc1-bdfc-4290-820a-17f6ca866791,puhdas,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+4044fe47-0936-4480-a269-b13cc45980e0,täynnä,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+44434f60-2be0-40df-9b7b-35aa725a384b,raskas,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+4787ad48-5b69-47f4-9bd5-0339937b1ae7,täysi,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+4b9497f8-b20a-415f-a4d3-99cedee3bb71,pikku,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+651e3d8e-6e01-4744-80b8-851b33492ec5,tyhjä,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+657fd734-e422-4e8d-ac29-3fb163df144b,syvä,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+6ee52f52-880e-4a6a-8bfd-164ea79c85c5,heikko,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+71dcc3a8-b01b-4b0f-a17f-d8cc1104554b,vahva,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+72390a76-e57b-4eb7-a200-5ee70eaec4e3,lyhyt,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+80353162-d5a9-42fd-a09f-7606cdb6e339,voimakas,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+8fba43d0-a61a-4f47-ad80-58113febf6a1,iso,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+9be00fad-0e5c-42dc-8699-b721f3f6a28a,pitkä,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+a3eaf317-b43b-44cb-a699-e656994f2d86,suuri,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+bb336296-00dd-424d-9c77-bf671756a83e,voima,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,noun,,
+c0e91cf7-7996-4873-9c1a-312260f85fb1,kova,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+de0268da-cf65-4f51-a9af-d1abd4984d23,suora,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+e8ab5227-8864-446a-ad7b-b84a6adcbc0d,pieni,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+eea7ef01-8743-4c7d-a86d-2f516bacad9b,tiukka,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+f040ca21-f8f8-44aa-b21f-fe128a14b13b,valtava,381d145e-830f-4d9b-b8c5-41972b155080,Size and physical properties,size-and-physical-properties,adjective,,
+013f4c57-2943-496c-9c60-583976188f4f,hallitus,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+117c5f2f-8169-42ce-9ad4-9aa54bcc4a94,määrätä,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,verb,,4
+1b433a52-f270-49ab-95ee-2d301a3a0bba,vastuu,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+40ab9a26-c5f2-4f71-9f9e-36952bc4dfba,sota,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+416010b7-c563-4f35-9ff8-259687b59107,rikos,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+55052213-4fb9-4653-8c1f-a9fa47c8c231,sallia,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,verb,,1
+628cc4b6-1a56-43f3-8ccc-e90bc5dfaf2f,vapaus,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+69254ad9-ebfd-4ab7-8606-4e5e6a4b6ebb,yhteistyö,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+7111fe48-d52d-49bc-b8a0-1801a1011b9e,taistelu,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+86b45ae0-1f21-4d71-843a-71b0fcfc50bc,maa,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+a9069125-0bdd-49ce-95ea-d92d6301cadb,käskeä,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,verb,,1
+a94ffc5a-f8aa-407a-b1fb-4f3f7d54a1dc,valtio,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+a9c73751-80d0-455f-a490-e96b7dab69c8,sopimus,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+ae635a6d-2bf7-45e7-a8a5-ebd82ac23c8a,valta,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+b4d44f7c-f3cf-4ef4-9635-b0ba6fa95172,laki,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+b9579e16-5382-4321-920c-dbb6e513335e,yhteys,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+bd86cac1-dad4-43d9-9559-81336736021f,oikeus,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+c9427f02-9d41-43bc-a054-1649f7bc3369,kieltää,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,verb,,1
+cc0ae1da-79b8-4ea1-bfe0-4a4259a2306a,armeija,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+dc8dc12a-db6a-45d7-8322-5dd3f0bba021,sääntö,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+e5a6376f-e55c-412d-820a-bf0d30f643dc,vaatia,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,verb,,1
+e8104992-e156-43ab-bd6a-369d35242ee2,yhdistää,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,verb,,1
+f2d923fc-6967-40bf-96ff-3155e4ea92fc,ryhmä,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+f78dfc1b-3c34-4d79-a33b-856fcffc36bb,käsky,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+fb00770b-db9c-43c1-a395-4f8c2e5b94d5,lupa,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+fc99d854-f056-4c66-a8c0-ccd500fe31a4,ase,c5e12b0a-273a-4e49-bbf8-0945300c4977,Society and law,society-and-law,noun,,
+0d90a7f3-7f3a-4296-b4fb-f672ff8cb056,kuulla,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,verb,,3
+20528431-f389-493b-afca-4ac6d0f60058,laulu,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,noun,,
+34df85af-1af1-47d3-b111-2234bcb434f2,laulaa,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,verb,,1
+4743636a-2dd4-4946-9d6e-1067dde0b02d,kertoa,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,verb,,1
+4960e4bb-31b9-4add-be37-93ffdf5cbd98,sanoa,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,verb,,1
+4f78ac18-4288-4dd2-a88b-64006f892760,kysymys,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,noun,,
+67eb3ed3-99cb-42e1-a0be-87f924976742,kiitos,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,noun,,
+7abfd3b0-faaa-46b2-8aca-5d4a4bd9ff5a,vastaus,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,noun,,
+8736205c-90e9-4b17-a86b-c731283e756d,kuunnella,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,verb,,3
+95ac5452-9c15-401a-b790-173776164629,keskustella,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,verb,,3
+965921aa-6929-48a2-b1ed-2dd6a9d2a722,sana,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,noun,,
+a3fcfdb4-1977-429b-8ad7-b72438bd266a,kysyä,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,verb,,1
+b715eacd-4d2d-4f01-b2da-fe40ea5e1a7d,jutella,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,verb,,3
+ba456a62-cb91-4e63-87da-753219606ab7,kiittää,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,verb,,1
+d39bdf3e-e4ae-4381-91de-6b8d5ee7d510,vastata,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,verb,,4
+d70e4dd0-91e2-4cb7-9e77-9a02d343d700,ääni,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,noun,,
+d9d6c2f5-4efc-4bf9-b45b-f401e50087d0,puhua,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,verb,,1
+f0989d70-ebc3-418d-af53-c6fa8bb0ce3c,puhe,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,noun,,
+f4348757-99f3-4288-be2e-3ca8ef41f7b6,soittaa,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,verb,,1
+f61f367c-d3ba-40b5-8d94-ed0e80d6af0c,huutaa,ae17b470-49a8-489e-955a-9068d007218d,Speaking and conversation,speaking-and-conversation,verb,,1
+07bb35ac-a9e5-477d-835f-9bd4a06b3ebf,kirja,5774cd6a-e4a0-4064-b06c-260ce40ecf71,Study and languages,study-and-languages,noun,,
+14583dde-1b77-43e1-a1ed-4557c36f77ed,luokka,5774cd6a-e4a0-4064-b06c-260ce40ecf71,Study and languages,study-and-languages,noun,,
+33e15b3d-9d68-4ed6-adc3-f080f9806802,tehtävä,5774cd6a-e4a0-4064-b06c-260ce40ecf71,Study and languages,study-and-languages,noun,,
+53f526f1-eb74-49fb-922c-ff3a8ead4fe4,saksa,5774cd6a-e4a0-4064-b06c-260ce40ecf71,Study and languages,study-and-languages,noun,,
+74bd276e-321a-473e-ba68-957e3e34aa80,ranska,5774cd6a-e4a0-4064-b06c-260ce40ecf71,Study and languages,study-and-languages,noun,,
+80c50ce7-44a4-4d7d-bec3-4580821a47ea,englanti,5774cd6a-e4a0-4064-b06c-260ce40ecf71,Study and languages,study-and-languages,noun,,
+8778d9c9-345c-4db1-8d29-bd94add48ad5,historia,5774cd6a-e4a0-4064-b06c-260ce40ecf71,Study and languages,study-and-languages,noun,,
+91d694dd-7ab0-4801-8d2c-da6d43379d56,opettaa,5774cd6a-e4a0-4064-b06c-260ce40ecf71,Study and languages,study-and-languages,verb,,1
+a362161a-24f9-476c-8d8b-fb5241373181,oppia,5774cd6a-e4a0-4064-b06c-260ce40ecf71,Study and languages,study-and-languages,verb,,1
+ab610bb2-4ac8-4c2c-8a2c-2f9dd5f25fb1,koulu,5774cd6a-e4a0-4064-b06c-260ce40ecf71,Study and languages,study-and-languages,noun,,
+b5a08879-d5a6-4201-aad5-fe1678bb5303,sivu,5774cd6a-e4a0-4064-b06c-260ce40ecf71,Study and languages,study-and-languages,noun,,
+c54ab993-b96e-4d79-90a5-26a2b783e675,lukea,5774cd6a-e4a0-4064-b06c-260ce40ecf71,Study and languages,study-and-languages,verb,,1
+c7b9c1ce-a4dd-41a8-9d3f-f4ea10b20d4f,esimerkki,5774cd6a-e4a0-4064-b06c-260ce40ecf71,Study and languages,study-and-languages,noun,,
+da126ecc-2eda-4e0b-811b-b89cd39a0696,kieli,5774cd6a-e4a0-4064-b06c-260ce40ecf71,Study and languages,study-and-languages,noun,,
+082f35ac-c245-47e0-86bc-4f28e820a40e,arvata,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,4
+1369cd3b-35c3-49d0-9069-0584e1ee3912,olettaa,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,1
+16c5b230-ed5f-45de-87d5-7d310bb0bc75,unohtaa,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,1
+3118ea4f-8540-4429-a687-6dd8c54498bf,epäillä,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,3
+31651dbf-f10d-4a0d-a880-e0200ddcb45e,merkitys,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,noun,,
+353a3f78-3da3-4909-b7bc-3e3ad5a7a651,luulla,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,3
+3c9b192f-2959-4d0c-b490-9aeabea9da23,miettiä,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,1
+556cca90-e793-4922-8381-a247419fa97f,tietää,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,1
+62f35d6b-965c-407a-a7aa-92056f202727,käsittää,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,1
+6fa1a0ca-6144-4392-ae3c-cde54cc70ec8,ymmärtää,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,1
+7c768ed4-abb5-415f-b19d-f24dcb68bc79,ajatus,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,noun,,
+8196ba11-f515-4ff0-8e5e-604c6a46ff9d,järki,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,noun,,
+8cf5d0fb-a354-48e3-b5c5-3bff25b768dd,oppi,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,noun,,
+8ff7ca89-3d1c-474c-91ba-fa79c1028d72,tunnistaa,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,1
+97e61e08-d47c-4fa1-83be-8ef9bdd168c6,tieto,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,noun,,
+9d932098-1070-4773-97fd-5000a6420efb,mieli,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,noun,,
+a6fb2674-a53e-4573-a9e6-d6c7bff80c60,ajatella,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,3
+aa1d7fa1-0351-457c-b472-c56acaf7cd67,kuvitella,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,3
+c003ae5e-3541-43fb-b54c-969acd817700,muistaa,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,1
+cb7b1272-b32d-4de4-82fd-7a94b24ce5f3,verrata,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,4
+cc61ef49-f121-4b37-9c25-9754a4767b90,keksiä,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,1
+d161cfcd-aa57-4308-bba5-9c55a27552a1,huomata,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,4
+dbb56e7e-4459-467a-87f4-441e66b0e53c,uskoa,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,1
+dd771f4f-cfae-4f6f-8bb2-e94e96ada23e,tajuta,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,4
+f10d2071-c0ee-4e2c-b475-bcfb958c002c,kokemus,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,noun,,
+f1ed9910-8774-4e35-b6ff-c0e845a5b5a9,idea,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,noun,,
+f5dd19ab-5011-4338-90a6-bb7f855f90ca,tutkia,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,1
+faea3969-6f6d-4ca9-af6b-8a740d42e1ab,tarkoittaa,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,1
+fe6c71e7-67d5-4bc7-b92f-96251adc8a19,selvittää,3cfe0a87-8772-4089-ae61-bdbd88675233,Thinking and understanding,thinking-and-understanding,verb,,1
+05ddc8c3-438c-4179-a5df-d4daf5d1c62d,ilta,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+0ed6c4dd-4757-4bc0-9e16-16304e39648c,viikko,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+1743688a-9d4d-44c4-b596-dda5db45033d,minuutti,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+176ec6ce-294c-4115-9947-8db03cda0ac5,kuukausi,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+2a468c56-29d0-4d0f-bebc-23a7329638e7,hetki,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+30b868e4-0fde-4146-a37b-2659e87e4164,kello,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+4af79b3c-39de-48d3-9c0d-0453e9bddaa1,päivä,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+567bda3b-5f21-42ae-8833-78017094836f,lauantai,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+62fdf7f5-3fc6-4ffb-b5c0-ff92ac545361,nyt,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,adverb,,
+701705f0-2723-463a-bc64-d82875f73f58,huomenna,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,adverb,,
+74af0b95-ce7d-4253-8db0-5224f11c1f94,tunti,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+79472ea6-2234-4818-86a6-861ff26f4b44,eilen,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,adverb,,
+9d10372a-6029-41fb-bd26-7c9898c02cbc,joulu,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+9eefeac3-af72-4082-a6b7-4d9626e8774f,vuosi,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+bcc35f4c-301b-44a0-a6e1-8b5174687d9a,aika,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+c930ab1c-93f0-4e00-bc4a-a1f6cfe50c7b,tänään,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,adverb,,
+cb839f58-8091-4b67-b610-3d7209399f4d,yö,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+cef57835-d51b-4f08-b086-b117fdd0508b,aamu,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+d2b9d1a7-92ee-4a98-ab63-da6eaaf87c40,kausi,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+d47ff542-ccc8-4b0c-a9eb-92c8d43ae29a,sunnuntai,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+d969eb25-0fda-4837-8721-a4be431ec836,perjantai,fab1128f-9869-4ea6-bb9a-dd1851e601ce,"Time, dates and periods",time-dates-and-periods,noun,,
+02edea19-d34d-4366-8550-e35699b0ea52,puhelin,e94ecc3a-6561-4e53-b745-f8921d67e7a7,Transport and technology,transport-and-technology,noun,,
+09054539-7d46-4ba9-9f5c-ee670622af0e,vene,e94ecc3a-6561-4e53-b745-f8921d67e7a7,Transport and technology,transport-and-technology,noun,,
+3ac7764d-61aa-4f7d-bce2-896b14a4d066,kortti,e94ecc3a-6561-4e53-b745-f8921d67e7a7,Transport and technology,transport-and-technology,noun,,
+3eab2c2d-ecaa-4063-b520-4b3101f059c9,lippu,e94ecc3a-6561-4e53-b745-f8921d67e7a7,Transport and technology,transport-and-technology,noun,,
+58f2051b-ebb5-4249-bbdc-e307bf2d4fa7,tv,e94ecc3a-6561-4e53-b745-f8921d67e7a7,Transport and technology,transport-and-technology,noun,,
+6231132f-761e-4836-9028-f6ac94ff74fe,radio,e94ecc3a-6561-4e53-b745-f8921d67e7a7,Transport and technology,transport-and-technology,noun,,
+8f0bd41b-d986-4bac-8069-c0d5dcc36452,metri,e94ecc3a-6561-4e53-b745-f8921d67e7a7,Transport and technology,transport-and-technology,noun,,
+a0fab717-05df-48a2-ad14-3850a1666161,kilometri,e94ecc3a-6561-4e53-b745-f8921d67e7a7,Transport and technology,transport-and-technology,noun,,
+ace3a418-8954-4211-96c2-e96f24ac8780,kamera,e94ecc3a-6561-4e53-b745-f8921d67e7a7,Transport and technology,transport-and-technology,noun,,
+b8f40afa-ce36-49be-98c5-d9dc2ad42e50,auto,e94ecc3a-6561-4e53-b745-f8921d67e7a7,Transport and technology,transport-and-technology,noun,,
+c6e7769a-49e8-4466-810e-0c1f354400c2,paperi,e94ecc3a-6561-4e53-b745-f8921d67e7a7,Transport and technology,transport-and-technology,noun,,
+d5d45f06-36e4-4d59-a695-0f2f922bca3a,linja,e94ecc3a-6561-4e53-b745-f8921d67e7a7,Transport and technology,transport-and-technology,noun,,
+d6217190-9885-4951-b866-57628c2b5058,kone,e94ecc3a-6561-4e53-b745-f8921d67e7a7,Transport and technology,transport-and-technology,noun,,
+db1777e8-51a7-469e-8b7b-6d1b241079c6,tietokone,e94ecc3a-6561-4e53-b745-f8921d67e7a7,Transport and technology,transport-and-technology,noun,,
+f90b00d0-90b6-43db-aff5-5f9299f5c48e,kilo,e94ecc3a-6561-4e53-b745-f8921d67e7a7,Transport and technology,transport-and-technology,noun,,
+f93fb359-6aa6-425a-aa29-fec5df5d195d,moottori,e94ecc3a-6561-4e53-b745-f8921d67e7a7,Transport and technology,transport-and-technology,noun,,
+01880f0a-d37d-478d-906e-2d6fc41151fd,kokous,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+068b463d-b3ee-4215-924c-9471d7773dbe,toimia,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,1
+08088033-47e1-4868-b062-c4284b65d432,vaihtaa,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,1
+1b7c27cc-52ef-45bd-9353-45045b9224c0,jakaa,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,1
+2f911464-16d6-45a8-9c73-c17db0fe3cb7,toiminta,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+338c708b-148b-46d3-99a0-ca99f1eac459,keskittyä,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,1
+4428311e-f087-4191-8be0-dfd5447fd1c4,johtaa,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,1
+4e16907c-d2e8-4b21-9371-298e4524a27d,tekeminen,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+5572fbe0-ebad-41d9-9e7d-e6f3c6f7a868,rakentaa,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,1
+71940a06-53c5-4cf6-827e-e82a41fc83c3,homma,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+72b2d29a-222b-4ea7-8702-ee0ded323efc,tarjota,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,4
+79db04c3-9091-4df7-9fdd-a9cb36a80021,tulo,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+7a94fff0-32cd-4c00-8831-5c01376cb479,ansio,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+84141628-d3a2-4d2f-af55-b5cd96a8b7fd,lista,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+865549e5-9ed5-4d24-a25f-f6b059173b51,hankkia,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,1
+872f1558-2e19-4a2b-86a6-6cba628c44a1,suunnitelma,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+9c045b76-39bd-480a-b428-9770002c192c,aloittaa,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,1
+a96a45fb-cd09-4714-9330-3afbc0fd9134,ryhtyä,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,1
+a9b2f58c-9552-4edd-89b1-d1951eea8b61,lisätä,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,4
+ab75842b-3536-4276-b222-ec037733e9be,ala,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+ba4a9eca-3134-4a78-843e-b2ed4b27a746,tuottaa,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,1
+beaa438e-adf2-45dc-9e4c-30d96e1f93a2,toimi,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+c09c65b3-0ef9-4b26-853d-292f8cb87585,hallita,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,5
+c390a6d9-0c93-47d4-ab19-d8e48ac325b0,työskennellä,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,3
+c4714bb4-8cfd-4532-bb60-05ac622041a6,osasto,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+cc5d43f5-6e0e-4eb4-bd17-a8f252e537ac,yhtiö,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+d379840d-62d8-43e1-b3ea-1dfeee926caa,työ,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+e85ee7d7-5149-40d7-8a4a-056fcffac015,palkka,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+ebb8d0e2-d103-4422-b996-2a308802559c,suunnitella,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,3
+f2208c7c-1f23-4909-aaf8-659d3ae9d147,liike,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+f2d6cb8d-60f5-4c48-8cc9-5a0c5993754d,luoda,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,2
+f46dfa7a-869e-44c9-968a-57396eea6469,palvelu,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+fe986d54-6747-4764-bf10-c2ccc9be8af2,yritys,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,noun,,
+ff2d32b6-6cf7-41ed-bf3c-5593fc65c44d,pärjätä,62420486-267e-4f71-b79f-02a8973479f4,Work and business,work-and-business,verb,,4

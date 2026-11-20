@@ -1,261 +1,234 @@
-# Convi — Development Roadmap
+# Convi
 
-> **Convi — Turn knowledge into fluency.**  
-> Your personal AI language coach. Practice with AI. Speak with confidence.
+> **Turn knowledge into fluency.**
+> Your personal AI language coach — practice with AI, speak with confidence.
 
-## Project Goal
+Convi is a personal AI language-learning app that helps learners turn **passive knowledge** (words and grammar they recognise) into **active speaking ability** (sentences they can produce quickly and naturally).
 
-Build a mobile-first AI language learning app focused on practical speaking development through three modes:
+It started from a real need: learning Finnish while living in Finland and improving spoken English. The first target language is **Finnish**, whose rich morphology makes it a demanding test case for AI-generated learning content.
 
-- **Structured Speaking Drills:** Build automatic sentence production with patterns and reusable expressions. Start with substitution drills; add transformation and expansion later.
-- **Vocabulary & Phrase Practice:** Improve active recall, collocations, and the ability to use useful words and phrases in context.
-- **Guided Scenario Conversation:** Practice multi-turn speaking in formal and informal situations, such as meetings, presentations, daily conversations, and parties.
+---
 
-Review and retrieval should support all three modes rather than form a separate mode.
+## Why Convi?
 
-The first MVP will implement one activity variant: **Substitution Drill**, within Structured Speaking Drills. Users follow predefined exercises, respond verbally, receive AI feedback, and continue to the next exercise.
+Most learning tools focus on recognition: reading, listening, memorising word lists. But understanding a sentence is not the same as being able to say it in a conversation.
 
-The initial goal is to build an app that I can use myself every day, rather than a complete multi-user product.
+Convi is built around a few principles:
 
-See [Database Schema Proposal](docs/database-schema.md) for the planned content types, practice modes, and data relationships.
+- **Knowledge is not fluency.** The app prioritises active production over passive recognition.
+- **Patterns beat isolated words.** Words are learned inside reusable sentence patterns.
+- **Repetition builds automaticity.** The goal is to produce a sentence with little conscious effort, not just answer correctly once.
+- **Context matters.** Short, natural, everyday sentences in realistic situations.
+- **Structured practice before free conversation.** AI supports a guided progression instead of acting as an open-ended chatbot.
 
-## 1. Technology Stack
+### Learning method: FSI-inspired pattern drills
+
+The core method is inspired by the Foreign Service Institute's drill-based training:
+
+| Drill | What the learner does | Example |
+| --- | --- | --- |
+| Substitution | Swap one element, keep the pattern | *Minä asun Helsingissä.* → (Turku) → *Minä asun Turussa.* |
+| Transformation | Apply a grammatical change | *Minä asun Helsingissä.* → negative → *En asu Helsingissä.* |
+| Expansion | Grow a sentence step by step | *I work.* → *I work in Finland.* → *…as a developer.* |
+| Guided production | Build a sentence from a situation and required words | "Explain why you are late: bus, yesterday, problem" |
+| Free production | Answer or describe freely, with AI feedback | Open question |
+
+For Finnish, substitution is not a simple word swap: the replacement often needs a different case or ending (*Helsinki → Helsingissä, Turku → Turussa*). This is why Convi models **grammatical forms** explicitly rather than treating vocabulary as word-to-translation pairs.
+
+More detail: [Project context and methodology](docs/PROJECT_CONTEXT.md).
+
+---
+
+## What works today
+
+| Area | Status |
+| --- | --- |
+| **Vocabulary base** | 949 frequency-based Finnish words in 41 semantic topics, stored in PostgreSQL |
+| **Part-of-speech classification** | All 949 words classified (POS, subtype, verb type) |
+| **Word-form targets** | First three topics (93 words) have reviewed form targets; v1 generation policy and a 20-word pilot are complete; batch generation is next |
+| **AI example sentences** | Short Finnish sentences generated per form target, with a natural **spoken** (puhekieli) version, a **standard written** version and an English translation; automatically validated, deduplicated and saved with provenance |
+| **Backend API** | FastAPI service for topics, vocabulary with nested forms and examples, and protected example generation |
+| **Mobile app** | Expo / React Native app: topic browsing, example-sentence sessions with Finnish text-to-speech, translation reveal, and locally saved progress |
+| **Pattern drill engine** | Designed; an English substitution-drill prototype exists as a script; the mobile drill screen is a placeholder |
+
+The up-to-date, detailed status is kept in **[docs/STATUS.md](docs/STATUS.md)**.
+
+### Mobile app flow
+
+1. **Home** — continue the current topic or start the suggested next one.
+2. **Learn** — browse the 41 vocabulary topics with word counts.
+3. **Session** — step through words; each form target shows its example sentences, which can be played aloud in Finnish and translated on demand. The position is saved, so a session can be resumed.
+4. **Progress** — completed topics and session counts.
+
+---
+
+## Architecture
 
 ```mermaid
 flowchart TB
-    User["User"]
-
-    subgraph Mobile["Mobile App"]
-        UI["React Native + Expo"]
-        Logic["TypeScript<br/>Pattern Drill Engine"]
-        State["Session State<br/>Current Exercise"]
-        Speech["Recording / Playback"]
+    subgraph Mobile["Mobile app (Expo / React Native)"]
+        UI["Screens · Expo Router"]
+        State["Session state & local progress<br/>AsyncStorage"]
+        TTS["Text-to-speech (expo-speech)"]
     end
 
-    subgraph Backend["Backend · Cloud Hosting"]
-        API["Python + FastAPI"]
-        AI["OpenAI API"]
-        DB["Hosted PostgreSQL<br/>Materials / Progress"]
+    subgraph Backend["Backend (Python · FastAPI)"]
+        API["HTTP API /api/v1"]
+        Gen["Content generation<br/>generator · validator · readiness"]
+        Engine["Learning engine (planned)"]
     end
 
-    User --> UI
-    UI --> Logic
-    UI --> Speech
-    Logic --> State
-    UI <-->|HTTP API| API
-    API <--> AI
+    AI["OpenAI API"]
+    DB[("PostgreSQL<br/>Azure Database for PostgreSQL")]
+    Pipeline["Offline data pipeline<br/>scripts · prompts · reviewed outputs"]
+
+    UI --> State
+    UI --> TTS
+    UI <-->|HTTP| API
+    API --> Gen
+    Gen <--> AI
     API <--> DB
+    Pipeline -->|reviewed imports| DB
 ```
 
-## 2. Development Roadmap
+Key design decisions:
 
-### Phase 1 — Build the Backend API and Cloud Database
+- **Backend owns AI and data.** The mobile app never holds API keys or talks to the database directly.
+- **Content and learning logic are separate.** Vocabulary, forms, examples and exercises are reusable content; the frontend contains no core learning logic.
+- **Generate once, reuse.** AI content is validated, stored and reused instead of regenerated per session.
+- **Validate before import.** Bulk AI output is saved locally, checked and reviewed before it reaches PostgreSQL.
+- **Text first, audio later.** The learning mechanism is validated in text before speech recognition is added.
 
-**Goal:** Provide an API and persistent data for the mobile app, with AI calls protected by the backend.
+### Tech stack
 
-- [ ] Create a separate backend project and Python virtual environment.
-- [ ] Install FastAPI, Uvicorn and Pydantic.
-- [ ] Choose a hosted PostgreSQL provider and create a development database.
-- [ ] Configure the local backend to connect to the development database.
-- [ ] Define records for learning content, its practice mode and method, generated exercise sets, and progress.
-- [ ] Create a health-check endpoint and API request/response schemas.
-- [ ] Add endpoints to list and retrieve learning content by practice mode, method and CEFR level.
-- [ ] Add endpoints to read and update basic learning progress.
-- [ ] Add an endpoint that generates a batch of exercises for a practice activity through OpenAI.
-- [ ] Store generated exercise sets so the app can serve exercises one at a time.
-- [ ] Keep API keys in backend environment variables.
-- [ ] Validate requests and handle database and AI errors.
-- [ ] Test the endpoints locally against the cloud development database.
+| Layer | Technology |
+| --- | --- |
+| Mobile | React Native, Expo SDK 58, Expo Router, TypeScript |
+| Backend | Python 3.11+, FastAPI, Pydantic, SQLAlchemy 2, Alembic |
+| Database | PostgreSQL on Azure (Microsoft Entra or password authentication) |
+| AI | OpenAI Responses API with strict JSON-schema structured output |
+| Tooling | uv / pip, ESLint, TypeScript compiler |
 
-The backend provides data, persists progress and makes protected AI calls. The mobile app controls the session flow: which exercise is current, when to retry and when to move forward.
+---
 
-The first API version should support:
+## Content data model
 
-1. Listing learning content by practice mode, method and CEFR level.
-2. Fetching or generating a stored exercise batch for a content item.
-3. Reading and saving basic progress, such as completed exercises and timestamps.
-4. Calling OpenAI without exposing its API key to the mobile app.
+```mermaid
+erDiagram
+    VOCABULARY_TOPICS ||--o{ CONTENTS : groups
+    CONTENTS ||--o{ VOCABULARY_FORMS : "has form targets"
+    CONTENTS ||--o{ VOCABULARY_EXAMPLES : "illustrated by"
+    VOCABULARY_EXAMPLES ||--o{ VOCABULARY_EXAMPLE_TARGETS : covers
+    VOCABULARY_FORMS ||--o{ VOCABULARY_EXAMPLE_TARGETS : "targeted by"
+    CONTENTS ||--o{ EXERCISE_SETS : has
+    CONTENTS ||--o| CONTENT_PROGRESS : tracks
+```
 
-Example structure (to be refined during implementation):
+- `contents` holds every learnable item (currently vocabulary), with its practice mode and method.
+- `vocabulary_forms` stores the grammatical forms and usage patterns worth learning for each word (e.g. *talo → talon, taloa, talossa*).
+- `vocabulary_examples` stores generated sentences with model, prompt version and validation status.
+- `vocabulary_example_targets` links one sentence to the form(s) it teaches, so coverage can be measured per form.
+
+Full description: [docs/database-schema.md](docs/database-schema.md).
+
+---
+
+## AI content pipeline
+
+```mermaid
+flowchart LR
+    V["949 words<br/>+ POS classification"] --> F["Form-target generation<br/>(policy + prompt, batches of ~15)"]
+    F --> C["Schema & duplicate checks"]
+    C --> R["Human review<br/>(local JSON / CSV)"]
+    R --> DB[("vocabulary_forms")]
+    DB --> E["Example generation<br/>per missing target"]
+    E --> X["Automatic validation<br/>token check · length · level"]
+    X --> S[("vocabulary_examples")]
+```
+
+Quality is treated as a first-class concern:
+
+- Structured output via strict JSON schemas.
+- Form selection follows a documented, part-of-speech-specific policy (no fixed quotas, no invented forms).
+- Deterministic validation (target form present, sentence length, CEFR level) plus a review status for cases that need a human, such as case government.
+- Provenance on every generated row (model, prompt version, source).
+- Idempotent import scripts.
+
+Details: [form-target generation checkpoint](docs/data-generation/FORM_TARGET_GENERATION_CHECKPOINT.md) · [generation policy](docs/data-generation/form-generation-policy.md) · [label policy](docs/data-generation/grammatical-label-policy.md).
+
+---
+
+## Repository structure
 
 ```text
-backend/
-├── app/
-│   ├── main.py
-│   ├── routes/
-│   │   ├── content.py
-│   │   ├── exercise_sets.py
-│   │   └── progress.py
-│   ├── schemas/
-│   ├── models/
-│   ├── services/
-│   │   └── ai_service.py
-│   └── database.py
-├── tests/
-├── pyproject.toml
-└── .env.example
+Convi/
+├── README.md
+├── docs/                       # Project documentation (index: docs/README.md)
+│   ├── PROJECT_CONTEXT.md      # Vision, methodology, decisions, roadmap
+│   ├── STATUS.md               # Current status and next steps
+│   ├── database-schema.md
+│   └── data-generation/        # Generation policies, checkpoint, legacy sources
+├── backend/
+│   ├── app/                    # FastAPI app, models, services
+│   ├── migrations/             # Alembic migrations
+│   ├── scripts/                # Import, export and generation scripts
+│   ├── data-generation/        # Datasets, prompts and generated outputs
+│   └── tests/
+└── mobile/                     # Expo / React Native app
+    └── src/{app, api, state, ui, utils}
 ```
 
-**Completion criteria:** The local backend can read and write the cloud development database, return predictable JSON and generate an exercise batch without exposing secrets to the mobile app.
+---
 
-### Phase 2 — Build the Basic Mobile UI and Practice Flow
+## Getting started
 
-**Goal:** Implement the initial Convi practice screen and session interactions.
+### Backend
 
-- [ ] Create the mobile project structure.
-- [ ] Implement the practice screen with a material and exercise header.
-- [ ] Display the target sentence and exercise instructions.
-- [ ] Add a placeholder answer area and feedback card with mock data.
-- [ ] Implement Retry and Next Exercise interactions.
-- [ ] Keep current-session state in the mobile app.
-- [ ] Test layout and touch interactions on the phone.
-
-Keep the interface minimal. Do not build a dashboard, material management system or complex statistics yet.
-
-**Completion criteria:** I can complete a simulated practice session from the first exercise to the last.
-
-### Phase 3 — Implement the Pattern Drill Engine
-
-**Goal:** Define exercise progression independently of the UI and backend.
-
-- [ ] Define TypeScript types for patterns, exercises and session state.
-- [ ] Model multiple patterns with approximately five exercises per pattern.
-- [ ] Implement next exercise, next pattern, retry and completion states.
-- [ ] Separate practice rules from React components.
-- [ ] Verify the practice logic independently.
-
-Suggested structure:
-
-```text
-src/
-├── components/
-├── features/
-│   └── practice/
-├── core/
-│   ├── types.ts
-│   └── practiceEngine.ts
-└── App.tsx
+```bash
+cd backend
+python -m venv .venv && source .venv/bin/activate
+python -m pip install -e .
+cp .env.example .env        # set database connection and API keys
+alembic upgrade head
+fastapi dev app/main.py
 ```
 
-**Completion criteria:** A session can progress through multiple patterns using mock data, without the backend deciding which exercise is next.
+Database setup and API endpoints: [backend/README.md](backend/README.md). Data scripts: [backend/scripts/README.md](backend/scripts/README.md).
 
-### Phase 4 — Prepare Default Materials and Connect the Mobile App
+### Mobile
 
-**Goal:** Make the app useful immediately with a small curated set of Pattern Drills.
+```bash
+cd mobile
+npm install
+cp .env.example .env.local  # set EXPO_PUBLIC_API_BASE_URL
+npx expo start
+```
 
-- [ ] Prepare a small set of default content items for structured drills.
-- [ ] Review patterns and example exercises before importing them.
-- [ ] Add approved content and generated exercise sets to the development database.
-- [ ] Add an API client to the mobile app.
-- [ ] Load content by practice mode, method and CEFR level through the API.
-- [ ] Load an exercise batch and show its exercises one at a time.
-- [ ] Save basic progress through the API.
-- [ ] Add loading, success and error states.
-- [ ] Test the text-based practice flow on the phone.
+See [mobile/README.md](mobile/README.md).
 
-Default material preparation can be a one-time manual process for now. Automated extraction, file upload and material management are later features. Keep source and license notes with material records where available.
+---
 
-**Completion criteria:** A user can choose a default pattern, complete its exercises one at a time and retain basic progress after reopening the app.
+## Roadmap
 
-### Phase 5 — Deploy the Backend
+1. **Stabilise data generation** — batch form-target generation for all 949 words, review, import. *(in progress)*
+2. **Example sentence repository** — generate and review examples for every topic, reuse existing content.
+3. **Core drill engine** — substitution and transformation drills, answer evaluation, AI feedback.
+4. **Learning material import** — extract reusable patterns and chunks from TXT, EPUB and PDF.
+5. **Frontend** — drill screens, feedback, progress.
+6. **Voice** — speech recognition, spoken drills, pronunciation feedback.
 
-**Goal:** Make the API accessible to the mobile app over the internet.
+Detailed plan: [Project context §13](docs/PROJECT_CONTEXT.md#13-immediate-development-roadmap) · current state: [STATUS.md](docs/STATUS.md).
 
-- [ ] Choose and configure a backend host.
-- [ ] Deploy the FastAPI backend.
-- [ ] Configure hosted environment variables and the production database.
-- [ ] Keep development and production databases separate.
-- [ ] Verify health, data and AI endpoints remotely.
-- [ ] Configure request limits and error handling.
-- [ ] Point the mobile app to the deployed API.
+---
 
-Never put database credentials or the OpenAI API key in the mobile app.
+## Documentation
 
-**Completion criteria:** The mobile app can use the deployed API and its connected database.
-
-### Phase 6 — Validate Speech Capabilities and Add Voice Practice
-
-**Goal:** Add spoken answers after the text-based practice flow works end to end.
-
-- [ ] Test microphone permissions, recording and playback on a real device.
-- [ ] Investigate speech-to-text options and test recognition quality.
-- [ ] Investigate text-to-speech for example sentences.
-- [ ] Confirm whether the chosen solution works with Expo Go or requires a development build.
-- [ ] Connect speech transcription to the practice UI.
-- [ ] Add AI answer feedback through the backend.
-- [ ] Add retry and network error handling.
-
-Keep recording, speech-to-text (ASR), pronunciation assessment and text-to-speech (TTS) as separate capabilities. Speech recognition alone does not necessarily provide reliable pronunciation assessment.
-
-**Completion criteria:** I can complete a Pattern Drill session using my voice and receive useful AI feedback.
-
-### Phase 7 — Improve the MVP
-
-**Goal:** Make the practice experience reliable enough for daily use.
-
-- [ ] Complete several full practice sessions.
-- [ ] Evaluate transcription accuracy and feedback quality.
-- [ ] Measure the time between finishing an answer and receiving feedback.
-- [ ] Improve prompts and answer evaluation.
-- [ ] Test network failures and API errors.
-- [ ] Refine the UI based on actual use.
-
-Prioritize the quality of the learning experience over adding more features.
-
-## 3. Architecture Principles
-
-### Keep business logic separate from UI
-
-The mobile app should contain presentation logic, the Pattern Drill session flow, current-session state and platform-specific audio interactions.
-
-The practice engine should define exercise progression and expected behavior independently of React components. The backend provides data, persists progress and communicates with AI services; it does not decide which exercise the user sees next.
-
-The backend should protect API keys, communicate with AI services and enforce server-side rules where appropriate.
-
-### Keep audio processing modular
-
-Initially, use existing speech services instead of running custom speech models.
-
-If more advanced speech processing becomes necessary, deploy it as a separate service. The mobile app and main API should not depend on the implementation details of a specific speech provider.
-
-### Keep infrastructure minimal
-
-Initially:
-
-- Use hosted PostgreSQL for development and keep production data separate.
-- Prepare a small curated set of default materials and load them into the database.
-- Do not build automated material extraction or upload yet.
-- Do not build user accounts until synchronization across users or devices requires them.
-- No multi-mode practice system.
-- No custom speech model hosting.
-- No web application.
-
-Add infrastructure only when a concrete product requirement justifies it.
-
-## 4. Future Improvements
-
-After the core practice experience is usable, consider:
-
-- Letting users add, edit and organize their own learning materials.
-- Automating material extraction and import.
-- Adding Vocabulary & Phrase Practice and Guided Scenario Conversation modes.
-- More advanced pronunciation assessment.
-- Cloud synchronization and user accounts.
-- A web version.
-- A shared package for business logic and types.
-- More advanced learning analytics.
-
-## 5. Definition of MVP Complete
-
-The first MVP is complete when I can:
-
-- Open Convi on my phone.
-- Start a predefined Pattern Drill session.
-- Hear or read the exercise instructions.
-- Answer using my voice.
-- Receive a transcription and useful AI feedback.
-- Retry or continue to the next exercise.
-- Finish a complete practice session.
-- Close the app and retain my progress.
-
-**The immediate next milestone is the FastAPI API and hosted PostgreSQL development database, followed by the mobile practice flow. Framework setup and device testing are implementation prerequisites, not roadmap phases.**
+| Document | Contents |
+| --- | --- |
+| [docs/README.md](docs/README.md) | Index of all documentation |
+| [docs/PROJECT_CONTEXT.md](docs/PROJECT_CONTEXT.md) | Product vision, learning method, decisions, roadmap |
+| [docs/STATUS.md](docs/STATUS.md) | What is done, in progress and next |
+| [docs/database-schema.md](docs/database-schema.md) | Tables, fields, relationships |
+| [docs/data-generation/](docs/data-generation/) | AI content generation policies and checkpoint |
+| [backend/README.md](backend/README.md) | Backend setup and API |
+| [mobile/README.md](mobile/README.md) | Mobile app setup |

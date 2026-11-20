@@ -1,4 +1,12 @@
-"""Idempotently import the reviewed word-form pilot for the first three topics."""
+"""LEGACY: idempotently import the v0 word-form targets for the first three topics.
+
+These targets use the legacy label style (for example `N sg`) and store the headword
+as a target. They will be replaced by targets generated with the v1 policy; see
+docs/data-generation/FORM_TARGET_GENERATION_CHECKPOINT.md. Keep this script only to
+reproduce the current database state until that replacement is complete.
+
+Run from backend/: python -m scripts.legacy_import_vocabulary_forms_v0
+"""
 import json
 from pathlib import Path
 
@@ -9,7 +17,13 @@ from app.database import create_database_engine
 from app.models import Content, VocabularyForm, VocabularyTopic
 
 
-DATA_FILE = Path(__file__).resolve().parents[1] / "data" / "vocabulary_forms_topic_1_3.json"
+DATA_FILE = (
+    Path(__file__).resolve().parents[1]
+    / "data-generation"
+    / "legacy_v0"
+    / "vocabulary_forms_topic_1_3.json"
+)
+# Matches the value stored in the database; the document now lives in docs/data-generation/legacy/.
 SOURCE_NOTE = "Reviewed pilot: docs/wordforms-topic-1-3.md"
 EXPECTED_TOPICS = {
     "pronouns-and-reference": 29,

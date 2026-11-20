@@ -1,4 +1,10 @@
-"""Run a local Pattern Drill session with AI-generated exercises."""
+"""LEGACY prototype: run a local English Pattern Drill session with AI-generated exercises.
+
+Early proof of concept for a single-slot substitution drill (see app/core/learning.py).
+It is not part of the Finnish drill engine, which still has to be designed.
+
+Run from backend/: python -m scripts.legacy_try_pattern_drill_en
+"""
 
 from openai import OpenAIError
 

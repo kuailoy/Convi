@@ -1,64 +1,42 @@
-# Welcome to your Expo app 👋
+# Convi mobile app
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Expo / React Native app for Convi, using Expo Router (file-based routes in `src/app/`).
+Project overview: [../README.md](../README.md). Rules for coding agents: [AGENTS.md](AGENTS.md).
 
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Configure the API address. Copy `.env.example` to `.env.local` and set
-   `EXPO_PUBLIC_API_BASE_URL` to the deployed API base URL. The Expo public
-   variable is included in the app bundle, so use it only for public values.
-
-3. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-Topic lists and learning progress are cached on the device. Use Settings →
-Clear learning progress to reset local learning progress; the topic cache is
-kept.
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Setup
 
 ```bash
-npm run reset-project
+npm install
+cp .env.example .env.local
 ```
 
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
+Set `EXPO_PUBLIC_API_BASE_URL` in `.env.local` to the backend base URL. Expo public variables are bundled into the app, so use them only for public values. API keys always stay on the backend.
 
-### Other setup steps
+## Run
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+```bash
+npx expo start      # dev server (Expo Go, simulator or development build)
+npx expo lint       # lint
+npx tsc --noEmit    # type check
+```
 
-## Learn more
+## Structure
 
-To learn more about developing your project with Expo, look at the following resources:
+```text
+src/
+├── app/            # Screens (routes)
+│   ├── (tabs)/     # Home, Learn, Progress
+│   ├── session/    # Vocabulary example session: session/[id] = topic slug
+│   ├── pattern-drill.tsx   # Placeholder
+│   └── settings.tsx
+├── api/            # API client and response types
+├── state/          # LearningContext: topic cache and local progress
+├── ui/             # Shared components, theme, navigation helper
+└── utils/          # Grammatical label formatting
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Data and progress
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Topics and topic contents come from the backend (`/api/v1/vocabulary/...`).
+- Example sentences are read aloud with `expo-speech` (Finnish voice).
+- The topic list and learning progress are cached on the device with AsyncStorage. **Settings → Clear learning progress** resets progress; the topic cache is kept.

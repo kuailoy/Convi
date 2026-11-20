@@ -1,0 +1,582 @@
+{
+  "task": "Convi Finnish MVP — Pilot Form Generation",
+  "version": 1,
+  "notes": [
+    "This is a pilot output for review, not a database import instruction.",
+    "The headword itself is not duplicated in forms.",
+    "Verb present-tense forms intentionally cover singular and plural with a flexible 3–4 form selection.",
+    "Adposition patterns are stored as governed_pattern targets."
+  ],
+  "items": [
+    {
+      "content_id": "fbd2dcfb-ceb7-42ae-a529-e7b64aff86d7",
+      "word": "talo",
+      "part_of_speech": "noun",
+      "topic": "Home and housing",
+      "forms": [
+        {
+          "form": "talon",
+          "grammatical_label": "genitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "taloa",
+          "grammatical_label": "partitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "talossa",
+          "grammatical_label": "inessive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "talosta",
+          "grammatical_label": "elative_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "taloon",
+          "grammatical_label": "illative_singular",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "db62b58f-9de3-4bac-9f3e-a54937fc84bb",
+      "word": "koti",
+      "part_of_speech": "noun",
+      "topic": "Home and housing",
+      "forms": [
+        {
+          "form": "kodin",
+          "grammatical_label": "genitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "kotia",
+          "grammatical_label": "partitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "kotona",
+          "grammatical_label": "related_location",
+          "form_type": "related_form"
+        },
+        {
+          "form": "kotoa",
+          "grammatical_label": "related_source",
+          "form_type": "related_form"
+        },
+        {
+          "form": "kotiin",
+          "grammatical_label": "illative_singular",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "f282bc20-935d-4da3-9900-dad1c14baa9b",
+      "word": "kahvi",
+      "part_of_speech": "noun",
+      "topic": "Food and drink",
+      "forms": [
+        {
+          "form": "kahvin",
+          "grammatical_label": "genitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "kahvia",
+          "grammatical_label": "partitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "kahvissa",
+          "grammatical_label": "inessive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "kahvista",
+          "grammatical_label": "elative_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "kahviin",
+          "grammatical_label": "illative_singular",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "02fd0109-818e-4256-9188-dbeb2b2cdf61",
+      "word": "ihminen",
+      "part_of_speech": "noun",
+      "topic": "People and family",
+      "forms": [
+        {
+          "form": "ihmisen",
+          "grammatical_label": "genitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "ihmistä",
+          "grammatical_label": "partitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "ihmisessä",
+          "grammatical_label": "inessive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "ihmisestä",
+          "grammatical_label": "elative_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "ihmiseen",
+          "grammatical_label": "illative_singular",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "109f71cf-51a3-4428-9ead-1dd3b8177fdc",
+      "word": "ystävä",
+      "part_of_speech": "noun",
+      "topic": "People and family",
+      "forms": [
+        {
+          "form": "ystävän",
+          "grammatical_label": "genitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "ystävää",
+          "grammatical_label": "partitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "ystävässä",
+          "grammatical_label": "inessive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "ystävästä",
+          "grammatical_label": "elative_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "ystävään",
+          "grammatical_label": "illative_singular",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "d9d6c2f5-4efc-4bf9-b45b-f401e50087d0",
+      "word": "puhua",
+      "part_of_speech": "verb",
+      "topic": "Speaking and conversation",
+      "forms": [
+        {
+          "form": "puhun",
+          "grammatical_label": "present_1sg",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "puhut",
+          "grammatical_label": "present_2sg",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "puhuu",
+          "grammatical_label": "present_3sg",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "puhumme",
+          "grammatical_label": "present_1pl",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "0a84102a-1362-4900-85fb-a1dbf270498b",
+      "word": "olla",
+      "part_of_speech": "verb",
+      "topic": "Ability and necessity",
+      "forms": [
+        {
+          "form": "olen",
+          "grammatical_label": "present_1sg",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "olet",
+          "grammatical_label": "present_2sg",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "on",
+          "grammatical_label": "present_3sg",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "olemme",
+          "grammatical_label": "present_1pl",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "85bf3335-f20c-4576-98dc-73b9b978af3b",
+      "word": "mennä",
+      "part_of_speech": "verb",
+      "topic": "Movement and travel",
+      "forms": [
+        {
+          "form": "menen",
+          "grammatical_label": "present_1sg",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "menet",
+          "grammatical_label": "present_2sg",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "menee",
+          "grammatical_label": "present_3sg",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "menemme",
+          "grammatical_label": "present_1pl",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "c60ef361-7441-48ee-be0a-d7cd26705100",
+      "word": "tehdä",
+      "part_of_speech": "verb",
+      "topic": "Everyday verbs",
+      "forms": [
+        {
+          "form": "teen",
+          "grammatical_label": "present_1sg",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "teet",
+          "grammatical_label": "present_2sg",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "tekee",
+          "grammatical_label": "present_3sg",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "teemme",
+          "grammatical_label": "present_1pl",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "6656320d-127c-4e2e-9458-cbcfef306bac",
+      "word": "saada",
+      "part_of_speech": "verb",
+      "topic": "Everyday verbs",
+      "forms": [
+        {
+          "form": "saan",
+          "grammatical_label": "present_1sg",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "saat",
+          "grammatical_label": "present_2sg",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "saa",
+          "grammatical_label": "present_3sg",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "saamme",
+          "grammatical_label": "present_1pl",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "ee7938e6-5299-4780-91b3-5340c0f7a3c1",
+      "word": "hyvä",
+      "part_of_speech": "adjective",
+      "topic": "Evaluation and correctness",
+      "forms": [
+        {
+          "form": "hyvän",
+          "grammatical_label": "genitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "hyvää",
+          "grammatical_label": "partitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "parempi",
+          "grammatical_label": "comparative",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "paras",
+          "grammatical_label": "superlative",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "a3eaf317-b43b-44cb-a699-e656994f2d86",
+      "word": "suuri",
+      "part_of_speech": "adjective",
+      "topic": "Size and physical properties",
+      "forms": [
+        {
+          "form": "suuren",
+          "grammatical_label": "genitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "suurta",
+          "grammatical_label": "partitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "suurempi",
+          "grammatical_label": "comparative",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "suurin",
+          "grammatical_label": "superlative",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "9aa6fc2d-a8d0-4f11-b949-208d8abbc45c",
+      "word": "kaunis",
+      "part_of_speech": "adjective",
+      "topic": "Appearance and temperature",
+      "forms": [
+        {
+          "form": "kauniin",
+          "grammatical_label": "genitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "kaunista",
+          "grammatical_label": "partitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "kauniimpi",
+          "grammatical_label": "comparative",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "kaunein",
+          "grammatical_label": "superlative",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "f204c4c7-ccf5-4c2a-8aa8-51609fe606b4",
+      "word": "hän",
+      "part_of_speech": "pronoun",
+      "topic": "Pronouns and reference",
+      "forms": [
+        {
+          "form": "hänet",
+          "grammatical_label": "accusative_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "häntä",
+          "grammatical_label": "partitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "hänen",
+          "grammatical_label": "genitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "hänelle",
+          "grammatical_label": "allative_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "häneltä",
+          "grammatical_label": "ablative_singular",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "3c03fe85-e977-4b6c-a61c-f4cd6e16b14f",
+      "word": "tämä",
+      "part_of_speech": "pronoun",
+      "topic": "Pronouns and reference",
+      "forms": [
+        {
+          "form": "tämän",
+          "grammatical_label": "genitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "tätä",
+          "grammatical_label": "partitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "tässä",
+          "grammatical_label": "inessive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "tästä",
+          "grammatical_label": "elative_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "tähän",
+          "grammatical_label": "illative_singular",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "98fcc3db-66c5-4a2e-8a81-763f90a23dd0",
+      "word": "joka",
+      "part_of_speech": "pronoun",
+      "topic": "Pronouns and reference",
+      "forms": [
+        {
+          "form": "jonka",
+          "grammatical_label": "genitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "jota",
+          "grammatical_label": "partitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "jossa",
+          "grammatical_label": "inessive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "josta",
+          "grammatical_label": "elative_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "johon",
+          "grammatical_label": "illative_singular",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "7ef19c81-1ff7-48ba-a57b-68b05042a5d7",
+      "word": "usein",
+      "part_of_speech": "adverb",
+      "topic": "Sequence and frequency",
+      "forms": [
+        {
+          "form": "useammin",
+          "grammatical_label": "comparative_adverb",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "useimmin",
+          "grammatical_label": "superlative_adverb",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "743e5337-2407-405a-8ab7-1e4f1039eeb8",
+      "word": "hyvin",
+      "part_of_speech": "adverb",
+      "topic": "Manner and certainty",
+      "forms": [
+        {
+          "form": "paremmin",
+          "grammatical_label": "comparative_adverb",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "parhaiten",
+          "grammatical_label": "superlative_adverb",
+          "form_type": "inflected_form"
+        }
+      ]
+    },
+    {
+      "content_id": "342974b9-8694-4c11-bf8f-20dfc70954c6",
+      "word": "ilman",
+      "part_of_speech": "adposition",
+      "topic": "Relational words",
+      "forms": [
+        {
+          "form": "ilman kahvia",
+          "grammatical_label": "partitive_complement",
+          "form_type": "governed_pattern"
+        }
+      ]
+    },
+    {
+      "content_id": "3e3a0f8c-9ddd-461b-a30b-ed4cded7b8da",
+      "word": "yksi",
+      "part_of_speech": "numeral",
+      "topic": "Numbers, quantity and comparison",
+      "forms": [
+        {
+          "form": "yhden",
+          "grammatical_label": "genitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "yhtä",
+          "grammatical_label": "partitive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "yhdessä",
+          "grammatical_label": "inessive_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "yhdestä",
+          "grammatical_label": "elative_singular",
+          "form_type": "inflected_form"
+        },
+        {
+          "form": "yhteen",
+          "grammatical_label": "illative_singular",
+          "form_type": "inflected_form"
+        }
+      ]
+    }
+  ]
+}
