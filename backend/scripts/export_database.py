@@ -212,7 +212,6 @@ def build_review_data(tables: dict[str, list[dict[str, Any]]], generated_at: str
 
 def source_comparison(tables: dict[str, list[dict[str, Any]]]) -> dict[str, Any]:
     vocab_csv = BACKEND_ROOT / "data-generation" / "vocabulary" / "finnish_vocabulary.csv"
-    forms_json = BACKEND_ROOT / "data-generation" / "legacy_v0" / "vocabulary_forms_topic_1_3.json"
 
     db_topics = {row["id"]: row for row in tables.get("vocabulary_topics", [])}
     db_vocab = {
@@ -227,35 +226,19 @@ def source_comparison(tables: dict[str, list[dict[str, Any]]]) -> dict[str, Any]
         for row in source_vocab_rows
     }
 
-    content_rows = {row["id"]: row for row in tables.get("contents", [])}
-    db_forms = {
-        (
-            db_topics[content_rows[row["content_id"]]["topic_id"]]["slug"],
-            content_rows[row["content_id"]]["topic_order"],
-            content_rows[row["content_id"]]["content"],
-            row["form"],
-            row["grammatical_label"],
-            row["target_type"],
-            row["notes"],
-        )
-        for row in tables.get("vocabulary_forms", [])
-        if row["content_id"] in content_rows
-        and content_rows[row["content_id"]]["topic_id"] in db_topics
-    }
-    with forms_json.open(encoding="utf-8") as file:
-        source_form_rows = json.load(file)
-    source_forms = {
-        (
-            row["topic_slug"],
-            row["topic_order"],
-            row["lemma"],
-            row["form"],
-            row["grammatical_label"],
-            row["target_type"],
-            row["notes"],
-        )
-        for row in source_form_rows
-    }
+    # Form targets are compared with the generated set that the import uses (v3_all + headword targets).
+    from app.services.form_target_generator import OUTPUTS_DIR, VOCABULARY_CSV, load_vocabulary, output_dir_for
+    from app.services.form_target_import import build_rows
+
+    generated = output_dir_for("all", OUTPUTS_DIR)
+    manifest = json.loads((generated / "manifest.json").read_text(encoding="utf-8"))
+    combined = json.loads((generated / "combined.json").read_text(encoding="utf-8"))
+    source_form_rows = build_rows(combined, load_vocabulary(VOCABULARY_CSV), manifest["model"])
+    form_key = ("form", "grammatical_label", "target_type", "display_order")
+    source_forms = {(str(row["content_id"]), *(row[k] for k in form_key), row["notes"] or None)
+                    for row in source_form_rows}
+    db_forms = {(str(row["content_id"]), *(row[k] for k in form_key), row["notes"] or None)
+                for row in tables.get("vocabulary_forms", [])}
     return {
         "vocabulary_source_rows": len(source_vocab_rows),
         "vocabulary_source_matches_database": source_vocab == db_vocab,
@@ -381,7 +364,7 @@ def make_summary(
             f"- Example-target validation statuses: {', '.join(f'{key}={value}' for key, value in sorted(target_statuses.items())) or 'none'}.",
             f"- {len(tables.get('exercise_sets', []))} exercise sets and {len(tables.get('content_progress', []))} progress rows are present.",
             f"- Vocabulary CSV matches the database: {source_diff['vocabulary_source_matches_database']} ({source_diff['vocabulary_rows_only_in_source']} source-only; {source_diff['vocabulary_rows_only_in_database']} database-only rows).",
-            f"- Legacy v0 form JSON (topics 1–3) matches the database: {source_diff['forms_source_matches_database']} ({source_diff['form_targets_only_in_source']} source-only; {source_diff['form_targets_only_in_database']} database-only targets).",
+            f"- Generated form targets (v3_all + headword targets) match the database: {source_diff['forms_source_matches_database']} ({source_diff['form_targets_only_in_source']} source-only; {source_diff['form_targets_only_in_database']} database-only targets).",
             "",
             "## Quality checks",
             "",
