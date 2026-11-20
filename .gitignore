@@ -22,3 +22,7 @@ build/
 
 # Local database exports (may contain learner data)
 backend/data-generation/exports/
+
+# Form-target generation: dry-run inputs and rejected attempts (reproducible / debugging only)
+backend/data-generation/form_targets/outputs/*/inputs/
+backend/data-generation/form_targets/outputs/*/errors/

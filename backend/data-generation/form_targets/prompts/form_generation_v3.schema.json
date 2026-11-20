@@ -1,0 +1,65 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "items"
+  ],
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "content_id",
+          "word",
+          "forms"
+        ],
+        "properties": {
+          "content_id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "word": {
+            "type": "string"
+          },
+          "forms": {
+            "type": "array",
+            "maxItems": 10,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "form",
+                "grammatical_label",
+                "target_type",
+                "notes"
+              ],
+              "properties": {
+                "form": {
+                  "type": "string",
+                  "pattern": "^\\S(.*\\S)?$"
+                },
+                "grammatical_label": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$"
+                },
+                "target_type": {
+                  "type": "string",
+                  "enum": [
+                    "inflected_form",
+                    "related_form",
+                    "governed_pattern"
+                  ]
+                },
+                "notes": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

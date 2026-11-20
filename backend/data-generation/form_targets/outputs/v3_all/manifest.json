@@ -1,0 +1,2061 @@
+{
+  "set": "all",
+  "prompt_version": "form_generation_v3",
+  "prompt_sha256": "461779cbfcde175ee949df4b05813ed8b1a091edf5b78644d72655fe13b7f376",
+  "schema_sha256": "a17165f0b6d35a197a04273761da0af5ccd48241a4c4c160746b9fc9f70d1693",
+  "labels_sha256": "196945804a001a7b3ee693088b51fa60261defccf662561a536426d3d5581e88",
+  "model": "gpt-6-luna",
+  "batch_size": 15,
+  "created_at": "2026-11-20T19:26:19Z",
+  "batches": [
+    {
+      "batch_id": "ability-and-necessity__01",
+      "topic_slug": "ability-and-necessity",
+      "content_ids": [
+        "03810b5e-9b4b-4705-9cdc-ff5a9eb0b0a5",
+        "0a84102a-1362-4900-85fb-a1dbf270498b",
+        "1cf77058-1b42-487f-972a-d201f79772e2",
+        "250ec318-9483-41c8-8267-34c4b8ad618e",
+        "37015c11-1430-4f00-91ea-779a545642fa",
+        "3ecaf38c-2395-4922-b091-01495dae1ec1",
+        "65eceed2-3ba8-48ac-98ad-2a7345067a24",
+        "80f145fe-7bd9-46e8-bef5-bc7d50c9a222",
+        "884f3ab0-13f6-4670-b204-592380b81cda",
+        "8e8dca91-5e42-4743-bd1d-edafb5a36aec",
+        "922d88c5-5023-4121-8173-252047ad832d",
+        "a5174e38-4eb5-4cb4-bc16-2eb58d6dbb49",
+        "a55b20c9-f9d8-44ec-8ad6-2c27bd8c6cdc",
+        "bd62d550-a1aa-40f5-807b-32befb5ef1f6",
+        "de037dff-6775-4f23-9bbe-90d1766732d8"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 3,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:12:26Z",
+      "usage": {
+        "input_tokens": 6814,
+        "output_tokens": 5508
+      },
+      "reused_from": "v3_pilot"
+    },
+    {
+      "batch_id": "appearance-and-temperature__01",
+      "topic_slug": "appearance-and-temperature",
+      "content_ids": [
+        "0438be90-2412-421e-b68b-e14da228addb",
+        "551d4bee-92e9-41f5-9f2d-444132621044",
+        "5f719c17-7b84-4bc5-a9aa-82495356ec89",
+        "7bf1cb40-74b4-40ed-9201-26a6b965c883",
+        "8c27e90e-d518-44ab-b4f1-28995534a396",
+        "9219abad-7768-482f-a9d3-36f0ebed582a",
+        "9aa6fc2d-a8d0-4f11-b949-208d8abbc45c",
+        "c970031f-9559-427b-b9f5-925fb893c4c2",
+        "f61f4a03-0914-4ea5-8c39-e0fffa2a466e"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:26:35Z",
+      "usage": {
+        "input_tokens": 6254,
+        "output_tokens": 1889
+      }
+    },
+    {
+      "batch_id": "body-and-health__01",
+      "topic_slug": "body-and-health",
+      "content_ids": [
+        "15ccdd16-90e5-414e-b3df-ff688c999269",
+        "1a07e0a6-d80f-46ec-90c6-1c24e11e6dc3",
+        "1cdf2f49-c095-4f4c-9333-25078bd90bb5",
+        "2deb380a-9a1d-4f43-85b3-2910d8368f59",
+        "34ef4a7f-a985-4622-88c4-e09df20e99be",
+        "3809808c-c4f2-4549-8acd-886ec266caa8",
+        "48e40a15-2907-41b4-93dc-ca0bff925dbb",
+        "4a93b56f-8593-4ca1-9863-2b27921c6929",
+        "56c7be38-46d0-4aad-8ffc-98cc66056116",
+        "6006cdc8-bad3-4548-bb68-13f39a1fa3a7",
+        "712cb8cd-2d2e-4a5d-9018-46959ecf652b",
+        "759e6a25-66c1-4811-9803-c49049788ef2"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:27:00Z",
+      "usage": {
+        "input_tokens": 6512,
+        "output_tokens": 3387
+      }
+    },
+    {
+      "batch_id": "body-and-health__02",
+      "topic_slug": "body-and-health",
+      "content_ids": [
+        "8c8e371b-78e1-440a-85b2-daa9fd4efd41",
+        "9bf5c0a3-dd50-428e-9308-f2d1866ca339",
+        "a49ec53a-74fd-461e-b92e-32de4d130133",
+        "a6ecf5bf-8e60-4bab-8b18-16182fb39926",
+        "a80d4daa-33d5-4f32-aa87-97462c11f1eb",
+        "b94ea96f-7087-424c-9521-4b717abf6a5e",
+        "b97d4350-5426-4674-8603-f459345c0bb3",
+        "bad3dfe8-2e73-4218-8c64-1d36d06cc306",
+        "bbb01145-3a54-49eb-8e37-5f108bab8f7a",
+        "c55b701c-d886-4da9-9d2d-25b2c4fdee4d",
+        "e4a90691-36e3-4d53-9e5e-d145bfa615c2"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 1,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:27:19Z",
+      "usage": {
+        "input_tokens": 6429,
+        "output_tokens": 2386
+      }
+    },
+    {
+      "batch_id": "changes-and-decisions__01",
+      "topic_slug": "changes-and-decisions",
+      "content_ids": [
+        "093a1afc-1ee4-454b-8721-ec00e93b29ce",
+        "16e5bf45-1f20-4fc5-9427-d6a71eea9c04",
+        "1b19c988-62e6-4728-bc26-fe6d8c6e93f5",
+        "1c90bc92-ad94-4271-9bf8-f8025511ad07",
+        "247c1a77-5f60-47ce-8541-e7ca2574f7ab",
+        "4bc38ba9-1267-4ea3-8d5c-57dae8c3b9f2",
+        "4f087ed9-fa58-4365-a1b9-29200a54581c",
+        "6a0c6396-3b6a-4119-8994-c9bfe8a60925",
+        "6e7cd744-ed5f-4803-89fe-a7dae2c554f9",
+        "78ba5311-a30c-42a8-bfc6-c947617a13ac",
+        "7e75f463-b0ac-45a8-9885-2810fd3f6f76"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 3,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:27:51Z",
+      "usage": {
+        "input_tokens": 6454,
+        "output_tokens": 4058
+      }
+    },
+    {
+      "batch_id": "changes-and-decisions__02",
+      "topic_slug": "changes-and-decisions",
+      "content_ids": [
+        "95811be1-cd43-4e0c-92f1-92e0af4787ba",
+        "96f402a0-7e16-4ece-8d97-8c162ecf8320",
+        "981aeafd-6a6c-4a16-9f27-3ff224d79e1a",
+        "9ac840ce-e054-4e9b-9351-82329044b331",
+        "9f6b1571-1158-4e60-80db-f53f99054316",
+        "a5d2566c-042d-48c3-8bc5-85ace616eb66",
+        "a8ac7752-d2a1-4d18-806e-3903a965ade9",
+        "a9aa6e85-d485-4d8c-b840-98c15b619204",
+        "ac9808d2-8afe-4d2c-9b24-3427a559fea0",
+        "b67ebfa0-e792-4f61-9e4b-1d7c3f2a9833"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 1,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:28:25Z",
+      "usage": {
+        "input_tokens": 6363,
+        "output_tokens": 4440
+      }
+    },
+    {
+      "batch_id": "changes-and-decisions__03",
+      "topic_slug": "changes-and-decisions",
+      "content_ids": [
+        "c8bb8b1c-8d4d-46b0-b31a-ed2cd997f6f9",
+        "ca458103-9ac1-4b72-97b9-35da5ce6656f",
+        "d77d699a-d756-4389-9df0-015ffa7848b2",
+        "da49916d-2971-48a3-b153-7cdf7e023e46",
+        "dc2542c6-38b0-4015-a3a9-8a567ef95ba0",
+        "dd3c0d94-5324-49a1-982f-2743d34142ae",
+        "e2088fe0-2fb0-4b95-a673-6261a1ae7136",
+        "e81045e5-38ed-4994-9c9e-c6cac7334034",
+        "ec8bf539-1a81-44a5-be3e-d564dfc0cb4a",
+        "f0b9c2cf-ed13-4baf-8fa0-3f72db0f64fa"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 3,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:28:50Z",
+      "usage": {
+        "input_tokens": 6366,
+        "output_tokens": 3424
+      }
+    },
+    {
+      "batch_id": "crime-and-safety__01",
+      "topic_slug": "crime-and-safety",
+      "content_ids": [
+        "137b3aa5-5c46-47d8-a4f3-b28b223f662a",
+        "4f776bea-336b-44ff-8160-5dd573821edb",
+        "5e55f4f7-00a1-4658-addd-2adba58b0a9d",
+        "7097a813-8967-47c9-bf10-ce4fbad6f462",
+        "7a04261e-169a-42b7-8c59-32fb3dfdbec2",
+        "7d3ddd48-9749-4111-8bed-031e27ec4204",
+        "ce231f62-b539-47d3-b2d8-81d223354fd5",
+        "d14c01fa-9af8-444e-aa42-067e198ee594",
+        "e48ef3a5-9125-4c00-95c6-df61660e081d",
+        "f2069a1a-064f-4e3c-9a08-7133b8cc5435",
+        "f2dc7bb5-51da-4052-8f45-8fe1a7f6940c"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 2,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:29:14Z",
+      "usage": {
+        "input_tokens": 6447,
+        "output_tokens": 3312
+      }
+    },
+    {
+      "batch_id": "culture-media-and-leisure__01",
+      "topic_slug": "culture-media-and-leisure",
+      "content_ids": [
+        "31912c26-822a-4ecf-aa42-11bda6a5e5d5",
+        "31f212ad-1cd3-4105-9fd6-9c215f54835d",
+        "352f36a8-61e1-499c-97f1-84be11476d6f",
+        "47f394a2-2bcc-4296-8c37-d3bb9d157b36",
+        "4a95ea80-ad11-4fbb-89d8-7e18ee7f3eef",
+        "70fb7668-d633-4cef-bbb2-036b6c9145f2",
+        "712a1e96-361e-4db2-89c7-627d60516b04",
+        "783cd55b-4a10-4542-ba2e-7976325fc3db",
+        "927869c3-8413-4fc2-973b-0b862ff8e88c",
+        "97983a7c-d1c8-491f-aeb0-fa2f1405e1dd",
+        "9886099f-6208-4a8f-83df-58baab6c7fc4"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:29:34Z",
+      "usage": {
+        "input_tokens": 6472,
+        "output_tokens": 2731
+      }
+    },
+    {
+      "batch_id": "culture-media-and-leisure__02",
+      "topic_slug": "culture-media-and-leisure",
+      "content_ids": [
+        "99f676fc-95cf-475d-80c1-9aad7f850002",
+        "9a25e815-3f75-4316-8d91-ad0199610678",
+        "af3988f5-75cc-4d26-aacb-ba867e9737ee",
+        "b8151396-8aa6-4c6c-b79c-8a859fd3975c",
+        "d6ffcffb-3cfb-4975-a062-aef89d451320",
+        "e0433f6f-712a-4495-b42c-e79d9384a293",
+        "e065dabc-9516-453a-b97c-f20d08dd8ba1",
+        "e2cb90f0-22eb-4c68-9e5c-7dcf10a98841",
+        "e3cceedc-313c-4ec1-8e72-ffec9b85e01f",
+        "eef534c2-d645-420a-8d34-85ae78c551dd",
+        "f159c878-3607-4c68-a85b-816ed72ac184"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 2,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:29:57Z",
+      "usage": {
+        "input_tokens": 6464,
+        "output_tokens": 3069
+      }
+    },
+    {
+      "batch_id": "ease-and-suitability__01",
+      "topic_slug": "ease-and-suitability",
+      "content_ids": [
+        "507182df-94f4-4d49-acb0-d2a8e6c5601b",
+        "57eb7237-a120-4ed0-828e-fe6de3dc4b28",
+        "708c96b0-ef09-4374-ab3a-86ce9541e492",
+        "783a8b9e-8b72-4bab-9f38-2f781e1c5e78",
+        "959dd249-5c30-4ff9-80a0-6dc115b76248",
+        "a55c15a7-b085-45d1-a122-915ee07734d1",
+        "ac62c97d-d2ab-4f87-9fac-2a4c93580431",
+        "b34e388e-7493-4076-9cf5-e1d13d38cda4",
+        "bd2a9b67-86ce-46e4-a166-bb4738cdcfc9"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:30:13Z",
+      "usage": {
+        "input_tokens": 6284,
+        "output_tokens": 2183
+      }
+    },
+    {
+      "batch_id": "evaluation-and-correctness__01",
+      "topic_slug": "evaluation-and-correctness",
+      "content_ids": [
+        "032a08ef-d990-4051-ac5f-346763a35c5b",
+        "07876061-e24c-48ec-a4b1-6410242852b6",
+        "0aadffa6-90c8-44d8-b206-b82e4ee568d7",
+        "316e9da8-b94e-4b97-951e-559995ade30f",
+        "477c5c50-b596-4b87-a292-001756368865",
+        "69c9553c-06e2-4460-8f17-2425cf08174c",
+        "6bc7dd29-0337-45b2-b85f-374b6a7f55df",
+        "724d0bcc-56a2-4c81-b698-dcb8685b06c0",
+        "86026b80-3ba2-43d3-9ef4-4afe647ce533",
+        "89777dcf-5c69-4e8a-b643-377c17010c8c",
+        "9122050c-81ac-4a5e-92ad-d65344ee8b14"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:30:27Z",
+      "usage": {
+        "input_tokens": 6442,
+        "output_tokens": 1803
+      }
+    },
+    {
+      "batch_id": "evaluation-and-correctness__02",
+      "topic_slug": "evaluation-and-correctness",
+      "content_ids": [
+        "968ee7f1-5e99-4fc6-9eeb-1b5b682bc543",
+        "9ef0ccdd-42e3-4077-8fd3-be4db9b7199b",
+        "aa26a527-45ad-401f-920a-106e2d168ae3",
+        "aeaa3282-0474-4895-8a9c-8c6a2283827f",
+        "b244eb01-4501-4395-a887-91cc417b69f8",
+        "b39a91ea-9f10-43ef-b2e1-de7b78711d99",
+        "be74bc55-714b-4d1c-a300-f2b01d0f655d",
+        "dce83cfd-f005-495d-9afb-27b5af03d725",
+        "ee7938e6-5299-4780-91b3-5340c0f7a3c1",
+        "fb54f6b3-b0ea-4041-9089-e7d8a4087b4a"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 2,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:30:44Z",
+      "usage": {
+        "input_tokens": 6373,
+        "output_tokens": 2322
+      }
+    },
+    {
+      "batch_id": "everyday-verbs__01",
+      "topic_slug": "everyday-verbs",
+      "content_ids": [
+        "0c672d84-7b89-4e51-9653-e355c205fa07",
+        "0eb85bf8-86ce-488e-9d43-8869b53c18b5",
+        "1420635d-35cb-467e-92fa-518ac6806004",
+        "24b40b84-6a02-49a6-a481-20391a3e5c7d",
+        "44142565-c731-4758-b82e-ce39a3b8e771",
+        "4707db37-b82b-4c85-8c26-66e0e59ab803",
+        "540d9d36-6457-4463-8850-42c14b883bf2",
+        "5522b965-aa64-42d9-ad9a-70bbd2c399a6",
+        "6656320d-127c-4e2e-9458-cbcfef306bac",
+        "69e3d72f-9585-4082-9d88-12bc85d5238a",
+        "6ab2fe11-6341-4133-9b31-32601abd8797",
+        "81a7b844-eea3-40ce-8a4a-5ec6174afc7d",
+        "8b1f48ba-70cc-4a72-83c7-239d507a78a1"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 5,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:31:20Z",
+      "usage": {
+        "input_tokens": 6620,
+        "output_tokens": 5086
+      }
+    },
+    {
+      "batch_id": "everyday-verbs__02",
+      "topic_slug": "everyday-verbs",
+      "content_ids": [
+        "8f00ac7e-ba68-4ddb-9c11-67332dfd8baa",
+        "b13d7435-f7d1-486e-8dca-e76243495285",
+        "c2faa31d-edec-4696-bf1c-cfd3e555dba8",
+        "c344c375-6aa5-4c83-8b53-dd3305e89144",
+        "c58d4689-3d6d-4588-a2fa-53b3594093b0",
+        "c60ef361-7441-48ee-be0a-d7cd26705100",
+        "c772a361-da96-4a5d-af91-ecfdc38edc22",
+        "dbf5629a-0168-4ec3-ba76-443b891bd9ba",
+        "e196848a-c54a-4bc3-92ca-8216e0b2a0b6",
+        "e814f3d9-6420-4ab5-bb12-9fe2e2614b24",
+        "ebdd92a0-8ce1-47f7-ae2d-a0d9f562d4fe",
+        "f0323467-e7e4-48c6-ab3f-979fa6f15053"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 6,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:31:55Z",
+      "usage": {
+        "input_tokens": 6533,
+        "output_tokens": 5106
+      }
+    },
+    {
+      "batch_id": "feelings-and-relationships__01",
+      "topic_slug": "feelings-and-relationships",
+      "content_ids": [
+        "086c3e0d-a42d-4792-9316-845ff8742eef",
+        "08ddc81e-50e4-497b-97e2-e285bc4c8d53",
+        "0e042e3a-2770-49fd-838d-8a02c186c95a",
+        "17117e4e-1e7d-4ebd-80a4-e5f3079548c9",
+        "19cb1ac3-d73e-4bb0-a6d5-b64926d62cd3",
+        "2ebbc71f-ea2a-4365-a416-7fc03ef31b2f",
+        "3374c133-cf1f-48d2-8618-c838fa626b95",
+        "38aa669f-7480-4108-b16f-3f6ff5f6006c",
+        "39dd7093-818a-4e0a-a16d-28dfbf0de8df",
+        "46572b7c-af6e-4154-8fb9-c2844f0fb1ba",
+        "46601a99-684d-46cb-abd4-0d3d2ca8d061",
+        "46bc4766-a6fe-45d9-83f7-824bdacdc9f7",
+        "4eab31cb-e922-46a7-94d7-de49764697ec",
+        "60d8dfaf-9f0b-466c-aa36-0ddb9baab87a",
+        "67dc18f0-9c9b-4b2e-8c3e-a8c6f02b09cf"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:32:30Z",
+      "usage": {
+        "input_tokens": 6837,
+        "output_tokens": 4915
+      }
+    },
+    {
+      "batch_id": "feelings-and-relationships__02",
+      "topic_slug": "feelings-and-relationships",
+      "content_ids": [
+        "685e6f73-5fab-4021-af65-d8e9f01d2a25",
+        "7117422a-e1ef-48da-88b3-a7100590f82e",
+        "76c73ed6-7af6-43ae-978f-d2435eafc6b0",
+        "827190d7-ef1c-4a6d-b8b1-99016f63d1f3",
+        "854311b8-3041-4ccd-8dd3-cb4737add868",
+        "8b24c93d-41ef-48be-8a00-f60d451e2eb1",
+        "8dd66cf5-3eae-457c-9d84-190e38f7e2cd",
+        "8f00aa80-6489-48b2-83c1-716a62f2e114",
+        "941d546a-6120-464e-8a4f-7278ba22b236",
+        "9b173c55-41ad-4ce3-a3fb-db83e8fcc3e2",
+        "a6bcec46-df83-40df-8472-35a462ecceca",
+        "aa635188-5eee-45a8-b374-39c76d2f2c7c",
+        "be42a50b-bd4b-409e-b9d7-9e3ae69416ea",
+        "be618834-ecf0-40f7-9bff-3dcc843b80fa"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 1,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:33:02Z",
+      "usage": {
+        "input_tokens": 6740,
+        "output_tokens": 4239
+      }
+    },
+    {
+      "batch_id": "feelings-and-relationships__03",
+      "topic_slug": "feelings-and-relationships",
+      "content_ids": [
+        "bfc4180f-e489-4452-82f9-ccb57ef698da",
+        "c29533f5-7cb8-4e71-a1c9-4fb6bdd35c32",
+        "c2cbd50b-bded-4fc8-9247-f488ff9737dd",
+        "c687f4c8-ad1b-4e4e-8cb8-ac2444aff50c",
+        "c69daef5-793b-44b2-b217-53d68fe27b8a",
+        "cdbcd8d2-2a03-4df8-9a01-8896ce08ab95",
+        "d09a91b6-60e8-4734-8715-bc4186f804e9",
+        "d5281476-87dc-49b0-9311-dd1f8d3a4c6a",
+        "d770e0ab-4301-46fa-ae72-16a5110d5131",
+        "e571b642-c5fd-423b-92ce-d353c456dc19",
+        "e6da60d8-6418-4531-9578-922562b9644a",
+        "ee07ebcb-4f06-401e-a287-aed8481e848e",
+        "ef1e8b58-24a4-4132-bdfe-c7709812f124",
+        "fb4ee1f4-c8d0-4c72-b00f-1ed3ad51a5fa"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 2,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:33:24Z",
+      "usage": {
+        "input_tokens": 6735,
+        "output_tokens": 3070
+      }
+    },
+    {
+      "batch_id": "food-and-drink__01",
+      "topic_slug": "food-and-drink",
+      "content_ids": [
+        "2a5ac69e-a9c3-4ff7-8314-9c688a2ca8f2",
+        "34962cc1-4aa3-4d56-baa1-7b77239ca995",
+        "9c267a1e-aa2c-429b-a22b-89f8d5e0f992",
+        "aebdcd13-9889-4947-b332-b7502b873bbc",
+        "b52474b9-27c8-4064-a554-bf5f48afe3d0",
+        "e4d2990a-9b5e-4b04-93cc-75b1c423c92f",
+        "eff0583d-4f16-4919-ba05-2f989844827b",
+        "f282bc20-935d-4da3-9900-dad1c14baa9b",
+        "fbd39cc0-4daa-4d0c-b236-6e69e5956154"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:12:57Z",
+      "usage": {
+        "input_tokens": 6260,
+        "output_tokens": 2016
+      },
+      "reused_from": "v3_pilot"
+    },
+    {
+      "batch_id": "handling-objects-and-physical-actions__01",
+      "topic_slug": "handling-objects-and-physical-actions",
+      "content_ids": [
+        "038993d6-86d3-4a69-a1f9-3f277d724e87",
+        "0950196c-98f2-4390-b97c-e436e78c93a0",
+        "10da6531-bf84-45db-be36-f357560cfceb",
+        "1e1f6cf7-db1e-4aed-be9c-d145101f7258",
+        "2189244b-0d90-47a7-932f-acb6e4a09a8b",
+        "325afcac-71e5-4b60-bf99-3906aa3113d2",
+        "38644728-3376-4a44-9931-b019f90af50e",
+        "3e672617-fa34-448f-a3dc-ccb17f0066a0",
+        "4a680fa9-1c03-451b-9bbe-3541f58d4831",
+        "4b4ce87c-60d3-4f57-870f-08dc84928859",
+        "500b0d10-198b-4ef5-8cca-c3fe9e5db90d",
+        "5e576267-d91b-44d2-ba72-fb1224f46c08",
+        "60882f6e-b35b-45d4-bcbc-fb4e3233ed08",
+        "77434a86-d461-4820-9bbd-1612d32c5ed8",
+        "77f16d9d-16bd-4d7f-9331-1985bb54c190",
+        "b90aa11d-c001-4240-8b1e-ff5d6ff7cbb8",
+        "c762e190-7b1a-4ea1-ae2a-b74facc29882",
+        "ea0a0e28-a370-4532-8dae-30c6c8434383",
+        "eb1ed4c8-ea5f-4673-9765-788f1ecf3005",
+        "f5276a33-d8d4-4ba8-8d9b-e56f6ee3ab31"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 9,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:34:06Z",
+      "usage": {
+        "input_tokens": 7348,
+        "output_tokens": 6374
+      }
+    },
+    {
+      "batch_id": "home-and-housing__01",
+      "topic_slug": "home-and-housing",
+      "content_ids": [
+        "04f14fd7-f864-4434-9443-1b121fa960fa",
+        "05c8df34-9086-466c-86cb-80eeb5df0579",
+        "05ecb030-cc46-4b87-88a3-508f8113d139",
+        "08bb70a4-1a19-4b9a-a251-2801a2269bfa",
+        "0943a941-897e-4528-8410-008cb92ad212",
+        "277e5b68-b5d7-4d32-8881-afde408efbc1",
+        "2e97e3a6-603a-4469-a619-c678fa1e1a6c",
+        "40b5f0eb-ec67-405c-b909-b6c0f6dcfe3e",
+        "505c4b3e-cca4-428e-93f7-eeac7f8dfafa",
+        "50a226c5-82fc-4527-8961-1afa0eb44a6c",
+        "591f0707-a40d-4cd1-9129-e008719a3b05",
+        "5eeef8f5-16aa-4608-a347-05d87bfcec0f",
+        "71096e69-7ef4-4002-aa52-5a429ab8bffc",
+        "7476af81-2bb3-474c-8534-901aad2585e3",
+        "a2ac6b94-c85c-4843-8f5c-89cc48c09844",
+        "b40633fc-6ef2-42f0-abb4-a7619bd87b7f",
+        "ca5b2f53-e630-4ac6-ae5b-baa19250b5a9",
+        "cd662df4-c1bb-465e-b5b9-bf0d35b3d5df",
+        "db62b58f-9de3-4bac-9f3e-a54937fc84bb",
+        "fbd2dcfb-ceb7-42ae-a529-e7b64aff86d7"
+      ],
+      "status": "done",
+      "attempts": 2,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:35:06Z",
+      "usage": {
+        "input_tokens": 7219,
+        "output_tokens": 4403
+      }
+    },
+    {
+      "batch_id": "jobs-and-social-roles__01",
+      "topic_slug": "jobs-and-social-roles",
+      "content_ids": [
+        "02d23ef8-456e-4450-8b94-fb53651da1be",
+        "205131e2-2a43-44b5-a6be-f64ebe1f9134",
+        "48c24c1e-45d8-4c91-9e2f-df43b0701548",
+        "5eb7de5e-6e82-4aa7-be79-ca08578d9af2",
+        "85f567c1-5d56-4091-8571-a759f9170bbf",
+        "925bdb07-5180-4245-9f76-852873c199a4",
+        "b61052d0-d17b-467c-8365-b5494c2b1d3d",
+        "c0997f08-8ea4-4f85-8946-c5edf290221d",
+        "c9814d4e-77a7-4022-b011-302303073f23",
+        "df44c072-6cc2-4b7d-819e-1107d44e416c",
+        "e2001806-b42f-4197-a942-b11aa4d33804",
+        "e72f1d1c-2e8f-4f76-bb1e-af884ad418f8"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:35:24Z",
+      "usage": {
+        "input_tokens": 6551,
+        "output_tokens": 2444
+      }
+    },
+    {
+      "batch_id": "manner-and-certainty__01",
+      "topic_slug": "manner-and-certainty",
+      "content_ids": [
+        "005df097-0069-4edf-b53e-3f46e52f1137",
+        "0c3a6947-8f01-4b03-99b0-f2d7940139c1",
+        "11b47f8e-9b81-4854-96cc-f3e09e34d6d6",
+        "16821852-039f-4541-82ee-318c615f6c39",
+        "1f4b7c61-e3bb-4063-acd8-e741772300dd",
+        "2d52bd07-f53a-4187-ba56-3a0ba2b26103",
+        "30316e45-d75f-43fa-9d3e-11bbb45ea1cc",
+        "3ffd3f13-8468-4fd4-8728-671b80b4d109",
+        "427db368-bcc9-4003-ad08-ec32d02e59f7",
+        "466548f4-9794-4bf2-a98c-5470b20edd13",
+        "4fbdfc91-ad3f-4b5c-8d44-267b5a5cbe21",
+        "63686123-1a09-47e4-8af8-528febb535cd",
+        "66b30351-d179-42ef-95c3-bbeec04ea67f"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:35:30Z",
+      "usage": {
+        "input_tokens": 6648,
+        "output_tokens": 738
+      }
+    },
+    {
+      "batch_id": "manner-and-certainty__02",
+      "topic_slug": "manner-and-certainty",
+      "content_ids": [
+        "743e5337-2407-405a-8ab7-1e4f1039eeb8",
+        "7e115f51-8770-4f0f-849b-da772d056cdf",
+        "85dc2ccb-36de-47f4-997f-25fad72a5298",
+        "86d5a89d-461a-4952-92a9-e243f3dd52af",
+        "885e8e31-ca42-4043-af81-88278677c3a1",
+        "8920a26b-49cd-413d-947d-2a1bf66a1d42",
+        "a339c6a4-a881-4c29-9e77-38ad0e223ecc",
+        "aab2f761-8e22-4d3d-8017-2f111b53d2a3",
+        "ac1e960b-2f64-42ea-a017-40f026126b7d",
+        "afa8af7b-300f-4c64-9588-76d63ce44342",
+        "b4339aeb-fc6e-4b63-b732-e2b797828a9b",
+        "b8596516-0b54-4402-8190-613a93f7d8ad",
+        "bb91029c-b5e9-4b27-af87-dc2d15422a81"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:35:39Z",
+      "usage": {
+        "input_tokens": 6651,
+        "output_tokens": 980
+      }
+    },
+    {
+      "batch_id": "manner-and-certainty__03",
+      "topic_slug": "manner-and-certainty",
+      "content_ids": [
+        "bcc68829-b343-48b6-87ef-f7c4bbfd8b97",
+        "be62df42-51c7-448d-9299-429af19ef673",
+        "c161a4b5-d15e-4f2b-9483-8f248f252235",
+        "c50d5284-3d8e-4dbe-a35c-dbb9d66a619c",
+        "c7844655-b06c-40fa-a888-e60e4b99a85c",
+        "cebc4f54-70e5-4b72-a1fb-86205556e4d8",
+        "d42e77ef-b8fb-4744-80fc-fb9bb20b4f01",
+        "db5e2ca9-5220-4ae3-8e17-c9092e5d8f72",
+        "e3026e39-06b1-4524-9506-5791f902a16c",
+        "e5b98f01-dacb-4d96-ba9d-c20ae105c89d",
+        "e9b1bef3-cb6b-4f9a-8fb7-c624a6964dd9",
+        "ef308fb7-c4f1-41ab-be77-37a648a52b29",
+        "f8fdfce6-2537-41c7-a511-1b5e1302a591"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:35:48Z",
+      "usage": {
+        "input_tokens": 6657,
+        "output_tokens": 1051
+      }
+    },
+    {
+      "batch_id": "messages-and-writing__01",
+      "topic_slug": "messages-and-writing",
+      "content_ids": [
+        "108b81bf-5a2e-4bad-a6f9-dfccd49835ce",
+        "1141dedd-290f-44cd-9a2a-d28a4e1ec068",
+        "1b8e4771-3d7b-4c74-9fe6-383523e1db33",
+        "350e30d8-8e48-4d1f-80de-2ff6e3a06c2f",
+        "5c94af34-8528-4164-9938-db30f22d7fe6",
+        "6024ca62-7bba-4dc1-acc1-4f32c3a2396b",
+        "6a2d51c0-8003-442f-b3b4-af4809afeb2b",
+        "764383fc-2931-4830-b53b-f690e36bfa64",
+        "91938503-e3e0-4f3e-9513-c8e3f16ed760",
+        "920dba30-cafd-43c2-a966-1bb3b2210d50",
+        "974fc2d9-680d-49d8-bd64-672e4487b99a",
+        "a3323fca-39e1-4953-ab01-3c21ad3ad177",
+        "b720fec5-e9f5-4f39-b5d1-26b9d46c9d2f",
+        "b824c082-0ba3-4768-81a4-09c1f297fa8d",
+        "be9abbbd-1db8-4e4b-a13e-d15c7b7a1338",
+        "d9a6ee95-86c7-4bbf-825d-e2736419a012",
+        "e5fb73cf-396a-4ec5-8f48-bb4b20a70f84"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 9,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:36:30Z",
+      "usage": {
+        "input_tokens": 6978,
+        "output_tokens": 5730
+      }
+    },
+    {
+      "batch_id": "money-and-shopping__01",
+      "topic_slug": "money-and-shopping",
+      "content_ids": [
+        "177fefff-a902-4be7-8803-a38075c5dd10",
+        "1e3e9194-93ba-451b-83d6-b829818bbd28",
+        "307f2c3c-c334-4079-8bee-e15bda24d854",
+        "38a7ef89-eb0c-47d9-9fe3-a9fe8fe38414",
+        "4bb177c4-e521-47d0-b7b1-c4f27abc1acc",
+        "50016dc0-8984-44c1-91f5-0fe42be49bdd",
+        "51396cc6-e214-4122-8019-026a058bef66",
+        "710e7804-0049-429f-b8a5-034fed6a5112",
+        "8c49dc2a-0ef7-4bf8-b23f-72f1ad261a24",
+        "92746607-cef5-4ecf-90c1-94e94068ba76",
+        "9e957c70-3fce-445c-9640-ad65aeb1e61a",
+        "a879c12d-7a8a-4800-8b16-842b0483fb27",
+        "a90f9c8a-2a30-453f-84aa-b3ba4d12dbdc",
+        "b20b2a5e-8532-477f-b961-f2830e7d7e16",
+        "d371a7da-4eb3-4b22-a215-75243c4593e5",
+        "e7e96ee3-a47e-4718-b612-ecfff0789297"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 2,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:36:55Z",
+      "usage": {
+        "input_tokens": 6856,
+        "output_tokens": 3346
+      }
+    },
+    {
+      "batch_id": "movement-and-travel__01",
+      "topic_slug": "movement-and-travel",
+      "content_ids": [
+        "04bbacb5-72d3-4938-ae4a-f635be120b57",
+        "08a95a7e-9c8c-45de-b612-9078b778a994",
+        "1013649c-9963-4a4a-ba25-1d288a71d8dc",
+        "167a216e-b085-43ee-9f08-0451ff099388",
+        "1a6cb1fe-3b48-4146-b8ed-773f22cac55a",
+        "1c5cef2e-7f6a-4c98-8d59-8826c6279ef9",
+        "25365c45-e0aa-42f1-8486-adba3a49d4ae",
+        "4c2ecd87-6acc-478d-90e7-6595de43dba8",
+        "4eaaaeb6-fd57-4bb0-8435-c749bcf08862",
+        "5a3d36b9-6793-4165-902c-e9ab4324670e",
+        "6d5d072a-f455-40cc-afa3-ab922ac01b7d",
+        "7f2f6a45-95e6-4e38-ac04-9d9d88d8919d",
+        "801b08df-8f24-4a37-a88a-8aaf844c60bd",
+        "80cf8be3-2eed-4856-9a8b-68cd9b61b40f",
+        "85bf3335-f20c-4576-98dc-73b9b978af3b"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:37:28Z",
+      "usage": {
+        "input_tokens": 6808,
+        "output_tokens": 4886
+      }
+    },
+    {
+      "batch_id": "movement-and-travel__02",
+      "topic_slug": "movement-and-travel",
+      "content_ids": [
+        "8e25decb-7e70-4d7d-86cb-ea6d2b10c679",
+        "91242815-e284-4988-839f-b7d238caa896",
+        "9e05afeb-9843-4b3e-a238-f1381325867f",
+        "aa65623a-d3d1-45fa-ab8d-b8f5787dfef4",
+        "aab6a533-edf8-403d-9620-31fdd784acb8",
+        "ad01cedf-1ec8-4f2c-9fb2-d99fc5484bbd",
+        "b228c767-fa49-4f35-bd31-809259f51915",
+        "c1bf678d-955f-47b6-ad26-f90f7cbe287a",
+        "c6e156a3-b6ea-46e7-a4c7-d2fc59339f3b",
+        "cbf8d73e-613c-4f08-8c6f-98dec3f45921",
+        "dca478c8-2a67-48cf-afdd-07caa5c0202d",
+        "e82efaf4-4d3b-4641-b3ef-4d4ea35abf9d",
+        "f933aeeb-f777-4d5f-a42d-f258418cbf81",
+        "fde46fc7-4585-47f0-a530-64203bf3ed81"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 1,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:37:54Z",
+      "usage": {
+        "input_tokens": 6707,
+        "output_tokens": 3718
+      }
+    },
+    {
+      "batch_id": "nature-animals-and-weather__01",
+      "topic_slug": "nature-animals-and-weather",
+      "content_ids": [
+        "12c2edf0-c52a-42bf-b761-5a96049c85e7",
+        "1b172e86-23ec-4c15-8563-76c55ebf8abe",
+        "1c19f1ef-9607-4a1d-9045-61116ebfb3aa",
+        "20a41252-7eec-4b10-aafd-8677f93679b7",
+        "29ede0fd-c955-4ae4-a384-9c329ebdc44e",
+        "4ce84fc8-e08e-43bf-8a8d-70d2f611e442",
+        "4feae5ee-6581-49b1-a142-7d85970aebce",
+        "501e1529-5d1e-41d1-8fcd-ce4a22ae42dd",
+        "5a423eea-aa09-4c05-a1b5-ee0ad2582d9d",
+        "86c4776d-733d-4bd9-acfe-b390285a653f",
+        "97a1305b-d277-4519-8454-b2ab1d6d34b1"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 1,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:38:08Z",
+      "usage": {
+        "input_tokens": 6463,
+        "output_tokens": 2034
+      }
+    },
+    {
+      "batch_id": "nature-animals-and-weather__02",
+      "topic_slug": "nature-animals-and-weather",
+      "content_ids": [
+        "97f44ca0-73f7-4b54-b197-4727dd3332ad",
+        "9cd7426d-7bf0-4e61-8ff4-6a1a5b019b6c",
+        "9e302948-ffff-43b7-b8e1-fc2862dec36c",
+        "a4a511f0-61a0-4414-8906-22f788635a17",
+        "be1c61a0-1ddf-4e8c-bd24-c5ed712a5221",
+        "cc43b433-19fa-4fd2-90b0-a063204a331a",
+        "e52cc732-d186-44c3-afd3-49f5a6f583fc",
+        "e7f9ff66-eb27-4e9b-a530-55b10360b004",
+        "f062382b-5b55-44c1-b750-34c6d84d7cc1",
+        "f4b89d44-7489-4afa-96ae-a84f9bf0155d"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:38:25Z",
+      "usage": {
+        "input_tokens": 6376,
+        "output_tokens": 2193
+      }
+    },
+    {
+      "batch_id": "numbers-quantity-and-comparison__01",
+      "topic_slug": "numbers-quantity-and-comparison",
+      "content_ids": [
+        "016b2b0d-4724-407b-b793-3d1732271dfb",
+        "030ea474-3722-4f36-82da-d5c77239819d",
+        "107cb1be-73c9-4887-8be1-e3b00c968f87",
+        "1ae89af9-55ef-4164-8894-e30346586582",
+        "1c848109-834e-430c-8af0-be188b07c4cb",
+        "257c6427-fe33-4238-bedd-e8f92c222f5c",
+        "346be606-8727-4230-b703-1cd23c40ffad",
+        "376b7704-5b62-48af-839e-87a47df5340c",
+        "37fe10fe-64a8-4614-b221-1c6a12be6070",
+        "3803cb30-e43e-4bd0-b18c-944de46f396e",
+        "3e3a0f8c-9ddd-461b-a30b-ed4cded7b8da",
+        "3f7ff0ab-39c4-4beb-80c3-3e3848e0d319",
+        "46a6ffb4-a566-4301-8d55-ee318a8965d4",
+        "550205d3-1708-434c-8207-f108f57b1c23",
+        "5778f027-f872-4634-bf1c-2a2e31796d18"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:38:45Z",
+      "usage": {
+        "input_tokens": 6862,
+        "output_tokens": 2756
+      }
+    },
+    {
+      "batch_id": "numbers-quantity-and-comparison__02",
+      "topic_slug": "numbers-quantity-and-comparison",
+      "content_ids": [
+        "5c05e254-ca61-43d3-8cd3-7ab501e4a4f6",
+        "63fab619-a009-43a7-a131-0ceb8767cce9",
+        "79c624b4-13a1-49cc-b094-1b909abaf8a5",
+        "875abb75-4620-4deb-a1f2-58bf223c36fa",
+        "8a3c2ce2-f40c-4d2f-8d93-a0f81547f55c",
+        "9320393a-9ba2-403c-a883-97c6b958e88d",
+        "9a6393df-c058-4b95-8dae-0ea49b78a186",
+        "a11e534b-b131-4742-b793-aad96390d7fc",
+        "a1ae9a76-fc9d-4c8b-8d24-1e2445576672",
+        "a44b3f44-32ba-4091-b9ac-8dd19fc84bb1",
+        "a5346702-85db-4458-b6f9-db7805730d03",
+        "a73098f8-e5a5-4c3c-9b02-a991bae206ca",
+        "ab0d780d-b4d2-4d60-829e-eb863a8dc389",
+        "b2aed93f-da7e-4b36-a1fe-5c81aa59dfbe",
+        "b2d8e3f6-4c1f-4738-aec8-190324a5eaa7"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:39:02Z",
+      "usage": {
+        "input_tokens": 6856,
+        "output_tokens": 2124
+      }
+    },
+    {
+      "batch_id": "numbers-quantity-and-comparison__03",
+      "topic_slug": "numbers-quantity-and-comparison",
+      "content_ids": [
+        "b2e01a0a-f588-4d7d-b745-ace9c066e0d0",
+        "b4b3a872-d4f7-4025-aca1-e1c94c089b4f",
+        "b79a83a3-36fa-4def-b29d-4b192fcca11d",
+        "b7c1d1de-0b30-4343-9a67-6e3cfee45f3c",
+        "c9b4c8c7-06a8-4c71-8b90-69b2947c47dc",
+        "dc9d7dd4-960f-4ac7-acec-5427fb3f4656",
+        "dce5e46e-93f5-4a7d-a2b8-4f6e9a1cf2d4",
+        "e3b86747-4ab0-442f-8048-8b171b6cfdbe",
+        "e570dec8-a389-43ac-991c-bf0d11d15081",
+        "ebc1fa90-b8ae-42a7-85d7-8a5751fea834",
+        "edca3366-8e05-4bf6-8a1a-e880ccad074c",
+        "f073c013-0ce2-41bd-b3ff-01250c7a2189",
+        "f1128313-5332-410c-a014-84e9d4b8b702",
+        "febf1d72-e36b-4a67-a855-e5df76d5f288"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 2,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:39:16Z",
+      "usage": {
+        "input_tokens": 6789,
+        "output_tokens": 1700
+      }
+    },
+    {
+      "batch_id": "people-and-family__01",
+      "topic_slug": "people-and-family",
+      "content_ids": [
+        "0290fa3c-c52e-41ab-a800-7e8dabb90bd5",
+        "02fd0109-818e-4256-9188-dbeb2b2cdf61",
+        "0c90ff86-6371-4ae1-81b5-6fad66b5d645",
+        "109f71cf-51a3-4428-9ead-1dd3b8177fdc",
+        "115e8703-fd97-4ec2-ab1c-bb6bc25d3b2e",
+        "270ed8e2-6692-4abe-847a-247d039e590f",
+        "27fdc981-135f-4b01-9851-65dad293987f",
+        "41e62e7c-ea09-49a0-84f0-b6588c14894f",
+        "46515243-4c67-467b-afc5-64f586515b48",
+        "54727ba0-1881-4d23-ad8c-0dcb708ab66c",
+        "7ce774a0-c5bf-42b5-8b7c-ab8d42281def",
+        "832f8e18-3da2-4a98-b656-d901824bd38d"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 4,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:39:39Z",
+      "usage": {
+        "input_tokens": 6503,
+        "output_tokens": 3276
+      }
+    },
+    {
+      "batch_id": "people-and-family__02",
+      "topic_slug": "people-and-family",
+      "content_ids": [
+        "899835b9-5f8f-4d82-adef-9cab0a224a68",
+        "92fa32f7-bf5e-4668-b89a-1601da458fa6",
+        "984c163c-26f0-430b-9eb4-4b0e842ed4ea",
+        "a0b7106e-4816-4a3e-85d3-562d96a14489",
+        "afb557b0-0c70-4c90-bd03-39515e44c9d1",
+        "afda0882-8187-43b6-b4ed-ff26294948b1",
+        "b0221f4c-045e-493b-b621-220a85331d8e",
+        "b0aa509d-e2bf-4748-a99d-2d00b4a1332d",
+        "c38101ee-e990-4180-899d-4b03db226d0b",
+        "c407c2f9-a095-42b7-9715-d6b23e32bffb",
+        "c4aa333a-a08f-424c-aa1f-e9cbf93ce4a6",
+        "c8ce22a7-a282-44fd-9ce1-28089d4d9cfa"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 1,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:40:02Z",
+      "usage": {
+        "input_tokens": 6521,
+        "output_tokens": 3245
+      }
+    },
+    {
+      "batch_id": "people-and-family__03",
+      "topic_slug": "people-and-family",
+      "content_ids": [
+        "c9bdec63-cb8a-47f7-a303-9d036855dfb9",
+        "d6e5cd9f-5388-4161-9171-f48f8d1730ba",
+        "df82a7f8-5fb9-4543-a44f-1547020c1a1d",
+        "e0b33d6b-d057-4485-ab98-9a6d6e7b4ce9",
+        "e205b2d0-5625-498c-9f25-86af89f4cdb0",
+        "e32428bd-1063-4667-8cc6-af8406ae29be",
+        "eae1722b-50f0-4770-b8e3-689d3fd0c9bc",
+        "ebbbceae-f802-45cb-b3af-6377dc3ba7d0",
+        "efdcfbba-ba46-4fd1-989c-d9c457ac8ac6",
+        "f35c7eb3-b690-447c-82cb-d610b8997a25",
+        "fdce67a3-0245-4d9b-ab16-ed588f4a8077"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:40:26Z",
+      "usage": {
+        "input_tokens": 6429,
+        "output_tokens": 3182
+      }
+    },
+    {
+      "batch_id": "personality-and-impressions__01",
+      "topic_slug": "personality-and-impressions",
+      "content_ids": [
+        "0616e4b3-663c-44e0-915b-4adcecb69619",
+        "06f92221-5f00-449e-866c-dc0db1b95265",
+        "0f62ff8c-c891-4f1b-b98a-9f82ff1a3130",
+        "0ff78fb2-7209-46d0-87f9-96131a038d18",
+        "193cd707-74c8-486c-b67c-0e585491fd0f",
+        "3653c96c-4a75-4868-9c15-786007e57b80",
+        "3afb79ba-3c65-4ff3-8832-cb9154fa8031",
+        "3ee7bf8e-e75a-4f13-875d-cfc60e07b762",
+        "5b777c4c-7e2c-436a-a585-8068be64973b",
+        "5e536375-d80a-484d-8f35-891f909057a8",
+        "8ae04e8c-3c43-4a40-a2b8-072939a992a3",
+        "99d30042-b88a-4fd6-8001-ea328c3f6f7a",
+        "a03541c2-49bb-4e52-a9ef-88e6c500a415"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:40:40Z",
+      "usage": {
+        "input_tokens": 6653,
+        "output_tokens": 2035
+      }
+    },
+    {
+      "batch_id": "personality-and-impressions__02",
+      "topic_slug": "personality-and-impressions",
+      "content_ids": [
+        "a5b905ca-18a7-4159-8675-469aab3f6b0b",
+        "a7b904fb-307f-4e3d-8af1-d675a1c86f15",
+        "b17503e7-bc2a-4e3e-b06f-b44fcb562217",
+        "bb4be5ed-5385-468c-9327-5dbdcdfd2f95",
+        "bcec7284-00a4-4845-bd87-29db39953a08",
+        "ca7cc892-3833-4858-817c-2e1cb84f19af",
+        "cce10ea8-d7e2-45ad-879c-bded066a0be7",
+        "d5842a41-4188-47f5-901b-2feb6273bfec",
+        "debaa3e6-0798-4184-8226-65cc465bd1f0",
+        "e35a2741-6ec1-4326-9da6-76f123d91984",
+        "f321b995-3c14-487b-acd1-a31525eca7ae",
+        "f42a0b5f-3972-4adb-bfcd-16132d0dd3fd",
+        "ff06c0e9-decd-4e80-967b-9ca421efd45b"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 1,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:41:00Z",
+      "usage": {
+        "input_tokens": 6653,
+        "output_tokens": 2723
+      }
+    },
+    {
+      "batch_id": "place-and-direction__01",
+      "topic_slug": "place-and-direction",
+      "content_ids": [
+        "02c927db-dbed-4344-bd8d-f6d9fd54e284",
+        "05d4cdc8-63f5-4816-94ad-3dcb341d6f70",
+        "07038b4a-8d3b-4396-82ed-f2670b9a737e",
+        "0b51a68b-15a6-4867-b11e-af3487776601",
+        "0fa313a5-f076-4a11-887b-e3c43a4590b2",
+        "17a95a09-f175-4a53-9178-1f6042c89ab9",
+        "1f4f9c3f-ed23-4909-9982-ea6f15a60125",
+        "21c10435-3131-48a1-b474-79706fde41f8",
+        "24e27a99-1a03-49f4-841c-b75f3358c5b6",
+        "2521dd2c-8653-4d12-bc93-91a74334c2a4",
+        "2e03e587-5653-48e4-bb9d-060ead54184d",
+        "3978c66d-1267-4fa4-875d-f9a7e542e2c8",
+        "3d49a460-0bca-4eeb-bd62-ceb7ed5309bb",
+        "419b23a2-6c7d-4604-9152-23cb2bb215f8",
+        "441f316f-a976-45fb-bf7d-a759a6947c32"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 4,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:41:20Z",
+      "usage": {
+        "input_tokens": 6808,
+        "output_tokens": 2556
+      }
+    },
+    {
+      "batch_id": "place-and-direction__02",
+      "topic_slug": "place-and-direction",
+      "content_ids": [
+        "4f4a42ea-3f13-4a0b-86aa-28cdd54ce610",
+        "6446ca19-a5d7-4fd3-990e-c310f32c7c07",
+        "663dd0f9-01d6-4489-987e-d9fed7d5a7e1",
+        "73148092-bde2-4229-907a-011ff2065afe",
+        "7ee5edc6-1e4d-4e3d-83f1-4fcc6b0b6653",
+        "822f1f2f-87f0-4f6b-9d29-c7c776e16e9c",
+        "8280522c-bb44-43e6-adef-9844777b7a1c",
+        "849f41cd-deb5-4e94-b05e-09e78fb4bbd9",
+        "8e27d2bc-6aac-4fe1-96b1-74f8338608f1",
+        "945ef2ee-2740-4d5a-9f61-74e0ec70fb89",
+        "98891e56-52f6-48a1-9780-5d02d881a891",
+        "a120d506-7b32-46ce-b257-b308824167d2",
+        "a2762801-de53-4d80-8937-60cba7b3e9f3",
+        "a3825bde-b66b-45a0-8d18-0c2811bad894",
+        "a9deeb72-c83c-41cb-8eea-f385b525d023"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 4,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:41:34Z",
+      "usage": {
+        "input_tokens": 6804,
+        "output_tokens": 1898
+      }
+    },
+    {
+      "batch_id": "place-and-direction__03",
+      "topic_slug": "place-and-direction",
+      "content_ids": [
+        "bc766d77-cd94-4474-b008-0d22e98bc809",
+        "beeb09ec-2537-4f87-8961-93a722703169",
+        "bf271c20-87e6-4516-82db-8f28b5a1a8e6",
+        "c9d8cc0e-d9d1-4b91-a0d3-af25426b1a6c",
+        "ccb90611-3376-475c-85a2-b7615f3d8284",
+        "d107ae80-30a3-4f0b-a82d-58fcaa01eac1",
+        "d8082fe8-a96b-4a4b-a108-e6ee3cf62cf6",
+        "e4242a99-c233-44f3-a605-2aeb3b062d47",
+        "eafe5dd4-d0d9-4de0-a7f9-1bcaf413276c",
+        "ec318559-13b0-43a5-a0f8-d5a58276a261",
+        "f1303ef7-de76-4005-a915-f99f18b3c6c8",
+        "f1e30835-4dbb-49f9-babf-65968364aebb",
+        "f5b4c673-6424-476f-bb95-a48ada5a7fac",
+        "fd49df69-fbb6-4a93-8f22-044e2cb1513a",
+        "fdfd8da7-505d-46a6-8074-93f603f65ccf"
+      ],
+      "status": "done",
+      "attempts": 2,
+      "warnings": 4,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:42:07Z",
+      "usage": {
+        "input_tokens": 6809,
+        "output_tokens": 2212
+      }
+    },
+    {
+      "batch_id": "places-and-buildings__01",
+      "topic_slug": "places-and-buildings",
+      "content_ids": [
+        "1f05f525-7491-490c-b9b5-db47a8459336",
+        "3693291a-2dba-4465-9fe0-25f1f63547c8",
+        "3996c488-e3fe-45a3-a522-29a6b7ff021f",
+        "5bb264c4-6b83-493d-858b-25236dba01c2",
+        "638ecc57-8760-4943-8fab-7006c7438e10",
+        "766d58ed-94bf-4c0a-8b0d-10c184c42c1a",
+        "944a1c8e-9ab7-47a4-a025-42a09fa930a9",
+        "bcaa2acd-25c6-4c93-a927-4f6b31f08655",
+        "c60c0106-7a39-4b86-bc5f-1173bcbd6ac1",
+        "f603d16e-4f0d-4b8e-96ae-9d603a3e6b53"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:42:22Z",
+      "usage": {
+        "input_tokens": 6354,
+        "output_tokens": 2158
+      }
+    },
+    {
+      "batch_id": "problems-and-coping__01",
+      "topic_slug": "problems-and-coping",
+      "content_ids": [
+        "09051f56-937d-4369-b29c-fe09f7d81eff",
+        "0e9d632a-1d5d-4c01-a718-c888c9c19544",
+        "1976df15-b2d6-4b0b-8361-09fec1123834",
+        "1bff7e96-c4d8-47a1-9fc3-780c299f1607",
+        "40901032-4c49-4cc6-ae7e-f66e7a88e40c",
+        "49f8e0dc-5c6c-4c72-a743-966525ae5ae4",
+        "621c86ff-6dcf-4a63-a079-cf576b404813",
+        "667f8444-81c5-43ce-b528-d5d3141e7bc8",
+        "6e78a829-3e46-4935-8c07-5cca418aa9ab",
+        "82e315bc-e8d5-4f0d-b224-9066fa19ab9b",
+        "84bc95e4-e6ad-4184-bc84-caa17b9881c1"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 2,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:42:52Z",
+      "usage": {
+        "input_tokens": 6451,
+        "output_tokens": 3903
+      }
+    },
+    {
+      "batch_id": "problems-and-coping__02",
+      "topic_slug": "problems-and-coping",
+      "content_ids": [
+        "93ade3f4-4744-4d52-833c-16d37c012015",
+        "97b9afa6-e775-4e3a-9a44-dcc1639ce72b",
+        "a4841050-f3d6-4770-a2dd-5342f633677f",
+        "ac1b5564-4923-4a56-9d7c-41a152e1fdeb",
+        "bd9305d3-10a0-473c-b9d3-f1af8e7333ae",
+        "c433df83-3fcc-4675-b444-dc746385ede3",
+        "d3cae230-d0f4-44fb-9024-65859431a5ca",
+        "da587ffb-fee3-49ee-9eb6-583b4b9a5496",
+        "ead5e51a-8dde-44b0-8bec-dd68b24639ac",
+        "fd2087fc-33d1-4cf6-9bde-70560fa9521a"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 1,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:43:15Z",
+      "usage": {
+        "input_tokens": 6361,
+        "output_tokens": 3196
+      }
+    },
+    {
+      "batch_id": "pronouns-and-reference__01",
+      "topic_slug": "pronouns-and-reference",
+      "content_ids": [
+        "0df38bad-2702-4513-a39c-9d0faafebd42",
+        "0e42415e-d41d-4b35-b6fa-343de813426d",
+        "159cd328-cc1a-4bc6-9956-a156174f5409",
+        "25db00dd-ce61-4bf7-a72b-037834bc574b",
+        "2a7d8482-db98-43cd-a069-cdf1ea953d7e",
+        "3708059e-8406-4e22-aafb-cd6d4d82f7aa",
+        "3846ecfa-655d-4c91-9438-3157330472b0",
+        "3862d3b0-e06b-4349-8f9a-9a69775eb527",
+        "3c03fe85-e977-4b6c-a61c-f4cd6e16b14f",
+        "478edf2e-686b-4f14-b134-69f5a836c3cc",
+        "5adde1d5-d910-48c9-8134-4866712791d8",
+        "623a8d7d-2c4b-40d4-a3ad-dd39e2050dda",
+        "6fcfd2a7-c65c-410c-88d7-9a2af0f7f1fd",
+        "7896764f-06d8-4898-b29f-8c05c478d68b",
+        "9849da1c-39c1-4b86-8040-dd317a6fd62e"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:13:23Z",
+      "usage": {
+        "input_tokens": 6877,
+        "output_tokens": 3563
+      },
+      "reused_from": "v3_pilot"
+    },
+    {
+      "batch_id": "pronouns-and-reference__02",
+      "topic_slug": "pronouns-and-reference",
+      "content_ids": [
+        "98fcc3db-66c5-4a2e-8a81-763f90a23dd0",
+        "a9f83b67-e632-4c87-a95e-9fbddb658115",
+        "b2bc166d-0984-41ba-9945-f7a98adcc083",
+        "b32fa1b4-cbc6-4a41-a00c-f4011b06f878",
+        "b59333d2-cd7e-4d6c-91a2-9be416b92693",
+        "bc008353-8b11-44aa-a4b2-455e8e43733c",
+        "bcada98e-e9e1-43ef-a289-f59f953d4a5a",
+        "c6c772a3-8776-4682-9468-c6b2de53d826",
+        "ce1875ec-74cd-49e9-9349-681117c228b3",
+        "d804657a-512b-4fb2-ac5f-cf909f9db4ab",
+        "dfbf128d-9099-45bf-a454-a9a2657483e4",
+        "e53e077b-60a5-4c95-bef0-9d8bc14e9dc8",
+        "f204c4c7-ccf5-4c2a-8aa8-51609fe606b4",
+        "ff28d628-45d1-4f70-888d-2a1d792d0a5c"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:13:43Z",
+      "usage": {
+        "input_tokens": 6774,
+        "output_tokens": 2952
+      },
+      "reused_from": "v3_pilot"
+    },
+    {
+      "batch_id": "questions-and-connectors__01",
+      "topic_slug": "questions-and-connectors",
+      "content_ids": [
+        "042a390e-bdc8-4061-9bfe-afe7005db980",
+        "0c682854-b6f2-42a0-b4a0-cc54eb7dce71",
+        "0c76eaa6-3a0c-4dc5-962b-d7416f63d33f",
+        "0c8ae875-76ac-421c-aae2-0e006947dc3d",
+        "10bc2dc8-444d-461b-9b0f-b0834586def8",
+        "1a0e2605-fb92-4191-b9f0-8a3d0f6ae531",
+        "1efc4619-7897-4e53-8086-54d403365060",
+        "1f06113f-6a3e-4409-b355-417604707a84",
+        "274d2500-5f9f-4474-93d7-54f156b83ecf",
+        "293b3655-e547-498c-b0a5-afa2502b9c31",
+        "2ca81592-242d-4f93-acdd-413f20c3bb0d",
+        "2ddcf70a-f26a-4298-9417-11345945165e",
+        "2e2ff013-6641-48be-8b44-56e1c451e202"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:43:21Z",
+      "usage": {
+        "input_tokens": 6623,
+        "output_tokens": 702
+      }
+    },
+    {
+      "batch_id": "questions-and-connectors__02",
+      "topic_slug": "questions-and-connectors",
+      "content_ids": [
+        "395edd95-325a-4759-bd55-0bee0e8910ac",
+        "3beb5e47-740c-48bf-81d5-caf4771a528d",
+        "3e75ec40-3e37-4f47-a392-ec4f0e574b69",
+        "3e902058-ceab-4ce5-bf2e-ee4ef52fd71a",
+        "5a8f3394-4b6b-4422-a9c6-3b831a4778b3",
+        "60a59b4f-aa91-443a-a999-b280d2772b5c",
+        "6ceb9b9a-1068-4cb8-88fe-661e3d460e33",
+        "6fb501ee-5fc7-4142-a10b-a66324e4e077",
+        "70d40a00-a152-4f3f-91b1-39e47f2b1209",
+        "7886b213-3bce-46b5-b242-ff9e81ef18fc",
+        "7bfbf83d-6f60-4c95-b3e7-a254b0d6db39",
+        "883c3117-3ead-4b04-96df-ca3eedf0c661"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:43:25Z",
+      "usage": {
+        "input_tokens": 6530,
+        "output_tokens": 483
+      }
+    },
+    {
+      "batch_id": "questions-and-connectors__03",
+      "topic_slug": "questions-and-connectors",
+      "content_ids": [
+        "9a60afa6-831c-4ab4-bee5-ce9776c21435",
+        "9b514bfe-2ef9-4598-9926-5ede92133284",
+        "a2ecedb3-7890-4991-927a-36f14c0ddd88",
+        "a6f49498-b14f-4af5-a2d2-b4b51db5c62a",
+        "ac590f92-e0bc-4628-88e9-ee14348a3ceb",
+        "b139bc6e-8f60-48ad-9def-cff7d7da6c72",
+        "b65b825d-51de-400d-adeb-b94301a1b8d8",
+        "b7218290-f924-47eb-9ab3-ff51c1b303d8",
+        "c8f5179e-e859-4612-be1c-3a52224de105",
+        "cf6ce9c5-f81c-464d-b5dd-2d0399163dd2",
+        "d15847e8-452f-421e-9b36-eb5dd8ab5f1d",
+        "d223814d-498b-4032-a249-a759540778f0"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:43:31Z",
+      "usage": {
+        "input_tokens": 6524,
+        "output_tokens": 458
+      }
+    },
+    {
+      "batch_id": "questions-and-connectors__04",
+      "topic_slug": "questions-and-connectors",
+      "content_ids": [
+        "d2beaed8-bb6a-4b71-a1b1-561bd1e74817",
+        "d5c551af-b379-427c-84cc-eb0d08344e66",
+        "df5648d9-3b8b-4fdc-a0aa-323089bc3f74",
+        "e4fad800-84a7-4990-bc53-6d1d5c50274d",
+        "e672ee81-c712-4fc8-bad6-13e9d6eda6ef",
+        "eef2b342-1d02-46d5-a293-aae41a5b815b",
+        "efbdb579-79fc-4f7a-bf72-2d8609e9839d",
+        "f5a2477a-4c1f-4e0b-b9b0-cc52a7549534",
+        "f8cbe013-2ce5-468a-887b-449d1e1c3afd",
+        "fa887e0b-2d51-431f-ac3d-7396ca46294d",
+        "fd09ab1a-fb5e-4213-8998-bf949e6afc2f",
+        "fd3edf02-bbb2-4421-9175-c7f51cce080e"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:43:36Z",
+      "usage": {
+        "input_tokens": 6531,
+        "output_tokens": 560
+      }
+    },
+    {
+      "batch_id": "reasons-and-abstract-concepts__01",
+      "topic_slug": "reasons-and-abstract-concepts",
+      "content_ids": [
+        "16b6b3f3-bced-4e14-9eb8-8ac52171809d",
+        "2960cf93-84f4-49f8-836e-12fc5110d2d6",
+        "2aadc537-0809-455b-a9a2-998f0f33568f",
+        "2d3c4415-4704-42ec-b94d-20346475cdab",
+        "347001e1-be9f-4a88-9783-9c66bd545363",
+        "4d0907a4-71d2-40d9-88bf-5a19aa36c589",
+        "50e59514-a93d-4b03-8d4c-708160538109",
+        "5a4398cc-9eda-41bc-977b-c719c976fc7e",
+        "5c9f68c2-489b-4cd6-8680-0b40160d8b3a",
+        "63c083ce-9a30-4bf5-b100-7c9f1eddff18",
+        "651f7157-8de0-4b3b-a0d0-9276d8873363",
+        "7675635d-2151-465b-b08b-917310931f4c",
+        "7ce8cfaf-b82e-430d-8f93-5b0aaeb9096e",
+        "7f3a1aa3-1864-41a4-be4f-f33935698e1e",
+        "806e4593-31b5-4fab-b107-0dcd3d06c3d4",
+        "8c9070ea-9634-4afe-b42e-434fbd5697f6",
+        "93e0eeca-f4d6-4612-9b6c-c847ea4ea527",
+        "a81acfae-cf60-4cb1-b646-a24c81f2409e",
+        "dd7710a6-f1d3-4bfe-9888-83e620c2d2a9",
+        "e526d4ef-9d01-4f92-89a0-b7b1a7d46480"
+      ],
+      "status": "done",
+      "attempts": 2,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:44:28Z",
+      "usage": {
+        "input_tokens": 7318,
+        "output_tokens": 3627
+      }
+    },
+    {
+      "batch_id": "relational-words__01",
+      "topic_slug": "relational-words",
+      "content_ids": [
+        "201cdd32-e666-46c8-9628-502ffa009819",
+        "23eec74b-e1f4-4906-922f-8df79a9a44a9",
+        "2a535c91-25fc-4b4b-9cba-d4b22d53a4b4",
+        "342974b9-8694-4c11-bf8f-20dfc70954c6",
+        "465b0a49-7f98-45bd-8fcb-38a4f5a1d61e",
+        "46cdd2f5-d6ab-4711-973d-ba2c22370d4a",
+        "46ceb603-ab2f-48e2-972d-4a99faf01ba8",
+        "5b10499a-5873-4086-a240-bea18cec1d92",
+        "5c60dc00-4e1d-4dc3-aadf-a85e9d3ab0e5",
+        "6b753534-9504-4403-a2c3-42d831805bec",
+        "6f84e9b6-5746-4189-b85e-16a06025a79a",
+        "76e76e8f-4e24-4d39-84d9-d7efff8d8bc9",
+        "987d6267-0145-4f8e-9eae-58d08fb1feda",
+        "dbc8d0af-6fca-4789-9910-e716ff4b1ebd",
+        "ee631182-eedd-48bb-ab01-3f346ec6618d"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 1,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:12:42Z",
+      "usage": {
+        "input_tokens": 6849,
+        "output_tokens": 1875
+      },
+      "reused_from": "v3_pilot"
+    },
+    {
+      "batch_id": "religion-and-belief__01",
+      "topic_slug": "religion-and-belief",
+      "content_ids": [
+        "15e9cae5-f957-4916-8e29-114ddd28f08d",
+        "50215dee-c75b-4766-97b1-38d9e7c447e5",
+        "7a8eb8d9-66e8-4e2e-a3bc-2754f38c2e42",
+        "7d1f30d8-92f9-410d-ab83-5eef411e24ba",
+        "acfc5752-f765-45c5-bff9-6b658c7f31ef",
+        "e1fa892d-e3d0-4538-9582-f3380e24ab9c",
+        "ee59327c-6127-4f4f-8487-22f7dc76f516",
+        "f6c374f8-b1d9-4730-8e59-0daf2d1e3c85",
+        "fc9411a0-5aba-44da-8f6b-eb97d6b994d7"
+      ],
+      "status": "done",
+      "attempts": 2,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:45:03Z",
+      "usage": {
+        "input_tokens": 6283,
+        "output_tokens": 2134
+      }
+    },
+    {
+      "batch_id": "requests-and-agreements__01",
+      "topic_slug": "requests-and-agreements",
+      "content_ids": [
+        "4166944a-9b55-4143-845d-4e5eee1329c7",
+        "428d0aa4-cdc5-446c-87a7-37256b540a4d",
+        "49f9918b-65cd-49d9-a7e6-90a53c95165d",
+        "4f0e2fb7-954c-491b-a72a-364e3c94079c",
+        "5cc5a65a-eac9-4c28-af19-d3cfd62d5bae",
+        "5d4c1df8-a19b-4e95-827b-7f04cc4a6919",
+        "6448165f-2ce1-4a10-ba69-d9f9fda1891d",
+        "7f690154-2c50-4dcc-b9bc-e4706d3e307a",
+        "8bdc3633-ab1d-4be4-afad-c8f866384c81",
+        "9883046f-f573-4f8a-8c1c-f82607f8f15c",
+        "a231dfaa-e3c5-45f3-a2e0-d967ce94d7ff",
+        "f0cd6bc1-029f-4fee-982f-013b159502c8",
+        "f9bca599-6d46-4d30-945e-09d87542f55d"
+      ],
+      "status": "done",
+      "attempts": 2,
+      "warnings": 2,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:46:05Z",
+      "usage": {
+        "input_tokens": 6633,
+        "output_tokens": 4327
+      }
+    },
+    {
+      "batch_id": "senses-and-perception__01",
+      "topic_slug": "senses-and-perception",
+      "content_ids": [
+        "08a6d5d8-bed5-432e-ab3b-f0023ed9b92d",
+        "0cab246c-2e7f-400f-8590-98af751c3343",
+        "457e082d-9377-48ea-b720-bbe9c7c3b100",
+        "6699046c-52dd-4403-a92b-cee31c1390ac",
+        "7528a2f1-040d-451c-a161-d8a017c231d4",
+        "91a1eec9-4812-473c-9b83-bedf305a15a4",
+        "91cdc198-a0ac-4692-808d-b64dcebebbec",
+        "b3e5121f-d249-4daa-86f1-6aa85769b9a1",
+        "b9073b73-78e6-4d7f-a2dd-3ddf7fc48c85",
+        "bed19210-0e6a-4f97-ae03-a5c8ef464af7",
+        "da679f2a-8412-4c72-92a0-3249b7faed6f",
+        "e120b13e-bb41-4f94-8340-b89d05c1083d",
+        "f258e0b1-9384-496a-9c5d-643d7b617e01"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 3,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:46:38Z",
+      "usage": {
+        "input_tokens": 6654,
+        "output_tokens": 4515
+      }
+    },
+    {
+      "batch_id": "sequence-and-frequency__01",
+      "topic_slug": "sequence-and-frequency",
+      "content_ids": [
+        "01e380f2-7444-402f-902e-cf97544314a5",
+        "064a19f5-010d-42ee-9f56-263a4dc30247",
+        "151a768e-b235-447e-be42-003c4312c9ee",
+        "15ab9c2a-4e7d-4aad-aa83-a4c2f88cddc1",
+        "2f8db3aa-7e28-4b50-ab26-cf9b8b7e03db",
+        "303b503c-e922-4052-a887-5f80cf166463",
+        "306e7b2e-6a25-4906-809c-44bb89521080",
+        "37c6c4e6-43fc-48c1-b9af-f1fbc4397d13",
+        "4519794d-f3c7-4d50-9795-1d38fdc2941c",
+        "4863c93a-bc1c-4491-897b-894411f5994e",
+        "4b4bffa4-70a1-4295-a290-71e830d56fcd",
+        "59ef7a29-f30d-4605-bfa8-40f784d3f116",
+        "5c6acb6b-ea87-47ce-83d3-14d4d2da7344",
+        "5c7f57eb-2e54-45dc-a37d-d25f9c0b6a1e",
+        "5e30be7c-5d5e-4b5f-9c7d-b7988979cf51"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 1,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:46:59Z",
+      "usage": {
+        "input_tokens": 6798,
+        "output_tokens": 2591
+      }
+    },
+    {
+      "batch_id": "sequence-and-frequency__02",
+      "topic_slug": "sequence-and-frequency",
+      "content_ids": [
+        "66f55e82-1d9c-4893-b969-47e0b5e05bcc",
+        "7bfd532f-59e1-4543-8183-ddbd45ba2fcd",
+        "7ef19c81-1ff7-48ba-a57b-68b05042a5d7",
+        "82d0fbca-d8b0-4023-8264-c048bc291c3e",
+        "8eadbec4-3af4-491b-a892-d04e13fe3be6",
+        "939dbbea-6e9b-47e6-be7c-f81e45c5b848",
+        "95556a53-c98c-4a3a-be67-e1e3e1ab5f1c",
+        "9664200e-21f8-48af-a9c4-a031593b18ec",
+        "971db78b-9797-46b5-9308-4a8842fa363f",
+        "9dd2a80f-292b-4412-9519-847e4c0d566e",
+        "a5773362-665d-4ff9-bfbc-a0627b865b20",
+        "ab8590f5-a215-46f0-837d-3c9a4fb44608",
+        "b30f322e-cc6f-451a-a1a8-d496ea2bff6b",
+        "ba20f4ae-aa24-4e8f-b18e-eced2b2c450b",
+        "bd55e3d7-2daf-4587-b778-de5efd90afea"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:47:06Z",
+      "usage": {
+        "input_tokens": 6782,
+        "output_tokens": 859
+      }
+    },
+    {
+      "batch_id": "sequence-and-frequency__03",
+      "topic_slug": "sequence-and-frequency",
+      "content_ids": [
+        "be9dd471-ff5a-4e8b-b851-2b5f155d568c",
+        "d2d41c72-b413-4103-ac73-2f3fab6c98ed",
+        "df819846-66a2-4dc8-9a0f-8bef5a0a287a",
+        "e1035dd5-dff0-49cd-a4be-cbe13e277e62",
+        "e397dc8c-af13-4b36-878d-7e1cd8acbdb3",
+        "ea5901bc-ca8d-413f-a593-226c1b7064a3",
+        "ef1b34ba-2b36-42c9-a21b-26b59a28f795",
+        "efbae5fb-d10a-483a-a7b3-4bf33e5efbb5",
+        "f125d96d-3381-45f9-adf7-d13319607f30",
+        "f3bbbe5e-a8e7-4da3-849c-5e67fc5e1a46",
+        "f63ed7c0-91e4-4df9-aa8a-641fea316b7c",
+        "f7675480-77eb-41e5-8251-51bbeaec2c23",
+        "f8026278-7cb0-4fbb-acf5-187841710273",
+        "f890af4c-cb84-40d1-a85d-9fbd1689253b",
+        "ff67e4c0-bd91-4d30-896b-357e818bcce3"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 1,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:47:22Z",
+      "usage": {
+        "input_tokens": 6794,
+        "output_tokens": 2217
+      }
+    },
+    {
+      "batch_id": "size-and-physical-properties__01",
+      "topic_slug": "size-and-physical-properties",
+      "content_ids": [
+        "0233a1f9-d91f-4d16-ae3a-fcd5e72dba46",
+        "0cc7a2cb-8b8a-4b1d-ac4a-0db1b839a561",
+        "11a67b15-1a2e-4198-88f6-0b18c9345f62",
+        "3a0dccc1-bdfc-4290-820a-17f6ca866791",
+        "4044fe47-0936-4480-a269-b13cc45980e0",
+        "44434f60-2be0-40df-9b7b-35aa725a384b",
+        "4787ad48-5b69-47f4-9bd5-0339937b1ae7",
+        "4b9497f8-b20a-415f-a4d3-99cedee3bb71",
+        "651e3d8e-6e01-4744-80b8-851b33492ec5",
+        "657fd734-e422-4e8d-ac29-3fb163df144b",
+        "6ee52f52-880e-4a6a-8bfd-164ea79c85c5",
+        "71dcc3a8-b01b-4b0f-a17f-d8cc1104554b"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 2,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:47:40Z",
+      "usage": {
+        "input_tokens": 6566,
+        "output_tokens": 2390
+      }
+    },
+    {
+      "batch_id": "size-and-physical-properties__02",
+      "topic_slug": "size-and-physical-properties",
+      "content_ids": [
+        "72390a76-e57b-4eb7-a200-5ee70eaec4e3",
+        "80353162-d5a9-42fd-a09f-7606cdb6e339",
+        "8fba43d0-a61a-4f47-ad80-58113febf6a1",
+        "9be00fad-0e5c-42dc-8699-b721f3f6a28a",
+        "a3eaf317-b43b-44cb-a699-e656994f2d86",
+        "bb336296-00dd-424d-9c77-bf671756a83e",
+        "c0e91cf7-7996-4873-9c1a-312260f85fb1",
+        "de0268da-cf65-4f51-a9af-d1abd4984d23",
+        "e8ab5227-8864-446a-ad7b-b84a6adcbc0d",
+        "eea7ef01-8743-4c7d-a86d-2f516bacad9b",
+        "f040ca21-f8f8-44aa-b21f-fe128a14b13b"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:47:54Z",
+      "usage": {
+        "input_tokens": 6456,
+        "output_tokens": 2005
+      }
+    },
+    {
+      "batch_id": "society-and-law__01",
+      "topic_slug": "society-and-law",
+      "content_ids": [
+        "013f4c57-2943-496c-9c60-583976188f4f",
+        "117c5f2f-8169-42ce-9ad4-9aa54bcc4a94",
+        "1b433a52-f270-49ab-95ee-2d301a3a0bba",
+        "40ab9a26-c5f2-4f71-9f9e-36952bc4dfba",
+        "416010b7-c563-4f35-9ff8-259687b59107",
+        "55052213-4fb9-4653-8c1f-a9fa47c8c231",
+        "628cc4b6-1a56-43f3-8ccc-e90bc5dfaf2f",
+        "69254ad9-ebfd-4ab7-8606-4e5e6a4b6ebb",
+        "7111fe48-d52d-49bc-b8a0-1801a1011b9e",
+        "86b45ae0-1f21-4d71-843a-71b0fcfc50bc",
+        "a9069125-0bdd-49ce-95ea-d92d6301cadb",
+        "a94ffc5a-f8aa-407a-b1fb-4f3f7d54a1dc",
+        "a9c73751-80d0-455f-a490-e96b7dab69c8"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 1,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:48:17Z",
+      "usage": {
+        "input_tokens": 6633,
+        "output_tokens": 3221
+      }
+    },
+    {
+      "batch_id": "society-and-law__02",
+      "topic_slug": "society-and-law",
+      "content_ids": [
+        "ae635a6d-2bf7-45e7-a8a5-ebd82ac23c8a",
+        "b4d44f7c-f3cf-4ef4-9635-b0ba6fa95172",
+        "b9579e16-5382-4321-920c-dbb6e513335e",
+        "bd86cac1-dad4-43d9-9559-81336736021f",
+        "c9427f02-9d41-43bc-a054-1649f7bc3369",
+        "cc0ae1da-79b8-4ea1-bfe0-4a4259a2306a",
+        "dc8dc12a-db6a-45d7-8322-5dd3f0bba021",
+        "e5a6376f-e55c-412d-820a-bf0d30f643dc",
+        "e8104992-e156-43ab-bd6a-369d35242ee2",
+        "f2d923fc-6967-40bf-96ff-3155e4ea92fc",
+        "f78dfc1b-3c34-4d79-a33b-856fcffc36bb",
+        "fb00770b-db9c-43c1-a395-4f8c2e5b94d5",
+        "fc99d854-f056-4c66-a8c0-ccd500fe31a4"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:48:46Z",
+      "usage": {
+        "input_tokens": 6628,
+        "output_tokens": 3828
+      }
+    },
+    {
+      "batch_id": "speaking-and-conversation__01",
+      "topic_slug": "speaking-and-conversation",
+      "content_ids": [
+        "0d90a7f3-7f3a-4296-b4fb-f672ff8cb056",
+        "20528431-f389-493b-afca-4ac6d0f60058",
+        "34df85af-1af1-47d3-b111-2234bcb434f2",
+        "4743636a-2dd4-4946-9d6e-1067dde0b02d",
+        "4960e4bb-31b9-4add-be37-93ffdf5cbd98",
+        "4f78ac18-4288-4dd2-a88b-64006f892760",
+        "67eb3ed3-99cb-42e1-a0be-87f924976742",
+        "7abfd3b0-faaa-46b2-8aca-5d4a4bd9ff5a",
+        "8736205c-90e9-4b17-a86b-c731283e756d",
+        "95ac5452-9c15-401a-b790-173776164629",
+        "965921aa-6929-48a2-b1ed-2dd6a9d2a722",
+        "a3fcfdb4-1977-429b-8ad7-b72438bd266a",
+        "b715eacd-4d2d-4f01-b2da-fe40ea5e1a7d",
+        "ba456a62-cb91-4e63-87da-753219606ab7",
+        "d39bdf3e-e4ae-4381-91de-6b8d5ee7d510",
+        "d70e4dd0-91e2-4cb7-9e77-9a02d343d700",
+        "d9d6c2f5-4efc-4bf9-b45b-f401e50087d0",
+        "f0989d70-ebc3-418d-af53-c6fa8bb0ce3c",
+        "f4348757-99f3-4288-be2e-3ca8ef41f7b6",
+        "f61f367c-d3ba-40b5-8d94-ed0e80d6af0c"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 2,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:49:17Z",
+      "usage": {
+        "input_tokens": 7265,
+        "output_tokens": 4717
+      }
+    },
+    {
+      "batch_id": "study-and-languages__01",
+      "topic_slug": "study-and-languages",
+      "content_ids": [
+        "07bb35ac-a9e5-477d-835f-9bd4a06b3ebf",
+        "14583dde-1b77-43e1-a1ed-4557c36f77ed",
+        "33e15b3d-9d68-4ed6-adc3-f080f9806802",
+        "53f526f1-eb74-49fb-922c-ff3a8ead4fe4",
+        "74bd276e-321a-473e-ba68-957e3e34aa80",
+        "80c50ce7-44a4-4d7d-bec3-4580821a47ea",
+        "8778d9c9-345c-4db1-8d29-bd94add48ad5",
+        "91d694dd-7ab0-4801-8d2c-da6d43379d56",
+        "a362161a-24f9-476c-8d8b-fb5241373181",
+        "ab610bb2-4ac8-4c2c-8a2c-2f9dd5f25fb1",
+        "b5a08879-d5a6-4201-aad5-fe1678bb5303",
+        "c54ab993-b96e-4d79-90a5-26a2b783e675",
+        "c7b9c1ce-a4dd-41a8-9d3f-f4ea10b20d4f",
+        "da126ecc-2eda-4e0b-811b-b89cd39a0696"
+      ],
+      "status": "done",
+      "attempts": 2,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:49:57Z",
+      "usage": {
+        "input_tokens": 6708,
+        "output_tokens": 2822
+      }
+    },
+    {
+      "batch_id": "thinking-and-understanding__01",
+      "topic_slug": "thinking-and-understanding",
+      "content_ids": [
+        "082f35ac-c245-47e0-86bc-4f28e820a40e",
+        "1369cd3b-35c3-49d0-9069-0584e1ee3912",
+        "16c5b230-ed5f-45de-87d5-7d310bb0bc75",
+        "3118ea4f-8540-4429-a687-6dd8c54498bf",
+        "31651dbf-f10d-4a0d-a880-e0200ddcb45e",
+        "353a3f78-3da3-4909-b7bc-3e3ad5a7a651",
+        "3c9b192f-2959-4d0c-b490-9aeabea9da23",
+        "556cca90-e793-4922-8381-a247419fa97f",
+        "62f35d6b-965c-407a-a7aa-92056f202727",
+        "6fa1a0ca-6144-4392-ae3c-cde54cc70ec8",
+        "7c768ed4-abb5-415f-b19d-f24dcb68bc79",
+        "8196ba11-f515-4ff0-8e5e-604c6a46ff9d",
+        "8cf5d0fb-a354-48e3-b5c5-3bff25b768dd",
+        "8ff7ca89-3d1c-474c-91ba-fa79c1028d72",
+        "97e61e08-d47c-4fa1-83be-8ef9bdd168c6"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 6,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:50:28Z",
+      "usage": {
+        "input_tokens": 6797,
+        "output_tokens": 4197
+      }
+    },
+    {
+      "batch_id": "thinking-and-understanding__02",
+      "topic_slug": "thinking-and-understanding",
+      "content_ids": [
+        "9d932098-1070-4773-97fd-5000a6420efb",
+        "a6fb2674-a53e-4573-a9e6-d6c7bff80c60",
+        "aa1d7fa1-0351-457c-b472-c56acaf7cd67",
+        "c003ae5e-3541-43fb-b54c-969acd817700",
+        "cb7b1272-b32d-4de4-82fd-7a94b24ce5f3",
+        "cc61ef49-f121-4b37-9c25-9754a4767b90",
+        "d161cfcd-aa57-4308-bba5-9c55a27552a1",
+        "dbb56e7e-4459-467a-87f4-441e66b0e53c",
+        "dd771f4f-cfae-4f6f-8bb2-e94e96ada23e",
+        "f10d2071-c0ee-4e2c-b475-bcfb958c002c",
+        "f1ed9910-8774-4e35-b6ff-c0e845a5b5a9",
+        "f5dd19ab-5011-4338-90a6-bb7f855f90ca",
+        "faea3969-6f6d-4ca9-af6b-8a740d42e1ab",
+        "fe6c71e7-67d5-4bc7-b92f-96251adc8a19"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 4,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:50:58Z",
+      "usage": {
+        "input_tokens": 6714,
+        "output_tokens": 4219
+      }
+    },
+    {
+      "batch_id": "time-dates-and-periods__01",
+      "topic_slug": "time-dates-and-periods",
+      "content_ids": [
+        "05ddc8c3-438c-4179-a5df-d4daf5d1c62d",
+        "0ed6c4dd-4757-4bc0-9e16-16304e39648c",
+        "1743688a-9d4d-44c4-b596-dda5db45033d",
+        "176ec6ce-294c-4115-9947-8db03cda0ac5",
+        "2a468c56-29d0-4d0f-bebc-23a7329638e7",
+        "30b868e4-0fde-4146-a37b-2659e87e4164",
+        "4af79b3c-39de-48d3-9c0d-0453e9bddaa1",
+        "567bda3b-5f21-42ae-8833-78017094836f",
+        "62fdf7f5-3fc6-4ffb-b5c0-ff92ac545361",
+        "701705f0-2723-463a-bc64-d82875f73f58",
+        "74af0b95-ce7d-4253-8db0-5224f11c1f94"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:51:12Z",
+      "usage": {
+        "input_tokens": 6484,
+        "output_tokens": 1875
+      }
+    },
+    {
+      "batch_id": "time-dates-and-periods__02",
+      "topic_slug": "time-dates-and-periods",
+      "content_ids": [
+        "79472ea6-2234-4818-86a6-861ff26f4b44",
+        "9d10372a-6029-41fb-bd26-7c9898c02cbc",
+        "9eefeac3-af72-4082-a6b7-4d9626e8774f",
+        "bcc35f4c-301b-44a0-a6e1-8b5174687d9a",
+        "c930ab1c-93f0-4e00-bc4a-a1f6cfe50c7b",
+        "cb839f58-8091-4b67-b610-3d7209399f4d",
+        "cef57835-d51b-4f08-b086-b117fdd0508b",
+        "d2b9d1a7-92ee-4a98-ab63-da6eaaf87c40",
+        "d47ff542-ccc8-4b0c-a9eb-92c8d43ae29a",
+        "d969eb25-0fda-4837-8721-a4be431ec836"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:51:26Z",
+      "usage": {
+        "input_tokens": 6390,
+        "output_tokens": 1871
+      }
+    },
+    {
+      "batch_id": "transport-and-technology__01",
+      "topic_slug": "transport-and-technology",
+      "content_ids": [
+        "02edea19-d34d-4366-8550-e35699b0ea52",
+        "09054539-7d46-4ba9-9f5c-ee670622af0e",
+        "3ac7764d-61aa-4f7d-bce2-896b14a4d066",
+        "3eab2c2d-ecaa-4063-b520-4b3101f059c9",
+        "58f2051b-ebb5-4249-bbdc-e307bf2d4fa7",
+        "6231132f-761e-4836-9028-f6ac94ff74fe",
+        "8f0bd41b-d986-4bac-8069-c0d5dcc36452",
+        "a0fab717-05df-48a2-ad14-3850a1666161",
+        "ace3a418-8954-4211-96c2-e96f24ac8780",
+        "b8f40afa-ce36-49be-98c5-d9dc2ad42e50",
+        "c6e7769a-49e8-4466-810e-0c1f354400c2",
+        "d5d45f06-36e4-4d59-a695-0f2f922bca3a",
+        "d6217190-9885-4951-b866-57628c2b5058",
+        "db1777e8-51a7-469e-8b7b-6d1b241079c6",
+        "f90b00d0-90b6-43db-aff5-5f9299f5c48e",
+        "f93fb359-6aa6-425a-aa29-fec5df5d195d"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 1,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:51:49Z",
+      "usage": {
+        "input_tokens": 6865,
+        "output_tokens": 3387
+      }
+    },
+    {
+      "batch_id": "work-and-business__01",
+      "topic_slug": "work-and-business",
+      "content_ids": [
+        "01880f0a-d37d-478d-906e-2d6fc41151fd",
+        "068b463d-b3ee-4215-924c-9471d7773dbe",
+        "08088033-47e1-4868-b062-c4284b65d432",
+        "1b7c27cc-52ef-45bd-9353-45045b9224c0",
+        "2f911464-16d6-45a8-9c73-c17db0fe3cb7",
+        "338c708b-148b-46d3-99a0-ca99f1eac459",
+        "4428311e-f087-4191-8be0-dfd5447fd1c4",
+        "4e16907c-d2e8-4b21-9371-298e4524a27d",
+        "5572fbe0-ebad-41d9-9e7d-e6f3c6f7a868",
+        "71940a06-53c5-4cf6-827e-e82a41fc83c3",
+        "72b2d29a-222b-4ea7-8702-ee0ded323efc",
+        "79db04c3-9091-4df7-9fdd-a9cb36a80021"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:52:16Z",
+      "usage": {
+        "input_tokens": 6517,
+        "output_tokens": 3989
+      }
+    },
+    {
+      "batch_id": "work-and-business__02",
+      "topic_slug": "work-and-business",
+      "content_ids": [
+        "7a94fff0-32cd-4c00-8831-5c01376cb479",
+        "84141628-d3a2-4d2f-af55-b5cd96a8b7fd",
+        "865549e5-9ed5-4d24-a25f-f6b059173b51",
+        "872f1558-2e19-4a2b-86a6-6cba628c44a1",
+        "9c045b76-39bd-480a-b428-9770002c192c",
+        "a96a45fb-cd09-4714-9330-3afbc0fd9134",
+        "a9b2f58c-9552-4edd-89b1-d1951eea8b61",
+        "ab75842b-3536-4276-b222-ec037733e9be",
+        "ba4a9eca-3134-4a78-843e-b2ed4b27a746",
+        "beaa438e-adf2-45dc-9e4c-30d96e1f93a2",
+        "c09c65b3-0ef9-4b26-853d-292f8cb87585"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 2,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:52:40Z",
+      "usage": {
+        "input_tokens": 6429,
+        "output_tokens": 3656
+      }
+    },
+    {
+      "batch_id": "work-and-business__03",
+      "topic_slug": "work-and-business",
+      "content_ids": [
+        "c390a6d9-0c93-47d4-ab19-d8e48ac325b0",
+        "c4714bb4-8cfd-4532-bb60-05ac622041a6",
+        "cc5d43f5-6e0e-4eb4-bd17-a8f252e537ac",
+        "d379840d-62d8-43e1-b3ea-1dfeee926caa",
+        "e85ee7d7-5149-40d7-8a4a-056fcffac015",
+        "ebb8d0e2-d103-4422-b996-2a308802559c",
+        "f2208c7c-1f23-4909-aaf8-659d3ae9d147",
+        "f2d6cb8d-60f5-4c48-8cc9-5a0c5993754d",
+        "f46dfa7a-869e-44c9-968a-57396eea6469",
+        "fe986d54-6747-4764-bf10-c2ccc9be8af2",
+        "ff2d32b6-6cf7-41ed-bf3c-5593fc65c44d"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "warnings": 0,
+      "last_error": null,
+      "completed_at": "2026-11-20T19:53:03Z",
+      "usage": {
+        "input_tokens": 6440,
+        "output_tokens": 3252
+      }
+    }
+  ]
+}
