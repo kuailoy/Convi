@@ -8,6 +8,7 @@ import { route } from "../../ui/navigation";
 import { Row, Screen } from "../../ui/Screen";
 import { colors } from "../../ui/theme";
 import { NextTopicCard } from "../../ui/NextTopicCard";
+import { ReportSheet } from "../../ui/ReportSheet";
 import { fetchTopicContents } from "../../api/client";
 import type { VocabularyTopicContents } from "../../api/types";
 import { useLearning } from "../../state/LearningContext";
@@ -15,6 +16,9 @@ import { formatGrammaticalLabel } from "../../utils/grammaticalLabel";
 
 type PracticeItem = {
   id: string;
+  contentId: string;
+  formId: string;
+  exampleId: string;
   word: string;
   form: string;
   grammaticalLabel: string;
@@ -44,6 +48,8 @@ export default function LearningSessionScreen() {
   const [activeSlot, setActiveSlot] = useState<0 | 1>(0);
   const [slotSteps, setSlotSteps] = useState<[number, number]>([0, 0]);
   const [cardAreaHeight, setCardAreaHeight] = useState(234);
+  const [reportItem, setReportItem] = useState<PracticeItem | null>(null);
+  const [reportedIds, setReportedIds] = useState<Record<string, true>>({});
   const initializedTopic = useRef<string | null>(null);
   const [translationReveal] = useState(() => new Animated.Value(0));
   const [slideProgress] = useState(() => new Animated.Value(0));
@@ -88,6 +94,9 @@ export default function LearningSessionScreen() {
   const exercises = useMemo<PracticeItem[]>(() => data?.vocabulary.flatMap((item) =>
     item.forms.flatMap((form) => form.examples.map((example) => ({
       id: `${form.id}:${example.id}`,
+      contentId: item.id,
+      formId: form.id,
+      exampleId: example.id,
       word: item.word,
       form: form.form,
       grammaticalLabel: form.grammatical_label,
@@ -370,10 +379,30 @@ export default function LearningSessionScreen() {
                 );
               })}
             </View>
-            <View accessibilityLabel={`Example ${indicatorStep - (indicatorGroup?.start ?? indicatorStep) + 1} of ${indicatorGroup?.items.length ?? 1}`} style={styles.dotsRow}>
-              {indicatorGroup?.items.map((groupItem, index) => (
-                <View key={groupItem.id} style={[styles.dot, index === indicatorStep - indicatorGroup.start && styles.activeDot]} />
-              ))}
+            <View style={styles.dotsLine}>
+              <View accessibilityLabel={`Example ${indicatorStep - (indicatorGroup?.start ?? indicatorStep) + 1} of ${indicatorGroup?.items.length ?? 1}`} style={styles.dotsRow}>
+                {indicatorGroup?.items.map((groupItem, index) => (
+                  <View key={groupItem.id} style={[styles.dot, index === indicatorStep - indicatorGroup.start && styles.activeDot]} />
+                ))}
+              </View>
+              {exercise && !transition ? (
+                reportedIds[exercise.id] ? (
+                  <Text style={[styles.reportLink, styles.reportedText]}>Reported</Text>
+                ) : (
+                  <Pressable
+                    accessibilityRole="button"
+                    accessibilityLabel="Report a problem with this example"
+                    hitSlop={10}
+                    onPress={() => {
+                      Speech.stop();
+                      setReportItem(exercise);
+                    }}
+                    style={styles.reportLink}
+                  >
+                    <Text style={styles.reportText}>Report</Text>
+                  </Pressable>
+                )
+              ) : null}
             </View>
           </View>
         </View>
@@ -385,6 +414,21 @@ export default function LearningSessionScreen() {
           <View style={styles.actionHalf}><Button label={step === exercises.length - 1 ? "Finish" : "Next"} onPress={() => moveExercise(1)} disabled={Boolean(transition)} /></View>
         </View>
       </View>
+
+      <ReportSheet
+        target={reportItem ? {
+          contentId: reportItem.contentId,
+          formId: reportItem.formId,
+          exampleId: reportItem.exampleId,
+          form: reportItem.form,
+          sentence: reportItem.sentence,
+        } : null}
+        onClose={() => setReportItem(null)}
+        onReported={() => {
+          if (reportItem) setReportedIds((current) => ({ ...current, [reportItem.id]: true }));
+          setReportItem(null);
+        }}
+      />
     </SafeAreaView>
   );
 }
@@ -455,7 +499,11 @@ const styles = StyleSheet.create({
   sentence: { color: "white", fontSize: 27, lineHeight: 36, fontWeight: "600" },
   promptSlot: { minHeight: 72, justifyContent: "center" },
   sentenceTextSlot: { flex: 1, minHeight: 72, justifyContent: "center" },
+  dotsLine: { height: 20, position: "relative", justifyContent: "center" },
   dotsRow: { height: 20, flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 7 },
+  reportLink: { position: "absolute", right: 0, top: 0, bottom: 0, justifyContent: "center", paddingLeft: 8 },
+  reportText: { color: colors.muted, fontSize: 11, fontWeight: "600" },
+  reportedText: { color: colors.muted, fontSize: 11, fontWeight: "600", opacity: 0.7, lineHeight: 20 },
   dot: { width: 6, height: 6, borderRadius: 3, backgroundColor: colors.line },
   activeDot: { width: 18, backgroundColor: colors.green, borderRadius: 4 },
   highlight: { color: colors.yellow, fontWeight: "800" },

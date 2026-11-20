@@ -50,3 +50,13 @@ export type VocabularyTopicContents = {
   };
   vocabulary: VocabularyItem[];
 };
+
+export type ReportReason = "finnish_sentence" | "translation" | "word_form" | "other";
+
+export type ReportRequest = {
+  content_id: string;
+  vocabulary_form_id?: string;
+  example_id?: string;
+  reason: ReportReason;
+  note?: string;
+};

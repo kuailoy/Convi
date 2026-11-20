@@ -2,6 +2,7 @@ from collections.abc import Generator
 from dataclasses import asdict
 import hmac
 import os
+from typing import Literal
 from uuid import UUID
 
 from fastapi import Depends, FastAPI, Header, HTTPException, Query
@@ -18,6 +19,13 @@ from app.models.content import (
     VocabularyTopic,
 )
 from app.services.content_generator import generate_missing_topic_examples
+from app.services.content_reports import (
+    MAX_NOTE_LENGTH,
+    VISIBLE_FORM_STATUSES,
+    ReportInvalid,
+    ReportNotFound,
+    create_report,
+)
 from app.services.content_readiness import calculate_topic_readiness
 
 
@@ -136,6 +144,19 @@ class GenerateExamplesResponse(BaseModel):
     readiness: TopicReadinessResponse
 
 
+class ReportRequest(BaseModel):
+    content_id: UUID
+    vocabulary_form_id: UUID | None = None
+    example_id: UUID | None = None
+    reason: Literal["finnish_sentence", "translation", "word_form", "other"]
+    note: str | None = Field(default=None, max_length=MAX_NOTE_LENGTH)
+
+
+class ReportResponse(BaseModel):
+    id: UUID
+    status: str
+
+
 def get_db() -> Generator[Session, None, None]:
     with SessionLocal() as session:
         yield session
@@ -240,7 +261,7 @@ def get_vocabulary_topic_contents(
             select(VocabularyForm)
             .where(
                 VocabularyForm.content_id.in_(content_ids),
-                VocabularyForm.review_status == "reviewed",
+                VocabularyForm.review_status.in_(VISIBLE_FORM_STATUSES),
             )
             .order_by(VocabularyForm.content_id, VocabularyForm.display_order, VocabularyForm.id)
         ).scalars().all()
@@ -306,6 +327,25 @@ def get_vocabulary_topic_contents(
             for item in vocabulary_items
         ],
     )
+
+
+@app.post("/api/v1/reports", response_model=ReportResponse, status_code=201)
+def create_content_report(request: ReportRequest, db: Session = Depends(get_db)):
+    """Record a problem reported from the app and flag the reported form or example."""
+    try:
+        report = create_report(
+            db,
+            content_id=request.content_id,
+            vocabulary_form_id=request.vocabulary_form_id,
+            example_id=request.example_id,
+            reason=request.reason,
+            note=request.note,
+        )
+    except ReportNotFound as error:
+        raise HTTPException(status_code=404, detail=str(error)) from error
+    except ReportInvalid as error:
+        raise HTTPException(status_code=422, detail=str(error)) from error
+    return ReportResponse(id=report.id, status=report.status)
 
 
 @app.post(

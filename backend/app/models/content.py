@@ -5,6 +5,7 @@ from typing import Any
 from uuid import UUID, uuid4
 
 from sqlalchemy import (
+    JSON,
     CheckConstraint,
     DateTime,
     ForeignKey,
@@ -119,7 +120,7 @@ class ContentProgress(Base):
 
 
 class VocabularyForm(Base):
-    """A reviewed learning target associated with a vocabulary item."""
+    """A learning target (form or usage pattern) associated with a vocabulary item."""
 
     __tablename__ = "vocabulary_forms"
     __table_args__ = (
@@ -146,7 +147,8 @@ class VocabularyForm(Base):
     target_type: Mapped[str] = mapped_column(String(30), nullable=False)
     display_order: Mapped[int] = mapped_column(Integer, nullable=False)
     notes: Mapped[str | None] = mapped_column(Text)
-    review_status: Mapped[str] = mapped_column(String(20), nullable=False, default="reviewed")
+    # active: in use (default); needs_review: reported from the app; reviewed: legacy v0 rows.
+    review_status: Mapped[str] = mapped_column(String(20), nullable=False, default="active")
     source_note: Mapped[str] = mapped_column(String(200), nullable=False)
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), nullable=False, server_default=func.now()
@@ -209,3 +211,42 @@ class VocabularyExampleTarget(Base):
     role: Mapped[str] = mapped_column(String(20), nullable=False, default="primary")
     target_validation_status: Mapped[str] = mapped_column(String(20), nullable=False)
     target_validation_notes: Mapped[str | None] = mapped_column(Text)
+
+
+class ContentReport(Base):
+    """A problem reported from the app for a vocabulary item, form target or example."""
+
+    __tablename__ = "content_reports"
+    __table_args__ = (
+        CheckConstraint(
+            "reason IN ('finnish_sentence', 'translation', 'word_form', 'other')",
+            name="ck_content_reports_reason",
+        ),
+        CheckConstraint(
+            "status IN ('open', 'resolved', 'dismissed')",
+            name="ck_content_reports_status",
+        ),
+    )
+
+    id: Mapped[UUID] = mapped_column(Uuid, primary_key=True, default=uuid4)
+    content_id: Mapped[UUID] = mapped_column(
+        Uuid, ForeignKey("contents.id", ondelete="CASCADE"), nullable=False, index=True
+    )
+    # SET NULL keeps the report (and its snapshot) when a form or example is regenerated.
+    vocabulary_form_id: Mapped[UUID | None] = mapped_column(
+        Uuid, ForeignKey("vocabulary_forms.id", ondelete="SET NULL"), index=True
+    )
+    example_id: Mapped[UUID | None] = mapped_column(
+        Uuid, ForeignKey("vocabulary_examples.id", ondelete="SET NULL"), index=True
+    )
+    reason: Mapped[str] = mapped_column(String(30), nullable=False)
+    note: Mapped[str | None] = mapped_column(Text)
+    # What the learner saw when reporting: word, form, sentences, translation.
+    snapshot: Mapped[dict[str, Any]] = mapped_column(
+        JSON().with_variant(JSONB(), "postgresql"), nullable=False
+    )
+    status: Mapped[str] = mapped_column(String(20), nullable=False, default="open")
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), nullable=False, server_default=func.now()
+    )
+    resolved_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
